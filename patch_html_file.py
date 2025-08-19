@@ -232,6 +232,10 @@ JS_TEMPLATE = """
             const modalContentEl = document.getElementById('donations-modal-content');
             const modalCloseBtn = document.getElementById('donations-modal-close');
 
+            homeBtn.addEventListener('click', () => {
+                window.location.href = '/';
+            });
+
             // --- Donations Modal Logic ---
 
             if (donationsBtn) {
@@ -344,11 +348,11 @@ JS_TEMPLATE = """
                     nextBtn.disabled = false;
 
                     prevBtn.addEventListener('click', () => {
-                        window.location.href = `../${prevGame.slug}/index.html`;
+                        window.location.href = `../${prevGame.slug}/`;
                     });
 
                     nextBtn.addEventListener('click', () => {
-                        window.location.href = `../${nextGame.slug}/index.html`;
+                        window.location.href = `../${nextGame.slug}/`;
                     });
                 })
                 .catch(error => {

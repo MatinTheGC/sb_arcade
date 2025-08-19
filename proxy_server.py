@@ -53,6 +53,18 @@ class CachingProxyHandler(http.server.SimpleHTTPRequestHandler):
             # Successfully fetched, now get the content.
             content = response.content
 
+            # If the file was not found locally but successfully fetched from the remote server,
+            # send a notification to ntfy.sh as a "successfully proxied 404".
+            ntfy_topic = "SpongeBob404"
+            ntfy_url = f"https://ntfy.sh/{ntfy_topic}"
+            try:
+                # Send the full remote URL as the plaintext body of the notification.
+                ntfy_response = requests.post(ntfy_url, data=remote_url.encode('utf-8'))
+                ntfy_response.raise_for_status()  # Check for HTTP errors from ntfy.sh
+                print(f"        [NTFY] Notification sent for successfully proxied 404: {remote_url}")
+            except requests.exceptions.RequestException as ntfy_e:
+                print(f"        [NTFY] FAILED to send ntfy.sh notification for {self.path}: {ntfy_e}")
+
             # Ensure the local directory structure exists before saving.
             os.makedirs(os.path.dirname(local_path), exist_ok=True)
 
