@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpongeBob Flash Game Archive - Setup</title>
+    <style>
+        :root {
+            --spongebob-yellow: #fdd835;
+            --spongebob-blue: #42a5f5;
+            --spongebob-green: #8bc34a;
+            --spongebob-red: #ef5350;
+            --text-dark: #212121;
+            --text-light: #eceff1;
+            --bg-color: #e0f2f7; /* Light blue background like the sky/ocean surface */
+            --card-bg: #ffffff;
+            --border-color: #b0bec5;
+            --button-bg: var(--spongebob-blue);
+            --button-hover-bg: #2196f3;
+            --button-text: white;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            max-width: 700px;
+            width: 90%;
+            border: 2px solid var(--border-color);
+            transition: all 0.3s ease-in-out;
+            transform: translateY(-20px);
+            opacity: 0;
+            animation: slideIn 0.5s forwards ease-out;
+        }
+
+        @keyframes slideIn {
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            color: var(--spongebob-blue);
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--spongebob-green);
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .disclaimer {
+            background-color: #ffe0b2; /* Light orange for warning */
+            border: 1px solid #ffab40;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 25px;
+            color: #d84315; /* Darker orange for text */
+            font-weight: bold;
+        }
+
+        .contribute-points {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            text-align: left;
+            font-size: 1.05em;
+        }
+
+        .contribute-points li {
+            background-color: #e3f2fd; /* Lighter blue for list items */
+            border-left: 5px solid var(--spongebob-blue);
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .contribute-points li:before {
+            content: '🌟'; /* Star emoji for points */
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .navigation-buttons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        button {
+            background-color: var(--button-bg);
+            color: var(--button-text);
+            border: none;
+            border-radius: 8px;
+            padding: 12px 25px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            background-color: var(--button-hover-bg);
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #step-indicator {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #607d8b;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="step-welcome" class="setup-step">
+            <h1>Welcome to the SpongeBob Flash Game Archive!</h1>
+            <p>
+                Ahoy, matey! You've successfully downloaded the ultimate offline collection of classic SpongeBob SquarePants Flash games. This archive is a treasure chest of nostalgia, meticulously preserved for you to enjoy.
+            </p>
+            <p>
+                This short setup will get you ready to dive into Bikini Bottom and relive all the amazing adventures!
+            </p>
+            <div class="navigation-buttons">
+                <button onclick="nextStep()">Let's Go!</button>
+            </div>
+        </div>
+
+        <div id="step-disclaimer" class="setup-step hidden">
+            <h2>Important Disclaimer</h2>
+            <div class="disclaimer">
+                <p>
+                    These SpongeBob Flash games have been archived solely for historical purposes and future preservation. I do not claim any kind of ownership on the games or their supporting content. All rights belong to their original creators.
+                </p>
+                <p>
+                    This project is a labor of love by fans, for fans, to ensure these pieces of internet history remain accessible.
+                </p>
+            </div>
+            <div class="navigation-buttons">
+                <button onclick="prevStep()">Back</button>
+                <button onclick="nextStep()">I Understand</button>
+            </div>
+        </div>
+
+        <div id="step-contribute" class="setup-step hidden">
+            <h2>Become a Seaworthy Contributor!</h2>
+            <p>
+                You've gained access to this amazing archive thanks to the efforts of many who came before you, contributing to its completion. To keep this project alive and growing for everyone, we encourage you to be a responsible member of our community!
+            </p>
+            <p>
+                Here's how you can help complete the archive for future generations:
+            </p>
+            <ul class="contribute-points">
+                <li>
+                    <strong>Share Missing Assets:</strong> The archive uses a smart proxy technology. When you play a game and it tries to load a file that's not yet in your local archive, our system intelligently downloads it from the original website for you. Crucially, it also reports the URL of that missing file back to us (without any personal data!). This helps us identify and add these assets to the main archive, making it more complete and eventually fully offline for everyone. By simply playing, you contribute!
+                </li>
+                <li>
+                    <strong>Pass It On:</strong> Just as others helped you get this archive, you can help others discover and access it. By keeping the launcher running, you make the archive available for others to download directly from you. It's a way of paying it forward and ensuring this collection continues to thrive in the community.
+                </li>
+            </ul>
+            <p>
+                Your participation helps ensure the long-term preservation and accessibility of these beloved games. Thank you for being a part of it!
+            </p>
+            <div class="navigation-buttons">
+                <button onclick="prevStep()">Back</button>
+                <button onclick="completeSetup()">Dive In!</button>
+            </div>
+        </div>
+
+        <div id="step-indicator"></div>
+    </div>
+
+    <script>
+        const STEPS = ['step-welcome', 'step-disclaimer', 'step-contribute'];
+        let currentStepIndex = 0;
+
+        function showStep(index) {
+            // Hide all steps
+            document.querySelectorAll('.setup-step').forEach(step => {
+                step.classList.add('hidden');
+            });
+            // Show the current step
+            document.getElementById(STEPS[index]).classList.remove('hidden');
+            updateStepIndicator();
+            saveProgress(index);
+        }
+
+        function nextStep() {
+            if (currentStepIndex < STEPS.length - 1) {
+                currentStepIndex++;
+                showStep(currentStepIndex);
+            }
+        }
+
+        function prevStep() {
+            if (currentStepIndex > 0) {
+                currentStepIndex--;
+                showStep(currentStepIndex);
+            }
+        }
+
+        function updateStepIndicator() {
+            const indicator = document.getElementById('step-indicator');
+            indicator.textContent = `Step ${currentStepIndex + 1} of ${STEPS.length}`;
+        }
+
+        function saveProgress(step) {
+            localStorage.setItem('spongebob_archive_setup_step', step);
+        }
+
+        function loadProgress() {
+            const savedStep = localStorage.getItem('spongebob_archive_setup_step');
+            if (savedStep !== null) {
+                currentStepIndex = parseInt(savedStep);
+            }
+            showStep(currentStepIndex);
+        }
+
+        function completeSetup() {
+            // Clear local storage progress
+            localStorage.removeItem('spongebob_archive_setup_step');
+
+            // Signal the Python script that setup is complete
+            fetch('/setup_complete')
+                .then(response => {
+                    if (response.ok) {
+                        alert("Setup complete! You can now close this tab and return to the launcher.");
+                        window.close(); // Attempt to close the tab/window
+                    } else {
+                        alert("Failed to signal setup completion. Please close this tab manually.");
+                    }
+                })
+                .catch(error => {
+                    console.error("Error signaling setup completion:", error);
+                    alert("Network error signaling setup completion. Please close this tab manually.");
+                });
+        }
+
+        // Load progress on page load
+        window.onload = loadProgress;
+    </script>
+</body>
+</html>
