@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+	
+	<introPlayButton>PLAY</introPlayButton>
+	<howToPlay>HOW TO PLAY</howToPlay>
+	<instructions_1>SpongeBob ate a SUNDAE SUNDAY and now must say "Hi!" to the anchovies he meets with his stinky breath.</instructions_1>
+	<instructionsNextButton>NEXT</instructionsNextButton>
+	<instructionsNextButtonRollover>NEXT</instructionsNextButtonRollover>
+	<instructions_2>Press UP to JUMP, RIGHT and LEFT to MOVE, and DOWN or SPACEBAR to BREATHE. Keep eating sundaes, and avoid the raining breath mints.</instructions_2>
+	<instructionsPlayButton>PLAY!</instructionsPlayButton>
+	<instructionsPlayButtonRollover>PLAY!</instructionsPlayButtonRollover>
+	<headerScoreLabel>SCORE:</headerScoreLabel>
+	<headerHealthLabel>HEALTH</headerHealthLabel>
+	<headerMeterLabel>STINK METER</headerMeterLabel>
+	<gameOverLabel>GAME OVER</gameOverLabel>
+	<finalScoreLabel_txt>SCORE:</finalScoreLabel_txt>
+	<payoffContinueButton>CONTINUE</payoffContinueButton>
+	<payoffContinueButtonRollover>CONTINUE</payoffContinueButtonRollover>
+	<level_text_label>LEVEL</level_text_label>
+	
+</localization>

@@ -1,0 +1,6 @@
+<config>
+	<userPath>http://www.nick.com/games/common/user_name/getUserInfo.jhtml</userPath>
+	<scorePath>http://www.nick.com/common/score/Scoreboard.jhtml</scorePath>
+	<gameID>sb_plot</gameID>
+	<!-- <gameID>av_battle</gameID> --> <!-- using av_battle for testing, replace with sb_plot when game goes live -->
+</config>

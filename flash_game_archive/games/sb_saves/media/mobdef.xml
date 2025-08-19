@@ -1,0 +1,1021 @@
+
+
+<!-- LAST EDITED 6-25 BY NASH -->
+<!-- for BETA 6 -->
+
+
+
+<!-- rarity is c, u, r  (common, uncommon, rare) ... make sure you have at least 1 of each -->
+<!-- x is from -1200 to 1200 -->
+<!-- y is from 50 to 800 -->
+<!-- xVel, yVel are -1, 0, 1 -->
+
+<!-- jelly is a normal guy, takes 1 hit to kill
+     squidward is a little slower, takes 2-3 hits to kill.
+     octo is really slow, takes ~10 hits to kill and fires about twice as fast
+-->
+
+
+
+
+<!-- LEVEL ONE -->	
+
+
+	<!-- COMMON -->
+	
+<mobDefs>
+
+	
+			<spawn rarity="c" minLevel="1">
+				<!-- START IN 9 SQUARE, SHIFT LEFT AND RIGHT -->
+				<mob mType="jelly" delay="0" x="0" y="400" xVel="0" yVel="0" />
+				<mob mType="jelly" delay="0" x="0" y="800" xVel="1" yVel="1" />
+				<mob mType="jelly" delay="0" x="-600" y="400" xVel="1" yVel="1" />
+				<mob mType="jelly" delay="0" x="0" y="0" xVel="1" yVel="1" />
+				<mob mType="jelly" delay="0" x="600" y="400" xVel="1" yVel="1" />
+			</spawn>
+			
+	
+			<spawn rarity="c" minLevel="1">
+				<!-- two jellys, not moving -->
+				<mob mType="jelly" delay="0" x="100" y="400" xVel="0" yVel="0" />
+				<mob mType="jelly" delay="0" x="-100" y="400" xVel="0" yVel="0" />
+			</spawn>
+	
+	
+	<!-- UNCOMMON -->
+	
+			<spawn rarity="u" minLevel="1">
+				<mob mType="jelly" delay="0" x="0" y="0" xVel="0" yVel="1" />
+				<mob mType="jelly" delay="0" x="600" y="0" xVel="0" yVel="1" />
+				<mob mType="jelly" delay="0" x="-600" y="0" xVel="0" yVel="1" />	
+				<mob mType="jelly" delay="300" x="0" y="400" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="0" x="600" y="400" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="0" x="-600" y="400" xVel="0" yVel="-1" />	
+			</spawn>
+	
+	
+		
+	<!-- RARE -->
+	
+			<spawn rarity="r" minLevel="1">
+				<mob mType="jelly" delay="0" x="0" y="0" xVel="0" yVel="1" />
+				<mob mType="jelly" delay="0" x="600" y="0" xVel="0" yVel="1" />
+				<mob mType="jelly" delay="0" x="-600" y="0" xVel="0" yVel="1" />	
+				<mob mType="jelly" delay="300" x="0" y="400" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="0" x="600" y="400" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="0" x="-600" y="400" xVel="0" yVel="-1" />	
+				<mob mType="jelly" delay="100" x="600" y="400" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="0" x="-600" y="400" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="100" x="600" y="400" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="0" x="-600" y="400" xVel="0" yVel="-1" />
+			</spawn>
+	
+	
+
+
+<!-- LEVEL TWO -->
+	
+	<!-- COMMON -->
+	
+			<spawn rarity="c" minLevel="2">
+				<!-- three jellys, up/down -->
+				<mob mType="jelly" delay="0" x="200" y="400" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="0" x="-200" y="400" xVel="0" yVel="1" />
+				<mob mType="jelly" delay="10" x="0" y="400" xVel="0" yVel="-1" />
+			</spawn>
+	
+	
+	<!-- UNCOMMON -->
+	
+			<spawn rarity="u" minLevel="2">
+			<!-- circle of jellies -->
+			   <mob mType="jelly" delay="0" x="0" y="798" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="187" y="748" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="324" y="611" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="374" y="424" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="324" y="237" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="187" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="50" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-187" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-324" y="237" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-374" y="424" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-324" y="611" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-187" y="748" xVel="0" yVel="0" />
+			 </spawn>
+	
+	
+	
+	<!-- RARE -->
+	
+	
+
+
+
+
+<!-- LEVEL THREE -->
+	
+	<!-- COMMON -->
+	
+			<spawn rarity="c" minLevel="3">
+				<mob mType="squidward" delay="0" x="200" y="400" xVel="0" yVel="0" />
+				<mob mType="squidward" delay="0" x="-200" y="400" xVel="0" yVel="0" />
+			</spawn>
+
+			<spawn rarity="c" minLevel="3">
+				<!-- 5 IN A CROSS -->
+				<mob mType="squidward" delay="0" x="0" y="400" xVel="0" yVel="0" />
+				<mob mType="jelly" delay="0" x="0" y="800" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="0" x="-600" y="400" xVel="1" yVel="0" />
+				<mob mType="squidward" delay="0" x="0" y="0" xVel="0" yVel="1" />
+				<mob mType="jelly" delay="0" x="600" y="400" xVel="-1" yVel="0" />
+			</spawn>
+	
+	<!-- UNCOMMON -->
+	
+	
+	
+	
+	<!-- RARE -->
+	
+			<spawn rarity="r" minLevel="3">
+				<mob mType="jelly" delay="0" x="-1200" y="788" xVel="0" yVel="-2" />
+				<mob mType="jelly" delay="50" x="1200" y="50" xVel="0" yVel="2" />
+				<mob mType="squidward" delay="0" x="-800" y="665" xVel="0" yVel="-2" />
+				<mob mType="squidward" delay="0" x="800" y="173" xVel="0" yVel="2" />
+				<mob mType="squidward" delay="0" x="-400" y="542" xVel="0" yVel="-2" />
+				<mob mType="jelly" delay="200" x="400" y="296" xVel="0" yVel="2" />
+				<mob mType="jelly" delay="0" x="0" y="419" xVel="0" yVel="-2" />
+				<mob mType="jelly" delay="50" x="0" y="419" xVel="0" yVel="2" />
+				<mob mType="jelly" delay="0" x="400" y="296" xVel="0" yVel="-2" />
+				<mob mType="jelly" delay="0" x="-400" y="542" xVel="0" yVel="2" />
+				<mob mType="jelly" delay="0" x="800" y="173" xVel="0" yVel="-2" />
+				<mob mType="squidward" delay="200" x="-800" y="665" xVel="0" yVel="2" />
+				<mob mType="jelly" delay="0" x="1200" y="50" xVel="0" yVel="-2" />
+				<mob mType="squidward" delay="300" x="-1200" y="788" xVel="0" yVel="2" />
+			 </spawn>
+
+
+
+
+<!-- LEVEL FOUR -->
+
+	<!-- COMMON -->
+	
+			<spawn rarity="c" minLevel="4">
+			   <mob mType="octo" delay="0" x="0" y="0" xVel="-1" yVel="1" />
+			   <mob mType="octo" delay="0" x="0" y="0" xVel="1" yVel="-1" />
+			</spawn>
+	
+
+			<spawn rarity="c" minLevel="4">
+				<!-- 3 AT TOP MOVING DOWN -->
+				<mob mType="jelly" delay="0" x="0" y="0" xVel="0" yVel="1" />
+				<mob mType="octo" delay="0" x="600" y="0" xVel="0" yVel="0" />
+				<mob mType="jelly" delay="0" x="-600" y="0" xVel="0" yVel="1" />	
+			</spawn>
+	
+	<!-- UNCOMMON -->
+	
+			<spawn rarity="u" minLevel="4">
+				<mob mType="jelly" delay="0" x="-1200" y="788" xVel="0" yVel="-1" />
+				<mob mType="squidward" delay="200" x="-800" y="665" xVel="0" yVel="-1" />
+				<mob mType="octo" delay="200" x="-400" y="542" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="200" x="0" y="419" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="200" x="400" y="296" xVel="0" yVel="-1" />
+				<mob mType="squidward" delay="0" x="-1200" y="50" xVel="0" yVel="1" />
+				<mob mType="octo" delay="200" x="800" y="173" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="0" x="-800" y="173" xVel="0" yVel="1" />
+				<mob mType="jelly" delay="200" x="1200" y="50" xVel="0" yVel="-1" />
+				<mob mType="jelly" delay="0" x="-400" y="296" xVel="0" yVel="1" />
+				<mob mType="squidward" delay="200" x="0" y="419" xVel="0" yVel="1" />
+				<mob mType="squidward" delay="200" x="400" y="542" xVel="0" yVel="1" />
+				<mob mType="jelly" delay="200" x="800" y="665" xVel="0" yVel="1" />
+				<mob mType="octo" delay="200" x="1200" y="788" xVel="0" yVel="1" />
+			 </spawn>
+	
+	<!-- RARE -->
+	
+			
+
+
+
+
+<!-- LEVEL FIVE -->
+
+	
+	<!-- COMMON -->
+	
+			<spawn rarity="c" minLevel="5">
+				<!-- 9 IN A SQUARE -->
+				<mob mType="squidward" delay="0" x="-600" y="800" xVel="1" yVel="-1" />
+				<mob mType="squidward" delay="0" x="0" y="800" xVel="0" yVel="-1" />
+				<mob mType="squidward" delay="0" x="600" y="800" xVel="-1" yVel="-1" />
+				<mob mType="jelly" delay="0" x="-600" y="400" xVel="1" yVel="0" />
+				<mob mType="jelly" delay="0" x="0" y="400" xVel="0" yVel="0" />
+				<mob mType="jelly" delay="0" x="600" y="400" xVel="-1" yVel="0" />
+				<mob mType="jelly" delay="0" x="-600" y="50" xVel="1" yVel="1" />
+				<mob mType="jelly" delay="0" x="0" y="50" xVel="0" yVel="1" />
+				<mob mType="jelly" delay="0" x="600" y="50" xVel="-1" yVel="1" />
+			</spawn>
+	
+	
+	<!-- UNCOMMON -->
+	
+			<spawn rarity="u" minLevel="5">
+					<!-- SNAKE! -->
+					<mob mType="squidward" delay="0" x="-400" y="0" xVel="1" yVel="1" />
+					<mob mType="jelly" delay="100" x="-400" y="0" xVel="-1" yVel="1" />
+					<mob mType="jelly" delay="100" x="-400" y="0" xVel="1" yVel="-1" />
+					<mob mType="squidward" delay="100" x="-400" y="0" xVel="-1" yVel="1" />
+					<mob mType="jelly" delay="100" x="-400" y="0" xVel="1" yVel="1" />
+					<mob mType="jelly" delay="100" x="-400" y="0" xVel="-1" yVel="-1" />
+					<mob mType="jelly" delay="100" x="-400" y="0" xVel="1" yVel="1" />
+					<mob mType="squidward" delay="100" x="-400" y="0" xVel="-1" yVel="1" />
+					<mob mType="jelly" delay="100" x="-400" y="0" xVel="1" yVel="-1" />
+					<mob mType="jelly" delay="100" x="-400" y="0" xVel="-1" yVel="1" />
+					<mob mType="squidward" delay="100" x="-400" y="0" xVel="1" yVel="1" />
+					<mob mType="jelly" delay="100" x="-400" y="0" xVel="-1" yVel="-1" />
+					<mob mType="squidward" delay="100" x="-400" y="0" xVel="1" yVel="1" />
+					<mob mType="jelly" delay="100" x="-400" y="0" xVel="-1" yVel="1" />
+				</spawn>
+	
+	
+	
+	<!-- RARE -->
+
+			
+	
+<!-- LEVEL 6 -->
+
+	<!-- COMMON -->
+
+			<spawn rarity="c" minLevel="6">
+			   <mob mType="octo" delay="0" x="-600" y="800" xVel="1" yVel="-1" />
+			   <mob mType="octo" delay="0" x="0" y="800" xVel="0" yVel="-1" />
+			   <mob mType="octo" delay="0" x="600" y="800" xVel="-1" yVel="-1" />
+			</spawn>
+	
+	<!-- UNCOMMON -->
+	
+			<spawn rarity="u" minLevel="6">
+			   <mob mType="jelly" delay="0" x="-600" y="800" xVel="1" yVel="-1" />
+			   <mob mType="jelly" delay="0" x="0" y="800" xVel="0" yVel="-1" />
+			   <mob mType="jelly" delay="0" x="600" y="800" xVel="-1" yVel="-1" />
+			   <mob mType="squidward" delay="0" x="-600" y="400" xVel="1" yVel="0" />
+			   <mob mType="squidward" delay="0" x="0" y="400" xVel="0" yVel="0" />
+			   <mob mType="squidward" delay="0" x="600" y="400" xVel="-1" yVel="0" />
+			   <mob mType="octo" delay="0" x="-600" y="50" xVel="1" yVel="1" />
+			   <mob mType="octo" delay="0" x="0" y="50" xVel="0" yVel="1" />
+			   <mob mType="octo" delay="0" x="600" y="50" xVel="-1" yVel="1" />
+			</spawn>
+	
+			<spawn rarity="u" minLevel="6">
+			   <mob mType="squidward" delay="0" x="-600" y="800" xVel="1" yVel="-1" />
+			   <mob mType="squidward" delay="0" x="0" y="800" xVel="0" yVel="-1" />
+			   <mob mType="squidward" delay="0" x="600" y="800" xVel="-1" yVel="-1" />
+			   <mob mType="squidward" delay="0" x="-600" y="400" xVel="1" yVel="0" />
+			   <mob mType="squidward" delay="0" x="0" y="400" xVel="0" yVel="0" />
+			   <mob mType="squidward" delay="0" x="600" y="400" xVel="-1" yVel="0" />
+			   <mob mType="octo" delay="0" x="-600" y="50" xVel="1" yVel="1" />
+			   <mob mType="octo" delay="0" x="0" y="50" xVel="0" yVel="1" />
+			   <mob mType="octo" delay="0" x="600" y="50" xVel="-1" yVel="1" />
+			</spawn>
+	
+	<!-- RARE -->
+	
+			
+	
+
+
+<!-- LEVEL 7 -->
+
+	<!-- COMMON -->
+		
+			<spawn rarity="c" minLevel="7">
+				<!-- WALL BOTTOM LEFT -->
+			   <mob mType="jelly" delay="0" x="-1200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="100" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			 </spawn>
+			 
+			 
+			 
+			 <spawn rarity="c" minLevel="7">
+			<!-- WALL TOP LEFT -->
+			   <mob mType="jelly" delay="0" x="-1200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="700" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="800" xVel="0" yVel="0" />
+			   
+			 </spawn>
+			 
+			 <spawn rarity="c" minLevel="7">
+			<!-- WALL BOTTOM RIGHT -->
+			   <mob mType="jelly" delay="0" x="1200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="100" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			 </spawn>
+			 
+			 
+			 
+			 <spawn rarity="c" minLevel="7">
+			<!-- WALL TOP RIGHT -->
+			   <mob mType="jelly" delay="0" x="1200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="700" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="800" xVel="0" yVel="0" />
+			   
+		 </spawn>
+		 
+	<!-- UNCOMMON -->
+	
+			<spawn rarity="u" minLevel="7">
+					<!-- WALL BOTTOM LEFT -->
+				   <mob mType="jelly" delay="0" x="-1200" y="100" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-1000" y="100" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-800" y="100" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-600" y="100" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-400" y="100" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-200" y="100" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="100" xVel="0" yVel="0" />
+				   
+				   <mob mType="jelly" delay="10" x="-1200" y="200" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-1000" y="200" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-800" y="200" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-600" y="200" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-400" y="200" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-200" y="200" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="300" xVel="0" yVel="0" />
+				   
+				   <mob mType="jelly" delay="10" x="-1200" y="300" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-1000" y="300" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-800" y="300" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-600" y="300" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-400" y="300" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-200" y="300" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="500" xVel="0" yVel="0" />
+				   
+				   <mob mType="jelly" delay="10" x="-1200" y="400" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-1000" y="400" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-800" y="400" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-600" y="400" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-400" y="400" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-200" y="400" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="500" xVel="0" yVel="0" />
+				   
+				 </spawn>
+				 
+				 
+				 
+				 <spawn rarity="u" minLevel="7">
+				<!-- WALL TOP LEFT -->
+				   <mob mType="jelly" delay="10" x="-1200" y="500" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-1000" y="500" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-800" y="500" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-600" y="500" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-400" y="500" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-200" y="500" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="500" xVel="0" yVel="0" />
+				   
+				   <mob mType="jelly" delay="10" x="-1200" y="600" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-1000" y="600" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-800" y="600" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-600" y="600" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-400" y="600" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-200" y="600" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="300" xVel="0" yVel="0" />
+				   
+				   <mob mType="jelly" delay="10" x="-1200" y="700" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-1000" y="700" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-800" y="700" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-600" y="700" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-400" y="700" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-200" y="700" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="700" xVel="0" yVel="0" />
+				   
+				   <mob mType="jelly" delay="10" x="-1200" y="800" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-1000" y="800" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-800" y="800" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-600" y="800" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-400" y="800" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="-200" y="800" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="800" xVel="0" yVel="0" />
+				   
+				 </spawn>
+				 
+				 <spawn rarity="u" minLevel="7">
+				<!-- WALL BOTTOM RIGHT -->
+				   <mob mType="jelly" delay="10" x="1200" y="100" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="1000" y="100" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="800" y="100" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="600" y="100" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="400" y="100" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="200" y="100" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="100" xVel="0" yVel="0" />
+				   
+				   <mob mType="jelly" delay="10" x="1200" y="200" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="1000" y="200" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="800" y="200" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="600" y="200" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="400" y="200" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="200" y="200" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="300" xVel="0" yVel="0" />
+				   
+				   <mob mType="jelly" delay="10" x="1200" y="300" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="1000" y="300" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="800" y="300" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="600" y="300" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="400" y="300" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="200" y="300" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="500" xVel="0" yVel="0" />
+				   
+				   <mob mType="jelly" delay="10" x="1200" y="400" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="1000" y="400" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="800" y="400" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="600" y="400" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="400" y="400" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="200" y="400" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="500" xVel="0" yVel="0" />
+				   
+				 </spawn>
+				 
+				 
+				 
+				 <spawn rarity="u" minLevel="7">
+				<!-- WALL TOP RIGHT -->
+				   <mob mType="jelly" delay="10" x="1200" y="500" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="1000" y="500" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="800" y="500" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="600" y="500" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="400" y="500" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="200" y="500" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="500" xVel="0" yVel="0" />
+				   
+				   <mob mType="jelly" delay="10" x="1200" y="600" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="1000" y="600" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="800" y="600" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="600" y="600" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="400" y="600" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="200" y="600" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="300" xVel="0" yVel="0" />
+				   
+				   <mob mType="jelly" delay="10" x="1200" y="700" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="1000" y="700" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="800" y="700" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="600" y="700" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="400" y="700" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="200" y="700" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="700" xVel="0" yVel="0" />
+				   
+				   <mob mType="jelly" delay="10" x="1200" y="800" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="1000" y="800" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="800" y="800" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="600" y="800" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="400" y="800" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="200" y="800" xVel="0" yVel="0" />
+				   <mob mType="jelly" delay="10" x="0" y="800" xVel="0" yVel="0" />
+				   
+				 </spawn>
+	
+	<!-- RARE -->
+
+<!-- LEVEL 8 -->
+
+	<!-- COMMON -->
+	
+			<spawn rarity="c" minLevel="8">
+				<!-- ENTIRE SIDE -->
+
+			   <mob mType="jelly" delay="0" x="-1200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="100" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="700" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="800" xVel="0" yVel="0" />
+			   
+			 </spawn>
+			 
+			 <spawn rarity="c" minLevel="8">
+				<!-- ENTIRE SIDE -->
+			   <mob mType="jelly" delay="0" x="1200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="100" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			  
+			   <mob mType="jelly" delay="0" x="1200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="700" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="800" xVel="0" yVel="0" />
+			   </spawn>
+			 
+		<!-- UNCOMMON -->
+		
+		<!-- RARE -->
+		
+<!-- LEVEL 9 -->
+
+<!-- LEVEL 10 -->
+
+	<!-- COMMON -->
+	
+	<!-- UNCOMMON -->
+	
+			<spawn rarity="u" minLevel="10">
+				<!-- WHOLE SCREEN!!!!! -->
+
+			   <mob mType="jelly" delay="0" x="-1200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="100" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="700" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="-1200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-1000" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-800" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-600" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-400" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="-200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="800" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="100" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			  
+			   <mob mType="jelly" delay="0" x="1200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="700" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="0" x="1200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="1000" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="800" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="600" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="400" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="0" x="0" y="800" xVel="0" yVel="0" />
+			   
+			 </spawn>
+	
+	
+	
+	<!-- RARE -->
+	
+			<spawn rarity="r" minLevel="10">
+				<!-- WHOLE SCREEN!!!!! -->
+
+			   <mob mType="jelly" delay="10" x="-1200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-1000" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-800" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-600" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-400" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="100" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="-1200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-1000" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-800" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-600" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-400" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="-1200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-1000" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-800" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-600" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-400" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="-1200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-1000" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-800" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-600" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-400" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="-1200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-1000" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-800" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-600" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-400" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="-1200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-1000" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-800" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-600" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-400" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="-1200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-1000" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-800" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-600" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-400" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="700" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="-1200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-1000" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-800" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-600" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-400" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="-200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="800" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="1200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="1000" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="800" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="600" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="400" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="200" y="100" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="100" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="1200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="1000" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="800" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="600" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="400" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="200" y="200" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="1200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="1000" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="800" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="600" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="400" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="200" y="300" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="1200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="1000" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="800" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="600" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="400" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="200" y="400" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="500" xVel="0" yVel="0" />
+			  
+			   <mob mType="jelly" delay="10" x="1200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="1000" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="800" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="600" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="400" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="200" y="500" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="500" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="1200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="1000" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="800" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="600" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="400" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="200" y="600" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="300" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="1200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="1000" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="800" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="600" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="400" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="200" y="700" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="700" xVel="0" yVel="0" />
+			   
+			   <mob mType="jelly" delay="10" x="1200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="1000" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="800" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="600" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="400" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="200" y="800" xVel="0" yVel="0" />
+			   <mob mType="jelly" delay="10" x="0" y="800" xVel="0" yVel="0" />
+			   
+			 </spawn>
+
+
+</mobDefs>
+
+
+

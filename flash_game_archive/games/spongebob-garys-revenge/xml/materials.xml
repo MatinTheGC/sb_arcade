@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+	<material id="CORAL" 		densityPercent="0.9" restitution="0.1" friction="1.1" powerPercent="0.9" hpPercent="0.15" score="100"/>
+	<material id="GLASS" 		densityPercent="0.5" restitution="0.02" friction="1" powerPercent="0.8" hpPercent="0.03" score="100"/>
+	<material id="METAL" 		densityPercent="5.4" restitution="0.1" friction="0.6" powerPercent="2.0" hpPercent="999" score="0"/>
+	<material id="WOOD" 		densityPercent="0.3" restitution="0.1" friction="0.7" powerPercent="0.8" hpPercent="0.08" score="100"/>
+	
+	<material id="CAOUTCHOUC" 	densityPercent="1" restitution="0.02" friction="0.6" powerPercent="1" hpPercent="4" score="100"/>
+</materials>

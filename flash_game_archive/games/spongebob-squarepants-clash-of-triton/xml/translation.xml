@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's tag-->
+<!-- english, when set to TRUE, ignores all localization and uses the default field data in the FLA.-->
+
+<!-- <Node Attributes> -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the defaul size in the FLA.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the defaul font (specified by defaultFont).-->
+<!-- id is not Optional. It determines where flash places the text.-->
+<strings defaultFont="NickcomFont" english="true">
+	<!--Preloader-->
+	<string id="loading"	fontName="NickcomFont"	fontSize="16"	><![CDATA[Loading]]></string>
+	<!--Basics-->
+	<string id="title"		fontName="NickcomFont"	><![CDATA[GAME NAME]]></string>
+	<string id="play"		fontName="NickcomFont"	fontSize="16"	><![CDATA[Play]]></string>
+	<string id="play_again"	fontName="NickcomFont"	fontSize="16"	><![CDATA[Try Again]]></string>
+	<string id="how_to_play"fontName="NickcomFont"	fontSize="16"	><![CDATA[How to Play]]></string>
+	<string id="next"		fontName="NickcomFont"	fontSize="16"	><![CDATA[Next]]></string>
+	<string id="back"		fontName="NickcomFont"	fontSize="16"	><![CDATA[Back to Game]]></string>
+	<string id="continue"	fontName="NickcomFont"	fontSize="16"	><![CDATA[Continue]]></string>
+	<string id="close"		fontName="NickcomFont"	fontSize="16"	><![CDATA[close]]></string>
+	<string id="printable"	fontName="NickcomFont"	fontSize="16"	><![CDATA[Printable]]></string>
+	<!--Game Buttons-->
+	<string id="menu"		fontName="NickcomFont"	fontSize="16"	><![CDATA[?]]></string>
+	<string id="help"		fontName="NickcomFont"	fontSize="16"	><![CDATA[How to Play]]></string>
+	<string id="sound_on"	fontName="NickcomFont"	fontSize="16"	><![CDATA[Sound On]]></string>
+	<string id="sound_off"	fontName="NickcomFont"	fontSize="16"	><![CDATA[Sound Off]]></string>
+	<string id="resume"		fontName="NickcomFont"	fontSize="16"	><![CDATA[Resume]]></string>
+	<!--Quit-->
+	<string id="quit"		fontName="NickcomFont"	fontSize="16"	><![CDATA[Quit]]></string>
+	<string id="quit_confirm_header"	fontName="NickcomFont"	fontSize="16"><![CDATA[Are you sure you want to quit?]]></string>
+	<string id="yes"		fontName="NickcomFont"	fontSize="16"	><![CDATA[Yes]]></string>
+	<string id="no"			fontName="NickcomFont"	fontSize="16"	><![CDATA[No]]></string>
+	<!--Gameplay-->
+	<string id="level"		fontName="NickcomFont"	fontSize="16"	><![CDATA[Level]]></string>
+	<string id="score"		fontName="NickcomFont"	fontSize="16"	><![CDATA[Score]]></string>
+	<string id="paused"		fontName="NickcomFont"	fontSize="16"	><![CDATA[Paused]]></string>
+	<string id="level_up"	fontName="NickcomFont"	fontSize="16"	><![CDATA[Level Up]]></string>
+	<string id="game_over"	fontName="NickcomFont"	fontSize="16"	><![CDATA[Game Over]]></string>
+	<!--Leaderboard-->
+	<string id="you"		fontName="NickcomFont"	fontSize="16"	><![CDATA[You: ]]></string>
+	<string id="top"		fontName="NickcomFont"	fontSize="16"	><![CDATA[Top]]></string>
+	<string id="leaderboard"	fontName="NickcomFont"	fontSize="16"><![CDATA[Leaderboard]]></string>
+	<string id="submit_score"	fontName="NickcomFont"	fontSize="16"><![CDATA[Submit Score]]></string>
+	<!-- Copy/Body -->
+	<string id="help_copy"	fontName="NickcomFont"	fontSize="16"><![CDATA[HELP COPY]]></string>
+	<string id="watch"		fontName="NickcomFont"	fontSize="16"	><![CDATA[Watch 'Show Name' on]]></string>
+	<!--Relics -->
+	<string id="relic_horn" fontName="NickcomFont"	fontSize="16"><![CDATA[Sardine Caller]]></string>
+	<string id="relic_bow" fontName="NickcomFont"	fontSize="16"><![CDATA[Jelly Cannon]]></string>
+	<string id="relic_shield" fontName="NickcomFont"	fontSize="16"><![CDATA[Shell Shield]]></string>
+	<string id="relic_strike" fontName="NickcomFont"	fontSize="16"><![CDATA[The Stormhammer]]></string>
+	<string id="relic_trident" fontName="NickcomFont"	fontSize="16"><![CDATA[Trident of Neptune]]></string>
+
+	<string id="relic_horn_desc" fontName="NickcomFont"	fontSize="16"><![CDATA[Press 2 to summon friendly sardines to back up SpongeBob.]]></string>
+	<string id="relic_bow_desc" fontName="NickcomFont"	fontSize="16"><![CDATA[Press 1 to launch slimy jellyfish great distances.]]></string>
+	<string id="relic_shield_desc" fontName="NickcomFont"	fontSize="16"><![CDATA[Press 3 to deflect incoming attacks.]]></string>
+	<string id="relic_strike_desc" fontName="NickcomFont"	fontSize="16"><![CDATA[Press 4 to call down the wrath of Neptune.]]></string>
+	<string id="relic_trident_desc" fontName="NickcomFont"	fontSize="16"><![CDATA[Press 5 to hurl a Trident of ultimate power!]]></string>
+</strings>

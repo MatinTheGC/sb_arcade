@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+
+<strings>
+	<localization>
+	<skipDisabled><![CDATA[Skip]]></skipDisabled>
+	<skip><![CDATA[Skip]]></skip>
+	<next><![CDATA[Next]]></next>
+	<nextDisabled><![CDATA[Next]]></nextDisabled>
+	<playBtn><![CDATA[Play]]></playBtn>
+	<continueDisabled><![CDATA[Continue]]></continueDisabled>
+	<continue><![CDATA[Continue]]></continue>
+	<noDisabled><![CDATA[No]]></noDisabled>
+	<no><![CDATA[No]]></no>
+	<yesDisabled><![CDATA[Yes]]></yesDisabled>
+	<yes><![CDATA[Yes]]></yes>
+	<menuDisabled><![CDATA[Menu]]></menuDisabled>
+	<menu><![CDATA[Menu]]></menu>
+	<quitDisabled><![CDATA[Quit]]></quitDisabled>
+	<quit><![CDATA[Quit]]></quit>
+	<helpDisabled><![CDATA[Help]]></helpDisabled>
+	<help><![CDATA[Help]]></help>
+	<resumeDisabled><![CDATA[Resume]]></resumeDisabled>
+	<resume><![CDATA[Resume]]></resume>
+	<backDisabled><![CDATA[Back]]></backDisabled>
+	<back><![CDATA[Back]]></back>
+	<playAgainDisabled><![CDATA[Play Again]]></playAgainDisabled>
+	<playAgain><![CDATA[Play Again]]></playAgain>
+	<closeDisabled><![CDATA[Close]]></closeDisabled>
+	<close><![CDATA[Close]]></close>
+	<tryAgainDisabled><![CDATA[Try Again]]></tryAgainDisabled>
+	<tryAgain><![CDATA[Try Again]]></tryAgain>
+	<quitConfirmation><![CDATA[Are you sure?]]></quitConfirmation>
+	<inGameUIScore><![CDATA[SCORE]]></inGameUIScore>
+	<levelWinTotalScore><![CDATA[TOTAL SCORE]]></levelWinTotalScore>
+	<levelWinCampers><![CDATA[CAMPERS SAVED ]]></levelWinCampers>
+	<levelWinNight><![CDATA[NIGHT ]]></levelWinNight>
+	<levelWinComment3><![CDATA[Molten Marshmallows!]]></levelWinComment3>
+	<levelWinComment2><![CDATA[Bear-ly made it!]]></levelWinComment2>
+	<levelWinComment1><![CDATA[That's the camping spirit!]]></levelWinComment1>
+	<helpTitle><![CDATA[Survival Guide]]></helpTitle>
+	<help3c><![CDATA[These things make Sea Bear angrier.<br>Circle them to distract him.]]></help3c>
+	<help3b><![CDATA[This will attract Sea Rhinos.<br>Collect Anti-Sea Rhino<br>underwear for protection.]]></help3b>
+	<help3a><![CDATA[Do not circle Sea Bear! ]]></help3a>
+	<help2b><![CDATA[Sea Bear is hungry! Collect them all to make it through the night.]]></help2b>
+	<help2a><![CDATA[Collect mallows!]]></help2a>
+	<help1b_alive><![CDATA[alive!]]></help1b_alive>
+	<help1b_one><![CDATA[one]]></help1b_one>
+	<help1b><![CDATA[to draw circles around<br>Spongebob, Patrick<br>and Squidward. You<br>must keep]]></help1b>
+	<help1a><![CDATA[Use this stick]]></help1a>
+	<adHockHelpYellow><![CDATA[CLICK & DRAG<br>to Collect<br>Marshmallows<br>and protect<br>your friends.]]></adHockHelpYellow>
+	<introParagraph2c><![CDATA[Draw a circle in the sand.]]></introParagraph2c>
+	<introParagraph2b><![CDATA[The only defense against him:]]></introParagraph2b>
+	<introParagraph2a><![CDATA[This is the Sea Bear.]]></introParagraph2a>
+	<introParagraph1b><![CDATA[]]></introParagraph1b>
+	<introParagraph1a><![CDATA[There are many things one can do<br>to make the Sea Bear angry.]]></introParagraph1a>
+	<loseTotalScore><![CDATA[TOTAL SCORE]]></loseTotalScore>
+	<loseComment><![CDATA[Maybe you should've stayed home. ]]></loseComment>
+</localization>
+</strings>
+
+	

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+
+<!--Level2 Animated object -->
+
+<group id="laser">
+		<animation looping="true" autorun="false" speed="100" />
+		<sprites>
+<!-- Frame_1 --><sprite x="600" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_2 --><sprite x="580" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_3 --><sprite x="560" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_4 --><sprite x="540" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_5 --><sprite x="520" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_6 --><sprite x="500" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_7 --><sprite x="480" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_8 --><sprite x="460" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_9 --><sprite x="440" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_10 --><sprite x="420" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_11 --><sprite x="400" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_12 --><sprite x="380" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_13 --><sprite x="360" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_14 --><sprite x="340" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_15 --><sprite x="320" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_16 --><sprite x="300" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_17 --><sprite x="280" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_18 --><sprite x="260" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_19 --><sprite x="240" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_20 --><sprite x="220" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_21 --><sprite x="200" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_22 --><sprite x="180" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_23 --><sprite x="160" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_24 --><sprite x="140" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_25 --><sprite x="120" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_26 --><sprite x="100" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_27 --><sprite x="80" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_28 --><sprite x="60" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_29 --><sprite x="40" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_30 --><sprite x="20" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_31 --><sprite x="0" y="0" width="20" height="120" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+						
+	
+</spritesheet>
+	
+	
+	
+	
+	

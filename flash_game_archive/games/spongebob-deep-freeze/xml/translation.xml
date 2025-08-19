@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's tag-->
+<!-- isEnglish, when set to TRUE, ignores all localization and uses the default field data in the FLA.-->
+
+<!-- <Node Attributes> -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the defaul size in the FLA.-->
+<!-- fontId is Optional. It allows you to customize the font used in this particular field based on the id set in fonts.xml. Leave it out to use defaultFont.-->
+<translation defaultfont="main" english="false">	
+	<!-- Words and Simple Phrases -->
+	<string id="loading"><![CDATA[Loading]]></string>
+	<string id="title"><![CDATA[Deep Freeze
+Freak Out]]></string>
+	<string id="play_word"><![CDATA[Play]]></string> <!-- word: "play"--> 
+	<string id="play_again"><![CDATA[Play Again]]></string>
+	<string id="help"><![CDATA[Help]]></string>		
+	<string id="close"><![CDATA[close]]></string>
+	<string id="level"><![CDATA[Level]]></string>
+	<string id="score"><![CDATA[Score]]></string>	
+	<string id="menu"><![CDATA[Menu]]></string>
+	<string id="paused"><![CDATA[Paused]]></string>
+	<string id="how_to_play"><![CDATA[How to Play]]></string>
+	<string id="back_to_game"><![CDATA[Back to Game]]></string>	
+	<string id="level_up"><![CDATA[Level Up]]></string>
+	<string id="sound_on"><![CDATA[Sound On]]></string>
+	<string id="sound_off"><![CDATA[Sound Off]]></string>	
+	<string id="continue_word"><![CDATA[Continue]]></string>	<!-- word: "continue" -->
+	<string id="printable"><![CDATA[Printable]]></string>
+	<string id="quit"><![CDATA[Quit]]></string>
+	<string id="yes"><![CDATA[Yes]]></string>
+	<string id="no"><![CDATA[no]]></string>	
+	<string id="you"><![CDATA[You: ]]></string>
+	<string id="top"><![CDATA[Top]]></string>	
+	<string id="game_over"><![CDATA[Game Over]]></string>
+	<string id="leaderboard"><![CDATA[Leaderboard]]></string>
+	<string id="submit_score"><![CDATA[Submit Score]]></string>	
+	<string id="select_character"><![CDATA[SELECT YOUR CHARACTER]]></string>
+	<string id="spongebob"><![CDATA[SpongeBob]]></string>
+	<string id="plankton"><![CDATA[Plankton]]></string>
+	<string id="health"><![CDATA[HEALTH]]></string>
+	
+	<!-- Help Text -->
+	<string id="help_use_mouse">MOVE THE MOUSE TO RUN
+CLICK TO DASH</string>
+	<string id="help_avoid_food">AVOID FALLING 
+FOOD</string>
+	<string id="help_catch_food">CLICK BOUNCING 
+FOOD</string>
+	<string id="help_click_icecube">CLICK THE ICECUBE!</string>
+	<string id="help_aim_icecube">CLICK TO THROW
+THE ICECUBE</string>
+	<string id="help_climb_click">CLICK TO JUMP TO 
+THE NEXT PLATFORM</string> 
+	
+	<!-- Copy text -->
+	<string id="quit_confirm_header"><![CDATA[QUIT?]]></string>
+</translation>

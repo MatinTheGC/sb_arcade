@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	// NICK GAME SETTING //
+	<property name="nick_highscores_available">		<![CDATA[false]]>									</property>
+	<property name="nick_highscores_hs_id">			<![CDATA[spongebob-squarepants-garys-revenge-hsb]]>	</property>	
+	<property name="nick_game_id">					<![CDATA[spongebob-squarepants-garys-revenge]]>		</property>	
+	<property name="nick_play_tracking">			<![CDATA[trackKidsGamePlay]]>						</property>	
+	
+	<property name="nick_print_tracking">			<![CDATA[SBprintTracker]]>	</property>	
+	<property name="nick_print_site">				<![CDATA[spongebob]]>								</property>	
+	<property name="nick_print_urlAlias">			<![CDATA[spongebob-squarepants-garys-revenge]]>		</property>							
+	<property name="nick_print_contentType">		<![CDATA[game]]>									</property>	
+	<property name="nick_print_showID">				<![CDATA[spo]]>										</property>	
+	
+
+	// GAMEPLAY PROPERTIES //
+	<!-- Counter effect speed -->
+	<property name="nHUD_SCORE_SPEED">				<![CDATA[250]]>		</property>
+	<property name="nEND_SCORE_SPEED">				<![CDATA[500]]>		</property>
+	<property name="nDISTANCE_TO_ACTIVE_LAUNCHER">	<![CDATA[300]]>		</property>
+	<property name="nDISTANCE_TO_MOVE_TO_VIEW">		<![CDATA[10]]>		</property>
+	<property name="nPIXEL_FOR_DIE_PARTICLE">		<![CDATA[50]]>		</property>
+	
+	
+	<property name="nGOLD_TRESHOLD_PERCENT">		<![CDATA[85]]>		</property>
+	<property name="nSILVER_TRESHOLD_PERCENT">		<![CDATA[60]]>		</property>
+	
+		<!-- Level BRONZE, SILVER, GOLD-->
+	<property name="BONUS_LEVEL_1_REQUIREMENT">		<![CDATA[12,BRONZE]]>		</property>
+	<property name="BONUS_LEVEL_2_REQUIREMENT">		<![CDATA[12,SILVER]]>		</property>
+	<property name="BONUS_LEVEL_3_REQUIREMENT">		<![CDATA[12,GOLD]]>		</property>
+
+	// PHYSIC PROPERTIES //
+	<property name="nWORLD_GRAVITY">				<![CDATA[10]]>		</property>
+
+	// SCORING //
+	<!-- Remaining -->
+	<property name="uSCORE_REMAINING_SHELL">		<![CDATA[10000]]>	</property>
+	
+	<!-- Enemies -->
+	<property name="uSCORE_ENEMY_DEFEATED">			<![CDATA[2000]]>	</property>
+	<property name="uSCORE_ENEMY_DEFEATED_COMBO">	<![CDATA[1000]]>	</property>
+
+	// VOLUME SETTING  //
+	<property name="nDEFAULT_VOLUME_MUSIC">			<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_VOLUME_SOUNDS">		<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_POPUP_VOL_IN">			<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_POPUP_VOL_OUT">		<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_MOUSE_VOL_CLICK">		<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_MOUSE_VOL_ROLL">		<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_TRANSITION_VOL_IN">	<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_TRANSITION_VOL_OUT">	<![CDATA[1]]>		</property>
+	
+</config>

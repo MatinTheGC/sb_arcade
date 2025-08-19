@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<element name="bubble">
+		<media alias="normalBubble" />
+		<media alias="rapidBubble" />
+		<media alias="rangeBubble" />
+	</element>
+</list>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level num="2" levelTime="180" specialTime="20">
+
+	<background>
+	<!--top_boarder_level2-->
+		<item type="bkgTile" spriteId="top_boarder_level2" x="0" y="0" span="6000" />
+	<!--backgrond_tile_clean_level2-->
+		<item type="bkgTile" spriteId="backgrond_tile_clean_level2" x="0" y="27" span="6000" />
+		<item type="bkgTile" spriteId="backgrond_tile_clean_level2" x="0" y="159" span="6000" />
+		<item type="bkgTile" spriteId="backgrond_tile_clean_level2" x="0" y="291" span="6000" />
+	<!--backgrond_tile_rusty_level2-->
+	    <!--row1-->
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="0" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="256" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="384" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="896" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1024" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1152" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1408" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1536" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1664" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1792" y="27" />
+		
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2048" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2304" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2432" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2944" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3072" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3200" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3456" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3584" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3712" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3840" y="27" />
+		
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="4096" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="4352" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="4480" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="4992" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="5120" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="5248" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="5504" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="5632" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="5760" y="27" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="5888" y="27" />
+		
+		<!--row2-->
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="128" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="384" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="640" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1152" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1536" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1920" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2176" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2432" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2688" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3200" y="159" />
+		
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3584" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3968" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="4224" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="4480" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="4736" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="5248" y="159" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="5632" y="159" />
+		
+		<!--row3-->
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="0" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="128" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="512" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="640" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="896" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1152" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1408" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1664" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="1920" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2048" y="291" />
+		
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2176" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2304" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2560" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2688" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="2944" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3200" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3456" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3712" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="3968" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="4096" y="291" />
+		
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="4224" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="4608" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="4736" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="4992" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="5248" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="5504" y="291" />
+		<item type="bkgItem" spriteId="backgrond_tile_rusty_level2" x="5760" y="291" />
+		
+	<!--floor_tile_level2-->
+		<item type="groundTile" spriteId="floor_tile_level2" x="0" y="423" span="6000" />
+	<!--main_door_Left_level2-->
+		<item type="groundTile" spriteId="main_door_Left_level2" x="0" y="0" />	
+	<!--main_door_Left_level2_Reversed-->
+		<item type="bkgItem" spriteId="main_door_right_level2" x="5999" y="0" />
+	<!--door_right_level2-->
+		<item type="bkgItem" spriteId="door_right_level2" x="5889" y="235" />		
+	<!--pitfall_level2-->	
+		<item type="groundGap" spriteId="pitfall_level2" x="392" y="408" />
+		<item type="groundGap" spriteId="pitfall_level2" x="1925" y="408" />
+		<item type="groundGap" spriteId="pitfall_level2" x="2353" y="408" />
+		<item type="groundGap" spriteId="pitfall_level2" x="2790" y="408" />
+		<item type="groundGap" spriteId="pitfall_level2" x="3364" y="408" />
+		<item type="groundGap" spriteId="pitfall_level2" x="3725" y="408" />	
+	<!--blackness-->	
+		<item type="groundGap" spriteId="blackness" x="3396" y="415" />	
+		<item type="groundGap" spriteId="blackness" x="3468" y="415" />
+		<item type="groundGap" spriteId="blackness" x="3540" y="415" />
+		<item type="groundGap" spriteId="blackness" x="3612" y="415" />
+		<item type="groundGap" spriteId="blackness" x="3684" y="415" />
+		<item type="groundGap" spriteId="blackness" x="3756" y="415" />
+		
+	<!--sign_beware_doom_ahead_level2-->	
+		<item type="bkgItem" spriteId="sign_beware_doom_ahead_level2" x="292" y="346" />
+	<!--sign_beware_level2-->	
+		<item type="bkgItem" spriteId="sign_beware_level2" x="1278" y="346" />
+	<!--sign_nothing_to_see_level2-->	
+		<item type="bkgItem" spriteId="sign_nothing_to_see_level2" x="2587" y="215" />
+	<!--sign_beware_lasers_level2-->	
+		<item type="bkgItem" spriteId="sign_beware_lasers_level2" x="4207" y="142" />	
+	<!--wall_peel-->	
+		<item type="bkgItem" spriteId="wall_peel" x="260" y="310" />	
+		<item type="bkgItem" spriteId="wall_peel" x="515" y="180" />	
+		<item type="bkgItem" spriteId="wall_peel" x="898" y="47" />	
+		<item type="bkgItem" spriteId="wall_peel" x="2050" y="180" />	
+		<item type="bkgItem" spriteId="wall_peel" x="2436" y="310" />	
+		<item type="bkgItem" spriteId="wall_peel" x="3332" y="179" />	
+	<!--wall_leak-->	
+		<item type="groundTile" spriteId="wall_leak" x="997" y="385" />
+		<item type="groundTile" spriteId="wall_leak" x="4575" y="385" />	
+	<!--wall_light-->	
+		<item type="bkgItem" spriteId="wall_light" x="280" y="80" />
+		<item type="bkgItem" spriteId="wall_light" x="1040" y="80" />
+		<item type="bkgItem" spriteId="wall_light" x="2440" y="80" />
+		<item type="bkgItem" spriteId="wall_light" x="3970" y="80" />
+		<item type="bkgItem" spriteId="wall_light" x="5380" y="80" />								
+	<!--window_outside_level2-->	
+		<item type="window" spriteId="window_outside_level2" x="1539" y="47" />
+		<item type="window" spriteId="window_outside_level2" x="2179" y="47" />
+		<item type="window" spriteId="window_outside_level2" x="2819" y="47" />
+	<!--plankton_picture_level2-->	
+		<item type="bkgItem" spriteId="plankton_picture_level2" x="4750" y="85" />	
+	
+	</background>
+	
+	<objects>
+	<!--platform_small_level2-->
+		<item type="platform" spriteId="platform_small_level2" x="889" y="328" />
+		<item type="platform" spriteId="platform_small_level2" x="1037" y="208" />
+		<item type="platform" spriteId="platform_small_level2" x="1148" y="165" />
+		<item type="platform" spriteId="platform_small_level2" x="1256" y="127" />
+		<item type="platform" spriteId="platform_small_level2" x="1521" y="322" />
+		<item type="platform" spriteId="platform_small_level2" x="1795" y="274" />
+		<item type="platform" spriteId="platform_small_level2" x="2027" y="255" />
+		<item type="platform" spriteId="platform_small_level2" x="2430" y="255" />
+		<item type="platform" spriteId="platform_small_level2" x="2150" y="328" />
+		<item type="platform" spriteId="platform_small_level2" x="2980" y="322" />
+		<item type="platform" spriteId="platform_small_level2" x="3086" y="272" />
+		<item type="platform" spriteId="platform_small_level2" x="3191" y="227" />
+		<item type="platform" spriteId="platform_small_level2" x="3453" y="179" />
+		<item type="platform" spriteId="platform_small_level2" x="3657" y="328" />
+		<item type="platform" spriteId="platform_small_level2" x="3902" y="258" />
+		<item type="platform" spriteId="platform_small_level2" x="3952" y="195" />
+		<item type="platform" spriteId="platform_small_level2" x="4478" y="258" />
+		
+	<!--platform_big_level2-->	
+		<item type="platform" spriteId="platform_big_level2" x="400" y="100" />
+		<item type="platform" spriteId="platform_big_level2" x="625" y="215" />
+		<item type="platform" spriteId="platform_big_level2" x="1795" y="130" />
+		<item type="platform" spriteId="platform_big_level2" x="2513" y="160" />
+		<item type="platform" spriteId="platform_big_level2" x="4179" y="88" />
+	<!--laser-->
+		<item type="lasers" spriteId="laser" x="4202" y="-15" />	
+		<item type="lasers" spriteId="laser" x="4212" y="-5" />
+		<item type="lasers" spriteId="laser" x="4223" y="10" />
+		<item type="lasers" spriteId="laser" x="4367" y="-15" />
+		<item type="lasers" spriteId="laser" x="4377" y="-5" />
+		<item type="lasers" spriteId="laser" x="4392" y="10" />
+	
+	<!--stompers-->
+		<!--stomp 1 -->
+		<item type="stomper" spriteId="stomper" x="520" y="-344" maskHeight="132" verticalSpan="100"/>
+		<!--stomp 2 -->
+		<item type="stomper" spriteId="stomper" x="710" y="-231" maskHeight="245" verticalSpan="100"/>
+		
+		<!--stomp 3 -->
+		<item type="stomper" spriteId="stomper" x="1075" y="-13" maskHeight="186" verticalSpan="100"/>
+		
+		<!--stomp 4 -->
+		<item type="stomper" spriteId="stomper" x="1860" y="-319" maskHeight="157" verticalSpan="100"/>
+		
+		<!--stomp 5 -->
+		<item type="stomper" spriteId="stomper" x="5475" y="-16" maskHeight="462" verticalSpan="100"/>
+		
+		
+	<!--food_bowl-->		
+		<item type="food" spriteId="food_bowl" x="425" y="90" />
+		<item type="food" spriteId="food_bowl" x="485" y="90" />
+		<item type="food" spriteId="food_bowl" x="545" y="90" />
+		<item type="food" spriteId="food_bowl" x="710" y="205" />
+		<item type="food" spriteId="food_bowl" x="890" y="320" />
+		<item type="food" spriteId="food_bowl" x="980" y="320" />
+		<item type="food" spriteId="food_bowl" x="1100" y="425" />
+		<item type="food" spriteId="food_bowl" x="1180" y="80" />
+		<item type="food" spriteId="food_bowl" x="1320" y="50" />
+		<item type="food" spriteId="food_bowl" x="1530" y="310" />
+	
+		<item type="food" spriteId="food_bowl" x="1610" y="310" />
+		<item type="food" spriteId="food_bowl" x="1820" y="120" />
+		<item type="food" spriteId="food_bowl" x="1950" y="120" />
+		<item type="food" spriteId="food_bowl" x="1830" y="425 " />
+		<item type="food" spriteId="food_bowl" x="1830" y="350 " />
+		<item type="food" spriteId="food_bowl" x="2075" y="245" />
+		<item type="food" spriteId="food_bowl" x="2080" y="425" />
+		<item type="food" spriteId="food_bowl" x="2490" y="425" />
+		<item type="food" spriteId="food_bowl" x="2560" y="425" />
+		<item type="food" spriteId="food_bowl" x="2730" y="425" />
+		
+		<item type="food" spriteId="food_bowl" x="2930" y="425" />
+		<item type="food" spriteId="food_bowl" x="2980" y="425" />
+		<item type="food" spriteId="food_bowl" x="3035" y="425" />
+		<item type="food" spriteId="food_bowl" x="3020" y="260" />
+		<item type="food" spriteId="food_bowl" x="3130" y="210" />
+		<item type="food" spriteId="food_bowl" x="3250" y="160" />
+		<item type="food" spriteId="food_bowl" x="3495" y="170" />
+		<item type="food" spriteId="food_bowl" x="4000" y="195" />
+		<item type="food" spriteId="food_bowl" x="4530" y="210" />
+	
+
+		
+
+	<!--red_shoe-->	
+		<item type="special" spriteId="red_shoe" x="275" y="175" />
+	<!--blue_shoe-->	
+		<item type="special" spriteId="blue_shoe" x="1436" y="210" />
+	<!--gold_shoe-->	
+		<item type="special" spriteId="gold_shoe" x="2630" y="100" />
+	<!--golden_snail-->	
+		<item type="special" spriteId="golden_snail" x="4260" y="30" />	
+	
+	<!--karen-->		
+		<item type="badGuy" spriteId="karen" x="540" y="360" span="550" />
+		<item type="badGuy" spriteId="karen" x="1690" y="360" span="470" />
+		<item type="badGuy" spriteId="karen" x="2510" y="360" span="550" />	
+		<item type="badGuy" spriteId="karen" x="2540" y="100" span="315" />
+		<item type="badGuy" spriteId="karen" x="3870" y="360" span="400" />
+		<item type="badGuy" spriteId="karen" x="4750" y="360" span="450" />	
+	<!--hamburger-->		
+		<item type="badGuy" spriteId="hamburger" x="1200" y="405" span="680" />
+		<item type="badGuy" spriteId="hamburger" x="2090" y="405" span="485" />
+		<item type="badGuy" spriteId="hamburger" x="2970" y="405" span="600" />	
+		<item type="badGuy" spriteId="hamburger" x="4240" y="405" span="460" />			
+				
+		
+	</objects>
+	
+	<foreground>
+	<!--seaweed_rock
+		<item type="foreground" spriteId="seaweed_rock" x="150" y="404" />-->
+		
+	</foreground>
+
+<safezones>
+		<point x="325" y="0" />
+		<point x="900" y="0" />
+		<point x="1616" y="0" />
+		<point x="2958" y="0" />
+		<point x="4250" y="0" />
+		<point x="4630" y="0" />
+		<point x="5221" y="0" />
+	</safezones>
+
+
+</level>

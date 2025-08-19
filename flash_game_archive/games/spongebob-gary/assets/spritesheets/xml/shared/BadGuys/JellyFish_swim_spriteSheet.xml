@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+
+<!--Bad Guy Animation -->
+
+<group id="jellyfish">
+		<animation looping="true" autorun="true" speed="100" />
+		<sprites>
+<!-- Frame_1 --><sprite x="0" y="525" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_2 --><sprite x="300" y="450" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_3 --><sprite x="225" y="450" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_4 --><sprite x="150" y="450" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_5 --><sprite x="75" y="450" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_6 --><sprite x="0" y="450" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_7 --><sprite x="300" y="375" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_8 --><sprite x="225" y="375" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_9 --><sprite x="150" y="375" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_10 --><sprite x="75" y="375" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_11 --><sprite x="0" y="375" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_12 --><sprite x="300" y="300" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_13 --><sprite x="225" y="300" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_14 --><sprite x="150" y="300" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_15 --><sprite x="75" y="300" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_16 --><sprite x="0" y="300" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_17 --><sprite x="300" y="225" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_18 --><sprite x="225" y="225" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_19 --><sprite x="150" y="225" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_20 --><sprite x="75" y="225" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_21 --><sprite x="0" y="225" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_22 --><sprite x="300" y="150" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_23 --><sprite x="225" y="150" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_24 --><sprite x="150" y="150" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_25 --><sprite x="75" y="150" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_26 --><sprite x="0" y="150" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_27 --><sprite x="300" y="75" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_28 --><sprite x="225" y="75" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_29 --><sprite x="150" y="75" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_30 --><sprite x="75" y="75" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_31 --><sprite x="0" y="75" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_32 --><sprite x="300" y="0" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_33 --><sprite x="225" y="0" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_34 --><sprite x="150" y="0" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_35 --><sprite x="75" y="0" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_36 --><sprite x="0" y="0" width="75" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>										
+				
+	
+</spritesheet>
+	
+	
+	
+	
+	

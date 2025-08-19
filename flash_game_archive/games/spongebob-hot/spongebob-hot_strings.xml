@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+
+<strings>
+	<localization>
+		<coinPromptGoBuyThe><![CDATA[Go buy the ice cream.]]></coinPromptGoBuyThe>
+		<btnYes><![CDATA[Yes]]></btnYes>
+		<btnViewScore><![CDATA[View Score]]></btnViewScore>
+		<btnSubmitScore><![CDATA[Submit Score]]></btnSubmitScore>
+		<btnResume><![CDATA[RESUME]]></btnResume>
+		<btnQuit><![CDATA[QUIT]]></btnQuit>
+		<btnPlayAgain><![CDATA[PLAY AGAIN]]></btnPlayAgain>
+		<btnNo><![CDATA[No]]></btnNo>
+		<btnNext><![CDATA[NEXT]]></btnNext>
+		<btnHelp><![CDATA[HELP]]></btnHelp>
+		<btnContinue><![CDATA[Continue]]></btnContinue>
+		<btnBack><![CDATA[BACK]]></btnBack>
+		<btnPlay><![CDATA[PLAY]]></btnPlay>
+		<btnClose><![CDATA[CLOSE]]></btnClose>
+		<meltedPopupOhNo><![CDATA[Oh No!]]></meltedPopupOhNo>
+		<meltedPopupOops><![CDATA[Oops!]]></meltedPopupOops>
+		<meltedPopupYikes><![CDATA[Yikes!]]></meltedPopupYikes>
+		<meltedPopupPatricksIceCreamMelted><![CDATA[Patrick's ice cream melted. Now you need to get another one.]]></meltedPopupPatricksIceCreamMelted>
+		<coinsPopupYikes><![CDATA[Yikes!]]></coinsPopupYikes>
+		<coinsPopupOops><![CDATA[Oops!]]></coinsPopupOops>
+		<coinsPopupOhNo><![CDATA[Oh No!]]></coinsPopupOhNo>
+		<coinsPopupYouNeedMoreCoins><![CDATA[You need more coins to buy Patrick an ice cream cone.]]></coinsPopupYouNeedMoreCoins>
+		<iceCreamPopupOneCherryandOnion><![CDATA[One cherry and onion cone coming right up. Hurry back before it melts!]]></iceCreamPopupOneCherryandOnion>
+		<iceCreamPopupYummy><![CDATA[Yummy!]]></iceCreamPopupYummy>
+		<iceCreamPopupOneStrawberry><![CDATA[One strawberry frozen cow juice coming right up. Hurry back before it melts!]]></iceCreamPopupOneStrawberry>
+		<iceCreamPopupTasty><![CDATA[Tasty!]]></iceCreamPopupTasty>
+		<iceCreamPopupOnePotatoChip><![CDATA[One potato chip and avocado cone coming right up.<br>Hurry back before it melts!]]></iceCreamPopupOnePotatoChip>
+		<iceCreamPopupSweet><![CDATA[Sweet!]]></iceCreamPopupSweet>
+		<patrickPopupButThisOneIsBroken><![CDATA[But this one is broken,<br>can I have another?]]></patrickPopupButThisOneIsBroken>
+		<patrickPopupYeah><![CDATA[Yeah!!!]]></patrickPopupYeah>
+		<patrickPopupWheeee><![CDATA[Wheeee!]]></patrickPopupWheeee>
+		<patrickPopupILoveMyIceCream><![CDATA[I love my ice cream cone hat, but it melted.<br>Can I have another?]]></patrickPopupILoveMyIceCream>
+		<patrickPopupItsGreat><![CDATA[It's Great!]]></patrickPopupItsGreat>
+		<uiScore><![CDATA[Score:]]></uiScore>
+		<quitConfirmationAreYouReallySure><![CDATA[Are you really sure you want to quit?]]></quitConfirmationAreYouReallySure>
+		<quitConfirmationBarnacles><![CDATA[Barnacles]]></quitConfirmationBarnacles>
+		<highScoresTableYou><![CDATA[You]]></highScoresTableYou>
+		<helpScreenPoolsAndTowels><![CDATA[pools and towels keep SpongeBob's feet from burning.]]></helpScreenPoolsAndTowels>
+		<helpScreenStayCool><![CDATA[STAY COOL]]></helpScreenStayCool>
+		<helpScreenGetTheCone><![CDATA[get the cone<br>to Patrick before it melts!]]></helpScreenGetTheCone>
+		<helpScreenHurry><![CDATA[HURRY]]></helpScreenHurry>
+		<helpScreenUseYourArrow><![CDATA[Use your arrow keys to move SpongeBob.]]></helpScreenUseYourArrow>
+		<helpScreenCoinsToBuy><![CDATA[coins to buy the ice cream cone. ]]></helpScreenCoinsToBuy>
+		<helpScreenCollect><![CDATA[COLLECT]]></helpScreenCollect>
+		<gameOverYourScore><![CDATA[Your Score: ]]></gameOverYourScore>
+		<gameOverHotSauce><![CDATA[Hot Sauce!]]></gameOverHotSauce>
+		<highScoresTableScore><![CDATA[Score]]></highScoresTableScore>
+		<highScoresTableNickName><![CDATA[NickName]]></highScoresTableNickName>
+		<highScoresTableRank><![CDATA[Rank]]></highScoresTableRank>
+		<highScoresTableHighScoresHeader><![CDATA[High Scores]]></highScoresTableHighScoresHeader>
+		<highScoresTableProblemConnectingToServer><![CDATA[Problem connecting to server,<br>please try again later.]]></highScoresTableProblemConnectingToServer>
+		<highScoresTableSendingScore><![CDATA[Sending Score...]]></highScoresTableSendingScore>
+		<highScoresTableLoadingScores><![CDATA[Loading Scores...]]></highScoresTableLoadingScores>
+		<gameLoaderLoading><![CDATA[Loading...]]></gameLoaderLoading>
+	</localization>
+</strings>
+
+	

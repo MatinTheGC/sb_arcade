@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<localization>		
+	
+	<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+	
+	<play_button>PLAY</play_button>
+	<score>SCORE</score>
+
+	<instructions>INSTRUCTIONS</instructions>
+	<instructions_copy_1>Mr. Krabs needs his money NOW! Bounce the patties into your safe and throw them up to knock them off the turtles.</instructions_copy_1>	
+	<instructions_copy_2>CLICK your mouse to launch patties up to the turtles.
+
+Use your mouse to move</instructions_copy_2>	
+	
+	<misses>MISSES</misses>
+	<patties>patties</patties>
+	<game_over>GAME OVER</game_over>
+	
+	<continue_button>continue</continue_button>
+	
+</localization>

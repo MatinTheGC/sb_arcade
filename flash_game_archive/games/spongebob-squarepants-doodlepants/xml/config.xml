@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+
+
+	// NICK GAME SETTING //
+	<property name="nick_highscores_available">		<![CDATA[true]]>						</property>
+	<property name="nick_highscores_hs_id">			<![CDATA[spongebob-squarepants-doodlepants-hsb]]>	</property>	
+	<property name="nick_game_id">					<![CDATA[spongebob-doodlepants]]>		</property>	
+
+	// GAMEPLAY PROPERTIES //
+	<!-- Counter effect speed -->
+	<property name="nHUD_SCORE_SPEED">				<![CDATA[25]]>		</property>
+
+	<!-- Starting -->
+	<property name="uSTARTING_LEVEL">				<![CDATA[1]]>		</property>
+	<property name="uSTARTING_LIVES">				<![CDATA[3]]>		</property>
+	<property name="uSTARTING_ENERGIES">			<![CDATA[5]]>		</property>
+
+
+
+	// SCORING //
+	<!-- Remaining -->
+	<property name="uSCORE_REMAINING_LIVE">			<![CDATA[500]]>		</property>
+	<property name="uSCORE_REMAINING_ENERGY">		<![CDATA[50]]>		</property>
+	<property name="uSCORE_REMAINING_ALL_ENERGY">	<![CDATA[1000]]>	</property>
+
+	<!-- Collectable -->
+	<property name="uSCORE_COMMON_COLLECTABLE">		<![CDATA[500]]>		</property>
+	<property name="uSCORE_UNIQUE_COLLECTABLE">		<![CDATA[5000]]>	</property>
+	
+	<!-- Enemies -->
+	<property name="uSCORE_ENEMY_DEFEATED">			<![CDATA[1000]]>	</property>
+	
+	<!-- Completion -->
+	<property name="uSCORE_LEVEL_COMPLETED">		<![CDATA[5000]]>	</property>
+	
+	<!-- Grade -->
+	<property name="uGRADE_MINIMUM_A_PLUS">			<![CDATA[100]]>	</property>
+	<property name="uGRADE_MINIMUM_A">				<![CDATA[90]]>	</property>
+	<property name="uGRADE_MINIMUM_B">				<![CDATA[80]]>	</property>
+	<property name="uGRADE_MINIMUM_C">				<![CDATA[70]]>	</property>
+	<property name="uGRADE_MINIMUM_D">				<![CDATA[60]]>	</property>
+	<!--<property name="uGRADE_MINIMUM_E">				<![CDATA[50]]>	</property>-->
+	<property name="uGRADE_MINIMUM_F">				<![CDATA[0]]>	</property>
+	
+
+	// VOLUME SETTING  //
+	<property name="nDEFAULT_VOLUME_MUSIC">			<![CDATA[0.7]]>		</property>
+	<property name="nDEFAULT_VOLUME_SOUNDS">		<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_POPUP_VOL_IN">			<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_POPUP_VOL_OUT">		<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_MOUSE_VOL_CLICK">		<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_MOUSE_VOL_ROLL">		<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_TRANSITION_VOL_IN">	<![CDATA[1]]>		</property>
+	<property name="nDEFAULT_TRANSITION_VOL_OUT">	<![CDATA[1]]>		</property>
+
+</config>

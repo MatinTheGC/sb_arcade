@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+
+	<!-- STOMPER -->
+	
+<group id="stomper">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="0" y="0" width="82" height="476" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>		
+
+</spritesheet>
+	
+	
+	
+	
+	

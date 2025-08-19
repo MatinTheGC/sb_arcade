@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+	<loc_instructions_controls>Catch SAND with your BUCKET, until it GLOWS. 
+
+Then, CLICK to dump sand on your castle or enemies!</loc_instructions_controls>
+	<loc_instructions_next>NEXT</loc_instructions_next>
+	<loc_instructions_title>HOW TO PLAY</loc_instructions_title>
+	<loc_payoff_continue>CONTINUE</loc_payoff_continue>
+	<loc_payoff_title>GAME OVER</loc_payoff_title>
+	<loc_score>SCORE</loc_score>
+	<loc_ui_sand>Collect more sand!</loc_ui_sand>
+	<loc_ui_wave>WAVE</loc_ui_wave>
+	<loc_splash_play>PLAY</loc_splash_play>
+	<loc_splash_watch>Watch "SpongeBob SquarePants" on Nickelodeon!</loc_splash_watch>
+</localization>

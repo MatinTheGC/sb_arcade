@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<data>
+	<!-- flashvars -->
+	<params>
+		<param name="strings" param="strings" defaultValue="spongebob-bigone-strings.xml" />
+		<param name="isInternational" param="isInternational" defaultValue="false" />
+	</params>
+	<settings>
+		<devMode value="0" />
+		<musicVolume value="0.8" />
+		<startLevel value="0" />
+		<keyFixPath><![CDATA[KeyCaptureFix.swf]]></keyFixPath>
+		
+		<nickScore>
+			<enabled value="1" />
+			<id>spongebob-bigone-hsb</id>
+			<debug value="0" />
+			<serviceLink value="http://www.nick.com" />
+		</nickScore>
+		<nickPoints>
+			<enabled value="1" />
+			<campaignId>spongebob-bigone-nps</campaignId>
+			<path>nickpoints_test_module/NickPoints_Module_build.swf</path>
+			<events>
+				<event name="np_trickcombo1">
+					<!-- NP submitted to the module -->
+					<tricks>3</tricks>
+					<name>trickcombo1</name>
+				</event>
+				<event name="np_trickcombo2">
+					<!-- NP submitted to the module -->
+					<tricks>4</tricks>
+					<name>trickcombo2</name>
+				</event>
+				<event name="np_trickcombo3">
+					<!-- NP submitted to the module -->
+					<tricks>5</tricks>
+					<name>trickcombo3</name>
+				</event>
+			</events>
+			<promo>
+				<img>spobob_gnarly.jpg</img>
+				<url target="_blank">http://www.spongebob.nick.com/games/play/spongebob-gnarly/</url>
+			</promo>
+		</nickPoints>
+		
+		<scoreGoodLevel>20000</scoreGoodLevel>
+		<scoreGreatLevel>40000</scoreGreatLevel>
+		
+		
+		<levelScoreStart>4000</levelScoreStart>
+		<levelScoreRamp>3000</levelScoreRamp>
+		
+		<!-- Game Settings -->
+		<!-- Seconds between item on level one. -->
+		<itemFrequency>6</itemFrequency>
+		<!-- Lower numbers will increase the frequency faster as levels progress. -->
+		<itemFrequencySlant>6</itemFrequencySlant>
+		
+		<trickAirVPS>25</trickAirVPS>
+		
+		<trickRipChordVPS>100</trickRipChordVPS>
+		<trickHang12VPS>100</trickHang12VPS>
+		<trickRollVPS>100</trickRollVPS>
+		<trickBurnVPS>100</trickBurnVPS>
+		
+	</settings>
+</data>

@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+
+<config>
+	
+	<version>
+		<!-- "false" will enable high score viewing/submission. "true" will disable high score viewing/submission.  -->
+		<isInternational>false</isInternational>
+	</version>
+
+	<highScore>
+		
+		<!-- Debug mode. Force user to be logged in with the username of "DEBUG_USER". -->
+		<debug>false</debug>
+		
+		<userPath>http://www.nick.com/games/common/user_name/getUserInfo.jhtml</userPath>
+		<scorePath>http://www.nick.com/common/score/Scoreboard.jhtml</scorePath>
+		<gameID>sb_snatchers</gameID>
+		
+	</highScore>
+	
+	<gameSettings>
+	
+		<startingbudget>250</startingbudget>
+		<dmgupgrademult>1.5</dmgupgrademult>
+		<rangeupgrademulti>1.15</rangeupgrademulti>
+		<basebotvalue>4</basebotvalue>
+		<lifebonus difficulty="easy">250</lifebonus>
+		<lifebonus difficulty="medium">500</lifebonus>
+		<lifebonus difficulty="hard">1000</lifebonus>
+		<botsperwave>12</botsperwave>
+		
+		<spawnpoint>
+			<x>55</x>
+			<y>0</y>
+		</spawnpoint>
+		
+		<towerdata>
+			<tower type="0">
+				<basedmg>36</basedmg>
+				<basespeed>.5</basespeed><!-->Tower firing rate<!-->
+				<baserange>75</baserange>
+				<basecost>100</basecost>
+				<upgradecost>80</upgradecost>
+			</tower>
+			<tower type="1">
+				<basedmg>300</basedmg><!-->Damage per second<!-->
+				<basespeed>1</basespeed><!-->Tower firing rate<!-->
+				<baserange>50</baserange>
+				<basecost>200</basecost>
+				<upgradecost>150</upgradecost>
+			</tower>
+			<tower type="2">
+				<basedmg>50</basedmg>
+				<basespeed>1</basespeed><!-->Tower firing rate<!-->
+				<baserange>90</baserange>
+				<basecost>300</basecost>
+				<upgradecost>200</upgradecost>
+			</tower>
+			<tower type="3">
+				<basedmg>400</basedmg>
+				<basespeed>2</basespeed><!-->Tower firing rate<!-->
+				<baserange>120</baserange>
+				<basecost>400</basecost>
+				<upgradecost>250</upgradecost>
+			</tower>
+		</towerdata>
+		
+		<projectiledata>
+			<projectile type="0">
+				<basedmg>50</basedmg>
+				<basespeed>75</basespeed>
+			</projectile>
+			<projectile type="1">
+				<basedmg>50</basedmg>
+				<basespeed>75</basespeed>
+			</projectile>
+			<projectile type="2">
+				<basedmg>50</basedmg>
+				<basespeed>75</basespeed>
+			</projectile>
+			<projectile type="3">
+				<basedmg>50</basedmg>
+				<basespeed>75</basespeed>
+			</projectile>
+		</projectiledata>
+		
+		
+		
+		<enemydata>
+		
+			<enemy type="0">
+				<basespeed>35</basespeed>
+				<basehealth>100</basehealth>
+			</enemy>
+			<enemy type="1">
+				<basespeed>50</basespeed>
+				<basehealth>100</basehealth>
+			</enemy>
+			<enemy type="2">
+				<basespeed>20</basespeed>
+				<basehealth>100</basehealth>
+			</enemy>
+			<enemy type="3">
+				<basespeed>30</basespeed>
+				<basehealth>150</basehealth>
+			</enemy>
+		</enemydata>
+		
+		<wavegroups>
+			<group difficulty="easy">
+				<wave multiplier="1">0</wave>
+				<wave multiplier="2">1</wave>
+				<wave multiplier="3.2">0</wave>
+				<wave multiplier="4.4">3</wave>
+				<wave multiplier="5.7">0</wave>
+				<wave multiplier="7">2</wave>
+				<wave multiplier="8.3">0</wave>
+				<wave multiplier="9.6">3</wave>
+				<wave multiplier="10.9">2</wave>
+				<wave multiplier="12.2">0</wave>
+				<wave multiplier="13.5">1</wave>
+				<wave multiplier="14.8">3</wave>
+				<wave multiplier="16.1">0</wave>
+				<wave multiplier="17.4">1</wave>
+				<wave multiplier="18.7">2</wave>
+				<wave multiplier="20">0</wave>
+				<wave multiplier="21.3">1</wave>
+				<wave multiplier="22.6">3</wave>
+			</group>
+			<group difficulty="medium">
+				<wave multiplier="1">0</wave>
+				<wave multiplier="2">1</wave>
+				<wave multiplier="3.3">0</wave>
+				<wave multiplier="4.6">3</wave>
+				<wave multiplier="5.9">0</wave>
+				<wave multiplier="7.2">2</wave>
+				<wave multiplier="8.5">0</wave>
+				<wave multiplier="9.8">3</wave>
+				<wave multiplier="11.1">1</wave>
+				<wave multiplier="12.4">0</wave>
+				<wave multiplier="13.7">2</wave>
+				<wave multiplier="15">3</wave>
+				<wave multiplier="16.3">0</wave>
+				<wave multiplier="17.6">1</wave>
+				<wave multiplier="18.9">2</wave>
+				<wave multiplier="20.2">0</wave>
+				<wave multiplier="21.5">3</wave>
+				<wave multiplier="22.8">0</wave>
+				<wave multiplier="24.1">1</wave>
+				<wave multiplier="25.4">3</wave>
+			</group>
+			<group difficulty="hard">
+				<wave multiplier="1">0</wave>
+				<wave multiplier="2">3</wave>
+				<wave multiplier="3.3">1</wave>
+				<wave multiplier="4.6">0</wave>
+				<wave multiplier="5.9">3</wave>
+				<wave multiplier="7.2">2</wave>
+				<wave multiplier="8.5">0</wave>
+				<wave multiplier="9.8">3</wave>
+				<wave multiplier="11.1">2</wave>
+				<wave multiplier="12.4">1</wave>
+				<wave multiplier="13.7">0</wave>
+				<wave multiplier="15">3</wave>
+				<wave multiplier="16.3">0</wave>
+				<wave multiplier="17.6">1</wave>
+				<wave multiplier="18.9">2</wave>
+				<wave multiplier="20.2">0</wave>
+				<wave multiplier="21.5">3</wave>
+				<wave multiplier="22.8">0</wave>
+				<wave multiplier="24.1">3</wave>
+				<wave multiplier="25.4">0</wave>
+				<wave multiplier="27.2">1</wave>
+				<wave multiplier="29">2</wave>
+			</group>
+		</wavegroups>
+		
+		<maps>
+			<map difficulty="easy">
+				<node>
+					<x>55</x>
+					<y>100</y>
+				</node>
+				<node>
+					<x>55</x>
+					<y>165</y>
+				</node>
+				<node>
+					<x>195</x>
+					<y>165</y>
+				</node>
+				<node>
+					<x>195</x>
+					<y>240</y>
+				</node>
+				<node>
+					<x>55</x>
+					<y>240</y>
+				</node>
+				<node>
+					<x>55</x>
+					<y>350</y>
+				</node>
+				<node>
+					<x>160</x>
+					<y>350</y>
+				</node>
+				<node>
+					<x>160</x>
+					<y>310</y>
+				</node>
+				<node>
+					<x>270</x>
+					<y>310</y>
+				</node>
+				<node>
+					<x>270</x>
+					<y>95</y>
+				</node>
+				<node>
+					<x>378</x>
+					<y>95</y>
+				</node>
+				<node>
+					<x>378</x>
+					<y>380</y>
+				</node>
+			</map>
+			<map difficulty="medium">
+				<node>
+					<x>55</x>
+					<y>100</y>
+				</node>
+				<node>
+					<x>55</x>
+					<y>130</y>
+				</node>
+				<node>
+					<x>195</x>
+					<y>130</y>
+				</node>
+				<node>
+					<x>195</x>
+					<y>95</y>
+				</node>
+				<node>
+					<x>380</x>
+					<y>95</y>
+				</node>
+				<node>
+					<x>380</x>
+					<y>240</y>
+				</node>
+				<node>
+					<x>165</x>
+					<y>240</y>
+				</node>
+				<node>
+					<x>165</x>
+					<y>205</y>
+				</node>
+				<node>
+					<x>95</x>
+					<y>205</y>
+				</node>
+				<node>
+					<x>95</x>
+					<y>345</y>
+				</node>
+				<node>
+					<x>273</x>
+					<y>345</y>
+				</node>
+				<node>
+					<x>273</x>
+					<y>310</y>
+				</node>
+				<node>
+					<x>380</x>
+					<y>310</y>
+				</node>
+				<node>
+					<x>380</x>
+					<y>380</y>
+				</node>
+			</map>
+			<map difficulty="hard">
+				<node>
+					<x>55</x>
+					<y>100</y>
+				</node>
+				<node>
+					<x>55</x>
+					<y>345</y>
+				</node>
+				<node>
+					<x>198</x>
+					<y>345</y>
+				</node>
+				<node>
+					<x>198</x>
+					<y>310</y>
+				</node>
+				<node>
+					<x>270</x>
+					<y>310</y>
+				</node>
+				<node>
+					<x>270</x>
+					<y>205</y>
+				</node>
+				<node>
+					<x>200</x>
+					<y>205</y>
+				</node>
+				<node>
+					<x>200</x>
+					<y>95</y>
+				</node>
+				<node>
+					<x>378</x>
+					<y>95</y>
+				</node>
+				<node>
+					<x>378</x>
+					<y>380</y>
+				</node>
+			</map>
+		</maps>
+		
+	</gameSettings>
+	
+	
+
+	<localization>
+	<game_help_4><![CDATA[Click Start to bring on the Chum-bots!]]></game_help_4>
+	<game_help_3><![CDATA[If too many Chum-bots reach the Krusty Krab you'll lose. ]]></game_help_3>
+	<game_help_2><![CDATA[You'll earn more money every time a Chum-bot is destroyed. ]]></game_help_2>
+	<game_help_1><![CDATA[Click to buy units and place them on the map. ]]></game_help_1>
+	<btn_get_started><![CDATA[Engage! ]]></btn_get_started>
+	<ui_pickle_price><![CDATA[Price: ]]></ui_pickle_price>
+	<ui_pickle_info><![CDATA[Super fast shooter. Ground and air targets. ]]></ui_pickle_info>
+	<ui_pickle_header><![CDATA[Pickle Flicker]]></ui_pickle_header>
+	<ui_upgrade_level><![CDATA[Upgrade Level]]></ui_upgrade_level>
+	<ui_ketchup_price><![CDATA[Price: ]]></ui_ketchup_price>
+	<ui_ketchup_info><![CDATA[Damages a whole area. Ground targets. ]]></ui_ketchup_info>
+	<ui_ketchup_header><![CDATA[Ketchup Cannon]]></ui_ketchup_header>
+	<ui_lettuce_price><![CDATA[Price:]]></ui_lettuce_price>
+	<ui_lettuce_info><![CDATA[Freezes Chum-bots. Ground targets. ]]></ui_lettuce_info>
+	<ui_lettuce_header><![CDATA[Lettuce Catapult]]></ui_lettuce_header>
+	<ui_spork_price><![CDATA[]]></ui_spork_price>
+	<ui_spork_description><![CDATA[Quick 'n heavy damage. Ground and air targets. ]]></ui_spork_description>
+	<ui_spork_title><![CDATA[Spork Crossbow]]></ui_spork_title>
+	<btn_sell><![CDATA[Sell ]]></btn_sell>
+	<btn_upgrade><![CDATA[Upgrade  ]]></btn_upgrade>
+	<ui_range_meter><![CDATA[Range]]></ui_range_meter>
+	<ui_damage_meter><![CDATA[Damage]]></ui_damage_meter>
+	<ui_bully_bot><![CDATA[Bully-bots]]></ui_bully_bot>
+	<ui_flyer_bot><![CDATA[Flyer-bots]]></ui_flyer_bot>
+	<ui_speedy_bot><![CDATA[Speedy-bots]]></ui_speedy_bot>
+	<ui_common_bot><![CDATA[Common-bots]]></ui_common_bot>
+	<ui_level><![CDATA[Level]]></ui_level>
+	<ui_budget><![CDATA[Budget]]></ui_budget>
+	<ui_score><![CDATA[Score]]></ui_score>
+	<btn_submit_score_2><![CDATA[Submit Score]]></btn_submit_score_2>
+	<btn_view_scores_2><![CDATA[View Scores]]></btn_view_scores_2>
+	<btn_play_again_2><![CDATA[Play Again]]></btn_play_again_2>
+	<game_win_2><![CDATA[You won!]]></game_win_2>
+	<game_win_1><![CDATA[You saved the Krusty Krab!]]></game_win_1>
+	<game_win_final_score><![CDATA[Final Score]]></game_win_final_score>
+	<game_over_lose_3><![CDATA[...or try again.]]></game_over_lose_3>
+	<game_over_lose_2><![CDATA[Flee in shame!]]></game_over_lose_2>
+	<game_over_lose_1><![CDATA[You lost!]]></game_over_lose_1>
+	<btn_play_again><![CDATA[Play Again ]]></btn_play_again>
+	<help_3><![CDATA[To save the Krusty Krab you must defeat all of the Chum-bots!]]></help_3>
+	<help_2><![CDATA[Units will automatically damage any Chum-bots in range.]]></help_2>
+	<help_1><![CDATA[Click and drag to strategically place units on your map. ]]></help_1>
+	<help_how_to_play><![CDATA[How to Play]]></help_how_to_play>
+	<btn_hard><![CDATA[Hard ]]></btn_hard>
+	<btn_medium><![CDATA[Medium]]></btn_medium>
+	<btn_easy><![CDATA[Easy ]]></btn_easy>
+	<map_select_message><![CDATA[Select a map:]]></map_select_message>
+	<map_header_1><![CDATA[Ready to save the Krusty Krab?]]></map_header_1>
+	<intro_header_1><![CDATA[Horror!]]></intro_header_1>
+	<intro_header_2><![CDATA[Plankton has created a robotic army! ]]></intro_header_2>
+	<intro_txt_2><![CDATA[Grab your spatula, ketchup, lettuce and spork and prepare to defend the secret Krabby Patty recipe! ]]></intro_txt_2>
+	<intro_txt_1><![CDATA[Hordes of Chum-bots are lumbering down the road, closing in on the Krusty Krab. ]]></intro_txt_1>
+	<btn_next><![CDATA[Next ]]></btn_next>
+	<btn_view_scores><![CDATA[View Scores]]></btn_view_scores>
+	<btn_play><![CDATA[Play]]></btn_play>
+	<txt_loading_scores><![CDATA[Loading Scores...]]></txt_loading_scores>
+	<txt_sending_scores><![CDATA[Sending Scores...]]></txt_sending_scores>
+	<txt_connecting_error><![CDATA[Problem connecting to server, please try again later.]]></txt_connecting_error>
+	<txt_high_scores><![CDATA[High Scores]]></txt_high_scores>
+	<txt_you><![CDATA[You]]></txt_you>
+	<txt_rank><![CDATA[Rank]]></txt_rank>
+	<txt_name><![CDATA[Name]]></txt_name>
+	<txt_score><![CDATA[Score]]></txt_score>
+
+</localization>
+	
+</config>

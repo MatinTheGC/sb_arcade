@@ -1,0 +1,400 @@
+<levelData>
+	<itemData>
+
+		<level1 filterWaterLevel="25" levelLocation="KRUSTYKRAB">
+			<obj item="gameTime" x="" y="" misc="45"></obj>
+			<obj item="player" x="9" y="10" misc="0"></obj>
+			<!--<obj item="tornado" x="11" y="7" misc="0" delay="5000" numOfMoves="10"></obj>-->
+			<!--<obj item="wandering" x="11" y="7" misc="0"></obj>-->
+
+			<obj item="rightpipe" x="8" y="9" misc="1"></obj>
+			<obj item="leftpipe" x="14" y="9" misc="1"></obj>
+			<obj item="rinseStation" x="11" y="11" misc="1"></obj>
+
+
+			<obj item="chumBucket" x="12" y="16" misc="1"></obj>
+			<obj item="billboard" x="6" y="13" misc="1"></obj>
+			<obj item="krustykrab" x="9" y="6" misc="1"></obj>
+			<obj item="krustykrabsign" x="8" y="7" misc="1"></obj>
+			<obj item="rightfacingcliff" x="6" y="14" misc="1"></obj>
+			<obj item="leftfacinghill" x="17" y="9" misc="1"></obj>
+			<obj item="rightfacinghill" x="8" y="18" misc="1"></obj>
+
+
+			<!--KELP AND STUFF-->
+			<obj item="bluekelprowy" x="6" y="7" misc="2"></obj>
+			<obj item="bluekelprowx" x="7" y="15" misc="3"></obj>
+			<obj item="whitekelprowy" x="13" y="5" misc="3"></obj>
+			<obj item="whitekelprowy" x="4" y="8" misc="1"></obj>
+			<obj item="whitekelprowy" x="4" y="10" misc="1"></obj>
+			<obj item="redkelprowy" x="8" y="13" misc="1"></obj>
+			<obj item="redkelprowy" x="11" y="16" misc="1"></obj>
+			<obj item="redkelprowy" x="9" y="2" misc="1"></obj>
+
+
+		</level1>
+
+		<level2 filterWaterLevel="50" levelLocation="BIKININEIGHBORHOOD" pwrUpMinDur="10000" pwrUpMaxDur="12000" pwrUpMinDel="4000" pwrUpMaxDel="5000">
+			<!-- Game Variables -->
+			<obj item="gameTime" x="" y="" misc="90"></obj>
+			<obj item="speedPowerupInfo"  y="" misc=""></obj>
+
+			<obj item="player" x="9" y="10" misc="0"></obj>
+			<obj item="wandering" x="11" y="7" misc="0"></obj>
+
+			<!-- Pipes -->
+			<obj item="leftpipe" x="5" y="6" misc="1"></obj>
+			<obj item="rightpipe" x="8" y="16" misc="1"></obj>
+			<obj item="leftpipe" x="15" y="8" misc="1"></obj>
+
+			<!-- World Objects -->
+			<obj item="rinseStation" x="10" y="10" misc="1"></obj>
+
+			<obj item="patrickhouse" x="7" y="6" misc="1"></obj>
+			<obj item="pineapplehouse" x="12" y="5" misc="1"></obj>
+			<obj item="squidwardhouse" x="9" y="6" misc="1"></obj>
+			<obj item="rightfacingcliff" x="7" y="15" misc="1"></obj>
+			<obj item="billboard" x="6" y="13" misc="1"></obj>
+
+
+			<!--KELP AND STUFF-->
+			<obj item="whitekelprowy" x="13" y="5" misc="1"></obj>
+			<obj item="whitekelprowy" x="13" y="7" misc="1"></obj>
+			<obj item="whitekelprowy" x="7" y="8" misc="1"></obj>
+			<obj item="redkelprowy" x="8" y="13" misc="1"></obj>
+			<obj item="medpinkcoralx" x="12" y="16" misc="1"></obj>
+			<obj item="medpinkcoralx" x="10" y="14" misc="1"></obj>
+			<obj item="medpinkcoralx" x="12" y="10" misc="1"></obj>
+		</level2>
+
+
+		<level3 filterWaterLevel="75"  levelLocation="NIGHTBACKGROUND" pwrUpMinDur="10000" pwrUpMaxDur="12000" pwrUpMinDel="4000" pwrUpMaxDel="5000">
+			<!-- Game Variables -->
+			<obj item="gameTime" x="" y="" misc="90"></obj>
+			<obj item="player" x="9" y="10" misc="0"></obj>
+			<!--<obj item="wandering" x="11" y="7" misc="0"></obj>-->
+			<!--Put this is for GOLD-->
+			<obj item="wandering" x="11" y="7" misc="0"></obj>
+
+			<!-- Pipes -->
+			<obj item="leftpipe" x="5" y="8" misc="2"></obj>
+
+ 			<obj item="tpipe" x="14" y="11" misc="1"></obj>
+
+			<!-- World Objects -->
+			<obj item="rinseStation" x="9" y="7" misc="1"></obj>
+		<!--	<obj item="chumBucket" x="12" y="16" misc="1"></obj>
+			<obj item="billboard" x="6" y="13" misc="1"></obj>
+			<obj item="krustykrab" x="9" y="6" misc="1"></obj>
+			<obj item="krustykrabsign" x="8" y="7" misc="1"></obj>
+			<obj item="rightfacingcliff" x="6" y="14" misc="1"></obj>
+			<obj item="leftfacinghill" x="16" y="8" misc="1"></obj>-->
+
+
+			<!--KELP AND STUFF-->
+		<!--	<obj item="bluekelprowy" x="6" y="7" misc="2"></obj>
+			<obj item="bluekelprowx" x="7" y="15" misc="2"></obj>
+			<obj item="bluekelprowx" x="11" y="15" misc="1"></obj>
+			<obj item="redkelprowy" x="8" y="13" misc="1"></obj>
+			<obj item="redkelprowy" x="7" y="16" misc="1"></obj>
+			<obj item="redkelprowy" x="9" y="2" misc="1"></obj>-->
+			<obj item="cakehouse" x="16" y="8" misc="1"></obj>
+			<obj item="cylinderhouse" x="7" y="16" misc="1"></obj>
+			<obj item="recthouse" x="7" y="9" misc="1"></obj>
+			<obj item="stlamp1" x="8" y="10" misc="1"></obj>
+			<obj item="stlamp2" x="13" y="11" misc="1"></obj>
+			<obj item="stlamp2" x="13" y="15" misc="1"></obj>
+
+			<obj item="medpinkcoralx" x="10" y="16" misc="1"></obj>
+			<obj item="medpinkcoralx" x="8" y="14" misc="1"></obj>
+			<obj item="medpinkcoralx" x="14" y="10" misc="1"></obj>
+
+		</level3>
+
+		<level4 filterWaterLevel="100"  levelLocation="KRUSTYKRAB" pwrUpMinDur="10000" pwrUpMaxDur="12000" pwrUpMinDel="4000" pwrUpMaxDel="5000">
+			<!-- Game Variables -->
+			<obj item="gameTime" x="" y="" misc="90"></obj>
+
+			<obj item="player" x="9" y="10" misc="0"></obj>
+			<obj item="wandering" x="11" y="7" misc="0"></obj>
+
+			<obj item="rinseStation" x="10" y="11" misc="1"></obj>
+			<obj item="leftpipe" x="10" y="7" misc="1"></obj>
+			<obj item="leftpipe" x="5" y="6" misc="2"></obj>
+			<obj item="leftpipe" x="14" y="7" misc="1"></obj>
+			<obj item="rightpipe" x="13" y="13" misc="2"></obj>
+			<!--<obj item="rightpipe" x="9" y="14" misc="1"></obj>-->
+
+
+			<obj item="chumBucket" x="12" y="16" misc="1"></obj>
+			<obj item="billboard" x="6" y="13" misc="1"></obj>
+			<obj item="krustykrab" x="9" y="6" misc="1"></obj>
+			<obj item="krustykrabsign" x="8" y="7" misc="1"></obj>
+			<obj item="rightfacingcliff" x="6" y="14" misc="1"></obj>
+			<obj item="leftfacinghill" x="17" y="9" misc="1"></obj>
+
+
+			<!--CORAL DATA-->
+			<obj item="darkpinkcoralx" x="7" y="11" misc="2"></obj>
+			<obj item="darkpinkcoralx" x="4" y="11" misc="2"></obj>
+			<obj item="medpinkcoralx" x="11" y="11" misc="3"></obj>
+			<obj item="lightpinkcoralx" x="9" y="16" misc="1"></obj>
+			<obj item="lightpinkcoralx" x="15" y="11" misc="1"></obj>
+
+		</level4>
+
+
+		<level5 filterWaterLevel="125"  levelLocation="BIKININEIGHBORHOOD" pwrUpMinDur="10000" pwrUpMaxDur="12000" pwrUpMinDel="4000" pwrUpMaxDel="5000">
+			<!-- Game Variables -->
+			<obj item="gameTime" x="" y="" misc="105"></obj>
+
+
+			<obj item="player" x="9" y="10" misc="0"></obj>
+			<obj item="wandering" x="11" y="7" misc="0"></obj>
+			<!--<obj item="tornado" x="11" y="7" misc="0" delay ="5000" numOfMoves="4"></obj>-->
+
+			<obj item="rinseStation" x="9" y="16" misc="1"></obj>
+			<obj item="leftpipe" x="11" y="10" misc="2"></obj>
+			<obj item="leftpipe" x="15" y="10" misc="1"></obj>
+			<obj item="rightpipe" x="6" y="8" misc="2"></obj>
+			<obj item="rightpipe" x="10" y="8" misc="1"></obj>
+
+			<obj item="patrickhouse" x="7" y="6" misc="1"></obj>
+			<obj item="pineapplehouse" x="12" y="5" misc="1"></obj>
+			<obj item="squidwardhouse" x="9" y="6" misc="1"></obj>
+			<obj item="rightfacingcliff" x="7" y="15" misc="1"></obj>
+			<obj item="billboard" x="6" y="13" misc="1"></obj>
+
+			<!--CORAL DATA-->
+			<obj item="darkpinkcoralx" x="6" y="11" misc="2"></obj>
+			<obj item="darkpinkcoralx" x="3" y="11" misc="1"></obj>
+			<obj item="darkpinkcoralx" x="3" y="5" misc="1"></obj>
+			<obj item="darkpinkcoralx" x="7" y="3" misc="8"></obj>
+			<obj item="medpinkcoralx" x="11" y="14" misc="1"></obj>
+			<obj item="medpinkcoralx" x="14" y="13" misc="1"></obj>
+			<obj item="lightpinkcoralx" x="10" y="16" misc="1"></obj>
+			<obj item="lightpinkcoralx" x="15" y="7" misc="1"></obj>
+			<obj item="lightpinkcoralx" x="12" y="10" misc="3"></obj>
+
+		</level5>
+
+
+		<level6 filterWaterLevel="130"  levelLocation="NIGHTBACKGROUND" pwrUpMinDur="10000" pwrUpMaxDur="12000" pwrUpMinDel="4000" pwrUpMaxDel="5000">
+			<!-- Game Variables -->
+			<obj item="gameTime" x="" y="" misc="105"></obj>
+
+			<obj item="player" x="9" y="10" misc="0"></obj>
+			<obj item="wandering" x="11" y="7" misc="0"></obj>
+			<obj item="tornado" x="11" y="7" misc="0" delay ="5000" numOfMoves="4"></obj>
+			<!--<obj item="tornado" x="11" y="10" misc="0" delay ="5000" numOfMoves="4"></obj>-->
+			<obj item="rinseStation" x="11" y="10" misc="1"></obj>
+
+			<obj item="rightpipe" x="8" y="8" misc="1"></obj>
+			<obj item="rightpipe" x="11" y="7" misc="2"></obj>
+			<obj item="rightpipe" x="13" y="9" misc="1"></obj>
+			<obj item="leftpipe" x="14" y="10" misc="1"></obj>
+			<obj item="leftpipe" x="13" y="12" misc="1"></obj>
+			<obj item="leftpipe" x="10" y="13" misc="1"></obj>
+
+			<obj item="leftpipe" x="8" y="10" misc="1"></obj>
+
+
+			<!--<obj item="patrickhouse" x="7" y="6" misc="1"></obj>
+			<obj item="pineapplehouse" x="12" y="5" misc="1"></obj>
+			<obj item="squidwardhouse" x="9" y="6" misc="1"></obj>
+			<obj item="rightfacingcliff" x="7" y="15" misc="1"></obj>
+			<obj item="billboard" x="6" y="13" misc="1"></obj>-->
+
+			<!--CORAL DATA-->
+			<obj item="darkpinkcoralx" x="3" y="10" misc="1"></obj>
+			<obj item="darkpinkcoralx" x="3" y="4" misc="1"></obj>
+
+
+			<obj item="lightpinkcoralx" x="10" y="16" misc="1"></obj>
+			<obj item="lightpinkcoralx" x="15" y="6" misc="1"></obj>
+
+			<obj item="cakehouse" x="16" y="8" misc="1"></obj>
+			<obj item="cylinderhouse" x="7" y="16" misc="1"></obj>
+			<obj item="recthouse" x="7" y="9" misc="1"></obj>
+			<obj item="stlamp1" x="8" y="10" misc="1"></obj>
+			<obj item="stlamp2" x="13" y="11" misc="1"></obj>
+			<obj item="stlamp2" x="13" y="15" misc="1"></obj>
+
+		</level6>
+
+
+		<level7 filterWaterLevel="130"  levelLocation="KRUSTYKRAB" pwrUpMinDur="10000" pwrUpMaxDur="12000" pwrUpMinDel="4000" pwrUpMaxDel="5000">
+			<!-- Game Variables -->
+			<obj item="gameTime" x="" y="" misc="105"></obj>
+			<obj item="speedPowerupInfo"  y="" misc=""></obj>
+			<!--<obj item="tornado" x="7" y="11" misc="0" delay ="5000" numOfMoves="20"></obj>-->
+
+			<obj item="wandering" x="11" y="7" misc="0"></obj>
+			<obj item="player" x="9" y="10" misc="0"></obj>
+			<obj item="rinseStation" x="17" y="10" misc="1"></obj>
+
+			<obj item="rightpipe" x="6" y="3" misc="2"></obj>
+			<!--<obj item="rightpipe" x="6" y="8" misc="1"></obj>-->
+			<obj item="tpipe" x="5" y="7" misc="1"></obj>
+			<!--<obj item="rightpipe" x="6" y="14" misc="1"></obj>-->
+			<!--<obj item="leftpipe" x="9" y="4" misc="1"></obj>-->
+			<obj item="tpipe" x="12" y="10" misc="1"></obj>
+			<!--<obj item="leftpipe" x="9" y="10" misc="1"></obj>-->
+			<obj item="leftpipe" x="9" y="13" misc="2"></obj>
+
+
+
+			<!--<obj item="chumBucket" x="12" y="16" misc="1"></obj>-->
+			<obj item="billboard" x="6" y="13" misc="1"></obj>
+			<obj item="krustykrab" x="9" y="6" misc="1"></obj>
+			<obj item="krustykrabsign" x="8" y="7" misc="1"></obj>
+			<obj item="rightfacingcliff" x="6" y="14" misc="1"></obj>
+			<obj item="rightfacinghill" x="8" y="18" misc="1"></obj>
+
+			<!--CORAL DATA-->
+			<obj item="darkpinkcoralx" x="3" y="11" misc="1"></obj>
+			<obj item="darkpinkcoralx" x="3" y="5" misc="1"></obj>
+		<!--	<obj item="darkpinkcoralx" x="5" y="6" misc="2"></obj>
+			<obj item="darkpinkcoralx" x="5" y="7" misc="2"></obj>-->
+			<obj item="darkpinkcoraly" x="12" y="4" misc="2"></obj>
+			<obj item="darkpinkcoraly" x="10" y="10" misc="5"></obj>
+			<obj item="medpinkcoralx" x="11" y="14" misc="1"></obj>
+			<obj item="medpinkcoraly" x="14" y="8" misc="5"></obj>
+			<obj item="medpinkcoraly" x="14" y="14" misc="5"></obj>
+			<obj item="lightpinkcoralx" x="10" y="17" misc="1"></obj>
+
+
+		</level7>
+
+
+		<!--this is where i stopped adding coral stuff!-->
+		<level8 filterWaterLevel="140"  levelLocation="BIKININEIGHBORHOOD" pwrUpMinDur="10000" pwrUpMaxDur="12000" pwrUpMinDel="4000" pwrUpMaxDel="5000">
+			<!-- Game Variables -->
+			<obj item="gameTime" x="" y="" misc="105"></obj>
+			<obj item="tornado" x="11" y="7" misc="0" delay ="5000" numOfMoves="20"></obj>
+			<obj item="wandering" x="11" y="7" misc="0"></obj>
+
+			<obj item="player" x="9" y="10" misc="0"></obj>
+			<obj item="rinseStation" x="4" y="10" misc="1"></obj>
+			<obj item="rinseStation" x="16" y="10" misc="1"></obj>
+			<obj item="leftpipe" x="10" y="15" misc="1"></obj>
+			<obj item="leftpipe" x="10" y="12" misc="1"></obj>
+			<obj item="leftpipe" x="10" y="8" misc="1"></obj>
+			<obj item="leftpipe" x="10" y="5" misc="1"></obj>
+
+			<obj item="patrickhouse" x="7" y="6" misc="1"></obj>
+			<obj item="pineapplehouse" x="12" y="5" misc="1"></obj>
+			<obj item="squidwardhouse" x="9" y="6" misc="1"></obj>
+			<obj item="rightfacingcliff" x="7" y="15" misc="1"></obj>
+			<obj item="billboard" x="6" y="13" misc="1"></obj>
+
+
+			<!--CORAL DATA-->
+			<obj item="darkpinkcoralx" x="3" y="11" misc="1"></obj>
+			<obj item="darkpinkcoralx" x="3" y="5" misc="1"></obj>
+			<obj item="darkpinkcoralx" x="5" y="6" misc="2"></obj>
+			<obj item="darkpinkcoralx" x="5" y="7" misc="2"></obj>
+			<obj item="darkpinkcoraly" x="12" y="4" misc="2"></obj>
+			<obj item="darkpinkcoraly" x="12" y="9" misc="3"></obj>
+			<!--<obj item="medpinkcoralx" x="11" y="14" misc="1"></obj>-->
+			<obj item="medpinkcoraly" x="14" y="8" misc="5"></obj>
+			<obj item="medpinkcoraly" x="14" y="14" misc="5"></obj>
+			<obj item="medpinkcoraly" x="5" y="12" misc="2"></obj>
+			<obj item="medpinkcoraly" x="6" y="12" misc="2"></obj>
+			<!--<obj item="lightpinkcoralx" x="10" y="17" misc="1"></obj>-->
+			<obj item="lightpinkcoraly" x="8" y="6" misc="5"></obj>
+			<obj item="lightpinkcoraly" x="8" y="12" misc="5"></obj>
+
+		</level8>
+
+
+		<level9 filterWaterLevel="150"  levelLocation="NIGHTBACKGROUND" pwrUpMinDur="10000" pwrUpMaxDur="12000" pwrUpMinDel="4000" pwrUpMaxDel="5000">
+			<!-- Game Variables -->
+			<obj item="gameTime" x="" y="" misc="120"></obj>
+			<obj item="tornado" x="3" y="8" misc="0" delay ="5000" numOfMoves="20"></obj>
+			<obj item="wandering" x="11" y="7" misc="0"></obj>
+			<obj item="player" x="9" y="10" misc="0"></obj>
+			<obj item="rinseStation" x="10" y="11" misc="1"></obj>
+			<obj item="tpipe" x="9" y="5" misc="1"></obj>
+			<!--<obj item="leftpipe" x="4" y="7" misc="1"></obj>-->
+			<obj item="leftpipe" x="4" y="8" misc="2"></obj>
+			<!--<obj item="leftpipe" x="10" y="2" misc="1"></obj>-->
+			<!--<obj item="leftpipe" x="15" y="7" misc="1"></obj>-->
+			<obj item="tpipe" x="15" y="11" misc="1"></obj>
+
+			<obj item="leftpipe" x="10" y="14" misc="2"></obj>
+			<!--<obj item="leftpipe" x="11" y="14" misc="1"></obj>-->
+			<obj item="medpinkcoraly" x="7" y="10" misc="2"></obj>
+			<obj item="lightpinkcoraly" x="8" y="9" misc="1"></obj>
+			<obj item="darkpinkcoraly" x="6" y="8" misc="1"></obj>
+			<obj item="medpinkcoraly" x="7" y="8" misc="1"></obj>
+			<obj item="lightpinkcoraly" x="7" y="5" misc="1"></obj>
+			<obj item="medpinkcoraly" x="8" y="6" misc="1"></obj>
+			<obj item="medpinkcoraly" x="9" y="8" misc="1"></obj>
+			<obj item="darkpinkcoralx" x="12" y="9" misc="2"></obj>
+			<obj item="medpinkcoralx" x="11" y="11" misc="2"></obj>
+
+			<obj item="cakehouse" x="16" y="8" misc="1"></obj>
+			<obj item="cylinderhouse" x="7" y="16" misc="1"></obj>
+			<obj item="recthouse" x="7" y="9" misc="1"></obj>
+			<obj item="stlamp1" x="8" y="10" misc="1"></obj>
+			<obj item="stlamp2" x="13" y="11" misc="1"></obj>
+			<obj item="stlamp2" x="13" y="15" misc="1"></obj>
+
+			<!--<obj item="medpinkcoraly" x="9" y="12" misc="2"></obj>
+			<obj item="lightpinkcoraly" x="10" y="12" misc="1"></obj>
+			<obj item="medpinkcoraly" x="11" y="11" misc="1"></obj>
+			<obj item="medpinkcoraly" x="12" y="12" misc="1"></obj>
+			<obj item="medpinkcoraly" x="13" y="13" misc="1"></obj>
+			<obj item="lightpinkcoraly" x="12" y="10" misc="1"></obj>
+			<obj item="darkpinkcoraly" x="13" y="11" misc="1"></obj>
+			<obj item="medpinkcoraly" x="14" y="12" misc="1"></obj>
+			<obj item="medpinkcoralx" x="12" y="9" misc="2"></obj>
+			<obj item="darkpinkcoralx" x="13" y="8" misc="1"></obj>-->
+
+
+		</level9>
+
+		<level10 filterWaterLevel="150"  levelLocation="BIKININEIGHBORHOOD" pwrUpMinDur="10000" pwrUpMaxDur="12000" pwrUpMinDel="4000" pwrUpMaxDel="5000">
+			<!-- Game Variables -->
+			<obj item="gameTime" x="" y="" misc="120"></obj>
+			<obj item="tornado" x="5" y="10" misc="0" delay ="1000" numOfMoves="20"></obj>
+			<obj item="tornado" x="10" y="5" misc="0" delay ="1000" numOfMoves="20"></obj>
+			<obj item="wandering" x="11" y="7" misc="0"></obj>
+
+			<obj item="player" x="11" y="17" misc="0"></obj>
+			<obj item="rinseStation" x="12" y="16" misc="1"></obj>
+			<obj item="rinseStation" x="10" y="3" misc="1"></obj>
+
+			<!--<obj item="leftpipe" x="6" y="5" misc="1"></obj>-->
+			<obj item="tpipe" x="6" y="7" misc="1"></obj>
+			<obj item="leftpipe" x="6" y="11" misc="1"></obj>
+			<obj item="leftpipe" x="9" y="12" misc="2"></obj>
+			<!--<obj item="leftpipe" x="9" y="8" misc="1"></obj>-->
+			<obj item="leftpipe" x="9" y="5" misc="2"></obj>
+			<obj item="leftpipe" x="11" y="5" misc="1"></obj>
+			<obj item="tpipe" x="13" y="12" misc="1"></obj>
+			<!--<obj item="leftpipe" x="12" y="11" misc="1"></obj>-->
+
+			<obj item="recthouse" x="4" y="12" misc="1"></obj>
+			<obj item="recthouse" x="17" y="12" misc="1"></obj>
+			<obj item="cylinderhouse" x="10" y="13" misc="1"></obj>
+			<obj item="cylinderhouse" x="3" y="8" misc="1"></obj>
+
+
+			<!--left side-->
+			<obj item="bluekelprowx" x="6" y="15" misc="4"></obj>
+			<!--right side-->
+			<obj item="bluekelprowx" x="6" y="4" misc="4"></obj>
+
+			<!--bottom side-->
+			<obj item="bluekelprowy" x="14" y="7" misc="4"></obj>
+
+			<obj item="bluekelprowy" x="8" y="6" misc="4"></obj>
+			<obj item="bluekelprowy" x="11" y="9" misc="2"></obj>
+
+		</level10>
+
+	</itemData>
+
+</levelData>

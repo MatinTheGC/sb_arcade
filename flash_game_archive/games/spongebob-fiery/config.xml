@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<localization>		
+	<universal_End_Screen>end.swf</universal_End_Screen>
+	
+	<loading>loading...</loading>
+	<play_now>Play Now!</play_now>
+	<instructions>instructions</instructions>
+	
+	<move>move</move>
+	<jump>jump</jump>
+	
+	<instructions_1>SpongeBob and Patrick are trapped on the Fiery Fist of Pain rollercoaster at Glove World!</instructions_1>	
+	<instructions_2>Help our heroes collect Cotton Candy and Red Balloons, but keep your eyes open... The Fiery Fist is up there somewhere, looking to bring down its fury!</instructions_2>
+	
+	<score>SCORE</score>
+	<carts>CARTS</carts>
+	
+</localization>

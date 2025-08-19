@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<element name="episodes">
+		<media alias="episode01" id="1" name="Jellyfish Plains" maxLevel="10" secretRoom="5" bossType="bossSeeker" bossID="bossSeeker01" pinataType="pinataHanged" pinataID="pinata01"/>
+		<media alias="episode02" id="2" name="Squidward's Factory" maxLevel="10" secretRoom="5" bossType="bossShooter" bossID="bossShooter01" pinataType="pinataHanged" pinataID="pinata01"/>
+	</element>
+</list>

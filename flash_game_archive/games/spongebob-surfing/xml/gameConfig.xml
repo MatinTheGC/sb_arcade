@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- the ids are only a visual help - the node number is what is actually used; they are therefore not swappable -->
+<game>
+	<textFields>
+		<txt id="0"><![CDATA[<b>GOO LAGOON</b>]]></txt>
+		<txt id="1"><![CDATA[<b>SURFING SHOWDOWN</b>]]></txt>
+		<txt id="2"><![CDATA[<b>how to play</b>]]></txt>
+		<txt id="3"><![CDATA[<b>play</b>]]></txt>
+		<txt id="4"><![CDATA[<b>Instructions</b>]]></txt>
+		<txt id="5"><![CDATA[<b>THE GAME</b>]]></txt>
+		<txt id="6"><![CDATA[<b>CHOOSING</b>]]></txt>
+		<txt id="7"><![CDATA[<b>UNLOCKING</b>]]></txt>
+		<txt id="8"><![CDATA[<b>SURFING</b>]]></txt>
+		<txt id="9"><![CDATA[<b>Choose your player</b>]]></txt>
+		<txt id="10"><![CDATA[<b>SpongeBob</b>]]></txt>
+		<txt id="11"><![CDATA[<b>Patrick</b>]]></txt>
+		<txt id="12"><![CDATA[<b>TRICKS</b>]]></txt>
+		<txt id="13"><![CDATA[<b>Select three tricks for your routine.<br><br>The number shows the difficulty.</b>]]></txt>
+		<txt id="14"><![CDATA[<b>You also earn that many points for completing the trick.</b>]]></txt>
+		<txt id="15"><![CDATA[<b>Drag 3 tricks in here</b>]]></txt>
+		<txt id="16"><![CDATA[<b>LITTLE FISH</b>]]></txt>
+		<txt id="17"><![CDATA[<b>FLOWER</b>]]></txt>
+		<txt id="18"><![CDATA[<b>PALM TREE</b>]]></txt>
+		<txt id="19"><![CDATA[<b>WAVE</b>]]></txt>
+		<txt id="20"><![CDATA[<b>BLOWFISH</b>]]></txt>
+		<txt id="21"><![CDATA[<b>DOLPHIN</b>]]></txt>
+		<txt id="22"><![CDATA[<b>Preview tricks</b>]]></txt>
+		<txt id="23"><![CDATA[<b>Select three tricks for your routine.<br>The number shows the difficulty.</b>]]></txt>
+		<txt id="24"><![CDATA[<b>back</b>]]></txt>
+		<txt id="25"><![CDATA[<b><i>Wave 1</i></b>]]></txt>
+		<txt id="26"><![CDATA[<b><i>Wave 2</i></b>]]></txt>
+		<txt id="27"><![CDATA[<b><i>Wave 3</i></b>]]></txt>
+		<txt id="28"><![CDATA[<b><i>GET READY!</i></b>]]></txt><!-- even if this doesn't exist don't comment it out -->
+		<txt id="29"><![CDATA[<b><i>AWESOME!</i></b>]]></txt>
+		<txt id="30"><![CDATA[<b><i>EXCELLENT!</i></b>]]></txt>
+		<txt id="31"><![CDATA[<b><i>GOOD!</i></b>]]></txt>
+		<txt id="32"><![CDATA[<b><i>WELL DONE!</i></b>]]></txt>
+		<txt id="33"><![CDATA[<b><i>OOPS!</i></b>]]></txt>
+		<txt id="34"><![CDATA[<b><i>UH-OH!</i></b>]]></txt>
+		<txt id="35"><![CDATA[<b>YOU SCORED A TOTAL OF:</b>]]></txt>
+		<txt id="36"><![CDATA[<b>POINTS</b>]]></txt>
+		<txt id="37"><![CDATA[<b>YOU COMPLETED THESE TRICKS:</b>]]></txt>
+		<txt id="38"><![CDATA[<b>FINAL SCORES</b>]]></txt>
+		<txt id="39"><![CDATA[<b>TOTAL SCORE:</b>]]></txt>
+		<txt id="40"><![CDATA[<b>SPONGEBOB'S SCORE:</b>]]></txt>
+		<txt id="41"><![CDATA[<b>PATRICK'S SCORE:</b>]]></txt>
+		<txt id="42"><![CDATA[<b>YOU ARE THE WINNER!</b>]]></txt>
+		<txt id="43"><![CDATA[<b>SPONGEBOB IS THE WINNER!</b>]]></txt>
+		<txt id="44"><![CDATA[<b>PATRICK IS THE WINNER!</b>]]></txt>
+		<txt id="45"><![CDATA[It's surfing competition time down at Goo Lagoon!  Choose to play as SpongeBob or Patrick, select your trick routines and match jellyfish to earn points and stay on your surfboard.  Charge your trick meter and perform amazing stunts to earn bonus points!<br><br>You have <b>three waves</b> to catch, and you have <b>three minutes</b> to perform up to <b>three tricks</b> on each one!  Get the highest overall total to beat your rival.]]></txt>
+		<txt id="46"><![CDATA[<b>Before each wave, you must choose a routine of 3 tricks.  Each trick has a number - you need to charge your trick meter with this many points to perform it.  The higher the number, the longer it takes to charge the meter, so choose carefully!  If your routine is too ambitious you might run out of time!<br><br>The trick number also show many bonus points you can earn.<br><br>To choose your routine, simply drag and drop trick icons into the slots on the routine bar.  You can choose any combination of unlocked tricks - just drag and drop again to repeat or replace tricks.</b>]]></txt>
+		<txt id="47"><![CDATA[<b>Only the easy tricks are unlocked at the start.  Complete two easy tricks to unlock a medium trick, worth more points!  Complete both medium tricks to unlock the hardest trick!<br><br>Your progress will be saved so you can come back later and your tricks are still unlocked.]]</b>></txt>
+		<txt id="48"><![CDATA[<b>Press the left, down and right arrow keys to match the jellyfish as they pass between the dotted lines to earn 1, 3 or 5 points for each one!<br><br>Every jellyfish you get will help charge up your trick meter. (Remember, the harder the trick, the more points it is and the slower your meter will charge)  If you miss a jellyfish you will lose some charge... miss too many and you'll fall off your surfboard!<br><br>When the trick meter is fully charged, press the up arrow to perform your trick and earn your bonus points.  But don't press it too early or you'll wipe out!<br><br>Keep an eye on your rival to see how his score is doing - or to laugh at him if he wipes out!</b>]]></txt>
+		<txt id="49"><![CDATA[<b>PLAY AGAIN</b>]]></txt>
+		<txt id="50"><![CDATA[<b>CONTINUE</b>]]></txt>
+	</textFields>
+	<images>
+		<img id="0">images/logo_spongebob_uk.png</img>
+	</images>
+</game>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<!--****************************************************
+	BASE PARAMETERS
+	*****************************************************-->
+	<!-- Code -->
+	<property name="aCODE_AVAILABLE">			<![CDATA[savethejellies]]></property>
+	
+	<property name="bREQUIRE_CODE">			<![CDATA[false]]></property>
+	
+	<!-- Starting phase-->
+	<property name="nSTARTING_PHASE">						<![CDATA[3]]>		</property>
+
+	<!-- Starting lifes -->
+	<property name="nSTARTING_LIFES">						<![CDATA[5]]>		</property>
+	
+	<!-- Max level in phase 1 -->
+	<property name="nMAX_LEVEL_PHASE_1">					<![CDATA[6]]>		</property>
+	<property name="nMAX_LEVEL_PHASE_2">					<![CDATA[6]]>		</property>
+	<property name="nMAX_LEVEL_PHASE_3">					<![CDATA[7]]>		</property>
+	
+	<!-- Level Gravity -->
+	<property name="nGRAVITY">								<![CDATA[2.5]]>		</property>
+	
+	<!-- Level data xml files folder path -->
+	<property name="sLEVEL_DATA_PATH">						<![CDATA[data/]]>	</property>
+	
+	<!-- Counter effect speed when displaying score in HUD-->
+	<property name="nHUD_SCORE_COUNTER_EFFECT_SPEED">		<![CDATA[25]]>		</property>
+	
+	<!--****************************************************
+	NICK GAME PARAMETERS
+	*****************************************************-->
+	
+	<!-- Flag : Sets the game to international specs -->
+	<property name="isInternational">						<![CDATA[false]]>	</property>
+	
+	<!-- Flag : Nick high score enabled -->
+	<property name="nick_highscores_available">				<![CDATA[false]]>	</property>
+	
+	<!-- Game's nick HSB ID spongebob-squarepants-spongebobs-last-stand-hsb          av-fight2  -->
+	<property name="nick_highscores_hs_id_1">				<![CDATA[spongebob-squarepants-jellyfishin-mission-hsb]]></property>
+	
+	<!-- Game's nick game ID -->
+	<property name="nick_game_id_1">						<![CDATA[spongebob-squarepants-spongebobs-last-stand-]]></property>
+	
+	<!-- Game's shared object ID -->
+	<property name="nick-sb-lastStand">						<![CDATA[nick-LastStandSO]]></property>
+	
+	<!-- Flag : Nick promotion enabled -->
+	<property name="nick_promo_available">					<![CDATA[true]]></property>
+	
+	<!-- Flag : Nick promotion xml URL -->
+	<property name="nick_promo_config_url">					<![CDATA[xml/nick_promo.xml]]></property>
+	
+	
+	<!--****************************************************
+	SOUNDS PARAMETERS
+	*****************************************************-->
+	
+	<!-- Music default volume -->
+	<property name="nDEFAULT_VOLUME_MUSIC">					<![CDATA[0.5]]>		</property>
+		
+	<!-- Sound default volume -->
+	<property name="nDEFAULT_VOLUME_SOUNDS">				<![CDATA[0.5]]>		</property>
+	
+	<!-- Default AbstractView IN volume-->
+	<property name="nDEFAULT_POPUP_VOL_IN">					<![CDATA[1]]>		</property>
+	
+	<!-- Default AbstractView OUT volume-->
+	<property name="nDEFAULT_POPUP_VOL_OUT">				<![CDATA[1]]>		</property>
+	
+	<!-- Default UI Button click volume-->
+	<property name="nDEFAULT_MOUSE_VOL_CLICK">				<![CDATA[1]]>		</property>
+	
+		<!-- Default UI Button rollOver volume-->
+	<property name="nDEFAULT_MOUSE_VOL_ROLL">				<![CDATA[1]]>		</property>
+	
+	<!-- Default UI Transition IN volume -->
+	<property name="nDEFAULT_TRANSITION_VOL_IN">			<![CDATA[1]]>		</property>
+	
+	<!-- Default UI Button rollOver volume-->
+	<property name="nDEFAULT_TRANSITION_VOL_OUT">			<![CDATA[1]]>		</property>
+	
+	<!--****************************************************
+	COLLECTABLES PARAMETERS
+	*****************************************************-->
+	
+	<!-- Collectable score A's score value -->
+	<property name="nCOLLECTABLE_SCORE_A_VALUE">			<![CDATA[1]]>		</property>	
+
+	<!-- Collectable score B's score value -->
+	<property name="nCOLLECTABLE_SCORE_B_VALUE">			<![CDATA[5]]>		</property>	
+
+	<!-- Collectable score C's score value -->
+	<property name="nCOLLECTABLE_SCORE_C_VALUE">			<![CDATA[50]]>		</property>	
+
+	<!-- Collectable score D's score value -->
+	<property name="nCOLLECTABLE_SCORE_D_VALUE">			<![CDATA[1000]]>	</property>	
+	
+	<!-- Collectable Checkpoint's score value  -->
+	<property name="nCOLLECTABLE_CHECKPOINT_VALUE">			<![CDATA[250]]>		</property>	
+	
+	<!-- Collectable Goal's score value  -->
+	<property name="nCOLLECTABLE_GOAL_VALUE">				<![CDATA[500]]>		</property>	
+	
+	<!-- Collectable Goal's score value  -->
+	<property name="nCOLLECTABLE_GOAL_VALUE">				<![CDATA[1000]]>	</property>
+	
+	<!-- Collectable Invinsibility's score value  -->
+	<property name="nCOLLECTABLE_INVINSIBILITY_VALUE">		<![CDATA[200]]>		</property>
+	
+	<!-- Collectable Jolly Lolly Lolly score value  -->
+	<property name="nCOLLECTABLE_JOLLY_LOLLY_VALUE">		<![CDATA[200]]>		</property>
+	
+	<!-- Collectable Swirly net's score value  -->
+	<property name="nCOLLECTABLE_SWIRLY_NET_VALUE">			<![CDATA[500]]>		</property>
+	
+	<!-- Collectable Tornado net's score value  -->
+	<property name="nCOLLECTABLE_TORNADO_NET_VALUE">		<![CDATA[500]]>		</property>
+	
+	<!-- Collectable Helical Net's score value  -->
+	<property name="nCOLLECTABLE_HELICAL_NET_VALUE">		<![CDATA[500]]>		</property>
+	
+	<!-- Collectable Mighty Bubble's score value  -->
+	<property name="nCOLLECTABLE_MIGHTY_BUBBLE_VALUE">		<![CDATA[200]]>		</property>
+	
+	<!-- Collectable Golden's score value  -->
+	<property name="nCOLLECTABLE_GOLDEN_VALUE">				<![CDATA[1000]]>	</property>
+	
+	<!-- Killing a smart bomb jelly fish  -->
+	<property name="nKILLING_SMARTBOMB_VALUE">				<![CDATA[150]]>		</property>
+	
+	<!-- Killing a smart bomb jelly fish  -->
+	<property name="nKILLING_SMARTBOMB_KING_VALUE">			<![CDATA[350]]>		</property>
+	
+	
+	<!--****************************************************
+	LEVEL SCORE PARAMETERS
+	*****************************************************-->
+	
+	<!-- Jellyfish value at level ends -->
+	<property name="nLEVEL_SCORE_PER_JELLY">				<![CDATA[100]]>		</property>	
+	
+	<!-- Seconds left multiplied by this number -->
+	<property name="nLEVEL_SCORE_MULTIPLY_SEC_LEFT">		<![CDATA[10]]>		</property>	
+	
+	<!-- Level ID value multiplied by this number -->
+	<property name="nLEVEL_SCORE_MULTIPLY_LEVEL_NUMBER">	<![CDATA[25]]>		</property>	
+	
+	<!-- Base score for completion of a level -->
+	<property name="nLEVEL_SCORE_FOR_COMPLETION">			<![CDATA[500]]>		</property>	
+	
+	<!--****************************************************
+	OPPONENTS PARAMETERS
+	*****************************************************-->
+	
+	<property name="mcJellyfishSmall_maxSpeedX">				<![CDATA[2]]>	</property>
+	<property name="mcJellyfishSmall_accelerationX">			<![CDATA[0.2]]>	</property>
+	<property name="mcJellyfishSmall_maxFallSpeed">				<![CDATA[1]]>	</property>
+	<property name="mcJellyfishSmall_fallAcceleration">			<![CDATA[0.2]]>	</property>
+	<property name="mcJellyfishSmall_fallMoveEfficiency">		<![CDATA[0.6]]>	</property>
+	<property name="mcJellyfishSmall_fallDistanceMin">			<![CDATA[0]]>	</property>
+	<property name="mcJellyfishSmall_climbImpulsion">			<![CDATA[-3]]>	</property>
+	<property name="mcJellyfishSmall_climbFriction">			<![CDATA[0.1]]>	</property>
+	<property name="mcJellyfishSmall_minClimbSpeed">			<![CDATA[0.5]]>	</property>
+	<property name="mcJellyfishSmall_climbMoveEfficiency">		<![CDATA[1]]>	</property>
+	<property name="mcJellyfishSmall_climbDistanceMax">			<![CDATA[100]]>	</property>
+	
+	<property name="mcJellyfishSmartBomb_maxSpeedX">			<![CDATA[2]]>	</property>
+	<property name="mcJellyfishSmartBomb_accelerationX">		<![CDATA[0.2]]>	</property>
+	<property name="mcJellyfishSmartBomb_maxFallSpeed">			<![CDATA[1]]>	</property>
+	<property name="mcJellyfishSmartBomb_fallAcceleration">		<![CDATA[0.2]]>	</property>
+	<property name="mcJellyfishSmartBomb_fallMoveEfficiency">	<![CDATA[0.6]]>	</property>
+	<property name="mcJellyfishSmartBomb_fallDistanceMin">		<![CDATA[0]]>	</property>
+	<property name="mcJellyfishSmartBomb_climbImpulsion">		<![CDATA[-3]]>	</property>
+	<property name="mcJellyfishSmartBomb_climbFriction">		<![CDATA[0.1]]>	</property>
+	<property name="mcJellyfishSmartBomb_minClimbSpeed">		<![CDATA[0.5]]>	</property>
+	<property name="mcJellyfishSmartBomb_climbMoveEfficiency">	<![CDATA[1]]>	</property>
+	<property name="mcJellyfishSmartBomb_climbDistanceMax">		<![CDATA[100]]>	</property>
+	<property name="mcJellyfishSmartBomb_distanceFollowing">	<![CDATA[200]]>	</property>
+	<property name="mcJellyfishSmartBomb_hostileTimeout">		<![CDATA[5]]>	</property>
+	<property name="mcJellyfishSmartBomb_stunnedTimeout">		<![CDATA[150]]>	</property>
+	<property name="mcJellyfishSmartBomb_jellyOnKill_min">		<![CDATA[3]]>	</property>
+	<property name="mcJellyfishSmartBomb_jellyOnKill_max">		<![CDATA[5]]>	</property>
+	
+	<property name="mcJellyfishSmartBombKing_maxSpeedX">			<![CDATA[1]]>	</property>
+	<property name="mcJellyfishSmartBombKing_accelerationX">		<![CDATA[0.15]]></property>
+	<property name="mcJellyfishSmartBombKing_maxFallSpeed">			<![CDATA[1]]>	</property>
+	<property name="mcJellyfishSmartBombKing_fallAcceleration">		<![CDATA[0.15]]></property>
+	<property name="mcJellyfishSmartBombKing_fallMoveEfficiency">	<![CDATA[0.6]]>	</property>
+	<property name="mcJellyfishSmartBombKing_fallDistanceMin">		<![CDATA[0]]>	</property>
+	<property name="mcJellyfishSmartBombKing_climbImpulsion">		<![CDATA[-3]]>	</property>
+	<property name="mcJellyfishSmartBombKing_climbFriction">		<![CDATA[0.1]]>	</property>
+	<property name="mcJellyfishSmartBombKing_minClimbSpeed">		<![CDATA[0.5]]>	</property>
+	<property name="mcJellyfishSmartBombKing_climbMoveEfficiency">	<![CDATA[1]]>	</property>
+	<property name="mcJellyfishSmartBombKing_climbDistanceMax">		<![CDATA[100]]>	</property>
+	<property name="mcJellyfishSmartBombKing_distanceFollowing">	<![CDATA[200]]>	</property>
+	<property name="mcJellyfishSmartBombKing_hostileTimeout">		<![CDATA[5]]>	</property>
+	<property name="mcJellyfishSmartBombKing_stunnedTimeout">		<![CDATA[150]]>	</property>
+	<property name="mcJellyfishSmartBombKing_hitPoints">			<![CDATA[3]]>	</property>
+	<property name="mcJellyfishSmartBombKing_jellyOnKill_min">		<![CDATA[8]]>	</property>
+	<property name="mcJellyfishSmartBombKing_jellyOnKill_max">		<![CDATA[10]]>	</property>
+	
+	<property name="mcJellyfishStretchy_waitTime">				<![CDATA[50]]>	</property>
+	
+	<!--****************************************************
+	PLAYER PARAMETERS
+	*****************************************************-->
+	
+	<property name="nINVISIBILITY_RESPAWN_DURATION">				<![CDATA[150]]>		</property>
+	<property name="nINVISIBILITY_COLLECTABLE_DURATION">			<![CDATA[300]]>		</property>
+	<property name="nJOLLY_LOLLY_DURATION">							<![CDATA[300]]>		</property>
+	
+	<property name="mcSponge_attackCooldown">				<![CDATA[5]]>		</property>
+	<property name="mcSponge_maxSpeedX">					<![CDATA[10]]>		</property>
+	<property name="mcSponge_maxSpeedY">					<![CDATA[20]]>		</property>
+	<property name="mcSponge_minSpeedX">					<![CDATA[1.5]]>		</property>
+	<property name="mcSponge_minSpeedY">					<![CDATA[2.5]]>		</property>
+	<property name="mcSponge_accX">							<![CDATA[2.5]]>		</property>
+	<property name="mcSponge_totalJump">					<![CDATA[2]]>		</property>
+	<property name="mcSponge_jumpAccRatio">					<![CDATA[0.3]]>		</property>
+	<property name="mcSponge_jumpImpusion">					<![CDATA[-15]]>		</property>
+	<property name="mcSponge_groundFrictionX">				<![CDATA[0.3]]>		</property>
+	<property name="mcSponge_airFrictionX">					<![CDATA[0.05]]>	</property>
+	<property name="mcSponge_bubbleFrictionX">				<![CDATA[0.03]]>	</property>
+	<property name="mcSponge_groundMoveEfficiency">			<![CDATA[1]]>		</property>
+	<property name="mcSponge_airMoveEfficiency">			<![CDATA[0.8]]>		</property>
+	<property name="mcSponge_bubbleMoveEfficiency">			<![CDATA[0.8]]>		</property>
+	<property name="mcSponge_bounceImpulsion">				<![CDATA[-35]]>		</property>
+	<property name="mcSponge_bubbleDuration">				<![CDATA[500]]>		</property>
+	<property name="mcSponge_bubbleAccY">					<![CDATA[0.5]]>		</property>
+	<property name="mcSponge_bubbleMinSpeedY">				<![CDATA[-4]]>		</property>
+	<property name="mcSponge_bubbleClimbSpeed">				<![CDATA[-2]]>		</property>
+	<property name="mcSponge_bubbleMaxSpeedY">				<![CDATA[2]]>		</property>
+	<property name="mcSponge_geyserAcceleration">			<![CDATA[1.2]]>		</property>
+	<property name="mcSponge_geyserMaxSpeed">				<![CDATA[-10]]>		</property>
+	
+	<property name="mcPatrick_attackCooldown">				<![CDATA[5]]>		</property>
+	<property name="mcPatrick_maxSpeedX">					<![CDATA[10]]>		</property>
+	<property name="mcPatrick_maxSpeedY">					<![CDATA[20]]>		</property>
+	<property name="mcPatrick_minSpeedX">					<![CDATA[1.5]]>		</property>
+	<property name="mcPatrick_minSpeedY">					<![CDATA[2.5]]>		</property>
+	<property name="mcPatrick_accX">						<![CDATA[2.5]]>		</property>
+	<property name="mcPatrick_totalJump">					<![CDATA[2]]>		</property>
+	<property name="mcPatrick_jumpAccRatio">				<![CDATA[0.3]]>		</property>
+	<property name="mcPatrick_jumpImpusion">				<![CDATA[-15]]>		</property>
+	<property name="mcPatrick_groundFrictionX">				<![CDATA[0.3]]>		</property>
+	<property name="mcPatrick_airFrictionX">				<![CDATA[0.05]]>	</property>
+	<property name="mcPatrick_bubbleFrictionX">				<![CDATA[0.03]]>	</property>
+	<property name="mcPatrick_groundMoveEfficiency">		<![CDATA[1]]>		</property>
+	<property name="mcPatrick_airMoveEfficiency">			<![CDATA[0.8]]>		</property>
+	<property name="mcPatrick_bubbleMoveEfficiency">		<![CDATA[0.8]]>		</property>
+	<property name="mcPatrick_bounceImpulsion">				<![CDATA[-35]]>		</property>
+	<property name="mcPatrick_bubbleDuration">				<![CDATA[500]]>		</property>
+	<property name="mcPatrick_bubbleAccY">					<![CDATA[0.5]]>		</property>
+	<property name="mcPatrick_bubbleMinSpeedY">				<![CDATA[-4]]>		</property>
+	<property name="mcPatrick_bubbleClimbSpeed">			<![CDATA[-2]]>		</property>
+	<property name="mcPatrick_bubbleMaxSpeedY">				<![CDATA[2]]>		</property>
+	<property name="mcPatrick_geyserAcceleration">			<![CDATA[1.2]]>		</property>
+	<property name="mcPatrick_geyserMaxSpeed">				<![CDATA[-10]]>		</property>
+	
+	<property name="mcSquid_attackCooldown">				<![CDATA[5]]>		</property>
+	<property name="mcSquid_maxSpeedX">						<![CDATA[10]]>		</property>
+	<property name="mcSquid_maxSpeedY">						<![CDATA[20]]>		</property>
+	<property name="mcSquid_minSpeedX">						<![CDATA[1.5]]>		</property>
+	<property name="mcSquid_minSpeedY">						<![CDATA[2.5]]>		</property>
+	<property name="mcSquid_accX">							<![CDATA[2.5]]>		</property>
+	<property name="mcSquid_totalJump">						<![CDATA[2]]>		</property>
+	<property name="mcSquid_jumpAccRatio">					<![CDATA[0.3]]>		</property>
+	<property name="mcSquid_jumpDownAccRatio">				<![CDATA[0.05]]>		</property>
+	<property name="mcSquid_jumpImpusion">					<![CDATA[-18]]>		</property>
+	<property name="mcSquid_groundFrictionX">				<![CDATA[0.3]]>		</property>
+	<property name="mcSquid_airFrictionX">					<![CDATA[0.05]]>	</property>
+	<property name="mcSquid_bubbleFrictionX">				<![CDATA[0.03]]>	</property>
+	<property name="mcSquid_groundMoveEfficiency">			<![CDATA[1]]>		</property>
+	<property name="mcSquid_airMoveEfficiency">				<![CDATA[0.8]]>		</property>
+	<property name="mcSquid_bubbleMoveEfficiency">			<![CDATA[0.8]]>		</property>
+	<property name="mcSquid_bounceImpulsion">				<![CDATA[-35]]>		</property>
+	<property name="mcSquid_bubbleDuration">				<![CDATA[500]]>		</property>
+	<property name="mcSquid_bubbleAccY">					<![CDATA[0.5]]>		</property>
+	<property name="mcSquid_bubbleMinSpeedY">				<![CDATA[-4]]>		</property>
+	<property name="mcSquid_bubbleClimbSpeed">				<![CDATA[-2]]>		</property>
+	<property name="mcSquid_bubbleMaxSpeedY">				<![CDATA[2]]>		</property>
+	<property name="mcSquid_geyserAcceleration">			<![CDATA[1.9]]>		</property>
+	<property name="mcSquid_geyserMaxSpeed">				<![CDATA[-30]]>		</property>
+	<property name="mcSquid_glideAccRatio">					<![CDATA[0.1]]>		</property>
+	<property name="mcSquid_jumpDownAccRatio">				<![CDATA[0.01]]>		</property>
+	
+	<property name="mcProjectileBasic_speedX">				<![CDATA[13]]>		</property>
+	<property name="mcProjectileIndestructable_speedX">		<![CDATA[20]]>		</property>
+	<property name="mcProjectileSwirly_speedX">				<![CDATA[10]]>		</property>
+	
+	
+	<!--****************************************************
+	PLATFORMS PARAMETERS
+	*****************************************************-->
+	
+	<!-- Collapsable's delay in frame to fall -->
+	<property name="uFRAME_DELAY_BEFORE_PLATFORM_COLLAPSE">	<![CDATA[30]]>		</property>	
+
+	<!-- Collapsable's delay in frame to respawn -->
+	<property name="uFRAME_DELAY_BEFORE_PLATFORM_RESPAWN">	<![CDATA[100]]>		</property>	
+	
+	<!-- School of fishes delay in frame to respawn -->
+	<property name="uFRAME_DELAY_BEFORE_SCHOOL_FISHES_RESPAWN">	<![CDATA[100]]>		</property>	
+
+
+
+	<!--****************************************************
+	LEVELS PARAMETERS
+	*****************************************************-->
+	
+	<!-- Playing time for each levels, in seconds -->
+	<property name="uPLAYING_TIME_LEVEL_1_PHASE1">	<![CDATA[300]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_2_PHASE1">	<![CDATA[420]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_3_PHASE1">	<![CDATA[420]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_4_PHASE1">	<![CDATA[180]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_5_PHASE1">	<![CDATA[300]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_6_PHASE1">	<![CDATA[420]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_7_PHASE1">	<![CDATA[420]]>	</property>
+	
+	<!-- Playing time for each levels, in seconds -->
+	<property name="uPLAYING_TIME_LEVEL_1_PHASE2">	<![CDATA[300]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_2_PHASE2">	<![CDATA[420]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_3_PHASE2">	<![CDATA[420]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_4_PHASE2">	<![CDATA[180]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_5_PHASE2">	<![CDATA[300]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_6_PHASE2">	<![CDATA[420]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_7_PHASE2">	<![CDATA[420]]>	</property>
+	
+	<!-- Playing time for each levels, in seconds -->
+	<property name="uPLAYING_TIME_LEVEL_1_PHASE3">	<![CDATA[300]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_2_PHASE3">	<![CDATA[420]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_3_PHASE3">	<![CDATA[420]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_4_PHASE3">	<![CDATA[180]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_5_PHASE3">	<![CDATA[300]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_6_PHASE3">	<![CDATA[420]]>	</property>
+	<property name="uPLAYING_TIME_LEVEL_7_PHASE3">	<![CDATA[420]]>	</property>
+	
+</config>

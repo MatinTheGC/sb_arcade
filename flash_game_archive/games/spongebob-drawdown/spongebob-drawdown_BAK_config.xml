@@ -1,0 +1,162 @@
+﻿<?xml version="1.0"?>
+
+<config>
+	
+	<version>
+		<!-- "false" will enable high score viewing/submission. "true" will disable high score viewing/submission.  -->
+		<isInternational>false</isInternational>
+	</version>
+
+	<highScore>
+		
+		<!-- Debug mode. Force user to be logged in with the username of "DEBUG_USER". -->
+		<debug>false</debug>
+		
+		<userPath>http://www.nick.com/games/common/user_name/getUserInfo.jhtml</userPath>
+		<scorePath>http://www.nick.com/common/score/Scoreboard.jhtml</scorePath>
+		<serviceLink>http://www.nick.com</serviceLink>
+		<gameID>spongebob-drawdown-hsb</gameID>
+		
+	</highScore>
+	
+	<gameSettings>
+		<nickPoints>
+			<campaignID>sb-drawdown-nps</campaignID>
+			<!--modulePath>http://www.nick.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath!-->
+			<!-->Run the module locally when running on your machine, but swap the modulePath(s) when you deliver<!-->
+			<modulePath>http://www.nick.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath>
+			<events>
+				<event>
+					<name>game_win</name>
+				</event>
+			</events>
+			
+			<sbpromo>
+				<img>spobob_geyser.jpg</img>
+				<url target="_blank">http://spongebob.nick.com/games/play/spongebob-geyser/</url>
+			</sbpromo>
+			
+		</nickPoints>
+		
+		<min_reaction_time>.25</min_reaction_time>
+		<max_reaction_time>1</max_reaction_time>
+		<reaction_increase_rate>.25</reaction_increase_rate>
+		
+		<points_multiplier>10</points_multiplier>
+		
+	</gameSettings>
+	
+	
+
+<localization>
+	<playGame_down><![CDATA[PLAY GAME]]></playGame_down>
+	<playGame_over><![CDATA[PLAY GAME]]></playGame_over>
+	<playGame><![CDATA[PLAY GAME]]></playGame>
+	<help6><![CDATA[Face cards = 10 points]]></help6>
+	<help5><![CDATA[Face cards are worth more than other cards. Collecting them will raise your score!]]></help5>
+	<help4><![CDATA[Ace, 2-10 = 5 points]]></help4>
+	<scoring><![CDATA[Scoring]]></scoring>
+	<help3><![CDATA[The first player with four of a kind may grab a spatula. ]]></help3>
+	<help2><![CDATA[Once the cards are dealt, choose the card you want to discard and click on it. This will pass the card to the player on your left. When you pass a card, you'll automatically receive a new card from the deck. Each player receives and discards their cards as quickly as possible to be the first player with four of a kind.
+
+
+
+
+
+	
+
+The first player that grabs a spatula MUST have four of a kind, or they will receive a jellyfish strike. 
+
+Once a player with four of a kind reaches for a spatula, ALL players are free to grab one.  There's always more players than spatulas, so the player without a spatula at the end of a round loses that round and receives a jellyfish strike. 
+
+Three strikes and a player is out. 
+]]></help2>
+	<playHelp><![CDATA[PLAY]]></playHelp>
+	<help1><![CDATA[Be the first player to collect four cards with matching numbers or faces and grab a spatula from the table!  ]]></help1>
+	<goal><![CDATA[GOAL]]></goal>
+	<statusPatrick><![CDATA[Patrick]]></statusPatrick>
+	<statusMrKrabs><![CDATA[Mr. Krabs]]></statusMrKrabs>
+	<statusSpongebob><![CDATA[Spongebob]]></statusSpongebob>
+	<statusSquidward><![CDATA[Squidward]]></statusSquidward>
+	<statusYou><![CDATA[YOU]]></statusYou>
+	<howToPlayButton_down><![CDATA[HOW TO PLAY]]></howToPlayButton_down>
+	<howToPlayButton_over><![CDATA[HOW TO PLAY]]></howToPlayButton_over>
+	<howToPlayBtn><![CDATA[HOW TO PLAY]]></howToPlayBtn>
+	<no_down><![CDATA[NO]]></no_down>
+	<no_over><![CDATA[NO]]></no_over>
+	<no><![CDATA[NO]]></no>
+	<yes_down><![CDATA[YES]]></yes_down>
+	<yes_over><![CDATA[YES]]></yes_over>
+	<yes><![CDATA[YES]]></yes>
+	<wantToTryAgain><![CDATA[Want to try that again?]]></wantToTryAgain>
+	<almost><![CDATA[ALMOST!]]></almost>
+	<youWonTheGame><![CDATA[You won the game!]]></youWonTheGame>
+	<shiverMeTimbers><![CDATA[SHIVER ME TIMBERS!]]></shiverMeTimbers>
+	<n_playAgain_again_over><![CDATA[N]]></n_playAgain_again_over>
+	<i_playAgain_again_over><![CDATA[I]]></i_playAgain_again_over>
+	<a2_playAgain_again_over><![CDATA[A]]></a2_playAgain_again_over>
+	<g_playAgain_again_over><![CDATA[G]]></g_playAgain_again_over>
+	<a_playAgain_again_over><![CDATA[A]]></a_playAgain_again_over>
+	<y_playAgain_over><![CDATA[Y]]></y_playAgain_over>
+	<a_playAgain_over><![CDATA[A]]></a_playAgain_over>
+	<l_playAgain_again><![CDATA[L]]></l_playAgain_again>
+	<p_playAgain_over><![CDATA[P]]></p_playAgain_over>
+	<n_playAgain_again><![CDATA[N]]></n_playAgain_again>
+	<i_playAgain_again><![CDATA[I]]></i_playAgain_again>
+	<a_playAgain_again><![CDATA[A]]></a_playAgain_again>
+	<g_playAgain_again><![CDATA[G]]></g_playAgain_again>
+	<y_playAgain><![CDATA[Y]]></y_playAgain>
+	<a_playAgain><![CDATA[A]]></a_playAgain>
+	<l_playAgain><![CDATA[L]]></l_playAgain>
+	<p_playAgain><![CDATA[P]]></p_playAgain>
+	<intro3><![CDATA[Match four cards and then grab a spatula, or we'll give you a strike and it will be down the hatch with ya!]]></intro3>
+	<intro2><![CDATA[SpongeBob is here and so are his friends, so be quick on the draw or your game will end.]]></intro2>
+	<intro1><![CDATA[Avast! me hearties and listen to me, we're playing a card game and it's under the sea.]]></intro1>
+	<howToPlay_button><![CDATA[HOW TO PLAY]]></howToPlay_button>
+	<howToPlay><![CDATA[HOW TO PLAY]]></howToPlay>
+	<quit_down><![CDATA[QUIT]]></quit_down>
+	<quit_over><![CDATA[QUIT]]></quit_over>
+	<quit><![CDATA[QUIT]]></quit>
+	<score><![CDATA[SCORE]]></score>
+	<quitConfirm><![CDATA[Are you Sure you Want to QUIT?]]></quitConfirm>
+	<submitScore_gameOver_down><![CDATA[SUBMIT SCORE]]></submitScore_gameOver_down>
+	<submitScore_gameOver_over><![CDATA[SUBMIT SCORE]]></submitScore_gameOver_over>
+	<submitScore_gameOver><![CDATA[SUBMIT SCORE]]></submitScore_gameOver>
+	<skipIntro_down><![CDATA[SKIP INTRO]]></skipIntro_down>
+	<skipIntro_over><![CDATA[SKIP INTRO]]></skipIntro_over>
+	<skipIntro><![CDATA[SKIP INTRO]]></skipIntro>
+	<highscores_down><![CDATA[HIGH SCORES]]></highscores_down>
+	<highscores_over><![CDATA[HIGH SCORES]]></highscores_over>
+	<highscores><![CDATA[HIGH SCORES]]></highscores>
+	<y_down><![CDATA[Y]]></y_down>
+	<a_down><![CDATA[A]]></a_down>
+	<l_down><![CDATA[L]]></l_down>
+	<p_down><![CDATA[P]]></p_down>
+	<y_over><![CDATA[Y]]></y_over>
+	<a_over><![CDATA[A]]></a_over>
+	<l_over><![CDATA[L]]></l_over>
+	<p_over><![CDATA[P]]></p_over>
+	<txt_y><![CDATA[Y]]></txt_y>
+	<a><![CDATA[A]]></a>
+	<l><![CDATA[L]]></l>
+	<p><![CDATA[P]]></p>
+	<spongebobSquarepants><![CDATA["Spongebob Squarepants"       on Nickelodeon!]]></spongebobSquarepants>
+	<watch><![CDATA[WATCH]]></watch>
+	<back_over><![CDATA[BACK]]></back_over>
+	<back><![CDATA[BACK]]></back>
+	<next_over><![CDATA[NEXT]]></next_over>
+	<next><![CDATA[NEXT]]></next>
+	<submitScore_down><![CDATA[SUBMIT SCORE]]></submitScore_down>
+	<submitScore_over><![CDATA[SUBMIT SCORE]]></submitScore_over>
+	<submitScore><![CDATA[SUBMIT SCORE]]></submitScore>
+	<playAgain_down><![CDATA[PLAY AGAIN]]></playAgain_down>
+	<playAgain_over><![CDATA[PLAY AGAIN]]></playAgain_over>
+	<playAgain><![CDATA[PLAY AGAIN]]></playAgain>
+	<play_down><![CDATA[PLAY]]></play_down>
+	<play_over><![CDATA[PLAY]]></play_over>
+	<txt_play><![CDATA[PLAY]]></txt_play>
+	<yourScore><![CDATA[Your Score: ]]></yourScore>
+	<loader><![CDATA[LOADING]]></loader>
+</localization>
+	
+</config>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<audio>
+	
+	<sounds>
+		
+		<asset id="splashLoop" name="splashLoop" url="audio/music/splashLoop.mp3"/>
+		
+		<!-- Comment out the gameLoop group for international version. Once group has english vocals the other is
+		instrumental only. -->
+		
+		
+		<asset id="gameLoop1" name="gameLoop1" url="audio/music/gameLoop.mp3"/>
+		<asset id="gameLoop2" name="gameLoop2" url="audio/music/gameLoop.mp3"/>
+		
+		
+		<!--
+		<asset id="gameLoop1" name="gameLoop1" url="audio/music/gameLoop_international.mp3"/>
+		<asset id="gameLoop2" name="gameLoop2" url="audio/music/gameLoop_international.mp3"/>
+		-->
+		
+	</sounds>
+	
+</audio>
+
+	

@@ -1,0 +1,40 @@
+<config>
+		
+	<serviceSettings>
+		<servicesModuleURL>nick_services_module.swf</servicesModuleURL>		
+		<enableServices>true</enableServices> <!-- Set to FALSE to disable all Nick Services completely. TRUE will follow the specific service settings. -->
+		<enableLogin>true</enableLogin>
+		<enableLeaderboard>true</enableLeaderboard>
+		<enableNickPoints>false</enableNickPoints>		
+		<enableTracking>true</enableTracking>
+		<serviceManagerURL>/common/flash/services/ServiceManager.swf</serviceManagerURL>
+		<serviceManagerConfigURL>/common/flash/services/data/services.xml</serviceManagerConfigURL>		
+	</serviceSettings>
+	<tracking>
+		<gameName>spongebob-ghostly-grammar</gameName>
+		<urlAlias>URL_ALIAS</urlAlias> <!-- This is currently only used for Printable tracking-->
+		<showID>SHOW_ID</showID> <!-- This is currently only used for Printable tracking-->
+	</tracking>
+	<leaderboard>
+		<gameID>spongebob-ghostly-grammar-hsb</gameID>
+	</leaderboard>
+	<wordlist>
+		<pool>string,thing,bring,sting,cling,bling,wing,sing</pool>
+		<pool>ad,add,bad,brad,cad,clad,dad,fad,gad,glad,grad,had,lad,mad,pad,plaid,rad,sad,tad</pool>
+		<pool>school,cool,drool,fool,ghoul,joule,mule,pool,rule,spool,stool,tool,yule</pool>
+		<pool>click,brick,chick,crick,flick,hick,kick,lick,quick,shtick,sick,slick,stick,thick,trick,wick</pool>
+		<pool>buy,chai,cry,dry,dye,eye,fly,fry,guy,high,lie,pie,ply,pry,rye,shy,sigh,sky,sly,spry,spy,thigh,tie,why</pool>
+		<pool>might,bite,blight,bright,cite,fight,flight,fright,height,kite,knight,light,night,plight,quite,right,sight,slight,spite,tight,trite,write</pool>
+		<pool>doom,bloom,boom,broom,flume,fume,gloom,groom,loom,plume,room,tomb,zoom</pool>
+		<pool>pen,fen,glen,hen,men,pen,ten,then,wren,zen</pool>
+		<pool>spice,nice,dice,ice,lice,mice,price,rice,slice,splice,thrice,twice,vice</pool>
+		<pool>wire,admire,aspire,expire,fire,hire,inquire,inspire,perspire,retire,sapphire</pool>
+		<pool>jar,bar,car,far,par,star,tar</pool>
+		<pool>steak,ache,bake,brake,break,cake,drake,fake,flake,lake,make,rake,sake,shake,snake,take</pool>
+		<pool>hot,blot,clot,cot,dot,got,jot,knot,not,plot,pot,rot,shot,slot,spot,squat,swat,tot,trot,watt,yacht</pool>
+		<pool>paste,aced,based,baste,braced,chased,chaste,faced,graced,haste,laced,placed,raced,spaced,taste,traced,waist,waste</pool>
+		<pool>screen,bean,clean,dean,glean,green,jean,lean,mean,preen,queen,scene,seen,sheen,spleen,teen,wean</pool>
+		<pool>frame,aim,blame,came,claim,dame,fame,flame,game,lame,maim,name,same,shame,tame</pool>
+		<pool>zoo,blue,boo,brew,chew,coo,coup,crew,cue,dew,few,flew,flu,glue,goo,grew,mew,moo,phew,queue,rue,screw,shoe,skew,spew,stew,sue,threw,through,too,view</pool>
+	</wordlist>
+</config>

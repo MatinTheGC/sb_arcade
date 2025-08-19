@@ -1,0 +1,344 @@
+﻿<xliff version="1.0" lang="en" xmlns="http://www.w3.org/XML/1998/namespace">
+  <file datatype="plaintext" original="20000" source-language="EN">
+    <header/>
+    <body>
+      <trans-unit id="001" resname="TITLE_TITLE">
+        <source>%3CP%20ALIGN%3D'center'%3E%3CFONT%20SIZE%3D'45'%3E%3CB%3ESpongeBob%20Soak%20N'%20Squeeze!%3C%2FB%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+      <trans-unit id="002" resname="TITLE_PLAY">
+        <source>%3CP%20ALIGN%3D'center'%3E%3CFONT%20SIZE%3D'40'%3E%3CB%3EPlay%3C%2FB%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+      <trans-unit id="003" resname="INSTRUC_SKIP">
+        <source>Skip</source>
+      </trans-unit>
+	  <trans-unit id="004" resname="INSTRUC_NEXT">
+        <source>Next</source>
+      </trans-unit>
+      <trans-unit id="005" resname="GREENTIPS_CONTINUE">
+        <source>%3CP%20ALIGN%3D'center'%3E%3CFONT%20SIZE%3D'30'%3E%3CB%3EContinue%3C%2FB%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+      <trans-unit id="006" resname="GREENTIPS_TITLE">
+        <source>%3CP%20ALIGN%3D'center'%3E%3CFONT%20SIZE%3D'43'%3E%3CB%3EBeing%20Green%3C%2FB%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+	  <trans-unit id="007" resname="HUD_LIFE">
+        <source>Pollution</source>
+      </trans-unit>
+      <trans-unit id="008" resname="HUD_LIVES">
+        <source>Lives</source>
+      </trans-unit>
+      <trans-unit id="009" resname="HUD_GOAL">
+        <source>Goal</source>
+      </trans-unit>
+	  <trans-unit id="010" resname="HUD_BOOST">
+        <source>Boost</source>
+      </trans-unit>
+      <trans-unit id="011" resname="HUD_MEASUREMENT">
+        <source>mL</source>
+      </trans-unit>
+      <trans-unit id="012" resname="RESULTS_NEXTLEVEL">
+        <source>%3CP%20ALIGN%3D'center'%3E%3CFONT%20SIZE%3D'35'%3E%3CB%3ENext%20Level%3C%2FB%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+	  <trans-unit id="013" resname="RESULTS_BONUS">
+        <source>Bonus :</source>
+      </trans-unit>
+      <trans-unit id="014" resname="RESULTS_TOTAL">
+        <source>Total :</source>
+      </trans-unit>
+      <trans-unit id="015" resname="RESULTS_SCORE">
+        <source>Score :</source>
+      </trans-unit>
+	  <trans-unit id="016" resname="RESULTS_TITLE">
+        <source>Level Results</source>
+      </trans-unit>
+      <trans-unit id="017" resname="HUD_TIME">
+        <source>Time :</source>
+      </trans-unit>
+      <trans-unit id="018" resname="HUD_SCORE">
+        <source>Score:</source>
+      </trans-unit>
+	  <trans-unit id="019" resname="INGAMEMSG_FILTER">
+        <source>Filter</source>
+      </trans-unit>
+      <trans-unit id="020" resname="INGAMEMSG_OFWATER">
+        <source>of Water!</source>
+      </trans-unit>
+      <trans-unit id="021" resname="INGAMEMSG_LEVEL">
+        <source>LEVEL%20</source>
+      </trans-unit>
+	  <trans-unit id="022" resname="INGAMEMSG_BIKINI">
+        <source>Get ready to clean up Bikini Bottom!</source>
+      </trans-unit>
+      <trans-unit id="023" resname="INGAMEMSG_NEIGHBORHOOD">
+        <source>Oh no! SpongeBob's neighborhood is in trouble!</source>
+      </trans-unit>
+      <trans-unit id="024" resname="INGAMEMSG_BIKINI2">
+        <source>Let's finish cleaning Bikini Bottom!</source>
+      </trans-unit>
+	  <trans-unit id="025" resname="INGAMEMSG_LOSEPOINTS">
+        <source>Hurry!%0DBe sure to CLICK on puddles and rinse!</source>
+      </trans-unit>
+      <trans-unit id="026" resname="INGAMEMSG_POLLUTED">
+        <source>POLLUTED!</source>
+      </trans-unit>
+      <trans-unit id="027" resname="INGAMEMSG_CLEANUPMORE">
+        <source>More CLEAN water needs to be filtered by SpongeBob!</source>
+      </trans-unit>
+	  <trans-unit id="028" resname="INGAMEMSG_TIMESUP">
+        <source>TIMES UP!</source>
+      </trans-unit>
+      <trans-unit id="029" resname="INGAMEMSG_GREATJOB">
+        <source>GREAT JOB!</source>
+      </trans-unit>
+      <trans-unit id="030" resname="INGAMEMSG_KEEPCLEANING">
+        <source>Keep Cleaning! More pipes have popped up!</source>
+      </trans-unit>
+	  <trans-unit id="031" resname="TUTOR_SPEED">
+        <source>SpongeBob is now super duper fast!</source>
+      </trans-unit>
+      <trans-unit id="032" resname="TUTOR_PATRICK">
+        <source>Patrick loves shiny things!</source>
+      </trans-unit>
+      <trans-unit id="033" resname="TUTOR_POWERUP">
+        <source>You got a power-up! CLICK on it's icon in the HUD!</source>
+      </trans-unit>
+	  <trans-unit id="034" resname="TUTOR_PIPESPILL">
+        <source>Hurry and CLICK on this spill before it pollutes Bikini  Bottom!</source>
+      </trans-unit>
+      <trans-unit id="035" resname="TUTOR_PIPEAFFECT">
+        <source>Hurry and clean up this spill it's hurting your health!</source>
+      </trans-unit>
+      <trans-unit id="036" resname="TUTOR_MAXMETER">
+        <source>Great you maxed out your meter! Bring the BONUS points on!</source>
+      </trans-unit>
+	  <trans-unit id="037" resname="TUTOR_NEEDFULLBODY">
+        <source>You must be WHOLE to wring out!</source>
+      </trans-unit>
+      <trans-unit id="038" resname="TUTOR_PATRICKAFFECT">
+        <source>Keep SpongeBob away from Patrick or else he'll SLOW down!</source>
+      </trans-unit>
+      <trans-unit id="039" resname="TUTOR_RINSE">
+        <source>Filter CLEAN water from SpongeBob's body here!</source>
+      </trans-unit>
+	  <trans-unit id="040" resname="TUTOR_PARTSOAK">
+        <source>Now SpongeBob's piece is soaking up the pollution!</source>
+      </trans-unit>
+      <trans-unit id="041" resname="TUTOR_SERIOUSPOLL">
+        <source>Now the pollution is getting serious!</source>
+      </trans-unit>
+      <trans-unit id="042" resname="TUTOR_USEPOWERUPS">
+        <source>Use powerups to gain BONUS points!</source>
+      </trans-unit>
+      <trans-unit id="043" resname="TUTOR_PIPESAREPOLLUT">
+        <source>CLEAN UP!%0DPipes are polluting Bikini Bottom!</source>
+      </trans-unit>
+      <trans-unit id="044" resname="LOADING_SOUNDS">
+        <source>Loading Sounds... Please be patient.</source>
+      </trans-unit>
+      <trans-unit id="045" resname="RESULTS_BONUS">
+        <source>Bonus:</source>
+      </trans-unit>
+      <trans-unit id="046" resname="RESULTS_SCORE">
+        <source>Score:</source>
+      </trans-unit>
+      <trans-unit id="047" resname="RESULTS_TOTAL">
+        <source>Total:</source>
+      </trans-unit>
+      <trans-unit id="048" resname="RESULTS_PLAYAGAIN">
+        <source>%3CP%20ALIGN%3D'center'%3E%3CFONT%20SIZE%3D'25'%3E%3CB%3EPlay%20Again%3C%2FB%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+      <trans-unit id="049" resname="RESULTS_HIGHSCORES">
+        <source>%3CP%20ALIGN%3D'center'%3E%3CFONT%20SIZE%3D'21'%3E%3CB%3ELeaderboard%3C%2FB%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+      <trans-unit id="050" resname="RESULTS_GAMERESULTS">
+        <source>GAME RESULTS</source>
+      </trans-unit>
+      <trans-unit id="051" resname="WINMSG_TITLE">
+        <source>YOU WIN!</source>
+      </trans-unit>
+      <trans-unit id="052" resname="HIGH_SUBMITSCORE">
+        <source>%3CP%20ALIGN%3D'center'%3E%3CFONT%20SIZE%3D'25'%3E%3CB%3ESubmit%20Score%3C%2FB%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+      <trans-unit id="053" resname="QUIT_AREUSURE">
+        <source>Are you sure you want to quit?</source>
+      </trans-unit>
+      <trans-unit id="054" resname="QUIT_YES">
+        <source>Yes</source>
+      </trans-unit>
+      <trans-unit id="055" resname="QUIT_NO">
+        <source>No</source>
+      </trans-unit>
+      <trans-unit id="056" resname="INSTRUCTIONS1">
+        <source>%3CP%20ALIGN%3D'center'%3E%3CFONT%20SIZE%3D'13'%3E%3CB%3E-%20Help%20SpongeBob%20clean%20up%20Bikini%20Bottom%0D%0A-%20CLICK%20on%20pollution%20spills%20to%20place%20sponges%0D%0A-%20There%20are%204%20sponges%20that%20can%20be%20placed%20on%20spills%3C%2FB%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+      <trans-unit id="057" resname="INSTRUCTIONS2">
+        <source>%3CP%20ALIGN%3D'center'%3E%3CFONT%20SIZE%3D'13'%3E%3CB%3E-%20Recollect%20the%20sponges%20and%20then%20wring%20out%20at%20the%20water%20tub%0D%0A-%20Wring%20out%20to%20collect%20water%20to%20beat%20the%20level%3C%2FB%3E%3C%2FFONT%3E%3C%2FP%3E%0D%0A</source>
+      </trans-unit>
+      <trans-unit id="058" resname="INSTRUCTIONS_TITLE">
+        <source>INSTRUCTIONS</source>
+      </trans-unit>
+      <trans-unit id="059" resname="LOADING_TITLE">
+        <source>LOADING</source>
+      </trans-unit>
+      <trans-unit id="060" resname="LOADING_LOADING">
+        <source>loading</source>
+      </trans-unit>
+      <trans-unit id="061" resname="TUTOR_TIP">
+        <source>Tip</source>
+      </trans-unit>
+      <trans-unit id="062" resname="HUD_LEVEL">
+        <source>Level:</source>
+      </trans-unit>
+      <trans-unit id="063" resname="TUTOR_TORNADO">
+        <source>Watch out for the Tornado it will steal your water!</source>
+      </trans-unit>
+      <trans-unit id="064" resname="MENU_SOUND">
+        <source>Sound On</source>
+      </trans-unit>
+      <trans-unit id="065" resname="MENU_INSTRUCTIONS">
+        <source>%3CP%20ALIGN%3D'center'%3E%3CFONT%20SIZE%3D'18'%3E%3CB%3EInstructions%3C%2FB%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+      <trans-unit id="066" resname="MENU_QUIT">
+        <source>Quit</source>
+      </trans-unit>
+      <trans-unit id="067" resname="MENU">
+        <source>Menu</source>
+      </trans-unit>
+      <trans-unit id="068" resname="LEADERBOARD_TITLE">
+        <source>LEADERBOARD</source>
+      </trans-unit>
+      <trans-unit id="069" resname="YOU_LOSE">
+        <source>YOU LOSE!</source>
+      </trans-unit>
+      <trans-unit id="070" resname="READY">
+        <source>READY !</source>
+      </trans-unit>
+      <trans-unit id="071" resname="SET">
+        <source>SET !</source>
+      </trans-unit>
+      <trans-unit id="072" resname="CLEAN">
+        <source>CLEAN !</source>
+      </trans-unit>
+      <trans-unit id="073" resname="BONUS">
+        <source>BONUS!</source>
+      </trans-unit>
+      <trans-unit id="074" resname="PIPEINSTRUC">
+        <source>%3CP%20ALIGN%3D'left'%3E%3CFONT%20SIZE%3D'14'%3E%3Ctextformat%20leading%3D%22-3%22%3E%3Cb%3ECLICK%20on%20a%20spill%20to%20place%20a%20sponge!%3Cb%3E%3C%2Ftextformat%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+      <trans-unit id="075" resname="SBPIECEINSTRUC">
+        <source>%3CP%20ALIGN%3D'left'%3E%3CFONT%20SIZE%3D'14'%3E%3Ctextformat%20leading%3D%22-3%22%3E%3Cb%3ESpongeBob%20can%20divide%20into%204%20pieces!%3Cb%3E%3C%2Ftextformat%3E%3C%2FFONT%3E%3C%2FP%3E%0D%0A</source>
+      </trans-unit>
+      <trans-unit id="076" resname="SOAKINSTRUC">
+        <source>%3CP%20ALIGN%3D'left'%3E%3CFONT%20SIZE%3D'14'%3E%3Ctextformat%20leading%3D%22-3%22%3E%3Cb%3ELet%20the%20sponges%20soak%20and%20then%20CLICK%20on%20them%20to%20recollect!%3Cb%3E%3C%2Ftextformat%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+      <trans-unit id="077" resname="RINSEINSTRUC">
+        <source>%3CP%20ALIGN%3D'left'%3E%3CFONT%20SIZE%3D'14'%3E%3Ctextformat%20leading%3D%22-3%22%3E%3Cb%3EOnce%20the%204%20sponges%20have%20been%20collected%2C%20hurry%20to%20the%20wringer!%3Cb%3E%3C%2Ftextformat%3E%3C%2FFONT%3E%3C%2FP%3E%0D%0A</source>
+      </trans-unit>
+      <trans-unit id="078" resname="METERINSTRUC">
+        <source>%3CP%20ALIGN%3D'left'%3E%3CFONT%20SIZE%3D'14'%3E%3Ctextformat%20leading%3D%22-3%22%3E%3Cb%3ERepeat%20steps%20to%20gather%20enough%20filtered%20water%20to%20pass%20the%20level.%3Cb%3E%3C%2Ftextformat%3E%3C%2FFONT%3E%3C%2FP%3E%0D%0A</source>
+      </trans-unit>
+      <trans-unit id="079" resname="BOOSTINSTRUC">
+        <source>%3CP%20ALIGN%3D'left'%3E%3CFONT%20SIZE%3D'14'%3E%3Ctextformat%20leading%3D%22-3%22%3E%3Cb%3ECollect%20fruit%20smoothies%20for%20an%20energy%20boost!%3Cb%3E%3C%2Ftextformat%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+      <trans-unit id="080" resname="MIRRORINSTRUC">
+        <source>%3CP%20ALIGN%3D'left'%3E%3CFONT%20SIZE%3D'14'%3E%3Ctextformat%20leading%3D%22-3%22%3E%3Cb%3EClick%20on%20the%20mirror%20to%20distract%20Patrick!%3Cb%3E%3C%2Ftextformat%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+      <trans-unit id="081" resname="BACK">
+        <source>Back</source>
+      </trans-unit>
+      <trans-unit id="082" resname="LOADING_ASSETS">
+        <source>Loading Assets... Please be patient.</source>
+      </trans-unit>
+      <trans-unit id="083" resname="MENU_SOUNDON">
+        <source>Sound On</source>
+      </trans-unit>
+      <trans-unit id="084" resname="MENU_SOUNDOFF">
+        <source>Sound Off</source>
+      </trans-unit>
+      <trans-unit id="085" resname="RESULTS_GREATJOB">
+        <source>GREAT JOB!</source>
+      </trans-unit>
+      <trans-unit id="086" resname="GREEN_FOR">
+        <source>for</source>
+      </trans-unit>
+      <trans-unit id="087" resname="GREEN_TIPS">
+        <source>Tips</source>
+      </trans-unit>
+      <trans-unit id="088" resname="TUTOR_BLACKSPILL">
+        <source>Black oil spills require 2 sponges to clean up!</source>
+      </trans-unit>
+      <trans-unit id="089" resname="INSTRUC_GO">
+        <source>%3CP%20ALIGN%3D'center'%3E%3CFONT%20SIZE%3D'40'%3E%3CB%3EGO%3C%2FB%3E%3C%2FFONT%3E%3C%2FP%3E</source>
+      </trans-unit>
+    </body>
+    <system>
+      <langs>
+        <lang>
+          <name>English</name>
+          <code>en</code>
+          <enabled>1</enabled>
+          <langgroup>WE</langgroup>
+        </lang>
+        <lang>
+          <name>Nederlands</name>
+          <code>nl</code>
+          <enabled>0</enabled>
+          <langgroup>WE</langgroup>
+        </lang>
+        <lang>
+          <name>Portugu%C3%AAs</name>
+          <code>pt</code>
+          <enabled>0</enabled>
+          <langgroup>WE</langgroup>
+        </lang>
+        <lang>
+          <name>Deutsch</name>
+          <code>de</code>
+          <enabled>0</enabled>
+          <langgroup>WE</langgroup>
+        </lang>
+        <lang>
+          <name>Fran%C3%A7ais</name>
+          <code>fr</code>
+          <enabled>0</enabled>
+          <langgroup>WE</langgroup>
+        </lang>
+        <lang>
+          <name>Italiano</name>
+          <code>it</code>
+          <enabled>0</enabled>
+          <langgroup>WE</langgroup>
+        </lang>
+        <lang>
+          <name>Espa%C3%B1ol</name>
+          <code>es</code>
+          <enabled>0</enabled>
+          <langgroup>WE</langgroup>
+        </lang>
+        <lang>
+          <name>%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87</name>
+          <code>ch</code>
+          <enabled>0</enabled>
+          <langgroup>NW</langgroup>
+        </lang>
+        <lang>
+          <name>%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87</name>
+          <code>zh</code>
+          <enabled>0</enabled>
+          <langgroup>NW</langgroup>
+        </lang>
+        <lang>
+          <name>%E6%97%A5%E6%9C%AC%E8%AA%9E</name>
+          <code>ja</code>
+          <enabled>0</enabled>
+          <langgroup>NW</langgroup>
+        </lang>
+        <lang>
+          <name>%ED%95%9C%EA%B5%AD%EC%96%B4</name>
+          <code>ko</code>
+          <enabled>0</enabled>
+          <langgroup>NW</langgroup>
+        </lang>
+      </langs>
+    </system>
+  </file>
+</xliff>

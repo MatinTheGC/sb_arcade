@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<localization>
+	<string id="tutorialSteeringKeys" fontName="Font_EdInterlock"       fontSize="24"><![CDATA[Press the arrow keys to steer SpongeBob!]]></string>
+	<string id="tutorialHitThe"       fontName="Font_EdInterlock"       fontSize="30"><![CDATA[Press the]]></string>
+	<string id="spaceBarLabel"        fontName="Font_EdInterlock"       fontSize="20"><![CDATA[SPACE BAR]]></string>
+	<string id="toLaunch"             fontName="Font_EdInterlock"       fontSize="30"><![CDATA[to launch!]]></string>
+	<string id="prestartSkate"        fontName="Font_EdInterlock"       fontSize="40"><![CDATA[Skate!]]></string>
+	<string id="prestartReady"        fontName="Font_EdInterlock"       fontSize="40"><![CDATA[Ready?]]></string>
+	<string id="prestartSet"          fontName="Font_EdInterlock"       fontSize="40"><![CDATA[Set!]]></string>
+	<string id="helpSquidward"        fontName="Font_EdInterlock"       fontSize="17"><![CDATA[Avoid Squidward  and obstacles that  slow you down!]]></string>
+	<string id="helpLarry"            fontName="Font_EdInterlock"       fontSize="17"><![CDATA[Aim for Larry to get a mega speed boost!]]></string>
+	<string id="helpRelease"          fontName="Font_EdInterlock"       fontSize="17"><![CDATA[Sardines will give you a helping hand, use the SPACE BAR to release for a speed bonus!]]></string>
+	<string id="helpSteering"         fontName="Font_EdInterlock"       fontSize="17"><![CDATA[Use the  Left and Right arrow keys to steer SpongeBob]]></string>
+	<string id="helpOverview"         fontName="Font_EdInterlock"       fontSize="22"><![CDATA[Skate fast enough to escape Plankton's remote-controlled Robot Carolers!]]></string>
+	<string id="howToPlayTitle"       fontName="Font_ShagExpertExotica" fontSize="40"><![CDATA[How to Play!]]></string>
+	<string id="btnSubmitScoreLabel2" fontName="Font_ShagExpertExotica" fontSize="24"><![CDATA[Submit Score]]></string>
+	<string id="btnPlayGameLabel2"    fontName="Font_ShagExpertExotica" fontSize="24"><![CDATA[Play Game]]></string>
+	<string id="planktonSingers"      fontName="Font_ShagExpertExotica" fontSize="25"><![CDATA[The Plankton Singers]]></string>
+	<string id="btnViewScoresLabel2"  fontName="Font_ShagExpertExotica" fontSize="24"><![CDATA[View Scores]]></string>
+	<string id="btnSkipLabel"         fontName="Font_ShagExpertExotica" fontSize="24"><![CDATA[SKIP]]></string>
+	<string id="btnSubmitScoreLabel"  fontName="Font_ShagExpertExotica" fontSize="24"><![CDATA[Submit Score]]></string>
+	<string id="btnResumeLabel"       fontName="Font_ShagExpertExotica" fontSize="24"><![CDATA[Resume]]></string>
+	<string id="btnPlayGameLabel"     fontName="Font_ShagExpertExotica" fontSize="24"><![CDATA[Play Game]]></string>
+	<string id="btnViewScoresLabel"   fontName="Font_ShagExpertExotica" fontSize="24"><![CDATA[View Scores]]></string>
+	<string id="btnPlayAgainLabel"    fontName="Font_ShagExpertExotica" fontSize="24"><![CDATA[Play Again]]></string>
+	<string id="btnNextLabel"         fontName="Font_ShagExpertExotica" fontSize="17"><![CDATA[NEXT]]></string>
+	<string id="btnBackLabel"         fontName="Font_ShagExpertExotica" fontSize="17"><![CDATA[BACK]]></string>
+	<string id="btnHelpLabel2"        fontName="Font_ShagExpertExotica" fontSize="17"><![CDATA[HELP]]></string>
+	<string id="btnQuitLabel"         fontName="Font_ShagExpertExotica" fontSize="17"><![CDATA[QUIT]]></string>
+	<string id="btnHelpLabel"         fontName="Font_ShagExpertExotica" fontSize="19"><![CDATA[HELP]]></string>
+	<string id="quitConfirmation"     fontName="Font_EdInterlock"       fontSize="20"><![CDATA[Are you sure you want to quit?]]></string>
+	<string id="btnNoLabel"           fontName="Font_ShagExpertExotica" fontSize="28"><![CDATA[No]]></string>
+	<string id="gameLogo"             fontName="Font_ShagExpertExotica" fontSize="105"><![CDATA[Frosty  Fling!]]></string>
+	<string id="btnYesLabel"          fontName="Font_ShagExpertExotica" fontSize="28"><![CDATA[Yes]]></string>
+	<string id="gameLogoBasic"        fontName="_serif"                 fontSize="90"><![CDATA[Frosty  Fling!]]></string>
+	<string id="btnPlayLabel"         fontName="Font_ShagExpertExotica" fontSize="34"><![CDATA[Play!]]></string>
+	<string id="deckTheBots"          fontName="Font_EdInterlock"       fontSize="28"><![CDATA[Deck the bots with boughs of holly!]]></string>
+	<string id="gameLoaderLoading"    fontName="Font_EdInterlock"       fontSize="20"><![CDATA[Loading...]]></string>
+	<string id="finalScoreDisplay"    fontName="Font_EdInterlock"       fontSize="28"><![CDATA[Final Score: $score$]]></string>
+	<string id="scoreDisplay"         fontName="Font_EdInterlock"       fontSize="26"><![CDATA[SCORE: $score$]]></string>
+	<string id="gameRank_1"           fontName="Font_EdInterlock"       fontSize="32"><![CDATA[Fabulous Footwork!]]></string>
+	<string id="gameRank_2"           fontName="Font_EdInterlock"       fontSize="32"><![CDATA[Smooth Skating!]]></string>
+	<string id="gameRank_3"           fontName="Font_EdInterlock"       fontSize="32"><![CDATA[Icy Moves!]]></string>
+	<string id="highScoreFormat"      fontName="Font_EdInterlock"       fontSize="16"><![CDATA[$text$]]></string>
+</localization>

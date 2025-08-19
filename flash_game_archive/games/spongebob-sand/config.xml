@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+	<loading_label_txt>Loading!</loading_label_txt>
+	<play_button_txt>play</play_button_txt>
+	<instruction_txt>Defend your sand fort! 
+Click SpongeBob's sand towers to build them back up, click Patrick's to throw a seashell and knock his down!</instruction_txt>
+	<score_label_txt>Score:</score_label_txt>
+	<health_label_txt>Health:</health_label_txt>
+	<level_label_txt>Level</level_label_txt>
+	<continue_button_txt>continue</continue_button_txt>
+</localization>

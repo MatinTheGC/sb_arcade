@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+
+<strings>
+	<localization>
+		<quitConfirmation><![CDATA[Are you<br>sure you want to quit?]]></quitConfirmation>
+		<howToPlay><![CDATA[How to Play]]></howToPlay>
+		<helpBody6><![CDATA[Land on the CARD tiles to play a game or get a mystery card!]]></helpBody6>
+		<helpBody5><![CDATA[Avoid these tiles, landing on them will cost you points.]]></helpBody5>
+		<helpBody4><![CDATA[Watch out for this space,  it will send you backwards.]]></helpBody4>
+		<helpBody3><![CDATA[Land on these tiles to draw a card from the deck.]]></helpBody3>
+		<helpBody2><![CDATA[Land on these tiles to get bonus points.]]></helpBody2>
+		<helpBody1><![CDATA[Click the spinner to move forward.]]></helpBody1>
+		<helpCards><![CDATA[Cards]]></helpCards>
+		<helpTiles><![CDATA[Tiles]]></helpTiles>
+		<helpSpinner><![CDATA[Spinner]]></helpSpinner>
+		<selectCharacter><![CDATA[Select a Character]]></selectCharacter>
+		<quitBtn><![CDATA[Quit]]></quitBtn>
+		<helpBtn><![CDATA[Help]]></helpBtn>
+		<startBtn><![CDATA[START]]></startBtn>
+		<resumeBtn><![CDATA[RESUME]]></resumeBtn>
+		<close><![CDATA[Close]]></close>
+		<playAgain><![CDATA[Play Again ]]></playAgain>
+		<submitScoreBtn><![CDATA[Submit Score]]></submitScoreBtn>
+		<yes><![CDATA[Yes]]></yes>
+		<no><![CDATA[No]]></no>
+		<leaderboardBtn><![CDATA[Leaderboard]]></leaderboardBtn>
+		<patrick><![CDATA[Patrick]]></patrick>
+		<spongebob><![CDATA[SpongeBob]]></spongebob>
+		<loading><![CDATA[LOADING]]></loading>
+		<go><![CDATA[GO]]></go>
+		<set><![CDATA[SET]]></set>
+		<ready><![CDATA[READY]]></ready>
+		<points><![CDATA[Points]]></points>
+		<move><![CDATA[Move]]></move>
+		<minigamePoints><![CDATA[Points]]></minigamePoints>
+		<minigameMove><![CDATA[Move]]></minigameMove>
+		<time><![CDATA[Time]]></time>
+		<computerMinigameCard><![CDATA[ONE<br>MINIGAME<br>LATER]]></computerMinigameCard>
+		<or><![CDATA[or]]></or>
+			
+		<playerScore><![CDATA[Your Score:]]></playerScore>
+		<opponentScore><![CDATA[Score:]]></opponentScore>
+		<wins><![CDATA[Wins!]]></wins>
+		
+		<minigameInstructionsHeader><![CDATA[Instructions:]]></minigameInstructionsHeader>
+		<bubbleTitle><![CDATA[Bubble Blower]]></bubbleTitle>
+		<bubbleInstructions><![CDATA[Click to stop the meter in the middle area to blow the biggest bubble possible!]]></bubbleInstructions>
+		<ballTitle><![CDATA[Beach Ball Bounce]]></ballTitle>
+		<ballInstructions><![CDATA[Move your mouse to bounce the beach ball and keep it on screen.]]></ballInstructions>
+		<jellyTitle><![CDATA[Jellyfishing Frenzy]]></jellyTitle>
+		<jellyInstructions><![CDATA[Click on the jellyfish to catch as many as possible.]]></jellyInstructions>
+		<pattyTitle><![CDATA[Patty-licious Pork Out]]></pattyTitle>
+		<pattyInstructions><![CDATA[Click on the Krabby Patties to eat them as fast as possible.]]></pattyInstructions>
+		
+		<cardInstructionsHeader><![CDATA[]]></cardInstructionsHeader>
+		<krabbyTitle><![CDATA[Patty Power]]></krabbyTitle>
+		<krabbyInstructions><![CDATA[Use the power of the Patty!<br>Move forward 2 spaces.]]></krabbyInstructions>
+		<chumTitle><![CDATA[Chum Bucket]]></chumTitle>
+		<chumInstructions><![CDATA[Oh no! You fell in Chum.<br>Move back 2 spaces.]]></chumInstructions>
+		<mysteryTitle><![CDATA[Mystery Hook]]></mysteryTitle>
+		<mysteryInstructions><![CDATA[Sends your opponent back<br>up to 4 spaces.]]></mysteryInstructions>
+		
+		<spinnerPrompts>
+			<prompt>Wheeeeeee</prompt>
+			<prompt>Hold onto something!</prompt>
+			<prompt>AHHHHHH!</prompt>
+			<prompt>Soooo dizzy</prompt>
+			<prompt>One spin later...</prompt>
+			<prompt>Not the chum!</prompt>
+			<prompt>Tartar sauce?</prompt>
+		</spinnerPrompts>
+		
+		<zeroBonusPhrase><![CDATA[Ohhh no!]]></zeroBonusPhrase>		<!-- Phrase displayed when earning no bonus moves -->
+		<oneBonusPhrase><![CDATA[Not Bad!]]></oneBonusPhrase>		<!-- Phrase displayed when earning one bonus step -->
+		<twoBonusPhrase><![CDATA[Good Job!]]></twoBonusPhrase>		<!-- Phrase displayed when earning two bonus steps -->
+		<threeBonusPhrase><![CDATA[GREAT JOB!]]></threeBonusPhrase> 	<!-- Phrase displayed when earning three bonus steps -->
+	</localization>
+</strings>
+
+	

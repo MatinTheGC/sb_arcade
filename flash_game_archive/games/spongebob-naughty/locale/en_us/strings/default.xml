@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+
+	<!-- Loaded Screen -->
+	<string id="txtLoading" fontName="Rasten" fontSize="14" html="true"><![CDATA[LOADING]]></string>
+
+	<!-- Title Screen -->
+	<string id="btPlay" fontName="Rasten" fontSize="23" html="true"><![CDATA[Play]]></string>	
+	<string id="btHelp" fontName="Rasten" fontSize="17" html="true"><![CDATA[How to Play]]></string>
+	<string id="btViewHS" fontName="Rasten" fontSize="17" html="true"><![CDATA[View High Scores]]></string>
+	<string id="txtWatchShow" fontName="Rasten" fontSize="15" html="true"><![CDATA[Watch "SpongeBob Squarepants" on Nickelodeon!]]></string>
+	
+	<!-- Help -->
+	<string id="txtHelp1" fontName="Tiki-Island" fontSize="40" html="true"><![CDATA[How to play]]></string>
+	<string id="txtHelp2" fontName="Rasten" fontSize="15" html="true"><![CDATA[Throw gifts to the eager sardines that are climbing up the hill!  Don't let them get too close or they'll cling to you!]]></string>	
+	<string id="txtHelp3" fontName="Rasten" fontSize="15" html="true"><![CDATA[Some deserve nice gifts while others... well, not-so-nice.]]></string>	
+	<string id="txtHelp4" fontName="Rasten" fontSize="15" html="true"><![CDATA[Target & Throw, Shake off]]></string>
+	<string id="txtHelp5" fontName="Rasten" fontSize="15" html="true"><![CDATA[Switch between nice and naughty gifts]]></string>
+	<string id="txtHelp6" fontName="Rasten" fontSize="15" html="true"><![CDATA[Shoot the shooting star  to get power-ups!]]></string>
+	<string id="txtHelp7" fontName="Rasten" fontSize="15" html="true"><![CDATA[Naughty]]></string>
+	<string id="txtHelp8" fontName="Rasten" fontSize="15" html="true"><![CDATA[Nice]]></string>
+	<string id="txtHelp9" fontName="Rasten" fontSize="15" html="true"><![CDATA[Pro tip:]]></string>
+	<string id="txtHelp10" fontName="Rasten" fontSize="15" html="true"><![CDATA[Hit multiple sardines of the same type in a row to start a combo!]]></string>
+	<string id="btBack" fontName="Rasten" fontSize="27" html="true"><![CDATA[Back]]></string>
+	
+	<!-- Hud -->
+	<string id="txtScore" fontName="Tiki-Island" fontSize="18" html="true"><![CDATA[Score]]></string>	
+	<string id="btHudMenu" fontName="Rasten" fontSize="27" html="true"><![CDATA[MENU]]></string>	
+	<string id="txtLevels" fontName="Tiki-Island" fontSize="25" html="true"><![CDATA[Level]]></string>
+
+	<!-- Menu -->
+	<string id="btMenuResume" fontName="Rasten" fontSize="23" html="true"><![CDATA[RESUME]]></string>	
+	<string id="btMenuHelp" fontName="Rasten" fontSize="23" html="true"><![CDATA[HOW TO PLAY]]></string>
+	<string id="sliderSFX" fontName="Rasten" fontSize="23" html="true"><![CDATA[SOUND]]></string>	
+	<string id="sliderMusic" fontName="Rasten" fontSize="23" html="true"><![CDATA[MUSIC]]></string>
+	<string id="btMenuQuit" fontName="Rasten" fontSize="23" html="true"><![CDATA[QUIT]]></string>	
+	
+	<!-- Quit Popup -->
+	<string id="txtQuit" fontName="Rasten" fontSize="23" html="true"><![CDATA[Quit]]></string>	
+	<string id="txtQuitText" fontName="Rasten" fontSize="23" html="true"><![CDATA[Are you sure you want to quit?]]></string>	
+	<string id="btYes" fontName="Rasten" fontSize="23" html="true"><![CDATA[YES]]></string>	
+	<string id="btNo" fontName="Rasten" fontSize="23" html="true"><![CDATA[NO]]></string>
+	
+	<!-- Lose Screen -->
+	<string id="btLoseSubmitHS" fontName="Lucida Sans Unicode" fontSize="12" html="true"><![CDATA[Submit Score]]></string>	
+	<string id="btLosePlayAgain" fontName="Lucida Sans Unicode" fontSize="16" html="true"><![CDATA[Play Again]]></string>
+	<string id="btLoseViewHS" fontName="Lucida Sans Unicode" fontSize="12" html="true"><![CDATA[View High Scores]]></string>
+	<string id="txtLoseText" fontName="Lucida Sans Unicode" fontSize="24" html="true"><![CDATA[Incredible!]]></string>
+	<string id="txtLose1" fontName="Lucida Sans Unicode" fontSize="16" html="true"><![CDATA[Oh NO!]]></string>
+	<string id="txtScoreM" fontName="Lucida Sans Unicode" fontSize="16" html="true"><![CDATA[SCORE]]></string>
+	<string id="txtLose2" fontName="Lucida Sans Unicode" fontSize="16" html="true"><![CDATA[Don't be too grinchy, you'll do better next time!]]></string>
+	<string id="txtWin1" fontName="Lucida Sans Unicode" fontSize="16" html="true"><![CDATA[It's a holiday miracle!]]></string>
+	<string id="txtWin2" fontName="Lucida Sans Unicode" fontSize="16" html="true"><![CDATA[You've been a real good sport this year, Santa’s proud of you! ]]></string>
+	
+	<!-- HS Title Screen -->
+	<string id="txtHSScreenTitle" fontName="Lucida Sans Unicode" fontSize="30" html="true"><![CDATA[High Scores]]></string>
+	
+	<!-- HS Screen -->
+	<string id="txtHighScores" fontName="Tiki-Island" fontSize="40" html="true"><![CDATA[HIGH SCORES]]></string>
+	<string id="txtFinalScore" fontName="Tiki-Island" fontSize="49" html="true"><![CDATA[Your Score:]]></string>
+	<string id="btHSSubmitHS" fontName="Rasten" fontSize="18" html="true"><![CDATA[Submit Score]]></string>
+	<string id="btPlayAgain" fontName="Rasten" fontSize="20" html="true"><![CDATA[Play Again]]></string>
+	<string id="txtno" fontName="Tiki-Island" fontSize="16" html="true"><![CDATA[No:]]></string>
+	<string id="txtnickname" fontName="Tiki-Island" fontSize="16" html="true"><![CDATA[Nickname:]]></string>
+	<string id="txtScore" fontName="Tiki-Island" fontSize="16" html="true"><![CDATA[Score:]]></string>
+	<string id="txthasScore" fontName="Tiki-Island" fontSize="16" html="true"><![CDATA[Someone has yet to get a high score!]]></string>
+	
+	<string id="btPlayAgain" fontName="Rasten" fontSize="20" html="true"><![CDATA[Play Again]]></string>
+	<string id="msgLoadingHighScores" fontName="Rasten" fontSize="23" html="true"><![CDATA[Loading high scores...]]></string>
+	<string id="msgNoHSData" fontName="Rasten" fontSize="17" html="true"><![CDATA[There's no high scores data.]]></string>
+	
+	
+	
+</strings>

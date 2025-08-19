@@ -1,0 +1,16 @@
+<delegate>
+   <localisation>
+      <language>english</language>
+   </localisation>
+   <config>
+      <track>true</track>
+      <gameID>spongebob-squarepants-winter-runderland</gameID>
+      <endScreenVersion>2</endScreenVersion>
+      <urlAlias>spongebob-squarepants-winter-runderland</urlAlias>
+      <contentType>SpongeBob Printable</contentType>
+      <showID>spo</showID>
+      <numberPages>1</numberPages>
+      <imageUrl>printable.png</imageUrl>
+      <hideScore>true</hideScore>
+   </config>
+</delegate>

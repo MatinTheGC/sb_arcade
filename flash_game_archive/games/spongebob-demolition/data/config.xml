@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<bg timeshift="2"></bg>
+<spongebob lives="3">
+	<jump height="30"></jump>
+	<move speed="4"></move>
+	<gun default="2" bulletspeed="10">
+		<normal rate="2"></normal>
+		<rapid rate="2"></rapid>
+		<spread rate="6" angle="15"></spread>
+	</gun>
+</spongebob>
+<powerup frequency="1" rapid="0" spread="0"/>
+<starpower length="2" jellykilled="210"/>
+<oneup jellykilled="600"></oneup>
+<days>
+	<day maxspawn="500000" spawnfreq="240"></day>
+	<day maxspawn="500000" spawnfreq="210"></day>
+	<day maxspawn="500000" spawnfreq="180"></day>
+	<day maxspawn="500000" spawnfreq="180"></day>
+	<day maxspawn="500000" spawnfreq="150"></day>
+	<day maxspawn="500000" spawnfreq="120"></day>
+	<day maxspawn="500000" spawnfreq="100"></day>
+</days>
+<purplejelly>
+	<health value="100"></health>
+	<damage value="25"></damage>
+	<move xspeed="2" yspeed="4"></move>
+</purplejelly>
+<kamikazejelly days="1,2,3,4,5,6,7,8,*">
+	<health value="100"></health>
+	<damage value="25"></damage>
+	<move xspeed="3"></move>
+</kamikazejelly>
+<queenjelly days="1,2,3,4,5,6,7,8,9,10,*">
+	<move xspeed="5" yspeed="3"></move>
+	<damage value="25"></damage>
+</queenjelly>
+<kingjelly days="2,3,4,5,6,7,8,9,10,*" deathhits="20">
+	<move xspeed="3" yspeed="3"></move>
+	<damage value="25"></damage>
+</kingjelly>
+</data>

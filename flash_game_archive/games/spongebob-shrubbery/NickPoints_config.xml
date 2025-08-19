@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<moduleSettings>
+		<moduleTimer>15</moduleTimer>
+		<collectionLink>http://www.nick.com/mynick/trading/pointers.jhtml</collectionLink>
+		<serviceLink>http://www.nick.com</serviceLink>
+	</moduleSettings>
+	<localization>
+		<expand_text><![CDATA[ NickPoints]]></expand_text>
+		<btn_log_in><![CDATA[Log In]]></btn_log_in>
+		<register_now><![CDATA[or Register Now.]]></register_now>
+		<log_in_to_claim><![CDATA[Log In to claim them]]></log_in_to_claim>
+		<btn_click_here><![CDATA[Click Here]]></btn_click_here>
+		<find_out_more><![CDATA[Find out more about]]></find_out_more>
+		<nickpoints_period><![CDATA[ NickPoints.]]></nickpoints_period>
+		<nickpoints_bang><![CDATA[NickPoints!]]></nickpoints_bang>
+		<youve_earned><![CDATA[You've earned ]]></youve_earned>
+		<txt_game_promo_header><![CDATA[You unlocked a SpongeBob mini-game!]]></txt_game_promo_header>
+		<btn_play_now><![CDATA[Play Now]]></btn_play_now>
+	</localization>
+	<nickPoints>
+		<campaignID>sb-shrubberynps</campaignID>
+		<modulePath>http://www.nick.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath>
+
+		<events>
+			<event>
+				<name>low_rank</name>
+			</event>
+			<event>
+				<name>mid_rank</name>
+			</event>
+			<event>
+				<name>high_rank</name>
+			</event>
+		</events>
+		
+		<sbpromo>
+			<img>spbob-robot.jpg</img>
+			<url target="_blank">http://www.spongebob.nick.com/games/play/spongebob-robot-ruckus/</url>
+		</sbpromo>
+			
+	</nickPoints>
+</config>

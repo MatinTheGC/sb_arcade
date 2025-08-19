@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextResources>
+	
+	<Loading>LOADING</Loading>
+
+	<Generic.BtnContinue>CONTINUE</Generic.BtnContinue>
+	<Generic.BtnPlay>PLAY</Generic.BtnPlay>
+	<Generic.BtnCode>CODE</Generic.BtnCode>
+	<Generic.BtnPlayAgain>PLAY AGAIN</Generic.BtnPlayAgain>
+	<Generic.BtnMenu>MENU</Generic.BtnMenu>
+	<Generic.BtnSubmit>SUBMIT SCORE</Generic.BtnSubmit>
+	
+	<Generic.On>ON</Generic.On>
+	<Generic.Off>OFF</Generic.Off>
+	
+	<Generic.Yes>YES</Generic.Yes>
+	<Generic.No>NO</Generic.No>
+	
+	<Code.Title>CODE</Code.Title>
+	<Code.Message>PLAY THE GAME, AND PRINT THE CODE TO GAIN AN EXTRA LIFE!</Code.Message>
+	<Code.Desc>ENTER CODE</Code.Desc>
+	<Code.Wrong>WRONG CODE</Code.Wrong>
+	
+	<CodePrize.Title>SUCCESS</CodePrize.Title>
+	<CodePrize.Desc>EXTRA LIFE GAINED!</CodePrize.Desc>
+	
+	<Special.Bonus>BONUS</Special.Bonus>
+	<Special.SuperBonus>SUPER BONUS</Special.SuperBonus>
+	<Special.HiperBonus>HYPER BONUS</Special.HiperBonus>
+	<Special.Hits>HITS</Special.Hits>
+	
+	<!-- [&#xD;] significa un salto de linea en el texto -->
+	<MainMenu.Logo>PICTURE DAY&#xD;DISASTER</MainMenu.Logo>
+	<MainMenu.BtnRanking>RANKING</MainMenu.BtnRanking>
+	<MainMenu.BtnInstructions>INSTRUCTIONS</MainMenu.BtnInstructions>
+	
+	<Instructions.Title>INSTRUCTIONS</Instructions.Title>
+	<Instructions.Subtitle>HELP SPONGEBOB ARRIVE CLEAN TO HIS PICTURE DAY AT SCHOOL</Instructions.Subtitle>
+	<Instructions.PowerUpsDescription.MultiBaloons>MULTIPLE SHOTS</Instructions.PowerUpsDescription.MultiBaloons>
+	<Instructions.PowerUpsDescription.SoapyOyster>REMOVE DIRT</Instructions.PowerUpsDescription.SoapyOyster>
+	<Instructions.PowerUpsDescription.Spongegloss>EXTRA PROTECTION</Instructions.PowerUpsDescription.Spongegloss>
+	<Instructions.PowerUpsDescription.PatrickStart>PATRICK'S STAMPEDE</Instructions.PowerUpsDescription.PatrickStart>
+	<Instructions.Bonus.Name>BONUS</Instructions.Bonus.Name>
+	<Instructions.Bonus.Description>GET SPECIAL BONUS EVERY 5 AND 10 HITS IN A ROW</Instructions.Bonus.Description>
+	<Instructions.Bob.Move>MOVE</Instructions.Bob.Move>
+	<Instructions.Bob.Jump>JUMP</Instructions.Bob.Jump>
+	<Instructions.Bob.Crouch>CROUCH</Instructions.Bob.Crouch>
+	<Instructions.Bob.ThrowBaloon>THROW SAUCE BOMBS</Instructions.Bob.ThrowBaloon>
+	<Instructions.SpaceBar>SPACEBAR</Instructions.SpaceBar>
+	
+	<Intro.BtnSkip>SKIP</Intro.BtnSkip>
+	<Intro.BobDialogue>TODAY IS PICTURE DAY AT DRIVING SCHOOL AND I NEED TO LOOK SHINY AND CLEAN! I HOPE NOBODY RUINS MY DAY WHILE I WALK TO THE SCHOOL...</Intro.BobDialogue>
+	
+	<Ranking.Title>LEADERBOARD</Ranking.Title>
+	<Ranking.InfoDisplay.Titles.Rank>RANK</Ranking.InfoDisplay.Titles.Rank>
+	<Ranking.InfoDisplay.Titles.Name>NAME</Ranking.InfoDisplay.Titles.Name>
+	<Ranking.InfoDisplay.Titles.Score>SCORE</Ranking.InfoDisplay.Titles.Score>
+	<Ranking.YouInfoDisplay>YOU</Ranking.YouInfoDisplay>
+	
+	
+	<MessageInGame.Go>GO!!</MessageInGame.Go>
+	
+	<MessageInGame.LevelTitle.Title1>SPONGEBOB'S NEIGHBORHOOD</MessageInGame.LevelTitle.Title1>
+	<MessageInGame.LevelTitle.Title2>BIKINI BOTTOM DOWNTOWN</MessageInGame.LevelTitle.Title2>
+	<MessageInGame.LevelTitle.Title3>SEAWEED FOREST</MessageInGame.LevelTitle.Title3>
+	
+	<MessageInGame.PowerUps.MultiBaloons>MULTIBOMB</MessageInGame.PowerUps.MultiBaloons>
+	<MessageInGame.PowerUps.SoapyOyster>SOAPY OYSTER</MessageInGame.PowerUps.SoapyOyster>
+	<MessageInGame.PowerUps.Spongegloss>SPONGEGLOSS</MessageInGame.PowerUps.Spongegloss>
+	<MessageInGame.PowerUps.Patrick>PATRICK STAR</MessageInGame.PowerUps.Patrick>
+	
+	<MessageInGame.AvatarDieCause.TooDirty>TOO DIRTY!</MessageInGame.AvatarDieCause.TooDirty>
+	<MessageInGame.AvatarDieCause.TimeOut>TIME´S OUT!</MessageInGame.AvatarDieCause.TimeOut>
+	<MessageInGame.AvatarDieCause.FallenInPit>OOPS!</MessageInGame.AvatarDieCause.FallenInPit>
+	
+	
+	<Level.NextLocationName1>DOWNTOWN</Level.NextLocationName1>
+	<Level.NextLocationName2>FOREST</Level.NextLocationName2>
+	<Level.NextLocationName3>DRIVING SCHOOL</Level.NextLocationName3>
+	
+	<Pause.Resume>RESUME</Pause.Resume>
+	<Pause.HowToPlay>HOW TO PLAY</Pause.HowToPlay>
+	<Pause.Sound>SOUND</Pause.Sound>
+	<Pause.Music>MUSIC</Pause.Music>
+	<Pause.Quit>QUIT</Pause.Quit>
+	<Pause.QuitMessage.Title>ARE YOU SURE YOU WANT TO QUIT?</Pause.QuitMessage.Title>
+	
+	<Stats.Title>STATS</Stats.Title>
+	<Stats.TomatoedTeens>TOMATOED TEENS:</Stats.TomatoedTeens>
+	<Stats.AccuracyLevel>ACCURACY LEVEL:</Stats.AccuracyLevel>
+	<Stats.Points>POINTS:</Stats.Points>
+	
+	<GameEnded.BtnView>VIEW SCORES</GameEnded.BtnView>
+	<GameEnded.YourPoints>YOUR POINTS</GameEnded.YourPoints>
+	<GameEnded.Won.Info>THIS A PICTURE&#xD;PERFECT DAY!</GameEnded.Won.Info>
+	<GameEnded.Lost.Info>MY PICTURE DAY&#xD;WAS RUINED!</GameEnded.Lost.Info>
+	<GameEnded.BtnPrintable>PRINTABLE</GameEnded.BtnPrintable>
+	
+	<Printable.Logo>PICTURE DAY&#xD;DISASTER</Printable.Logo>
+	<Printable.Title>SECRET CODE:</Printable.Title>
+	<Printable.Score>SCORE: {score}</Printable.Score>
+	
+</TextResources>

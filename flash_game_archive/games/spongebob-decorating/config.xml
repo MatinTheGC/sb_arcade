@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+	
+	<introPlayButton>PLAY</introPlayButton>
+	<instructHeader>Instructions</instructHeader>
+	<instructText>Click the sheets of wallpaper so that the designs displayed on your wall match the target pattern. 
+
+Wait for the correct design to appear in the correct position on your wall, and then glue it in place to save it.</instructText>
+	<instructionsPlayButton>PLAY</instructionsPlayButton>
+	<hubScore>Score</hubScore>
+	<hubLives>Lives</hubLives>
+	<hubTurns>Turns</hubTurns>
+	<hubPattern>Pattern</hubPattern>
+	<payoffHeader>Game Over</payoffHeader>
+	<payoffContinueButton>Continue</payoffContinueButton>
+	<level_text_label>Level</level_text_label>
+	<bonusText>Bonus Match!</bonusText>
+	<lostText>No Match!</lostText>
+	
+</localization>

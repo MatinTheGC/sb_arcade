@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grounds>
+	<ground id="GRASS" powerPercent="1"	density="1" restitution="0.1" friction="0.6"/>
+</grounds>

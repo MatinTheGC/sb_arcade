@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<localization>		
+
+	<play_button>Play</play_button>
+	<instructions>instructions</instructions>
+	
+	<instruction_copy>Anchovies are burning! Use the mouse to help SpongeBob keep the fryin' fishes cool with SPF 9000+ sun screen.
+	
+	As if that weren't enough, Patrick is in the mood for mischeif. Throw him snacks to keep him from body slamming those poor sun-bathing Anchovies to the bottom of the pool.</instruction_copy>	
+	
+	<score>SCORE</score>
+	<continue_button>continue</continue_button>
+	
+	
+</localization>

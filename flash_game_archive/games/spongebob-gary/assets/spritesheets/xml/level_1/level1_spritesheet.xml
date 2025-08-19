@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+
+	<!--Level1-->
+<group id="back_ground_tile">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="0" y="0" width="362" height="427" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+<group id="pineapple">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="362" y="0" width="146" height="496" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="chum_bucket">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="508" y="0" width="328" height="496" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="house_1">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="836" y="78" width="76" height="146" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="house_2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="912" y="78" width="107" height="135" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="house_3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="836" y="224" width="162" height="142" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+<group id="ground_tile_level1">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="836" y="0" width="300" height="78" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>					
+<group id="ramp">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="1019" y="78" width="98" height="98" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="short_plank_level1">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="0" y="427" width="104" height="43" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+<group id="long_plank_level1">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="836" y="366" width="254" height="44" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>			
+<group id="warning_sign">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="252" y="427" width="50" height="52" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="rock">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="112" y="427" width="140" height="75" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>		
+</spritesheet>
+	
+	
+	
+	
+	

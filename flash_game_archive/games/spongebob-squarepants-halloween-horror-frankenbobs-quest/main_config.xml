@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<!--****************************************************
+	NICK GAME PARAMETERS
+	*****************************************************-->
+	
+	<!-- Flag : Sets the game to international specs -->
+	<property name="isInternational">						<![CDATA[false]]>			</property>
+	
+	<!-- Flag : Nick high score enabled -->
+	<property name="nick_highscores_available">				<![CDATA[true]]>			</property>
+	
+	<!-- Game's nick HSB ID -->
+	<property name="nick_highscores_hs_id_1">				<![CDATA[spongebob-squarepants-halloween-horror-frankenbobs-quest-hsb]]>		</property>
+	<property name="nick_highscores_hs_id_2">				<![CDATA[spongebob-squarepants-halloween-horror-frankenbobs-quest-2-hsb]]>		</property>
+	
+	<!-- Flag : Nick promotion enabled -->
+	<property name="nick_promo_available">					<![CDATA[true]]>			</property>
+	
+	<!-- Flag : Nick promotion xml URL -->
+	<property name="nick_promo_config_url">					<![CDATA[nick_promo.xml]]>	</property>
+	
+	<!-- Game's nick GameID for tracking -->
+	<property name="nick_game_id_1">						<![CDATA[spongebob-squarepants-halloween-horror-frankenbobs-quest]]>		</property>
+	<property name="nick_game_id_2">						<![CDATA[spongebob-squarepants-halloween-horror-frankenbobs-quest-2]]>		</property>
+	
+	<!-- Game default language -->
+	<property name="sDEFAULT_LOCALE">						<![CDATA[en_us]]>	</property>
+	
+	<!-- Counter effect speed when displaying score in HUD-->
+	<property name="nHUD_SCORE_COUNTER_EFFECT_SPEED">		<![CDATA[25]]>		</property>
+	
+	<!-- Level data xml files folder path -->
+	<property name="sLEVEL_DATA_PATH">						<![CDATA[data/]]>		</property>
+
+	<!-- Music default volume -->
+	<property name="nDEFAULT_VOLUME_MUSIC">					<![CDATA[0.5]]>		</property>
+		
+	<!-- Sound default volume -->
+	<property name="nDEFAULT_VOLUME_SOUNDS">				<![CDATA[0.5]]>		</property>
+	
+	<!-- Level id for each game part -->
+	<property name="aLEVEL_ID_PART_1">						<![CDATA[1,2,3,boss_1]]></property>
+	<property name="aLEVEL_ID_PART_2">						<![CDATA[4,5,6,boss_2]]></property>
+	
+	<!-- Is boss level (1 if true) -->
+	<property name="aLEVEL_BOSS_PART_1">				<![CDATA[0,0,0,1]]>		</property>
+	<property name="aLEVEL_BOSS_PART_2">				<![CDATA[0,0,0,1]]>		</property>
+	
+	
+	<!--****************************************************
+	SOUNDS PARAMETERS
+	*****************************************************-->
+	
+	<!-- Default AbstractView IN volume-->
+	<property name="nDEFAULT_POPUP_VOL_IN">					<![CDATA[1]]>		</property>
+	
+	<!-- Default AbstractView OUT volume-->
+	<property name="nDEFAULT_POPUP_VOL_OUT">				<![CDATA[1]]>		</property>
+	
+	<!-- Default UI Button click volume-->
+	<property name="nDEFAULT_MOUSE_VOL_CLICK">				<![CDATA[1]]>		</property>
+	
+		<!-- Default UI Button rollOver volume-->
+	<property name="nDEFAULT_MOUSE_VOL_ROLL">				<![CDATA[1]]>		</property>
+	
+	<!-- Default UI Transition IN volume -->
+	<property name="nDEFAULT_TRANSITION_VOL_IN">			<![CDATA[1]]>		</property>
+	
+	<!-- Default UI Button rollOver volume-->
+	<property name="nDEFAULT_TRANSITION_VOL_OUT">			<![CDATA[1]]>		</property>
+	
+	<!--****************************************************
+	LEVEL PARAMETERS
+	*****************************************************-->
+	
+	<!-- Starting level -->
+	<property name="nSTARTING_LEVEL">						<![CDATA[1]]>		</property>
+	
+	<!-- Starting level -->
+	<property name="nGAME_PART">							<![CDATA[1]]>		</property>
+	
+	<!-- Grid cell size (in pixel) -->
+	<property name="nGRID_CELL_SIZE">						<![CDATA[50]]>		</property>
+	
+	<!-- Level Gravity -->
+	<property name="nGRAVITY">								<![CDATA[1.5]]>		</property>
+	
+	
+	<!--****************************************************
+	COLLECTABLES PARAMETERS
+	*****************************************************-->
+	
+	<!-- Collectable score A's score value -->
+	<property name="nCOLLECTABLE_SCORE_A_VALUE">			<![CDATA[1]]>		</property>	
+
+	<!-- Collectable score B's score value -->
+	<property name="nCOLLECTABLE_SCORE_B_VALUE">			<![CDATA[5]]>		</property>	
+
+	<!-- Collectable score C's score value -->
+	<property name="nCOLLECTABLE_SCORE_C_VALUE">			<![CDATA[50]]>		</property>	
+
+	<!-- Collectable score D's score value -->
+	<property name="nCOLLECTABLE_SCORE_D_VALUE">			<![CDATA[1000]]>		</property>	
+
+	<!-- Collectable lightning spike weapon's score value-->
+	<property name="nCOLLECTABLE_LIGHTNING_SPIKE_WEAPON_VALUE">	<![CDATA[75]]>		</property>	
+
+	<!-- Collectable Super spike weapon's score value  -->
+	<property name="nCOLLECTABLE_SUPER_SPIKE_WEAPON_VALUE">		<![CDATA[100]]>		</property>	
+
+	<!-- Collectable Sticky ooze weapon's score value  -->
+	<property name="nCOLLECTABLE_STICKY_OOZE_WEAPON_VALUE">		<![CDATA[250]]>		</property>	
+
+	<!-- Collectable ability chest's score value  -->
+	<property name="nCOLLECTABLE_ABILITY_CHEST_VALUE">			<![CDATA[5000]]>		</property>	
+	
+	<!-- Collectable Checkpoint's score value  -->
+	<property name="nCOLLECTABLE_CHECKPOINT_VALUE">				<![CDATA[500]]>		</property>	
+	
+	<!-- Collectable Goal's score value  -->
+	<property name="nCOLLECTABLE_GOAL_VALUE">					<![CDATA[5000]]>		</property>	
+
+	<!--****************************************************
+	OPPONENTS PARAMETERS
+	*****************************************************-->
+	
+	<!-- Necrofish max speed -->
+	<property name="nNECROFISH_MAX_SPEED">				<![CDATA[5]]>		</property>
+	<!-- Necrofish acceleration -->
+	<property name="nNECROFISH_ACCELERATION">			<![CDATA[0.5]]>		</property>
+	<!-- Necrofish friction -->
+	<property name="nNECROFISH_FRICTION">				<![CDATA[0.25]]>		</property>
+	<!-- Necrofish health -->
+	<property name="nNECROFISH_HEALTH">					<![CDATA[1]]>		</property>
+	<!-- Necrofish weakness -->
+	<property name="sNECROFISH_WEAKNESS">				<![CDATA[projectileStickyOoze]]>	</property>
+	<!-- Necrofish point for kill -->
+	<property name="nNECROFISH_POINT_FOR_KILL">			<![CDATA[50]]>		</property>
+	
+	<!-- Super Necrofish max speed -->
+	<property name="nSUPER_NECROFISH_MAX_SPEED">		<![CDATA[10]]>		</property>
+	<!-- Super Necrofish acceleration -->
+	<property name="nSUPER_NECROFISH_ACCELERATION">		<![CDATA[0.6]]>		</property>
+	<!-- Super Necrofish friction -->
+	<property name="nSUPER_NECROFISH_FRICTION">			<![CDATA[0.1]]>		</property>
+	<!-- Super Necrofish health -->
+	<property name="nSUPER_NECROFISH_HEALTH">			<![CDATA[3]]>		</property>
+	<!-- Super Necrofish  weakness -->
+	<property name="sSUPER_NECROFISH_WEAKNESS">			<![CDATA[projectileSuperSpike]]>	</property>
+	<!-- Super Necrofish point for kill -->
+	<property name="nSUPER_NECROFISH_POINT_FOR_KILL">	<![CDATA[100]]>		</property>
+	
+	<!-- Puff O Lanterns max speed -->
+	<property name="nPUFF_LANTERN_MAX_SPEED">			<![CDATA[5]]>		</property>
+	<!-- Puff O Lanterns acceleration -->
+	<property name="nPUFF_LANTERN_ACCELERATION">		<![CDATA[0.6]]>		</property>
+	<!-- Puff O Lanterns health -->
+	<property name="nPUFF_LANTERN_HEALTH">				<![CDATA[1]]>		</property>
+	<!-- Puff O Lanterns health -->
+	<property name="nPUFF_LANTERN_SECOND_HEALTH">		<![CDATA[1]]>		</property>
+	<!-- Puff O Lanterns health -->
+	<property name="nPUFF_LANTERN_PARCOUR_WIDTH">		<![CDATA[200]]>		</property>
+	<!-- Puff O Lanterns health -->
+	<property name="nPUFF_LANTERN_PARCOUR_HEIGHT">		<![CDATA[40]]>		</property>
+	<!-- Puff O Lanterns  weakness -->
+	<property name="sPUFF_LANTERN_WEAKNESS">			<![CDATA[projectileStickyOoze]]>	</property>
+	<!-- Puff O Lanterns point for kill -->
+	<property name="nPUFF_LANTERN_POINT_FOR_KILL">		<![CDATA[25]]>		</property>
+	
+	<!-- Puff O Lanterns health -->
+	<property name="nPOTTED_SHARK_HEALTH">				<![CDATA[3]]>		</property>
+	<!-- Super Necrofish  weakness -->
+	<property name="sPOTTED_SHARK_WEAKNESS">			<![CDATA[projectileSuperSpike]]>	</property>
+	<!-- Puff O Lanterns point for kill -->
+	<property name="nPOTTED_SHARK_POINT_FOR_KILL">		<![CDATA[75]]>		</property>
+	
+	<!-- Geyser blow delay -->
+	<property name="nGESEY_BLOW_DELAY">					<![CDATA[50]]>		</property>
+	
+	<!-- Vampchovie speed -->
+	<property name="sVAMPCHOVIE_SPEED">					<![CDATA[6]]>		</property>
+	<!-- Puff O Lanterns point for kill -->
+	<property name="nVAMPCHOVIE_POINT_FOR_KILL">		<![CDATA[200]]>		</property>
+	
+	<!-- Flail rotation speed -->
+	<property name="nFLAIL_ROTATION_SPEED">					<![CDATA[3]]>		</property>
+	<!-- Length of flail chain -->
+	<property name="nFLAIL_CHAIN_LENGTH">					<![CDATA[150]]>		</property>
+	<!-- Number of section in flail chain -->
+	<property name="nFLAIL_CHAIN_SECTIONS">					<![CDATA[7]]>		</property>
+	
+	
+	<!-- Garyzilla health -->
+	<property name="nGARYZILLA_HEALTH">				<![CDATA[50]]>		</property>
+	<!-- Garyzilla point for kill -->
+	<property name="nGARYZILLA_POINT_FOR_KILL">		<![CDATA[5000]]>		</property>
+	
+	<!-- Garyzilla health -->
+	<property name="nZOMBIRE_HEALTH">				<![CDATA[50]]>		</property>
+	<!-- Garyzilla point for kill -->
+	<property name="nZOMBIRE_POINT_FOR_KILL">		<![CDATA[5000]]>		</property>
+
+	<!--****************************************************
+	PLAYER PARAMETERS
+	*****************************************************-->
+	
+	<!-- Player's lives -->
+	<property name="nSUPER_ATTACK_COOLDOWN">				<![CDATA[50]]>		</property>
+	
+	<!-- Player's lives -->
+	<property name="nPLAYER_STARTING_NUMBER_LIVE">			<![CDATA[3]]>		</property>
+	
+	<!-- Player's jump action point -->
+	<property name="nPLAYER_STARTING_JUMP_ACTION_POINT">	<![CDATA[1]]>		</property>
+	
+	<!-- Player's dash action point -->
+	<property name="nPLAYER_STARTING_DASH_ACTION_POINT">	<![CDATA[0]]>		</property>
+	
+	<!-- Player's dash inflicting damages -->
+	<property name="nPLAYER_DASH_DAMAGE">	<![CDATA[1]]>		</property>
+	
+	<!-- Player's air-dash action point -->
+	<property name="nPLAYER_STARTING_AIRDASH_ACTION_POINT">	<![CDATA[0]]>		</property>
+	
+	<!-- Player's maximum speed -->
+	<property name="nPLAYER_ACCELERATION_MODIFIER_X">		<![CDATA[0.8]]>		</property>
+		
+	<!-- Player's maximum speed X while moving -->
+	<property name="nPLAYER_MAXIMUM_SPEED_X_ON_MOVING">		<![CDATA[8]]>		</property>
+	
+	<!-- Player's maximum speed X while dashinig -->
+	<property name="nPLAYER_MAXIMUM_SPEED_X_ON_DASHING">	<![CDATA[25]]>		</property>
+	
+	<!-- Player's maximum speed Y-->
+	<property name="nPLAYER_MAX_SPEED_Y">						<![CDATA[28]]>		</property>
+	
+	<!-- Player's jump power -->
+	<property name="nPLAYER_JUMP_POWER_Y">						<![CDATA[-28]]>		</property>
+	
+	<!--****************************************************
+	UPGRADE PARAMETERS
+	*****************************************************-->
+	<!-- Ability upgrade level -->
+	<property name="nDASH_UPGRADE_PART">							<![CDATA[1]]>		</property>
+	<property name="nDASH_UPGRADE_LEVEL">							<![CDATA[1]]>		</property>
+	
+	<property name="nJUMP_UPGRADE_PART">							<![CDATA[1]]>		</property>
+	<property name="nJUMP_UPGRADE_LEVEL">							<![CDATA[2]]>		</property>
+	
+	<property name="nSUPER_SPIKE_UPGRADE_PART">						<![CDATA[2]]>		</property>
+	<property name="nSUPER_SPIKE_UPGRADE_LEVEL">					<![CDATA[1]]>		</property>
+	
+	<property name="nAIR_DASH_UPGRADE_PART">						<![CDATA[2]]>		</property>
+	<property name="nAIR_DASH_UPGRADE_LEVEL">						<![CDATA[2]]>		</property>
+	
+	<!--****************************************************
+	PROJECTILES PARAMETERS
+	*****************************************************-->
+	<!-- Basic Spike weapon name -->
+	<property name="nBASIC_SPIKE_WEAPON_ID">				<![CDATA[Spike]]>		</property>
+	<!-- Basic Spike maximum speed X -->
+	<property name="nBASIC_SPIKE_STARTING_SPEED_X">			<![CDATA[15]]>		</property>
+	<!-- Basic Spike maximum speed X -->
+	<property name="nBASIC_SPIKE_MAXIMUM_SPEED_X">			<![CDATA[15]]>		</property>
+	<!-- Basic Spike maximum speed X -->
+	<property name="nBASIC_SPIKE_ACCEL_X">					<![CDATA[0.4]]>		</property>
+	<!-- Basic Spike maximum damage -->
+	<property name="nBASIC_SPIKE_DAMAGE">					<![CDATA[1]]>		</property>
+	<!-- Basic Spike health -->
+	<property name="nBASIC_SPIKE_HEALTH">					<![CDATA[1]]>		</property>
+	
+	
+	<!-- Super Spike weapon name -->
+	<property name="nSUPER_SPIKE_WEAPON_ID">				<![CDATA[SuperSpike]]>		</property>
+	<!-- Super Spike maximum speed X -->
+	<property name="nSUPER_SPIKE_STARTING_SPEED_X">			<![CDATA[18]]>		</property>
+	<!-- Super Spike maximum speed X -->
+	<property name="nSUPER_SPIKE_MAXIMUM_SPEED_X">			<![CDATA[20]]>		</property>
+	<!-- Super Spike maximum speed X -->
+	<property name="nSUPER_SPIKE_ACCEL_X">					<![CDATA[0.5]]>		</property>
+	<!-- Super Spike maximum damage -->
+	<property name="nSUPER_SPIKE_DAMAGE">					<![CDATA[2]]>		</property>	
+	
+	
+	<!-- Super Spike weapon name -->
+	<property name="nLIGHTNING_SPIKE_WEAPON_ID">			<![CDATA[LightningSpike]]>		</property>
+	<!-- Lightning Spike maximum speed Y -->
+	<property name="nLIGHTNING_SPIKE_STARTING_SPEED_Y">		<![CDATA[20]]>		</property>
+	<!-- Lightning Spike maximum speed Y -->
+	<property name="nLIGHTNING_SPIKE_MAXIMUM_SPEED_Y">		<![CDATA[25]]>		</property>
+	<!-- Lightning Spike maximum speed Y -->
+	<property name="nLIGHTNING_SPIKE_ACCEL_Y">				<![CDATA[0.5]]>		</property>
+	<!-- Lightning Spike maximum damage -->
+	<property name="nLIGHTNING_SPIKE_DAMAGE">				<![CDATA[0]]>		</property>	
+	
+	<!-- Lightning Spike's strike delay in frame -->
+	<property name="uFRAME_DELAY_BEFORE_LIGHTNING_STRIKE">	<![CDATA[35]]>		</property>
+	
+	<property name="nLIGHTNING_BREAK_WALL_WIDTH">			<![CDATA[150]]>		</property>
+	
+	<!-- Super Spike weapon name -->
+	<property name="nSTICKY_OOZE_WEAPON_ID">				<![CDATA[StickyOoze]]>		</property>
+	<!-- Sticky ooze maximum speed X -->
+	<property name="nSTICKY_OOZE_STARTING_SPEED_X">			<![CDATA[5]]>		</property>
+	<!-- Sticky ooze maximum speed X -->
+	<property name="nSTICKY_OOZE_MAXIMUM_SPEED_X">			<![CDATA[5]]>		</property>
+	<!-- Sticky ooze maximum speed X -->
+	<property name="nSTICKY_OOZE_MAXIMUM_SPEED_Y">			<![CDATA[20]]>		</property>
+	<!-- Sticky ooze maximum speed X -->
+	<property name="nSTICKY_OOZE_ACCEL_X">					<![CDATA[0.5]]>		</property>
+	<!-- Sticky ooze maximum speed Y -->
+	<property name="nSTICKY_OOZE_STARTING_SPEED_Y">			<![CDATA[-12]]>		</property>
+	<!-- Sticky ooze maximum damage -->
+	<property name="nSTICKY_OOZE_DAMAGE">					<![CDATA[2]]>		</property>
+	<!-- Sticky ooze health -->
+	<property name="nSTICKY_OOZE_HEALTH">					<![CDATA[1]]>		</property>	
+	
+	
+	<!-- Shark meat maximum speed X -->
+	<property name="nSHARK_MEAT_STARTING_SPEED_X">			<![CDATA[3]]>		</property>
+	<!-- Shark meat maximum speed X -->
+	<property name="nSHARK_MEAT_MAXIMUM_SPEED_X">			<![CDATA[6]]>		</property>
+	<!-- Shark meat maximum speed X -->
+	<property name="nSHARK_MEAT_ACCEL_X">					<![CDATA[0.4]]>		</property>
+	<!-- Shark meat maximum damage -->
+	<property name="nSHARK_MEAT_DAMAGE">					<![CDATA[2]]>		</property>
+	<!-- Shark meat health -->
+	<property name="nSHARK_MEAT_HEALTH">					<![CDATA[1]]>		</property>	
+	
+	<!-- Electric spark maximum damage -->
+	<property name="nELECTRIC_SPARK_DAMAGE">				<![CDATA[1]]>		</property>
+	<!--  Electric spark idle duration (in frames) -->
+	<property name="nELECTRIC_SPARK_LIFETIME">				<![CDATA[25]]>		</property>
+	<!--  Electric spark propagation length (in tiles -->
+	<property name="nELECTRIC_SPARK_PROPAGATION_LENGTH">	<![CDATA[6]]>		</property>
+	
+	<!-- Lightning minimum delay (in frames) -->
+	<property name="nLIGHTNING_MIN_DELAY">					<![CDATA[300]]>		</property>
+	<!-- Lightning maximum delay (in frames) -->
+	<property name="nLIGHTNING_MAX_DELAY">					<![CDATA[500]]>		</property>
+	
+	
+	<!--****************************************************
+	PLATFORMS PARAMETERS
+	*****************************************************-->
+	
+	<!-- Collapsable's delay in frame to fall -->
+	<property name="uFRAME_DELAY_BEFORE_PLATFORM_COLLAPSE">	<![CDATA[30]]>		</property>	
+
+	<!-- Collapsable's delay in frame to respawn -->
+	<property name="uFRAME_DELAY_BEFORE_PLATFORM_RESPAWN">	<![CDATA[100]]>		</property>	
+
+
+	
+	
+</config>

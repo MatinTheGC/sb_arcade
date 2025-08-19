@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opponents>0
+	<opponent id="GREEN" 	powerPercent="0.5" hurtPercent="0.9" hp="5" 	score="2000" particleIdlePercent="0.02" particleHurtPercent="0.02" radius="0.40" angularDamping = "1.1" density="2" restitution="0.2" friction="0.5" />
+	<opponent id="WHITE" 	powerPercent="0.5" hurtPercent="0.8" hp="10" 	score="2000" particleIdlePercent="0.02" particleHurtPercent="0.02" radius="0.40" angularDamping = "1.1" density="2" restitution="0.2" friction="0.5" />
+	<opponent id="YELLOW" 	powerPercent="0.5" hurtPercent="0.8" hp="15" 	score="2000" particleIdlePercent="0.02" particleHurtPercent="0.02" radius="0.40" angularDamping = "1.1" density="2" restitution="0.2" friction="0.5" />
+	<opponent id="RED" 		powerPercent="0.5" hurtPercent="0.8" hp="20" 	score="2000" particleIdlePercent="0.02" particleHurtPercent="0.02" radius="0.40" angularDamping = "1.1" density="2.5" restitution="0.2" friction="0.5" />
+	<opponent id="BLACK" 	powerPercent="0.5" hurtPercent="0.8" hp="25" 	score="2000" particleIdlePercent="0.02" particleHurtPercent="0.02" radius="0.60" angularDamping = "1.1" density="3" restitution="0.2" friction="0.5" />
+</opponents>

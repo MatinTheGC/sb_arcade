@@ -1,0 +1,48 @@
+<config>
+   <game>
+
+      <width>600</width>
+      <height>400</height>
+      <fps>30</fps>
+
+      <lives>3</lives>
+      <meterDuration>30</meterDuration>
+      <meterDelay>2</meterDelay>
+      <startDelay>1</startDelay>
+
+      <hitWait>2</hitWait>
+
+      <speedMin>2</speedMin>
+      <speedMax>12</speedMax>
+      <acceleration>0.1</acceleration>
+
+      <flagSpaceX>200</flagSpaceX>
+      <flagSpaceXDecrease>5</flagSpaceXDecrease>
+      <flagSpaceXDecreaseInterval>10</flagSpaceXDecreaseInterval>
+      <flagSpaceXMin>100</flagSpaceXMin>
+
+      <flagSpaceY>300</flagSpaceY>
+      <flagSpaceYDecrease>5</flagSpaceYDecrease>
+      <flagSpaceYDecreaseInterval>10</flagSpaceYDecreaseInterval>
+      <flagSpaceYMin>200</flagSpaceYMin>
+
+      <pantLimit>6</pantLimit>
+      <pantLimitIncrease>1</pantLimitIncrease>
+      <pantLimitIncreaseInterval>20</pantLimitIncreaseInterval>
+      <pantMax>12</pantMax>
+
+
+      <flagSpaceYFuzzy>50</flagSpaceYFuzzy>
+      <flagPoints>1</flagPoints>
+      <flagTimeBonus>1</flagTimeBonus>
+      <flagMissTimePenalty>-2</flagMissTimePenalty>
+      <flagHitTimePenalty>-2</flagHitTimePenalty>
+
+      <spongeBobY>100</spongeBobY>
+      <spongeBobFollowAcceleration>1</spongeBobFollowAcceleration>
+      <spongeBobFollowMax>8</spongeBobFollowMax>
+      <spongeBobFrameChangeThreshold>2</spongeBobFrameChangeThreshold>
+
+
+   </game>
+</config>

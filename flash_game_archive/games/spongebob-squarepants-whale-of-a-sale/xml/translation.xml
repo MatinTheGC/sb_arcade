@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+<!--Copyright-->
+	<string id="txtCopyright" fontName="FontDundee" fontSize="18" lineHeight="0"><![CDATA[Copyright text. Change in xml.]]></string>
+<!--Preloader-->
+	<!--Loading Text in Preloader-->
+	<string id="txtLoading" fontName="FontTartar" fontSize="52" lineHeight="0"><![CDATA[Loading]]></string>
+	<!--Percent Text Format-->
+	<string id="txtPercent" fontName="FontTartar" fontSize="28" lineHeight="0"><![CDATA[0]]></string>
+<!--How To Play-->
+	<!--Instruction Title Text-->
+	<string id="txtInst_title" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[How To Play]]></string>
+	<!--Instruction Content-->
+	<string id="txtInst_content" fontName="FontDundee" fontSize="16" lineHeight="0"><![CDATA[Instead of bringing a turkey for dinner, Patrick decided to dress up as one! Now SpongeBob thinks Patrick is a real turkey!<br/><br/>Dodge all enemies and obstacles.<br/>Make sure SpongeBob doesn't catch you!<br/><br/>Controls:<br/>Up Arrow or W - Move Up<br/>Down Arrow or S - Move Down<br/>Space Bar or K - Jump<br/><br/>Bonus: Click on the real turkey when it appears for extra bonus points!]]></string>
+<!--Game-->
+	<!--Level Text-->
+	<string id="txtLevel" fontName="FontTartar" fontSize="48" lineHeight="0"><![CDATA[Level]]></string>
+	<!--Score Text-->
+	<string id="txtScore" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[Score]]></string>
+	<!--Score Value Format-->
+	<string id="txtScoreValue" fontName="FontTartar" fontSize="36" lineHeight="0"><![CDATA[0]]></string>
+	<!--Format for Hidden Object Score. Not used.-->
+	<string id="txtHiddenScore" fontName="FontTartar" fontSize="36" lineHeight="0"><![CDATA[0]]></string>
+<!--Pause-->
+	<!--Game Paused Text-->
+	<string id="txtPause" fontName="FontDundee" fontSize="48" lineHeight="0"><![CDATA[Game Paused]]></string>
+<!--Quit-->
+	<!--Quit Screen Text-->
+	<string id="txtQuit" fontName="FontDundee" fontSize="48" lineHeight="0"><![CDATA[Are you sure you want to quit?]]></string>
+<!--Game End-->
+	<!--Game end title text-->
+	<string id="txtGameEnd_title" fontName="FontDundee" fontSize="52" lineHeight="0"><![CDATA[You've Been Captured!]]></string>
+<!--Game Success. Not Used-->
+	<string id="txtCongrats" fontName="FontDundee" fontSize="48" lineHeight="0"><![CDATA[Congratulations!]]></string>
+	<string id="txtGameSuccess_title" fontName="FontDundee" fontSize="28" lineHeight="0"><![CDATA[You've escaped!]]></string>
+<!--Enter Code Screen-->
+	<!--Enter COde title text-->
+	<string id="txtCode_title" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[Enter Code]]></string>
+	<!--enter code instructions when locked text-->
+	<string id="txtCode_content_locked" fontName="FontDundee" fontSize="24" lineHeight="0"><![CDATA[Enter the code in the box below and press enter.]]></string>
+	<!--enter code instructions when unlocked text-->
+	<string id="txtCode_content_unlocked" fontName="FontDundee" fontSize="24" lineHeight="0"><![CDATA[You have already entered the code!]]></string>
+	<!--code input format-->
+	<string id="txtCode_input" fontName="FontDundee" fontSize="42" lineHeight="0"><![CDATA[Enter code here...]]></string>
+	<!--code correct confirmation text-->
+	<string id="txtCode_msg_correct" fontName="FontDundee" fontSize="24" lineHeight="0"><![CDATA[Code correct! You have gained +1 life in the game.]]></string>
+	<!--code incorrect confirmation text -->
+	<string id="txtCode_msg_incorrect" fontName="FontDundee" fontSize="24" lineHeight="0"><![CDATA[Code incorrect! Try again.]]></string>
+<!--HSB Screen-->
+	<string id="txtHSB_title" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[Leaderboard]]></string>
+	<string id="txtHSB_loading" fontName="FontTartar" fontSize="38" lineHeight="0"><![CDATA[Loading...]]></string>
+	<string id="compDataGrid_header_rank" fontName="FontTartar" fontSize="24" lineHeight="0"><![CDATA[Rank]]></string>
+	<string id="compDataGrid_header_name" fontName="FontTartar" fontSize="24" lineHeight="0"><![CDATA[Name]]></string>
+	<string id="compDataGrid_header_score" fontName="FontTartar" fontSize="24" lineHeight="0"><![CDATA[Score]]></string>
+	<string id="compDataGrid_data" fontName="FontDundee" fontSize="18" lineHeight="0"><![CDATA[Data. No need to translate]]></string>
+<!--Buttons-->
+	<string id="btnStart" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[Play]]></string>
+	<string id="btnPlayAgain" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[Play Again]]></string>
+	<string id="btnHighscores" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[Leaderboard]]></string>
+	<string id="btnYes" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[Yes]]></string>
+	<string id="btnNo" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[No]]></string>
+	<string id="btnCode" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[Enter Code]]></string>
+	<string id="btnSubmitScore" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[Submit Score]]></string>
+<!--Buttons (Not Used/Disabled)-->
+	<string id="btnPrintable" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[Print Me!]]></string>
+	<string id="btnInstructions" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[How to Play]]></string>
+	<string id="btnBack" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[Back]]></string>
+	<string id="btnBackToMain" fontName="FontTartar" fontSize="42" lineHeight="0"><![CDATA[Back to Main]]></string>
+</strings>

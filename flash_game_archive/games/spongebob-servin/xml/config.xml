@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+	<!--Trackables-->
+	<playButton>
+		<func>trackKidsGamePlay</func>
+		<urlAlias>spongebob-servin-up-seconds</urlAlias>
+	</playButton>
+	<printButton>
+		<func>KIDS.reporting.omnifunctions.printReporting</func>
+		<urlAlias>spongebob-servin-up-seconds</urlAlias>
+		<contentType>game</contentType>
+		<showID>SpongeBob Printable</showID>
+		<numPages>1</numPages>
+	</printButton>
+	<scoreTracking>
+		<gameID>spongebob-servin-hsb</gameID>
+	</scoreTracking>
+</config>

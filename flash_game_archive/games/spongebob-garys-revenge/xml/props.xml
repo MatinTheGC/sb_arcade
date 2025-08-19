@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<props>
+	<prop id="EXPLOSIVE"  cameraShakeX="20" cameraShakeY="20" explosionDamage="5" radius="10" impulsion="7" density="2" restitution="0.2" friction="1" power="1.8" hp="1" score="100"/>
+</props>

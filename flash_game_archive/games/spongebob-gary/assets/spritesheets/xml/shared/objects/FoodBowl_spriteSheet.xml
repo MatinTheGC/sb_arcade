@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+
+<!--Shared Object -->
+
+<group id="food_bowl">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+<!-- Frame_1 --><sprite x="350" y="50" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_2 <sprite x="280" y="50" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+<!-- Frame_3 --><sprite x="210" y="50" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_4 <sprite x="140" y="50" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+<!-- Frame_5 --><sprite x="70" y="50" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_6 <sprite x="0" y="50" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+<!-- Frame_7 --><sprite x="980" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_8 <sprite x="910" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+<!-- Frame_9 --><sprite x="840" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_10 <sprite x="770" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+<!-- Frame_11 --><sprite x="700" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_12 <sprite x="630" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+<!-- Frame_13 --><sprite x="560" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_14 <sprite x="490" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+<!-- Frame_15 --><sprite x="420" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_16 <sprite x="350" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+<!-- Frame_17 --><sprite x="280" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_18 <sprite x="210" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+<!-- Frame_19 --><sprite x="140" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_20 <sprite x="70" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+<!-- Frame_21 --><sprite x="0" y="0" width="70" height="50" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+						
+	
+</spritesheet>
+	
+	
+	
+	
+	

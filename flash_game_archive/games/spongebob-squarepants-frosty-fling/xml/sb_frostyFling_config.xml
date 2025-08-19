@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+
+<config>
+	
+	<version>
+		<!-- "false" will enable high score viewing/submission. "true" will disable high score viewing/submission.  -->
+		<isInternational>false</isInternational>
+		<!-- "true" will enable game play tracking.  "false" will disable game play tracking.  Make sure <highScore><gameID> is set. -->
+		<trackingEnabled>true</trackingEnabled>
+	</version>
+
+	<highScore>
+		
+		<!-- Debug mode. Force user to be logged in with the username of "DEBUG_USER". -->
+		<debug>false</debug>
+		
+		<userPath>http://www.nick.com/games/common/user_name/getUserInfo.jhtml</userPath>
+		<scorePath>http://www.nick.com/common/score/Scoreboard.jhtml</scorePath>
+		<serviceLink>http://www.nick.com</serviceLink>
+		<gameID>spongebob-squarepants-frosty-fling-hsb</gameID>
+		<gameName>spongebob-squarepants-frosty-fling</gameName>
+		
+	</highScore>
+	
+	<gameLoaderSettings>
+		<overheadPercent>20</overheadPercent>
+	</gameLoaderSettings>
+	
+	<gameSettings>
+		<!--nickPoints>
+			<campaignID>fop_destroy</campaignID>
+			<modulePath>http://www.nick.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath>-->
+			<!-->Run the module locally when running on your machine, but swap the modulePath(s) when you deliver<!-->
+			<!--modulePath>NickPoints_Module_build.swf</modulePath>
+			<events>
+				<event>
+					<name>rank_low</name>
+					<scoreThreshold>5</scoreThreshold>
+				</event>
+				<event>
+					<name>rank_mid</name>
+					<scoreThreshold>10</scoreThreshold>
+				</event>
+				<event>
+					<name>rank_high</name>
+					<scoreThreshold>50</scoreThreshold>
+				</event>
+			</events>-->
+			<!--Used if the game awards a Spongebob Mini-game at the end.  Keep commented out when not used. -->
+		<!--
+			<sbpromo>
+				<img>placeholder.jpg</img>
+				<url target="_blank">http://www.nick.com/games/nick_games/spongebob/spongebob-geyser.jhtml</url>
+			</sbpromo>
+			
+		</nickPoints-->
+		
+		<levels>
+			<level toNextLevel="500">
+				<obstacles initialSpawn="0"  minSpawn="0" maxSpawn="0" minRadius="100" friction="0.5" />
+				<sardines  initialSpawn="40" minSpawn="3" maxSpawn="7" minRadius="100" boost="400" />
+				<special>
+					<larry     chanceIncrement="0" maxSpawns="0" aim="0" />
+					<squidward chanceIncrement="0" maxSpawns="0" aim="0" />
+				</special>
+				<robots maxDistance="600">
+					<speed distance="25"  value="100" />
+					<speed distance="50"  value="105" />
+					<speed distance="100" value="110" />
+					<speed distance="200" value="120" />
+				</robots>
+			</level>
+			<level toNextLevel="1000">
+				<obstacles initialSpawn="0"  minSpawn="1" maxSpawn="2" minRadius="110" friction="0.5" />
+				<sardines  initialSpawn="40" minSpawn="2" maxSpawn="7" minRadius="105" boost="400" />
+				<special>
+					<larry     chanceIncrement="2" maxSpawns="1" aim="0" />
+					<squidward chanceIncrement="1" maxSpawns="1" aim="90" />
+				</special>
+				<robots maxDistance="600">
+					<speed distance="25"  value="100" />
+					<speed distance="50"  value="105" />
+					<speed distance="100" value="110" />
+					<speed distance="200" value="120" />
+				</robots>
+			</level>
+			<level toNextLevel="1500">
+				<obstacles initialSpawn="0"  minSpawn="1" maxSpawn="3" minRadius="125" friction="0.5" />
+				<sardines  initialSpawn="40" minSpawn="2" maxSpawn="7" minRadius="125" boost="400" />
+				<special>
+					<larry     chanceIncrement="3" maxSpawns="1" aim="0" />
+					<squidward chanceIncrement="2" maxSpawns="1" aim="90" />
+				</special>
+				<robots maxDistance="600">
+					<speed distance="25"  value="100" />
+					<speed distance="50"  value="105" />
+					<speed distance="100" value="115" />
+					<speed distance="200" value="120" />
+				</robots>
+			</level>
+			<level toNextLevel="3000">
+				<obstacles initialSpawn="0"  minSpawn="1" maxSpawn="3" minRadius="135" friction="0.5" />
+				<sardines  initialSpawn="40" minSpawn="3" maxSpawn="7" minRadius="125" boost="400" />
+				<special>
+					<larry     chanceIncrement="3" maxSpawns="1" aim="0" />
+					<squidward chanceIncrement="2" maxSpawns="1" aim="90" />
+				</special>
+				<robots maxDistance="600">
+					<speed distance="25"  value="100" />
+					<speed distance="50"  value="105" />
+					<speed distance="100" value="120" />
+					<speed distance="200" value="130" />
+				</robots>
+			</level>
+			<level toNextLevel="4500">
+				<obstacles initialSpawn="0"  minSpawn="2" maxSpawn="3" minRadius="150" friction="0.5" />
+				<sardines  initialSpawn="40" minSpawn="3" maxSpawn="7" minRadius="125" boost="400" />
+				<special>
+					<larry     chanceIncrement="2" maxSpawns="1" aim="10" />
+					<squidward chanceIncrement="3" maxSpawns="1" aim="90" />
+				</special>
+				<robots maxDistance="600">
+					<speed distance="25"  value="100" />
+					<speed distance="50"  value="105" />
+					<speed distance="100" value="125" />
+					<speed distance="200" value="140" />
+				</robots>
+			</level>
+			<level toNextLevel="6000">
+				<obstacles initialSpawn="0"  minSpawn="2" maxSpawn="3" minRadius="150" friction="0.5" />
+				<sardines  initialSpawn="40" minSpawn="3" maxSpawn="7" minRadius="125" boost="400" />
+				<special>
+					<larry     chanceIncrement="2" maxSpawns="1" aim="15" />
+					<squidward chanceIncrement="3" maxSpawns="1" aim="90" />
+				</special>
+				<robots maxDistance="600">
+					<speed distance="25"  value="100" />
+					<speed distance="50"  value="105" />
+					<speed distance="100" value="125" />
+					<speed distance="200" value="150" />
+				</robots>
+			</level>
+			<level toNextLevel="8000">
+				<obstacles initialSpawn="5"  minSpawn="2" maxSpawn="4" minRadius="160" friction="0.5" />
+				<sardines  initialSpawn="30" minSpawn="3" maxSpawn="10" minRadius="125" boost="400" />
+				<special>
+					<larry     chanceIncrement="3" maxSpawns="2" aim="20" />
+					<squidward chanceIncrement="4" maxSpawns="3" aim="90" />
+				</special>
+				<robots maxDistance="400">
+					<speed distance="25"  value="100" />
+					<speed distance="50"  value="105" />
+					<speed distance="100" value="125" />
+					<speed distance="200" value="150" />
+				</robots>
+			</level>
+			<level toNextLevel="-1">
+				<obstacles initialSpawn="5"  minSpawn="2" maxSpawn="4"  minRadius="175" friction="0.5" />
+				<sardines  initialSpawn="30" minSpawn="3" maxSpawn="10" minRadius="150" boost="400" />
+				<special>
+					<larry     chanceIncrement="3" maxSpawns="2"  aim="30" />
+					<squidward chanceIncrement="5" maxSpawns="-1" aim="60" />
+				</special>
+				<robots maxDistance="400">
+					<speed distance="25"  value="100" />
+					<speed distance="50"  value="105" />
+					<speed distance="100" value="125" />
+					<speed distance="200" value="150" />
+				</robots>
+			</level>
+		</levels>
+		<kudos>
+			<rank threshold="0" />
+			<rank threshold="2000" />
+			<rank threshold="5000" />
+		</kudos>
+	</gameSettings>
+	
+	
+
+	<localization>
+		
+	</localization>
+	
+</config>

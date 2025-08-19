@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<fonts swf="font/embeddedFont.swf">
+	<font id="main" name="spongeboyTT1" class="spongeboy" />
+	<font id="title" name="VenusRising-Regular" class="VenusRising" />
+</fonts>

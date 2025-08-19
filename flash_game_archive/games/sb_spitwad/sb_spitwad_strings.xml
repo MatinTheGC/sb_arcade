@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" ?>
+<data>
+	<config>
+		<strings>
+			<object name="loaderScreen">
+				<string name="loading">Loading</string>
+			</object>
+			<object name="startScreen">
+				<string name="spitwad">Spitwad</string>
+				<string name="showdown">Showdown</string>
+				<string name="watch">WATCH</string>
+				<string name="watchMessage">"Spongebob Squarepants"<br/>on Nickelodeon!</string>
+			</object>
+			<object name="shared">
+				<string name="play">Play</string>
+				<string name="viewScores">View Scores</string>
+			</object>
+			<object name="instructionScreen">
+				<string name="title">How To Play</string>
+				<string name="help1">SpongeBob and Patrick are hanging around and dueling with spitwads! Squidward is kicking up a mess with his reef-blower, so watch out.</string>
+				<string name="help2">Use the mouse to move SpongeBob, click to shoot spitwads at Patrick.</string>
+				<string name="help3">Score more hits than Patrick to move to the next round.</string>
+				<string name="help4">Hit these for points, effects, and shocks!</string>
+			</object>
+			<object name="gameScreen">
+				<string name="scoreFormat">Score: {$score}</string>
+				<string name="roundFormat">Round {$round}</string>
+				<string name="menu">Menu</string>
+				<string name="help">Help</string>
+				<string name="musicOff">Music Off</string>
+				<string name="musicOn">Music On</string>
+				<string name="quit">Quit</string>
+				<string name="resume">Resume</string>
+				<string name="ready">Ready?</string>
+				<string name="set">Set?</string>
+				<string name="go">Go!</string>
+				<string name="tieBreaker">Tie Breaker!</string>
+				<string name="nextWins">Next hit wins!</string>
+				<string name="patrickWins">Patrick Wins!</string>
+				<string name="spongeBobWins">SpongeBob Wins!</string>
+				<string name="confirmQuit1">Are you sure</string>
+				<string name="confirmQuit2">you want to quit?</string>
+				<string name="no">No</string>
+				<string name="yes">Yes</string>
+			</object>
+			<object name="winScreen">
+				<string name="roundTitle">Round {$round}!</string>
+				<string name="spongeBob">SpongeBob</string>
+				<string name="patrick">Patrick</string>
+				<string name="hits">Hits</string>
+				<string name="yourScore">Your Score</string>
+				<string name="bonus">+Bonus</string>
+				<string name="total">=Total</string>
+			</object>
+			<object name="loseScreen">
+				<string name="spongeBob">SpongeBob</string>
+				<string name="patrick">Patrick</string>
+				<string name="hits">Hits</string>
+				<string name="total">Total</string>
+				<string name="score">Score</string>
+				<string name="arrg">Arrrgh!</string>
+				<string name="playAgain">Play Again</string>
+			</object>
+		</strings>
+	</config>
+</data>

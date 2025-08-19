@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<element name="playableCharacter">
+		<media alias="playableCharacter01" />
+		<media alias="playableCharacter02" />
+	</element>
+</list>

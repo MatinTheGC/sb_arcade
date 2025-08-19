@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launcher>
+	<startAngle>0</startAngle>
+<minimumAngle>-75</minimumAngle>
+	<maximumAngle>45</maximumAngle>
+	
+	<minimumPower>20</minimumPower>
+<maximumPower>68</maximumPower>
+
+	<strecthResistance>3</strecthResistance>
+	<wheelSpeed>10</wheelSpeed>
+	<width>65</width>
+</launcher>

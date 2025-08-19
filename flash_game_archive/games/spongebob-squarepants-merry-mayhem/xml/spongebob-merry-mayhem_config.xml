@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+
+<config>
+	
+	
+	
+	<version>
+		
+		<!-- "false" will enable high score viewing/submission. "true" will disable high score viewing/submission.  -->
+		<isInternational>false</isInternational>
+		
+		<!-- "true" will enable game play tracking.  "false" will disable game play tracking.  Make sure <highScore><gameID> is set. -->
+		<trackingEnabled>true</trackingEnabled>
+		
+	</version>
+
+	
+	
+	<highScore>
+		
+		<!-- Debug mode. Force user to be logged in with the username of "DEBUG_USER". -->
+		<debug>false</debug>
+		
+		<userPath>http://www.nick.com/games/common/user_name/getUserInfo.jhtml</userPath>
+		<scorePath>http://www.nick.com/common/score/Scoreboard.jhtml</scorePath>
+		<serviceLink>http://www.nick.com</serviceLink>
+		
+		<gameID>spongebob-squarepants-merry-mayhem-hsb</gameID>
+		<gameName>spongebob-squarepants-merry-mayhem</gameName>
+		
+	</highScore>
+	
+	
+	
+	
+	<!-- overHeadPercent fakes loading for xml and swfs loaded up front.  Adjust this number as needed. -->
+	<gameLoaderSettings>
+		
+		<overheadPercent>20</overheadPercent>
+		
+	</gameLoaderSettings>
+	
+	
+	
+	
+	<gameSettings>
+		
+		<!-- NickPoints module deprecated -->
+		<!--<nickPoints>
+			<campaignID>fop_destroy</campaignID>-->
+			<!--modulePath>http://www.nick.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath><!-->
+			<!-->Run the module locally when running on your machine, but swap the modulePath(s) when you deliver<!-->
+			<!--<modulePath>NickPoints_Module_build.swf</modulePath>-->
+			<!--<events>
+				<event>
+					<name>rank_low</name>
+					<scoreThreshold>5</scoreThreshold>
+				</event>
+				<event>
+					<name>rank_mid</name>
+					<scoreThreshold>10</scoreThreshold>
+				</event>
+				<event>
+					<name>rank_high</name>
+					<scoreThreshold>50</scoreThreshold>
+				</event>
+			</events>-->
+			<!--Used if the game awards a Spongebob Mini-game at the end.  Keep commented out when not used. -->
+			<!--
+			<sbpromo>
+				<img>placeholder.jpg</img>
+				<url target="_blank">http://www.nick.com/games/nick_games/spongebob/spongebob-geyser.jhtml</url>
+			</sbpromo>
+		</nickPoints>-->
+		
+		<promo>
+			<promo><![CDATA[promo/bannerspongebob.swf]]></promo>
+			<movieClipChildIndex>0</movieClipChildIndex>
+			<url><![CDATA[]]></url>
+		</promo>
+			
+		<gamePlay>
+			<player>
+				<snowballSpeed>350</snowballSpeed>
+				<snowBlowerBullets>300</snowBlowerBullets><br/>
+				<noiseIncrease>10</noiseIncrease>
+				<noiseDecrease>10</noiseDecrease>
+			</player>
+			
+			<robots>
+				<patterns>
+					<max>
+						<base>5</base>
+						<increase>1</increase>
+					</max>
+				</patterns>
+				<speed>
+					<base>20</base>
+					<increase>5</increase>
+					<slowModeTime>10</slowModeTime>
+				</speed>
+			</robots>
+			
+			<level>
+				<scorePerLevel>500</scorePerLevel>
+			</level>
+			
+			<score>
+				<robots>
+					<base>25</base>
+				</robots>
+				<goodScore>15000</goodScore>
+			</score>
+			
+			<collision>
+				<robotDistance>20</robotDistance>
+				<pickupDistance>25</pickupDistance>
+			</collision>
+			
+			<pickups>
+				<max>1</max>
+				<ttl>6</ttl>
+				<delay>3</delay>
+			</pickups>
+			
+		</gamePlay>
+			
+	</gameSettings>
+	
+</config>

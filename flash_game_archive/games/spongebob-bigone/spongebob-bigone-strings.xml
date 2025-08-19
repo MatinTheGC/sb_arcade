@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" ?>
+<data>
+	<styles>
+		<style name="default"><![CDATA[
+			p {}
+		]]></style>
+	</styles>
+	<strings>
+		
+		<!-- Text -->
+		<string name="txt_areYouSureYouWantToQuit"><![CDATA[Are you sure you want to quit?]]></string>
+		<string name="txt_back"><![CDATA[BACK]]></string>
+		<string name="txt_boardName01"><![CDATA[Sponge Break]]></string>
+		<string name="txt_boardName02"><![CDATA[Sponge Love]]></string>
+		<string name="txt_boardName03"><![CDATA[Sponge Breath]]></string>
+		<string name="txt_bubbleBurn"><![CDATA[Bubble Pump]]></string>
+		<string name="txt_chooseSurfboard"><![CDATA[Choose Your Surfboard]]></string>
+		<string name="txt_close"><![CDATA[X CLOSE]]></string>
+		<string name="txt_hangTounge"><![CDATA[Hang Tongue]]></string>
+		<string name="txt_help"><![CDATA[HELP]]></string>
+		<string name="txt_help01"><![CDATA[DIRECTIONS]]></string>
+		<string name="txt_help02"><![CDATA[Use the left and right arrows <br/>to steer and catch big air.]]></string>
+		<string name="txt_help03"><![CDATA[For extra points, Hold the spacebar <br />and press the arrow keys to perform <br />tricks and combos while in the air.]]></string>
+		<string name="txt_high_scores"><![CDATA[Leaderboard]]></string>
+		<string name="txt_intro01"><![CDATA[Spongebob must find the fundamental<br /> nature of mind and wave...]]></string>
+		<string name="txt_intro02"><![CDATA[Through the teachings of legend surfer Jack Kahuna -]]></string>
+		<string name="txt_intro03"><![CDATA[For when the planets align, "The Big One" is born, bestowing danger and opportunity!]]></string>
+		<string name="txt_loading"><![CDATA[Loading]]></string>
+		<string name="txt_menu"><![CDATA[MENU]]></string>
+		<string name="txt_next"><![CDATA[NEXT]]></string>
+		<string name="txt_no"><![CDATA[NO]]></string>
+		<string name="txt_play"><![CDATA[PLAY]]></string>
+		<string name="txt_playAgain"><![CDATA[PLAY AGAIN]]></string>
+		<string name="txt_playNow"><![CDATA[PLAY NOW]]></string>
+		<string name="txt_quit"><![CDATA[QUIT]]></string>
+		<string name="txt_ripChord"><![CDATA[Rip Chord]]></string>
+		<string name="txt_score"><![CDATA[SCORE]]></string>
+		<string name="txt_skip"><![CDATA[SKIP]]></string>
+		<string name="txt_spongeRoll"><![CDATA[Sponge Roll]]></string>
+		<string name="txt_submitScore"><![CDATA[SUBMIT SCORE]]></string>
+		<string name="txt_yes"><![CDATA[YES]]></string>
+		<string name="txt_yourFinalScore"><![CDATA[Your final score is:]]></string>
+		<string name="txt_yourScore"><![CDATA[your score]]></string>
+		
+		<!-- Game Strings -->
+		<string name="txt_endscreen_bad"><![CDATA[You got worked,<br />give it another try!]]></string>
+		<string name="txt_endscreen_good"><![CDATA[Righteous,<br />nice set bro!]]></string>
+		<string name="txt_endscreen_great"><![CDATA[Epic set dude,<br />you rocked it!]]></string>
+		
+		<string name="txt_trickRipChord"><![CDATA[Rip Chord]]></string>
+		<string name="txt_trickHang12"><![CDATA[Hang Tongue]]></string>
+		<string name="txt_trickRoll"><![CDATA[Sponge Roll]]></string>
+		<string name="txt_trickBurn"><![CDATA[Bubble Pump]]></string>
+		<string name="txt_trickAir"><![CDATA[Air]]></string>
+		
+		<string name="txt_trick_format"><![CDATA[<font size="20" color="#FBF662">{$name}:</font><font size="16" color="#FDF5B5">+{$score} Points</font>]]></string>
+		<string name="txt_trick_total"><![CDATA[<font size="24" color="#FBF662">Total</font><font size="20" color="#FDF5B5">+{$total} Points</font>]]></string>
+		<string name="txt_trick_multiplier"><![CDATA[<font size="24" color="#FBF662"> x{$multiplier}</font>]]></string>
+		<string name="txt_trick_bonus_multiplier"><![CDATA[<font size="24" color="#FBF662">The Big One</font><font size="24" color="#FBF662"> x 2</font><font size="24" color="#FDF5B5">+{$total} Points</font>]]></string>
+		<string name="txt_bonus_timer"><![CDATA[<font size="14" color="#FBF662"></font><br/><font size="32" color="#FBF662">Bonus Round</font><br/><font size="24" color="#FDF5B5">{$bonusTimeFormated} Seconds</font>]]></string>
+	</strings>
+</data>

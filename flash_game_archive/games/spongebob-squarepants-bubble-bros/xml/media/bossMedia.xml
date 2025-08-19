@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<element name="bossSeeker">
+		<media alias="bossSeeker01" />
+	</element>
+	<element name="bossShooter">
+		<media alias="bossShooter01" />
+	</element>
+</list>

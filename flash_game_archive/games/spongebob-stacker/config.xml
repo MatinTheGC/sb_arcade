@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	
+	<universal_End_Screen>sponge_universal_end.swf</universal_End_Screen>
+	
+	<play_game> Play </play_game>
+	
+	<instructions1> Stack SpongeBob clones to rescue Gary from the tree!</instructions1>
+	<instructions2> Careful how you stack, your tower might fall down! </instructions2>
+	
+	<watchSpongeBob> Watch SpongeBob SquarePants on Nickelodeon! </watchSpongeBob>
+
+	<level> Level </level>
+	
+	<Score> Score </Score>
+	
+	<continue_game> Continue </continue_game>
+
+</localization>

@@ -1,0 +1,40 @@
+<config>
+
+	<serviceSettings>
+		<servicesModuleURL>nick_services_module.swf</servicesModuleURL>
+		<enableServices>true</enableServices> <!-- Set to FALSE to disable all Nick Services completely. TRUE will follow the specific service settings. -->
+		<enableLogin>true</enableLogin>
+		<enableLeaderboard>false</enableLeaderboard>
+		<enableNickPoints>false</enableNickPoints>
+		<enableTracking>true</enableTracking>
+		<serviceManagerURL>/common/flash/services/ServiceManager.swf</serviceManagerURL>
+		<serviceManagerConfigURL>/common/flash/services/data/services.xml</serviceManagerConfigURL>
+	</serviceSettings>
+	<tracking>
+		<gameName>spongebob-squarepants-the-clash-of-triton</gameName>
+		<urlAlias>URL_ALIAS</urlAlias> <!-- This is currently only used for Printable tracking-->
+		<showID>SHOW_ID</showID> <!-- This is currently only used for Printable tracking-->
+	</tracking>
+	<leaderboard>
+		<gameID>spongebob-squarepants-the-clash-of-triton-hsb</gameID>
+	</leaderboard>
+	<triton>
+		<levels>
+			<level id="0" name="Bikini Bottom" onmap="false" mapart="" unlock="0" reward="1" coinmult="1">xml/levels/level_bikini_bottom_intro.xml</level>
+			<level id="1" name="Sandy's Dome" onmap="true" mapart="AssetMapLevelSandy" unlock="1" reward="2" coinmult="1">xml/levels/level_sandy.xml</level>
+			<level id="2" name="Goo Lagoon" onmap="true" mapart="AssetMapLevelGooLagoon" unlock="2" reward="3" coinmult="1.2">xml/levels/level_goo_lagoon.xml</level>
+			<level id="3" name="Jellyfish Fields" onmap="true" mapart="AssetMapLevelJellyfish" unlock="3" reward="4" coinmult="1.4">xml/levels/level_jellyfish.xml</level>
+			<level id="4" name="Bikini Bottom" onmap="true" mapart="AssetMapLevelBikiniBottom" unlock="4" reward="5" coinmult="1.6">xml/levels/level_bikini_bottom_return.xml</level>
+			<level id="5" name="Neptune Valley" onmap="true" mapart="AssetMapNeptuneValley" unlock="5" reward="win" coinmult="1.8">xml/levels/level_neptune_valley.xml</level>
+		</levels>
+		<assets>
+			<assetSwf>assets/characters/spongebob_cot_characters_1.swf</assetSwf>
+			<assetSwf>assets/characters/spongebob_cot_effects_1.swf</assetSwf>
+		</assets>
+		<videos>
+			<video id="0">videos/triton_100619_destroy_town.m4v</video>
+			<video id="1">videos/triton_splash.m4v</video>
+			<video id="2">videos/triton_win.m4v</video>
+		</videos>
+	</triton>
+</config>

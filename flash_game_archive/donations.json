@@ -1,0 +1,22 @@
+{
+    "title": "Support the Archive",
+    "paragraphs": [
+        "Thank you for checking out the SpongeBob Flash Game Archive! This project is a labor of love, dedicated to preserving these classic games for everyone to enjoy. Countless hours have gone into manually archiving, patching, and enhancing these games to ensure they work on modern systems.",
+        "If you've enjoyed reliving these memories and appreciate the effort that went into this preservation work, please consider making a small donation. Your support helps cover the costs of development and motivates further improvements and additions to the archive.",
+        "Below are the cryptocurrency addresses where you can send a donation. Any amount is greatly appreciated and goes directly toward maintaining and expanding this project. Thank you for your generosity!"
+    ],
+    "wallets": [
+        {
+            "currency": "Bitcoin (BTC)",
+            "address": "YOUR_BITCOIN_ADDRESS_HERE"
+        },
+        {
+            "currency": "Ethereum (ETH)",
+            "address": "YOUR_ETHEREUM_ADDRESS_HERE"
+        },
+        {
+            "currency": "Monero (XMR)",
+            "address": "YOUR_MONERO_ADDRESS_HERE"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	
+	<universal_End_Screen>sponge_universal_end.swf</universal_End_Screen>
+	
+	<start_game>Start Game</start_game>
+	<how_to_play>How To Play</how_to_play>
+	
+	<instructions_1> Use the hand to grab onto SpongeBob's Tighty Whities. </instructions_1>
+	
+	<instructions_2> Hold down the mouse and Aim... </instructions_2>
+	<instructions_3> Let go of the mouse to send SpongeBob flying! </instructions_3>
+	
+	<distance>distance</distance>
+	<you_made_it>You made it</you_made_it>
+	<feet>feet!</feet>
+	<continue_game>Continue</continue_game>
+
+</localization>

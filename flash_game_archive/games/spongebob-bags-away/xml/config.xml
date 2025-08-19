@@ -1,0 +1,21 @@
+<config>
+		<ad_interruption enabled="false">ad_animation/MQ_logo_ani.swf</ad_interruption>
+	<serviceSettings>
+		<servicesModuleURL>nick_services_module.swf</servicesModuleURL>		
+		<enableServices>true</enableServices> <!-- Set to FALSE to disable all Nick Services completely. TRUE will follow the specific service settings. -->
+		<enableLogin>false</enableLogin>
+		<enableLeaderboard>false</enableLeaderboard>
+		<enableNickPoints>false</enableNickPoints>		
+		<enableTracking>true</enableTracking>
+		<serviceManagerURL>/common/flash/services/ServiceManager.swf</serviceManagerURL>
+		<serviceManagerConfigURL>/common/flash/services/data/services.xml</serviceManagerConfigURL>		
+	</serviceSettings>
+	<tracking>
+		<gameName>GAME_NAME</gameName>
+		<urlAlias>URL_ALIAS</urlAlias> <!-- This is currently only used for Printable tracking-->
+		<showID>SHOW_ID</showID> <!-- This is currently only used for Printable tracking-->
+	</tracking>
+	<leaderboard>
+		<gameID>GAME_ID</gameID>
+	</leaderboard>
+</config>

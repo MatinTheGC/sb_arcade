@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+
+<config>
+	
+	<version>
+		<!-- "false" will enable high score viewing/submission. "true" will disable high score viewing/submission.  -->
+		<isInternational>false</isInternational>
+	</version>
+
+	<highScore>
+		
+		<!-- Debug mode. Force user to be logged in with the username of "DEBUG_USER". -->
+		<debug>false</debug>
+		
+		<userPath>http://www.nick.com/games/common/user_name/getUserInfo.jhtml</userPath>
+		<scorePath>http://www.nick.com/common/score/Scoreboard.jhtml</scorePath>
+		<serviceLink>http://www.nick.com</serviceLink>
+		<gameID>spongebob-camping-hsb</gameID>
+	</highScore>
+	
+	<gameSettings>
+		<gamecode>cheeks</gamecode>
+		
+		<seabearBaseSpeed>20</seabearBaseSpeed>
+		<seabearSpeedPerLevel>4</seabearSpeedPerLevel>
+		<seabearSpeedMax>75</seabearSpeedMax>
+		
+		<characterBaseSpeed>20</characterBaseSpeed>
+		<characterSpeedPerLevel>3</characterSpeedPerLevel>
+		<characterSpeedMax>75</characterSpeedMax>
+		
+		<marshmallowBaseCount>1</marshmallowBaseCount>
+		<marshmallowPerLevel>3</marshmallowPerLevel>
+		<marshmallowMax>40</marshmallowMax>
+		
+		<marshmallowYMin>75</marshmallowYMin>
+		<marshmallowYMax>325</marshmallowYMax>
+		<marshmallowYWaver>25</marshmallowYWaver>
+		<marshmallowYWaverMin>35</marshmallowYWaverMin>
+		<marshmallowRowWaver>35</marshmallowRowWaver>
+		
+		<marshmallowXMin>75</marshmallowXMin>
+		<marshmallowXMax>500</marshmallowXMax>
+		<marshmallowXWaver>50</marshmallowXWaver>
+		<marshmallowXWaverMin>30</marshmallowXWaverMin>
+		
+		<nickPoints>
+			<campaignID>sb-campingnps</campaignID>
+			<modulePath>http://www.nick.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath>
+			<!-->Run the module locally when running on your machine, but swap the modulePath(s) when you deliver<!-->
+			<!--modulePath>\\dev\nickelodeon\spongebob\seabear\NickPoints_Module_build.swf</modulePath-->
+			<events>
+				<event>
+					<name>rank_low</name>
+					<scoreThreshold>10000</scoreThreshold>
+				</event>
+				<event>
+					<name>rank_med</name>
+					<scoreThreshold>100000</scoreThreshold>
+				</event>
+				<event>
+					<name>rank_high</name>
+					<scoreThreshold>500000</scoreThreshold>
+				</event>
+			</events>
+			
+			<!-- Used if the game awards a Spongebob Mini-game at the end.  Keep commented out when not used. -->
+			
+			<sbpromo>
+				<img>spbob_sea.jpg</img>
+				<url target="_blank">http://www.spongebob.nick.com/games/play/spongebob-sea/</url>
+			</sbpromo>
+		
+		</nickPoints>
+		
+	</gameSettings>
+	
+	
+
+	<localization>
+		
+	</localization>
+	
+</config>

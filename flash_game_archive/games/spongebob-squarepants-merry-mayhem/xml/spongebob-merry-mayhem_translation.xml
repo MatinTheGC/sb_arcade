@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<strings>
+	<string id="leader_board_score_title" 	fontName="Font_Ed_Interlock" 		fontSize="18" html="false"><![CDATA[score]]></string>
+	<string id="leader_board_rank_title" 	fontName="Font_Ed_Interlock" 		fontSize="18" html="false"><![CDATA[Rank]]></string>
+	<string id="leader_board_nick_name_title" fontName="Font_Ed_Interlock" 		fontSize="18" html="false"><![CDATA[NickName]]></string>
+	<string id="help_space" 				fontName="Font_Ed_Interlock" 		fontSize="19" html="false"><![CDATA[SPACE]]></string>
+	<string id="leader_board_back_btn" 		fontName="Font_ShagExpert_Exotica" 	fontSize="17" html="false"><![CDATA[BACK]]></string>
+	<string id="leader_board_next_btn" 		fontName="Font_ShagExpert_Exotica" 	fontSize="17" html="false"><![CDATA[NEXT]]></string>
+	<string id="menu_quit_btn" 				fontName="Font_ShagExpert_Exotica"	fontSize="21" html="false"><![CDATA[QUIT]]></string>
+	<string id="menu_help_btn" 				fontName="Font_ShagExpert_Exotica" 	fontSize="21" html="false"><![CDATA[HELP]]></string>
+	<string id="menu_resume_btn" 			fontName="Font_ShagExpert_Exotica" 	fontSize="21" html="false"><![CDATA[RESUME]]></string>
+	<string id="menu_title" 				fontName="Font_ShagExpert_Exotica" 	fontSize="40" html="false"><![CDATA[Menu]]></string>
+	<string id="quit_confirm" 				fontName="Font_Ed_Interlock" 		fontSize="20" html="false"><![CDATA[Are you sure you want to quit?]]></string>
+	<string id="no_btn" 					fontName="Font_ShagExpert_Exotica" 	fontSize="28" html="false"><![CDATA[No]]></string>
+	<string id="yes_btn" 					fontName="Font_ShagExpert_Exotica" 	fontSize="28" html="false"><![CDATA[Yes]]></string>
+	<string id="resume_btn" 				fontName="Font_ShagExpert_Exotica" 	fontSize="24" html="false"><![CDATA[Resume]]></string>
+	<string id="help_abilities_blizzard" 	fontName="Font_Ed_Interlock" 		fontSize="17" html="false"><![CDATA[Blizzard  Blast]]></string>
+	<string id="help_abilities_snowball" 	fontName="Font_Ed_Interlock" 		fontSize="17" html="false"><![CDATA[Super Snowball Thrower]]></string>
+	<string id="help_abilities_gary_time" 	fontName="Font_Ed_Interlock" 		fontSize="17" html="false"><![CDATA[Gary Time]]></string>
+	<string id="help_abilities_jelly" 		fontName="Font_Ed_Interlock" 		fontSize="17" html="true"><![CDATA[Electromagnetic<br>Pulse]]></string>
+	<string id="help_abilities_noise" 		fontName="Font_Ed_Interlock" 		fontSize="17" html="true"><![CDATA[Noise<br>Reducer]]></string>
+	<string id="help_msg_abilities_title"	fontName="Font_Ed_Interlock" 		fontSize="20" html="false"><![CDATA[Hit these for special abilities.]]></string>
+	<string id="help_msg_space" 			fontName="Font_Ed_Interlock" 		fontSize="17" html="false"><![CDATA[Tap your SPACEBAR to initiate a snow blizzard to clear the screen of caroling robots.]]></string>
+	<string id="help_msg_mouse" 			fontName="Font_Ed_Interlock" 		fontSize="17" html="true"><![CDATA[Use your MOUSE to control SpongeBob's aim and click to throw snowballs.]]></string>
+	<string id="help_msg1" 					fontName="Font_Ed_Interlock" 		fontSize="22" html="false"><![CDATA[Help SpongeBob protect the Krusty Krab from Plankton's robot army!]]></string>
+	<string id="help_title" 				fontName="Font_ShagExpert_Exotica" 	fontSize="40" html="false"><![CDATA[How to Play!]]></string>
+	<string id="game_over_hint_space" 		fontName="Font_Ed_Interlock" 		fontSize="19" html="false"><![CDATA[SPACE]]></string>
+	<string id="game_over_hint_2" 			fontName="Font_Ed_Interlock" 		fontSize="24" html="true"><![CDATA[Don't forget to use your spacebar to launch a <br>BLIZZARD BLAST.]]></string>
+	<string id="game_over_hint_1" 			fontName="Font_Ed_Interlock" 		fontSize="38" html="false"><![CDATA[Psst! ]]></string>
+	<string id="game_over_kudos2" 			fontName="Font_Ed_Interlock" 		fontSize="32" html="false"><![CDATA[Darn it boy!  I'm giving ye just one more chance ...or you're FIRED!]]></string>
+	<string id="game_over_kudos1" 			fontName="Font_Ed_Interlock" 		fontSize="32" html="false"><![CDATA[Arr…thanks to you, me money will keep rolling in!]]></string>
+	<string id="game_over_score" 			fontName="Font_ShagExpert_Exotica" 	fontSize="28" html="false"><![CDATA[Score]]></string>
+	<string id="game_over_view_scores_btn" 	fontName="Font_ShagExpert_Exotica" 	fontSize="24" html="false"><![CDATA[View Scores]]></string>
+	<string id="game_over_play_again_btn" 	fontName="Font_ShagExpert_Exotica" 	fontSize="24" html="false"><![CDATA[Play Again]]></string>
+	<string id="leader_board_connection_error" fontName="Font_Ed_Interlock" 	fontSize="19" html="true"><![CDATA[Problem connecting to server,<br>please try again later.]]></string>
+	<string id="leader_board_sending_scores" fontName="Font_Ed_Interlock" 		fontSize="19" html="false"><![CDATA[Sending Score...]]></string>
+	<string id="leader_board_loading_scores" fontName="Font_Ed_Interlock" 		fontSize="19" html="false"><![CDATA[Loading Scores...]]></string>
+	<string id="submit_score_btn" 			fontName="Font_ShagExpert_Exotica" 	fontSize="24" html="false"><![CDATA[Submit Score]]></string>
+	<string id="leader_board_you" 			fontName="Font_Ed_Interlock" 		fontSize="16" html="false"><![CDATA[You]]></string>
+	<string id="leader_board_title" 		fontName="Font_ShagExpert_Exotica" 	fontSize="34" html="false"><![CDATA[HIGH SCORES]]></string>
+	<string id="play_again_btn" 			fontName="Font_ShagExpert_Exotica" 	fontSize="24" html="false"><![CDATA[Play Game]]></string>
+	<string id="noise" 						fontName="Font_Tiki_Magic" 			fontSize="20" html="false"><![CDATA[NOISE]]></string>
+	<string id="level" 						fontName="Font_Ed_Interlock" 		fontSize="52" html="false"><![CDATA[LEVEL]]></string>
+	<string id="menu_btn" 					fontName="Font_ShagExpert_Exotica" 	fontSize="14" html="false"><![CDATA[MENU]]></string>
+	<string id="score" 						fontName="Font_Tiki_Magic" 			fontSize="21" html="false"><![CDATA[Score:]]></string>
+	<string id="blizzard_times" 			fontName="Font_Tiki_Magic" 			fontSize="21" html="false"><![CDATA[x]]></string>
+	<string id="intro_msg3" 				fontName="Font_Ed_Interlock" 		fontSize="32" html="false"><![CDATA[Get up on the rooftop and defend me secret formula!]]></string>
+	<string id="intro_msg2" 				fontName="Font_Ed_Interlock" 		fontSize="32" html="true"><![CDATA[I smell a smell... it's a smelly kind of smell.<br>Smells like  Plankton's up to no good again!]]></string>
+	<string id="intro_msg" 					fontName="Font_Ed_Interlock" 		fontSize="28" html="false"><![CDATA[Ahoy, SpongeBob! Them don't look like PAYIN' customers. ]]></string>
+	<string id="skip_btn" 					fontName="Font_ShagExpert_Exotica" 	fontSize="24" html="false"><![CDATA[SKIP]]></string>
+	<string id="play_btn" 					fontName="Font_ShagExpert_Exotica" 	fontSize="34" html="false"><![CDATA[Play!]]></string>
+	<string id="title_2_original" 			fontName="Font_Tiki_Magic" 			fontSize="96" html="false"><![CDATA[MAYHEM!]]></string>
+	<string id="title_1_original" 			fontName="Font_Tiki_Magic" 			fontSize="96" html="false"><![CDATA[MERRY]]></string>
+	<string id="gameLoader_loading" 		fontName="Font_Ed_Interlock" 		fontSize="20" html="false"><![CDATA[Loading...]]></string>
+	
+	<string id="score_token_txt" 			fontName="Font_Tiki_Magic" 			fontSize="21" html="false"><![CDATA[$score$]]></string>
+	<string id="powerup_token_txt" 			fontName="Font_Tiki_Magic" 			fontSize="21" html="false"><![CDATA[$number$]]></string>
+	<string id="level_token_txt" 			fontName="Font_Ed_Interlock" 		fontSize="52" html="false"><![CDATA[$level$]]></string>
+	<string id="bullet_token_txt" 			fontName="Font_Tiki_Magic" 			fontSize="14" html="false"><![CDATA[$bulletCount$]]></string>
+	<string id="scoreFade_token_txt"		fontName="Font_FuturaTDem_Edu"		fontSize="14" html="false"><![CDATA[$scoreFade$]]></string>
+	<string id="gameOver_score_token_txt"	fontName="Font_Ed_Interlock"		fontSize="30" html="false"><![CDATA[$score$]]></string>
+	<string id="playerName_token_txt"		fontName="Font_Ed_Interlock"		fontSize="16" html="false"><![CDATA[$name$]]></string>
+	<string id="playerScore_token_txt"		fontName="Font_Ed_Interlock"		fontSize="16" html="false"><![CDATA[$score$]]></string>
+	<string id="playerRank_token_txt"		fontName="Font_Ed_Interlock"		fontSize="16" html="false"><![CDATA[$rank$]]></string>
+	<string id="hb_player_token_txt"		fontName="Font_Ed_Interlock"		fontSize="16" html="false"><![CDATA[$name$]]></string>
+	<string id="hb_score_token_txt"			fontName="Font_Ed_Interlock"		fontSize="16" html="false"><![CDATA[$score$]]></string>
+	<string id="hb_rank_token_txt"			fontName="Font_Ed_Interlock"		fontSize="16" html="false"><![CDATA[$rank$]]></string>
+	<string id="pagination_token_txt"		fontName="Font_Ed_Interlock"		fontSize="14" html="false"><![CDATA[$currentPage$/$totalPages$]]></string>
+</strings>

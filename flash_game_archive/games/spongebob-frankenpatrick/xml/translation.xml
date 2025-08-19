@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font that all fields will use unless fontName is specified within that field's tag-->
+<!-- isEnglish, when set to TRUE, ignores all localization and uses the default field data in the FLA.-->
+
+<!-- <Node Attributes> -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the defaul size in the FLA.-->
+<!-- fontId is Optional. It allows you to customize the name of the font used in this particular field. Leave it out to use defaultFont.-->
+<translation defaultFont="main" isEnglish="false">	
+	<start fontSize="12" fontId="main"><![CDATA[Start]]></start>
+	<play_again><![CDATA[Play Again]]></play_again>
+	<leaderboard><![CDATA[Leaderboard]]></leaderboard>
+	<title_in><![CDATA[IN]]></title_in>
+	<title_franken><![CDATA[FRANKEN]]></title_franken>
+	<title_patrick><![CDATA[PATRICK]]></title_patrick>
+	<how_to_play><![CDATA[How to Play]]></how_to_play>
+	<help><![CDATA[Match Gears of the same inner or outer colors:]]></help>
+	<game_over><![CDATA[GAME
+OVER]]></game_over>
+	<watch_message><![CDATA[Watch SpongeBob SquarePants on Nickelodeon!]]></watch_message>
+	<button_resume><![CDATA[RESUME]]></button_resume>
+	<button_yes><![CDATA[YES]]></button_yes>
+	<button_submit><![CDATA[SUBMIT]]></button_submit>
+	<button_quit><![CDATA[QUIT]]></button_quit>
+	<button_no><![CDATA[NO]]></button_no>
+	<button_play><![CDATA[PLAY]]></button_play>
+	<button_play_again><![CDATA[PLAY AGAIN]]></button_play_again>
+	<button_menu><![CDATA[MENU]]></button_menu>
+	<button_leaderboard><![CDATA[LEADERBOARD]]></button_leaderboard>
+	<button_help_play><![CDATA[PLAY]]></button_help_play>
+	<button_help><![CDATA[HELP]]></button_help>
+	<in_game_help_1>Click and Drag the glowing gear to move it.</in_game_help_1>
+	<in_game_help_2>Drop the gear next to the glowing gear.</in_game_help_2>	
+	<in_game_help_3>Now connect the turning gears to the glowing gear.</in_game_help_3>	
+	<in_game_help_4>The gears jammed! Be sure to match the inner or outer color.</in_game_help_4>		
+</translation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<strings>
+    <string id="title1" fontName="ZombieHolocaust" fontSize="100" lineHeight="16"><![CDATA[GHOUL]]></string>
+	<string id="title2" fontName="ZombieHolocaust" fontSize="100" lineHeight="16"><![CDATA[GETTER]]></string>
+	<string id="play" fontName="ZombieHolocaust" fontSize="50" lineHeight="16"><![CDATA[PLAY]]></string>
+    <string id="instruction1" fontName="verdana" fontSize="43" lineHeight="16"><![CDATA[move]]></string>
+    <string id="instruction2" fontName="verdana" fontSize="43" lineHeight="16"><![CDATA[jump]]></string>
+    <string id="instruction3" fontName="verdana" fontSize="20" lineHeight="16"><![CDATA[Normal Jump]]></string>
+    <string id="instruction4" fontName="verdana" fontSize="20" lineHeight="16"><![CDATA[Medium Bounce]]></string>
+    <string id="instruction5" fontName="verdana" fontSize="20" lineHeight="16"><![CDATA[Mega Boost!!!]]></string>
+    <string id="instruction6" fontName="verdana" fontSize="20" lineHeight="16"><![CDATA[*Avoid* Smelly Sock]]></string>
+	<string id="clicktoplay" fontName="ZombieHolocaust" fontSize="53" lineHeight="16"><![CDATA[CLICK TO PLAY]]></string>
+    <string id="score" fontName="ZombieHolocaust" fontSize="40" lineHeight="16"><![CDATA[SCORE]]></string>
+	<string id="quit1" fontName="ZombieHolocaust" fontSize="30" lineHeight="16"><![CDATA[ARE YOU SURE YOU WANT TO QUIT]]></string>
+	<string id="quit2" fontName="ZombieHolocaust" fontSize="30" lineHeight="16"><![CDATA[YES]]></string>
+	<string id="quit3" fontName="ZombieHolocaust" fontSize="30" lineHeight="16"><![CDATA[NO]]></string>
+	<string id="gameover1" fontName="ZombieHolocaust" fontSize="150" lineHeight="16"><![CDATA[GAME OVER]]></string>
+	<string id="gameover2" fontName="ZombieHolocaust" fontSize="40" lineHeight="16"><![CDATA[PLAY AGAIN]]></string>
+	<string id="gameover3" fontName="ZombieHolocaust" fontSize="40" lineHeight="16"><![CDATA[HIGHSCORE]]></string>
+	<string id="gameover4" fontName="ZombieHolocaust" fontSize="40" lineHeight="16"><![CDATA[SUBMIT]]></string>
+	<string id="highscore1" fontName="ZombieHolocaust" fontSize="43" lineHeight="16"><![CDATA[HIGHSCORE]]></string>
+</strings>

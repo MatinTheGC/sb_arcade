@@ -1,0 +1,124 @@
+ <overmap>
+ <map linkId="tile_mc" isometric="2" tileWidth="58" tileHeight="58" levelHeight="9" scrollSpeed="3" baseMap="Basic" world="Earth" gameType="rescue" timer="10">
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="WoodCase" inside="Apple" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="Katara" dir="left" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="WoodCase" inside="Ghost" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" object="Pirate" dir="left" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" object="Pirate" dir="left" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" object="Pirate" dir="left" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="Straw" dir="left" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" object="Ghost" dir="left" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="Straw" dir="left" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="WoodCase" inside="WaterScroll" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="Straw" dir="left" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="WoodCase" dir="left" inside="Ghost" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="1" walkable="1" level="0" object="Aang" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="WoodCase" dir="left" inside="KeyCage" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="WoodCase" inside="EarthScroll" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" object="Pirate" dir="left" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+  </map>
+ </overmap>

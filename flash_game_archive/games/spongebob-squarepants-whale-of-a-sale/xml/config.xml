@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<serviceSettings>
+		<servicesModuleURL>nick_services_module.swf</servicesModuleURL>		
+		<enableServices>true</enableServices> <!-- Set to FALSE to disable all Nick Services completely. TRUE will follow the specific service settings. -->
+		<enableLogin>true</enableLogin>
+		<enableLeaderboard>true</enableLeaderboard>
+		<enableNickPoints>false</enableNickPoints>
+		<enableTracking>true</enableTracking>
+		<serviceManagerURL>/common/flash/services/ServiceManager.swf</serviceManagerURL>
+		<serviceManagerConfigURL>/common/flash/services/data/services.xml</serviceManagerConfigURL>	
+	</serviceSettings>
+	<trackingSettings>
+		<type id="printTracker">
+			<enabled>true</enabled>
+			<urlAlias>spongebob-squarepants-whale-of-a-sale</urlAlias> <!-- This is currently only used for Printable tracking-->
+			<otherParam>Printable</otherParam> <!-- This is currently only used for Printable tracking, param between URL ALIAS and showId-->
+			<showID>spo</showID> <!-- This is currently only used for Printable tracking-->
+		</type>
+		<type id="trackKidsGamePlay">
+			<enabled>true</enabled>
+		</type>
+	</trackingSettings>
+	<gameSettings>
+		<bonusCode><![CDATA[together]]></bonusCode><!-- Bonus code. -->
+		<debugMode>true</debugMode><!-- State if debug mode. If true, skips services loading upon error -->
+		<defaultLevel>1</defaultLevel><!-- Set the default level. Default settings is 1 -->
+		<enableBonusCode>true</enableBonusCode>
+		<enableHiddenObject>true</enableHiddenObject>
+		<enablePrintable>true</enablePrintable>
+		<gameID>spongebob-squarepants-whale-of-a-sale</gameID><!-- game id, also used for printable tracking. -->
+		<hiddenObjectScore>1000</hiddenObjectScore><!-- score obtained upon finding/clicking hidden object. -->
+		<hiddenObjectMinSpawn>30000</hiddenObjectMinSpawn><!-- min spawn rate of hidden object in milliseconds. 5000-->
+		<hiddenObjectMaxSpawn>45000</hiddenObjectMaxSpawn><!-- max spawn rate of hidden object in milliseconds. 200000-->
+		<levels>
+			<level patience="120" goal="10"/>
+			<level patience="110" goal="30"/>
+			<level patience="100" goal="50"/>
+			<level patience="90" goal="80"/>
+			<level patience="80" goal="110"/>
+			<level patience="70" goal="140"/>
+			<level patience="60" goal="180"/>
+			<level patience="50" goal="220"/>
+			<level patience="40" goal="260"/>
+			<level patience="30" goal="300"/>
+			<level patience="25" goal="350"/>
+			<level patience="20" goal="400"/>
+			<level patience="16" goal="450"/>
+			<level patience="14" goal="500"/>
+			<level patience="12" goal="550"/>
+			<level patience="10" goal="600"/>
+			<level patience="8" goal="650"/>
+			<level patience="7" goal="700"/>
+			<level patience="6" goal="750"/>
+			<level patience="5" goal="800"/>
+			<level patience="4" goal="850"/>
+			<level patience="3" goal="900"/>
+		</levels>
+	</gameSettings>
+	<hsbSettings>
+		<gameID>spongebob-squarepants-whale-of-a-sale-hsb</gameID><!-- hsb game id. -->
+	</hsbSettings>
+</config>

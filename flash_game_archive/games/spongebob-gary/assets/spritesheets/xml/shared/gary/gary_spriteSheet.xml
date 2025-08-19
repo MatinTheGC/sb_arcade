@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+	
+	<!--GARY ANIMATIONS-->
+	
+	<!--BLUE SHOES-->
+	<group id="blue_shoe_jump">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!--BLUE SHOES STAND-->
+			<!-- Frame_1 --><sprite x="210" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="105" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="0" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="2100" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="1995" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="1890" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="1785" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="1680" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="1575" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="1470" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!--BLUE SHOES JUMP-->
+			<!-- Frame_1 --><sprite x="0" y="945" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="2100" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="1995" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="1890" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="1785" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="1680" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="1575" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="1470" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="1365" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="1260" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	<group id="blue_shoe_jump_down">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="1155" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="1050" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="945" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="840" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="735" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="630" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="525" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="420" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="315" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+	<group id="blue_shoe_stand">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="210" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="105" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="0" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="2100" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="1995" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="1890" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="1785" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="1680" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="1575" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="1470" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="1365" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="1260" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="1155" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="1050" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_15 --><sprite x="945" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	<group id="blue_shoe_sit">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_15 --><sprite x="945" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="1050" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="1155" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="1260" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="1365" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="1470" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="1575" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="1680" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="1785" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="1890" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="1995" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="2100" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="0" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="105" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_1 --><sprite x="210" y="840" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>		
+	
+	<!--GOLDEN SHOES-->
+	<group id="golden_shoe_bubble">
+		<animation looping="true" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="840" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="735" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="630" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="525" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="420" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="315" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="210" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="105" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="0" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="2100" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="1995" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="1890" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="1785" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="1680" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_15 --><sprite x="1575" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_16 --><sprite x="1470" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_17 --><sprite x="1365" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_18 --><sprite x="1260" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_19 --><sprite x="1155" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_20 --><sprite x="1050" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_21 --><sprite x="945" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	<group id="golden_shoe_stop">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<!-- Frame_15 --><sprite x="1575" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>		
+	
+	
+	<group id="golden_shoe_stand">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="840" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="735" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="630" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="525" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="420" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="315" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="210" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="105" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="0" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="2100" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="1995" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="1890" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="1785" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="1680" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_15 --><sprite x="1575" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	
+	
+	<group id="golden_shoe_jump">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!--GOLDEN SHOES STAND-->
+			<!-- Frame_1 <sprite x="840" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+			<!-- Frame_2 <sprite x="735" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+			<!-- Frame_3 <sprite x="630" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+			<!-- Frame_4 <sprite x="525" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+			<!-- Frame_5 <sprite x="420" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+			<!-- Frame_6 <sprite x="315" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+			<!-- Frame_7 <sprite x="210" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+			<!-- Frame_8 <sprite x="105" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+			<!-- Frame_9 <sprite x="0" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+			<!-- Frame_10 <sprite x="2100" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" /> -->
+			<!--GOLDEN SHOES JUMP-->
+			<!-- Frame_1 --><sprite x="1050" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="945" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="840" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="735" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="630" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="525" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="420" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="315" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="210" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="105" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	<group id="golden_shoe_jump_down">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="0" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="2100" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="1995" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="1890" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="1785" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="1680" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="1575" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="1470" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="1365" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+	
+	
+	
+	<group id="golden_shoe_sit">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_15 --><sprite x="1575" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="1680" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="1785" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="1890" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="1995" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="2100" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="0" y="735" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="105" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="210" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="315" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="420" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="525" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="630" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="735" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_1 --><sprite x="840" y="630" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	
+	<!--GREEN SHOES-->
+	<group id="green_shoe_bubble">
+		<animation looping="true" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="1470" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="1365" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="1260" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="1155" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="1050" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="945" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="840" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="735" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="630" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="525" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="420" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="315" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="210" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="105" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_15 --><sprite x="0" y="525" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_16 --><sprite x="2100" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_17 --><sprite x="1995" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>		
+	<group id="green_shoe_stand">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+				<!-- Frame_1 --><sprite x="1890" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_2 --><sprite x="1785" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_3 --><sprite x="1680" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_4 --><sprite x="1575" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_5 --><sprite x="1470" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_6 --><sprite x="1365" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_7 --><sprite x="1260" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_8 --><sprite x="1155" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_9 --><sprite x="1050" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_10 --><sprite x="945" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_11 --><sprite x="840" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_12 --><sprite x="735" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_13 --><sprite x="630" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_14 --><sprite x="525" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+				<!-- Frame_15 --><sprite x="420" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	<group id="green_shoe_sit">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_15 --><sprite x="420" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="525" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="630" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="735" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="840" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="945" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="1050" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="1155" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="1260" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="1365" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="1470" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="1575" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="1680" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="1785" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_1 --><sprite x="1890" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>							
+	
+	<!--RED SHOES-->
+	<group id="red_shoe_run">
+		<animation looping="true" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="315" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="210" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="105" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="0" y="420" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="2100" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="1995" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="1890" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="1785" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="1680" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="1575" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="1470" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="1365" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="1260" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="1155" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_15 --><sprite x="1050" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_16 --><sprite x="945" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_17 --><sprite x="840" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_18 --><sprite x="735" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_19 --><sprite x="630" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_20 --><sprite x="525" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_21 --><sprite x="420" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>	
+	<group id="red_shoe_stand">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="315" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="210" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="105" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="0" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="2100" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="1995" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="1890" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="1785" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="1680" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="1575" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="1470" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="1365" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="1260" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="1155" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_15 --><sprite x="1050" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>	
+	<group id="red_shoe_jump">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!--RED SHOES STAND-->
+			<!-- Frame_1 --><sprite x="315" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="210" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="105" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="0" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="2100" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="1995" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="1890" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="1785" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="1680" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="1575" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!--RED SHOES JUMP-->
+			<!-- Frame_1 --><sprite x="1260" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="1155" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="1050" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="945" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="840" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="735" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="630" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="525" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="420" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="315" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	<group id="red_shoe_jump_down">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="210" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="105" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="0" y="1050" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="2100" y="945" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="1995" y="945" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="1890" y="945" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="1785" y="945" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="1680" y="945" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="1575" y="945" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>	
+	
+	
+	
+	
+	
+	
+	<group id="red_shoe_sit">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_15 --><sprite x="1050" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="1155" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="1260" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="1365" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="1470" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="1575" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="1680" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="1785" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="1890" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="1995" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="2100" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="0" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="105" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="210" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_1 --><sprite x="315" y="315" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	
+	<!--REGULAR GARY-->
+	<group id="regular_crawl">
+		<animation looping="true" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="945" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="840" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="735" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="630" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="525" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="420" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="315" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="210" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="105" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="0" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="2100" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="1995" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="1890" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="1785" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_15 --><sprite x="1680" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_16 --><sprite x="1575" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_17 --><sprite x="1470" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>		
+	<group id="regular_jump">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="1470" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="1365" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="1260" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="1155" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="1050" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="945" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="840" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="735" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="630" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="525" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="420" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="315" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="210" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="105" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />	
+			<!-- Frame_15 --><sprite x="0" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="0" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_15 --><sprite x="2100" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_16 --><sprite x="1995" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_17 --><sprite x="1890" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_18 --><sprite x="1785" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_19 --><sprite x="1680" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_20 --><sprite x="1575" y="0" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>	
+	<group id="regular_jump_down">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="1365" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="1260" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="1155" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="1050" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="945" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="840" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="735" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="630" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="525" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="420" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="315" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="210" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="105" y="105" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+	<group id="regular_stand">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="945" y="210" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>		
+	<group id="regular_stop">
+		<animation looping="true" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="1470" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="1365" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="1260" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="1155" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="1050" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="945" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="840" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="735" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="630" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="525" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="420" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="315" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="210" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="105" y="944" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>	
+	<group id="lose_life">
+		<animation looping="true" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="945" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_2 --><sprite x="840" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_3 --><sprite x="735" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_4 --><sprite x="630" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_5 --><sprite x="525" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_6 --><sprite x="420" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_7 --><sprite x="315" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_8 --><sprite x="210" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_9 --><sprite x="105" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_10 --><sprite x="0" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_11 --><sprite x="2100" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_12 --><sprite x="1995" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_13 --><sprite x="1890" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_14 --><sprite x="1785" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_15 --><sprite x="1680" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_16 --><sprite x="1575" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_17 --><sprite x="1470" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_18 --><sprite x="1365" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_18 --><sprite x="1260" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_20 --><sprite x="1155" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_21 --><sprite x="1050" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_22 --><sprite x="945" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_23 --><sprite x="840" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_24 --><sprite x="735" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_25 --><sprite x="630" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_26 --><sprite x="525" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_27 --><sprite x="420" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_28 --><sprite x="315" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_29 --><sprite x="210" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_30 --><sprite x="105" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_31 --><sprite x="0" y="1260" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_32 --><sprite x="2100" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_33 --><sprite x="1995" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_34 --><sprite x="1890" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_35 --><sprite x="1785" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_36 --><sprite x="1680" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_37 --><sprite x="1575" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_38 --><sprite x="1470" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_39 --><sprite x="1365" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_40 --><sprite x="1260" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+			<!-- Frame_41 --><sprite x="1155" y="1155" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+		
+	<group id="Minus_One_Life">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="2100" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	<group id="Plus_One_Life">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="1995" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	<group id="Invincibility_Shoes">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="1890" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	<group id="Floating_Shoes">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="1785" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	<group id="Running_Shoes">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="1680" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	<group id="High_Jump_Shoes">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+			<!-- Frame_1 --><sprite x="1575" y="1365" width="105" height="105" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>		
+	</group>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+								
+</spritesheet>

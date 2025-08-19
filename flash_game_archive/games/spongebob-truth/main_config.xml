@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<!-- /////////////////////////////////////////////////////////////////////////// -->
+	<!-- //////////////////  GAMEPLAY VALUE   ////////////////////////////////////// -->
+	
+	<!-- ///// PIECE -->
+	<!-- Time to stay Still -->
+	<property name="aTIME_STILL">				<![CDATA[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]>					</property>
+	<property name="aFLIPPING_MAX_SPEED">		<![CDATA[30, 28, 27, 25, 24, 22, 21, 19, 18, 16, 15, 10]]>					</property>
+	<property name="aFLIPPING_MIN_SPEED">		<![CDATA[40, 38, 36, 34, 32, 30, 28, 26, 24, 22, 17, 13]]>					</property>
+	<!-- Number of time image can pass wrong -->
+	<property name="aMAX_RIGHT_IMAGE">			<![CDATA[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]]>					</property>
+	<!-- percentage chance of showing right image -->
+	<property name="aRIGHT_IMAGE_CHANCE">		<![CDATA[33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33]]>		</property>
+	<!-- Time to stay freeze -->
+	<property name="aTIME_TO_FREEZE">			<![CDATA[120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340]]>		</property>
+	
+	<!-- ///// BOARD -->
+	<!-- Time to Blur Up and Down -->
+	<property name="aFALSE_PUZZLE_USE">				<![CDATA[3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8]]>		</property>
+	<!-- Piece already in place at level start  -->
+	<property name="aINIT_PUZZLE_CLEAR">			<![CDATA[1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 5]]>		</property>
+
+	<!-- ///// GAMEFLOW -->
+	<!-- Perso will freeze one by one -->
+	<property name="bONE_AT_A_TIME">			<![CDATA[false]]>	</property>
+	<!-- Time (in frame) of inactivity to lose combo -->
+	<property name="nCOMBO_DELAY_LOSE">			<![CDATA[70]]>	</property>
+	<!-- Time (in frame) of inactivity to lose combo -->
+	<property name="nSTARTING_LEVEL">			<![CDATA[1]]>	</property>
+	
+	<!-- ///// PERSO -->
+	<!-- Player starting life -->
+	<property name="nPLAYER_STARTING_NUMBER_LIVE">	<![CDATA[3]]>		</property>
+	<!-- Time (in frames) random added to freeze time -->
+	<property name="nTIME_BEFORE_FREEZE_RANDOM">	<![CDATA[120]]>		</property>
+	<!-- Time (in frames) before perso freeze up one step (step 4 == freeze) -->
+	<property name="aTIME_BEFORE_FREEZE_BASE">		<![CDATA[340, 340, 320, 320, 300, 300, 280, 280, 260, 260, 250, 240]]>		</property>
+	
+	<!-- ///// SCORE -->
+	<!-- Point allocated (only click get multiplied by combo) -->
+	<property name="nPOINT_PER_CLICK">			<![CDATA[50]]>		</property>
+	<property name="nPOINT_PER_STAR">			<![CDATA[1000]]>	</property>
+	<property name="nPOINT_PER_SAVE">			<![CDATA[250]]>		</property>
+	
+	<!-- /////////////////////////////////////////////////////////////////////////// -->
+	<!-- /////////////////////////////////////////////////////////////////////////// -->
+	
+	<!-- Game default language -->
+	<property name="sDEFAULT_LOCALE">	<![CDATA[en_us]]>	</property>
+	
+	<!-- Counter effect speed when displaying score in HUD-->
+	<property name="nHUD_SCORE_COUNTER_EFFECT_SPEED">	<![CDATA[25]]>		</property>
+
+	<!-- Flag : Nick high score enabled -->
+	<property name="isInternational">			<![CDATA[false]]>			</property>
+	
+	<!-- Flag : Nick high score enabled -->
+	<property name="nick_highscores_available">	<![CDATA[true]]>			</property>
+	<!-- Game's nick HSB ID -->
+	<property name="nick_highscores_hs_id">		<![CDATA[spongebob-truth-hsb]]>		</property>
+	
+	<!-- Flag : Nick promotion enabled -->
+	<property name="nick_promo_available">		<![CDATA[true]]>			</property>
+	<!-- Flag : Nick promotion xml URL -->
+	<property name="nick_promo_config_url">		<![CDATA[nick_promo.xml]]>	</property>
+	
+	<!-- Game's nick GameID for tracking -->
+	<property name="nick_game_id">				<![CDATA[pongebob-truth]]>		</property>
+
+	<!-- Music default volume -->
+	<property name="nDEFAULT_VOLUME_MUSIC">		<![CDATA[0.5]]>		</property>
+		
+	<!-- Sound default volume -->
+	<property name="nDEFAULT_VOLUME_SOUNDS">	<![CDATA[0.5]]>		</property>
+
+	<!-- Default AbstractView IN volume-->
+	<property name="nDEFAULT_POPUP_VOL_IN">	<![CDATA[1]]>		</property>
+	
+	<!-- Default AbstractView OUT volume-->
+	<property name="nDEFAULT_POPUP_VOL_OUT">	<![CDATA[1]]>		</property>
+	
+	<!-- Default UI Button click volume-->
+	<property name="nDEFAULT_MOUSE_VOL_CLICK">	<![CDATA[2]]>		</property>
+	
+		<!-- Default UI Button rollOver volume-->
+	<property name="nDEFAULT_MOUSE_VOL_ROLL">	<![CDATA[1]]>		</property>
+	
+	<!-- Default UI Transition IN volume -->
+	<property name="nDEFAULT_TRANSITION_VOL_IN"><![CDATA[1]]>		</property>
+	
+	<!-- Default UI Button rollOver volume-->
+	<property name="nDEFAULT_TRANSITION_VOL_OUT"><![CDATA[1]]>		</property>
+	
+	<!-- Coin sound's volume-->
+	<property name="nCOIN_VOLUME">				<![CDATA[1]]>		</property>
+	
+	
+</config>

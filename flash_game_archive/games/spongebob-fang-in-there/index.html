@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Fang In There</title>
+<style id="custom-styles">
+        body {
+            margin: 0;
+            padding: 20px;
+            /* Add padding to the bottom to avoid overlap with the fixed controls */
+            padding-bottom: 80px;
+            background-color: #222;
+            color: #eee;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 100px); /* 40px top/bottom padding + 60px controls height */
+            font-family: sans-serif;
+            text-align: center;
+        }
+        #game-container {
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+        #custom-game-controls {
+            /* Pinned to the bottom */
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(20, 20, 20, 0.9);
+            padding: 15px 0;
+            box-shadow: 0 -5px 15px rgba(0,0,0,0.4);
+            border-top: 1px solid #444;
+            z-index: 1000;
+        }
+        #custom-game-controls button {
+            background-color: #555;
+            color: white;
+            border: 2px solid #777;
+            border-radius: 50%; /* Make buttons circular */
+            padding: 0;
+            font-size: 1.5rem; /* Larger icon size */
+            cursor: pointer;
+            transition: background-color 0.2s;
+            width: 50px; /* Fixed width */
+            height: 50px; /* Fixed height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 1;
+        }
+        #custom-game-controls button#disable-ruffle-btn {
+            width: auto; /* Allow this button to be wider */
+            border-radius: 5px; /* Revert to rectangle */
+            padding: 10px 15px;
+            font-size: 1rem;
+        }
+        #custom-game-controls button:hover {
+            background-color: #666;
+        }
+        #custom-game-controls button:disabled {
+            background-color: #333;
+            color: #888;
+            cursor: not-allowed;
+        }
+        p {
+             margin-top: 15px;
+             max-width: 800px;
+        }
+        #donations-btn {
+            background-color: #007bff;
+            border-color: #0056b3;
+        }
+        #donations-btn:hover {
+            background-color: #0056b3;
+        }
+        /* Modal Styles */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+        .modal-overlay.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        .modal-content-wrapper {
+             max-width: 600px;
+             width: 90%;
+        }
+        .modal-content {
+            background: #333;
+            padding: 30px;
+            border-radius: 10px;
+            max-height: 70vh;
+            overflow-y: auto;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+            transform: scale(0.9);
+            transition: transform 0.3s;
+            color: #eee;
+            text-align: left;
+        }
+        .modal-content h2 { color: #00aaff; }
+        .modal-content ul { list-style: none; padding-left: 0; }
+        .modal-content li { background: #444; margin: 5px 0; padding: 10px; border-radius: 5px; word-wrap: break-word; }
+        .modal-content code { background: #222; padding: 2px 5px; border-radius: 3px; }
+        .modal-overlay.visible .modal-content {
+            transform: scale(1);
+        }
+        .modal-close-btn {
+            background: #8b0000;
+            color: white;
+            border: 2px solid #c00;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            display: block;
+            margin: 20px auto 0;
+        }
+        .modal-close-btn:hover {
+            background: #c00;
+        }
+
+        /* View Transitions API CSS */
+        html {
+            view-transition-name: root;
+        }
+
+        /* Default fade effect for root transitions (e.g., home to game, initial load) */
+        ::view-transition-old(root),
+        ::view-transition-new(root) {
+            animation-duration: 0.6s;
+            animation-fill-mode: forwards;
+        }
+
+        /* Specific elements for inter-game navigation to enable custom transitions */
+        /* These will have their view-transition-name attribute applied dynamically by JS */
+        #game-container, #player {
+            /* This is a placeholder; actual name will be set by JS if it's the player div */
+            /* view-transition-name: game-content; */
+        }
+        #custom-game-controls {
+            view-transition-name: game-controls; /* This will always be present for persistence */
+        }
+
+        /* Animations for game content sliding */
+        /* These animations will be dynamically applied based on direction */
+        @keyframes slide-in-right {
+            from { transform: translateX(100%); }
+            to { transform: translateX(0%); }
+        }
+        @keyframes slide-out-left {
+            from { transform: translateX(0%); }
+            to { transform: translateX(-100%); }
+        }
+        @keyframes slide-in-left {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0%); }
+        }
+        @keyframes slide-out-right {
+            from { transform: translateX(0%); }
+            to { transform: translateX(100%); }
+        }
+
+        /* Apply slide animations based on data-transition-direction on HTML element */
+        html[data-transition-direction="next"]::view-transition-old(game-content) {
+            animation-name: slide-out-left;
+        }
+        html[data-transition-direction="next"]::view-transition-new(game-content) {
+            animation-name: slide-in-right;
+        }
+        html[data-transition-direction="prev"]::view-transition-old(game-content) {
+            animation-name: slide-out-right;
+        }
+        html[data-transition-direction="prev"]::view-transition-new(game-content) {
+            animation-name: slide-in-left;
+        }
+
+        /* Fade animations for controls during inter-game navigation */
+        /* This makes them "fade" as if persistent by transitioning their opacity */
+        ::view-transition-old(game-controls) {
+            animation: fade-out 0.3s ease-in-out forwards;
+        }
+        ::view-transition-new(game-controls) {
+            animation: fade-in 0.3s ease-in-out forwards;
+        }
+
+        @keyframes fade-out {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+        @keyframes fade-in {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+</style></head>
+<body><!-- Patched by patch_game_pages.py -->
+<div class="modal-overlay" id="donations-modal-overlay">
+<div class="modal-content-wrapper">
+<div class="modal-content" id="donations-modal-content">
+<!-- Content will be loaded from JSON -->
+</div>
+<button class="modal-close-btn" id="donations-modal-close">Close</button>
+</div>
+</div>
+
+
+
+
+<div id="custom-game-controls">
+<button id="home-btn" title="Home">🏠</button>
+<button disabled="" id="prev-game-btn" title="Previous Game">«</button>
+<button disabled="" id="next-game-btn" title="Next Game">»</button>
+<button id="zoom-in-btn" title="Zoom In">+</button>
+<button id="zoom-out-btn" title="Zoom Out">-</button>
+<button id="donations-btn" title="Donations">❤️</button>
+<button id="disable-ruffle-btn">Disable Ruffle</button>
+</div>
+<div id="game-container"><object height="500px" width="1000px">
+<param name="movie" value="FangInThere.swf"/>
+<param name="allowScriptAccess" value="always"/>
+<param name="quality" value="high"/>
+<param name="autoplay" value="on"/>
+<param name="unmuteOverlay" value="hidden"/>
+<embed allowscriptaccess="always" autoplay="on" height="500px" quality="high" src="FangInThere.swf" type="application/x-shockwave-flash" unmuteoverlay="hidden" width="1000px"/></object></div>
+<script id="ruffle-loader-script">
+    // This script must run before the DOM is fully loaded to prevent Ruffle from auto-starting.
+    (function() {
+        if (localStorage.getItem('ruffleDisabled') === 'true') {
+            console.log("Ruffle is disabled via user setting. Skipping Ruffle script injection.");
+        } else {
+            // The path is relative to the game's index.html file.
+            document.write('<script src="../../shared/ruffle/ruffle.js"></scr' + 'ipt>');
+        }
+    })();
+</script><script id="custom-controls-script">
+        document.addEventListener('DOMContentLoaded', () => {
+            const prevBtn = document.getElementById('prev-game-btn');
+            const nextBtn = document.getElementById('next-game-btn');
+            const homeBtn = document.getElementById('home-btn'); // Added Home button
+            const zoomInBtn = document.getElementById('zoom-in-btn');
+            const zoomOutBtn = document.getElementById('zoom-out-btn');
+            const disableRuffleBtn = document.getElementById('disable-ruffle-btn');
+            const donationsBtn = document.getElementById('donations-btn');
+            const modalOverlay = document.getElementById('donations-modal-overlay');
+            const modalContentEl = document.getElementById('donations-modal-content');
+            const modalCloseBtn = document.getElementById('donations-modal-close');
+
+            // --- Donations Modal Logic ---
+
+            if (donationsBtn) {
+                donationsBtn.addEventListener('click', () => {
+                    fetch('/donations.json') // Assumes donations.json is at the root
+                        .then(response => {
+                            if (!response.ok) throw new Error('Could not fetch donations file.');
+                            return response.json();
+                        })
+                        .then(data => {
+                            let contentHtml = `<h2>${data.title}</h2>`;
+                            data.paragraphs.forEach(p => {
+                                contentHtml += `<p>${p}</p>`;
+                            });
+                            if (data.wallets && data.wallets.length > 0) {
+                                contentHtml += '<h3>Crypto Wallets:</h3><ul>';
+                                data.wallets.forEach(wallet => {
+                                    contentHtml += `<li><strong>${wallet.currency}:</strong><br><code>${wallet.address}</code></li>`;
+                                });
+                                contentHtml += '</ul>';
+                            }
+                            modalContentEl.innerHTML = contentHtml;
+                            modalOverlay.classList.add('visible');
+                        })
+                        .catch(error => {
+                            console.error('Failed to load donations info:', error);
+                            modalContentEl.innerHTML = '<h2>Error</h2><p>Could not load donation information. Please try again later.</p>';
+                            modalOverlay.classList.add('visible');
+                        });
+                });
+            }
+            if (modalCloseBtn) {
+                modalCloseBtn.addEventListener('click', () => modalOverlay.classList.remove('visible'));
+            }
+            if (modalOverlay) {
+                modalOverlay.addEventListener('click', (event) => {
+                    if (event.target === modalOverlay) {
+                        modalOverlay.classList.remove('visible');
+                    }
+                });
+            }
+            // --- End Donations Modal Logic ---
+
+            // --- Ruffle Toggle Button Logic ---
+            if (disableRuffleBtn) {
+                const isRuffleDisabled = localStorage.getItem('ruffleDisabled') === 'true';
+
+                // Set initial button text
+                disableRuffleBtn.textContent = isRuffleDisabled ? 'Enable Ruffle' : 'Disable Ruffle';
+
+                disableRuffleBtn.addEventListener('click', () => {
+                    const currentlyDisabled = localStorage.getItem('ruffleDisabled') === 'true';
+                    const message = currentlyDisabled
+                        ? "Enabling Ruffle will reload the page. This is required for games to run in most modern browsers. Proceed?"
+                        : "Warning: Disabling Ruffle may prevent games from running in modern browsers like Chrome, Firefox, or Edge unless you have a special browser with native Flash Player support.\n\nAre you sure you want to disable Ruffle?";
+
+                    if (confirm(message)) {
+                        // Toggle the setting in localStorage
+                        localStorage.setItem('ruffleDisabled', String(!currentlyDisabled));
+                        // Reload the page for the change to take effect
+                        window.location.reload();
+                    }
+                });
+            }
+            // --- End Ruffle Toggle Logic ---
+
+            const pathParts = window.location.pathname.split('/');
+            // Handles both file:/// and http:// paths by finding the 'games' directory
+            const gamesDirIndex = pathParts.findIndex(part => part === 'games');
+            const currentGameSlug = pathParts[gamesDirIndex + 1];
+
+            let currentZoom = 100;
+
+            if (zoomInBtn) {
+                zoomInBtn.addEventListener('click', () => {
+                    currentZoom += 10;
+                    document.body.style.zoom = `${currentZoom}%`;
+                });
+            }
+
+            if (zoomOutBtn) {
+                zoomOutBtn.addEventListener('click', () => {
+                    currentZoom = Math.max(50, currentZoom - 10); // Don't zoom out too much
+                    document.body.style.zoom = `${currentZoom}%`;
+                });
+            }
+
+            fetch('/games.json')
+                .then(response => {
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    return response.json();
+                })
+                .then(games => {
+                    // Ensure consistent sort order
+                    games.sort((a, b) => a.name.localeCompare(b.name));
+
+                    const gameIndex = games.findIndex(game => game.slug === currentGameSlug);
+
+                    if (gameIndex === -1) {
+                        console.error('Could not find current game in games.json');
+                        prevBtn.disabled = true;
+                        nextBtn.disabled = true;
+                        return;
+                    }
+
+                    const prevGame = games[(gameIndex - 1 + games.length) % games.length];
+                    const nextGame = games[(gameIndex + 1) % games.length];
+
+                    prevBtn.disabled = false;
+                    nextBtn.disabled = false;
+
+                    prevBtn.addEventListener('click', () => {
+                        window.location.href = `../${prevGame.slug}/index.html`;
+                    });
+
+                    nextBtn.addEventListener('click', () => {
+                        window.location.href = `../${nextGame.slug}/index.html`;
+                    });
+                })
+                .catch(error => {
+                    console.error('Failed to load game list for navigation:', error);
+                    prevBtn.disabled = true;
+                    nextBtn.disabled = true;
+                });
+        });
+    </script></body>
+</html>

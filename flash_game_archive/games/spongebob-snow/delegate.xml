@@ -1,0 +1,9 @@
+<delegate>
+   <localisation>
+      <language>english</language>
+   </localisation>
+   <config>
+      <track>true</track>
+      <gameID>spongebob-squarepants-snow-shredder</gameID>
+   </config>
+</delegate>

@@ -1,0 +1,107 @@
+<!-- *********** INSTRUCTIONS *********** -->
+<!-- for each lines : -->
+<!-- id should not be changed -->
+<!-- change fontName to use another font -->
+<!-- -make sure this font is in locale/***/fonts/font.swf and fonts.xml -->
+<!-- change fontSize to reduce/expand font size to fit the textfield -->
+<!-- set html to true or false if you wish the text to be rendered as html -->
+<!-- insert the text within the <![CDATA[TEXT HERE]]> brackets -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<!-- Loading screen -->
+	<string id="ui_loading_label"				fontName="Tiki-Island"			fontSize="25"	html="false"><![CDATA[LOADING]]></string>
+	<string id="ui_loading_building"			fontName="Tiki-Island"			fontSize="25"	html="false"><![CDATA[OPTIMIZING]]></string>
+	<string id="ui_loading_progress"			fontName="Tiki-Island"			fontSize="25"	html="false"><![CDATA[$value$]]></string>
+
+	<!-- Title screen -->
+	<string id="ui_title_button_play"			fontName="Tiki-Island"			fontSize="30"	html="false"><![CDATA[Play]]></string>
+	<string id="ui_title_button_howtoplay"		fontName="Tiki-Island"			fontSize="30"	html="false"><![CDATA[How to Play]]></string>
+	<string id="ui_title_button_viewhs"			fontName="Tiki-Island"			fontSize="30"	html="false"><![CDATA[Leaderboard]]></string>
+	<string id="ui_title_subText"				fontName="SF Slapstick Comic"	fontSize="25"	html="false"><![CDATA[Help SpongeBob and friends escape Mr. Krabs’ freezer and get to the Krusty Krabs’s Eleventy Seventh anniversary party!]]></string>
+	
+	<!-- How to play screen -->
+	<string id="ui_howtoplay_title"				fontName="Tiki-Island"		fontSize="50"	html="false"><![CDATA[How to Play]]></string>
+	<string id="ui_howtoplay_button_back"		fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Back]]></string>
+	<string id="ui_howtoplay_button_skip"		fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Skip]]></string>
+	<string id="ui_howtoplay_button_play"		fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Play]]></string>
+	<string id="ui_howtoplay_button_resume"		fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Resume]]></string>
+	<string id="ui_howtoplay_Text_1"			fontName="SF Slapstick Comic"		fontSize="25"	html="false"><![CDATA[To play, click on the pieces as they flick around until the whole picture is clear.]]></string>
+	<string id="ui_howtoplay_Text_2"			fontName="SF Slapstick Comic"		fontSize="25"	html="false"><![CDATA[Watch out! If you take too long to complete a picture, our friends will freeze!]]></string>
+	<string id="ui_howtoplay_Text_3"			fontName="SF Slapstick Comic"		fontSize="25"	html="false"><![CDATA[Click on the right pieces as fast as you can to make a combo!]]></string>
+	<string id="ui_howtoplay_Text_4"			fontName="SF Slapstick Comic"		fontSize="25"	html="false"><![CDATA[Click on three good pieces in a row to get an ice breaker.  Ice breakers unfreeze our frosted friends.]]></string>
+	<string id="ui_howtoplay_Text_5"			fontName="SF Slapstick Comic"		fontSize="25"	html="false"><![CDATA[When a star appears on a piece, click it for major points!]]></string>
+	
+	<!-- Win screen -->
+	<string id="ui_win_title"					fontName="Tiki-Island"		fontSize="50"	html="false"><![CDATA[You Win!]]></string>
+	<string id="ui_win_score"					fontName="Tiki-Island"		fontSize="35"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_win_text"					fontName="SF Slapstick Comic"		fontSize="30"	html="false"><![CDATA[We made it, laddies! Happy Eleventy seventh anniversary everyone!]]></string>
+	<string id="ui_win_button_playagain"		fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Play Again]]></string>
+	<string id="ui_win_button_hs_view"			fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Leaderboard]]></string>
+	<string id="ui_win_button_hs_submit"		fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Submit Score]]></string>
+	
+	<!-- Lose screen -->
+	<string id="ui_lose_title"					fontName="Tiki-Island"		fontSize="50"	html="false"><![CDATA[You Lose!]]></string>
+	<string id="ui_lose_score"					fontName="Tiki-Island"		fontSize="35"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_lose_text"					fontName="SF Slapstick Comic"		fontSize="50"	html="false"><![CDATA[Brrrrrrrrrrrrrrrr!!!]]></string>
+	<string id="ui_lose_button_tryagain"		fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Try Again]]></string>
+	<string id="ui_lose_button_hs_view"			fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Leaderboard]]></string>
+	<string id="ui_lose_button_hs_submit"		fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Submit Score]]></string>
+	
+	<!-- HighScores Screen -->
+	<string id="ui_hs_title"					fontName="Tiki-Island"		fontSize="50"	html="false"><![CDATA[Leaderboard]]></string>
+	<string id="ui_hs_back"						fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Back]]></string>
+	<string id="ui_hs_button_playagain"			fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Play Again]]></string>
+	<string id="ui_hs_button_tryagain"			fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Try Again]]></string>
+	<string id="ui_hs_button_submit"			fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Submit Score]]></string>
+	<string id="ui_hs_playerscore"				fontName="Tiki-Island"		fontSize="35"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_hs_yourscore"				fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Your Score:]]></string>
+	<string id="ui_hs_board_rank"				fontName="Tiki-Island"		fontSize="17"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_hs_board_name"				fontName="Tiki-Island"		fontSize="17"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_hs_board_score"				fontName="Tiki-Island"		fontSize="17"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_hs_board_info_wait"			fontName="SF Slapstick Comic"		fontSize="17"	html="false"><![CDATA[The High Scores list is updating!]]></string>
+	<string id="ui_hs_board_info_error"			fontName="SF Slapstick Comic"		fontSize="17"	html="false"><![CDATA[Oops! The High Scores list is not available right now!]]></string>
+	<string id="ui_hs_board_info_empty"			fontName="SF Slapstick Comic"		fontSize="17"	html="false"><![CDATA[No high score yet! What are you waiting for?]]></string>
+	
+	<!-- HUD -->
+	<string id="ui_hud_button_menu"				fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Menu]]></string>
+	<string id="ui_hud_score"					fontName="Tiki-Island"		fontSize="24"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_hud_scoreText"				fontName="Tiki-Island"		fontSize="27"	html="false"><![CDATA[Score:]]></string>
+	<string id="ui_hud_lives"					fontName="Tiki-Island"		fontSize="45"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_hud_livesText"				fontName="Tiki-Island"		fontSize="27"	html="false"><![CDATA[life:]]></string>
+	<string id="ui_hud_livesX"					fontName="Tiki-Island"		fontSize="18"	html="false"><![CDATA[x]]></string>
+	
+	<!-- Menu Pop-up -->
+	<string id="ui_popup_menu_title"			fontName="Tiki-Island"		fontSize="50"	html="false"><![CDATA[Menu]]></string>
+	<string id="ui_popup_menu_vol_music_label"	fontName="Tiki-Island"		fontSize="15"	html="false"><![CDATA[Music volume]]></string>
+	<string id="ui_popup_menu_vol_music_value"	fontName="Tiki-Island"		fontSize="15"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_popup_menu_vol_sounds_label"	fontName="Tiki-Island"		fontSize="15"	html="false"><![CDATA[Sounds volume]]></string>
+	<string id="ui_popup_menu_vol_sounds_value"	fontName="Tiki-Island"		fontSize="15"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_popup_menu_button_resume"	fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Resume]]></string>
+	<string id="ui_popup_menu_button_quit"		fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Quit]]></string>
+	<string id="ui_popup_menu_button_howtoplay"	fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[How to Play]]></string>
+	
+	<!-- Quit Popup -->
+	<string id="ui_popup_quit_title"			fontName="Tiki-Island"		fontSize="50"	html="false"><![CDATA[Quit]]></string>
+	<string id="ui_popup_quit_text"				fontName="SF Slapstick Comic"		fontSize="30"	html="false"><![CDATA[Don’t give up! You can do it!]]></string>
+	<string id="ui_popup_quit_button_yes"		fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Yes]]></string>
+	<string id="ui_popup_quit_button_no"		fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[No]]></string>
+	
+	<!-- In Game -->
+	<string id="ui_inGame_memory_text"			fontName="Tiki-Island"		fontSize="30"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_inGame_point_text"			fontName="Tiki-Island"		fontSize="30"	html="false"><![CDATA[$value$ pts]]></string>
+	<string id="ui_inGame_combo_text"			fontName="Tiki-Island"		fontSize="30"	html="false"><![CDATA[combo x $value$]]></string>
+	
+	<!-- Tutorial -->
+	<string id="ui_inGame_Tutorial_1"			fontName="Tiki-Island"		fontSize="35"	html="false"><![CDATA[To play, click on the pieces as they flick around until the whole picture is clear.]]></string>
+	<string id="ui_inGame_Tutorial_2"			fontName="Tiki-Island"		fontSize="35"	html="false"><![CDATA[Watch out! If you take too long to complete a picture, our friends will freeze! ]]></string>
+	<string id="ui_inGame_Tutorial_3"			fontName="Tiki-Island"		fontSize="35"	html="false"><![CDATA[Click on three good pieces in a row to get an ice breaker.  Ice breakers unfreeze our frosted friends. ]]></string>
+	<string id="ui_inGame_Tutorial_4"			fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[50 pts]]></string>
+	<string id="ui_inGame_Tutorial_5"			fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[100 pts]]></string>
+	<string id="ui_inGame_Tutorial_6"			fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Combo x 2]]></string>
+	<string id="ui_inGame_Tutorial_7"			fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[150 pts]]></string>
+	<string id="ui_inGame_Tutorial_8"			fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[Combo x 3]]></string>
+	<string id="ui_inGame_Tutorial_9"			fontName="Tiki-Island"		fontSize="35"	html="false"><![CDATA[When a star appears on a piece, click it for major points!]]></string>
+	<string id="ui_inGame_Tutorial_10"			fontName="Tiki-Island"		fontSize="25"	html="false"><![CDATA[1000 pts]]></string>
+	<string id="ui_inGame_Tutorial_11"			fontName="Tiki-Island"		fontSize="35"	html="false"><![CDATA[Watch out! If you click a wrong piece, it will FREEZE!]]></string>
+</strings>

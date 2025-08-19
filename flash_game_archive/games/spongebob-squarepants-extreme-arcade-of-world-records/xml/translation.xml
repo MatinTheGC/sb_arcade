@@ -1,0 +1,1449 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Quinn Hoener</Author>
+  <LastAuthor>Quinn Hoener</LastAuthor>
+  <Created>2012-01-13T23:30:02Z</Created>
+  <LastSaved>2012-07-05T16:40:44Z</LastSaved>
+  <Company>Seven2</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9980</WindowHeight>
+  <WindowWidth>23120</WindowWidth>
+  <WindowTopX>-25896</WindowTopX>
+  <WindowTopY>2620</WindowTopY>
+  <ActiveSheet>6</ActiveSheet>
+  <FirstVisibleSheet>3</FirstVisibleSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="13" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="13" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="13" ss:Color="#000000" ss:Bold="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="13" ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s67">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="hub">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="106"/>
+   <Column ss:AutoFitWidth="0" ss:Width="146"/>
+   <Column ss:Index="5" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="417"/>
+   <Column ss:Width="268"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontSize</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lineHeight</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell><Data ss:Type="String">hub.guinnessRipley</Data></Cell>
+    <Cell><Data ss:Type="String">Font_FortySecondStreetHB</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Guinness O'Ripley's</Data></Cell>
+    <Cell><Data ss:Type="String">Guinness O'Ripley</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell><Data ss:Type="String">hub.titleRecords</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">of WORLD RECORDS</Data></Cell>
+    <Cell><Data ss:Type="String">Arcade Sign</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.arcade</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">EXTREME ARCADE</Data></Cell>
+    <Cell><Data ss:Type="String">Arcade Sign</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.worldRecords</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">world records</Data></Cell>
+    <Cell><Data ss:Type="String">World Records</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.WRScore</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bubbledot</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20903</Data></Cell>
+    <Cell><Data ss:Type="String">This number is edited in code.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.WRPlayer</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Standard07_55</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Agent 47</Data></Cell>
+    <Cell><Data ss:Type="String">This name is edited in code.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.longestTongue</Data></Cell>
+    <Cell><Data ss:Type="String">Font_TechniqueBRK</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">LONGEST TONGUE</Data></Cell>
+    <Cell><Data ss:Type="String">The cabinet name for the Longest Tongue game.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.chumGuzzler</Data></Cell>
+    <Cell><Data ss:Type="String">Font_TechniqueBRK</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">BUCKETS OF CHUM</Data></Cell>
+    <Cell><Data ss:Type="String">The cabinet name for the Chum Guzzler game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.cobraMilker</Data></Cell>
+    <Cell><Data ss:Type="String">Font_DuoLine</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">-3</Data></Cell>
+    <Cell><Data ss:Type="String">Cobra Milker</Data></Cell>
+    <Cell><Data ss:Type="String">The cabinet name for the Cobra Milker game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.chainsawJuggler</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Toggle</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">-12</Data></Cell>
+    <Cell><Data ss:Type="String">CHAINSAW JUGGLER</Data></Cell>
+    <Cell><Data ss:Type="String">The cabinet name for the Chainsaw Juggler game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.mansionCards</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Minotaur</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="String">MANSION OF CARDS</Data></Cell>
+    <Cell><Data ss:Type="String">The cabinet name for the Mansion of Cards game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.meggabandBall</Data></Cell>
+    <Cell><Data ss:Type="String">Font_HeavyData</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="String">Megaband Ball</Data></Cell>
+    <Cell><Data ss:Type="String">The cabinet name for the Meggaband Ball game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.clickTo</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bubbledot</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Click to</Data></Cell>
+    <Cell><Data ss:Type="String">The words &quot;click to&quot; on the cabinet screens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.play</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bubbledot</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">PLAY</Data></Cell>
+    <Cell><Data ss:Type="String">The word &quot;Play&quot; on the cabinet screens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.enterCode</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ENTER CODE</Data></Cell>
+    <Cell><Data ss:Type="String">The enter code on the locked cabinet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.WRTongue</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bubbledot</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Longest Tongue</Data></Cell>
+    <Cell><Data ss:Type="String">Longest Tongue name in the world records game title</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.WRChum</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bubbledot</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Buckets of Chum</Data></Cell>
+    <Cell><Data ss:Type="String">Buckets of Chum name in the world records game title</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.WRCobra</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bubbledot</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Cobra Milker</Data></Cell>
+    <Cell><Data ss:Type="String">Cobra Milker name in the world records game title</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.WRChainsaw</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bubbledot</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Chainsaw Juggler</Data></Cell>
+    <Cell><Data ss:Type="String">Chainsaw Juggler name in the world records game title</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.WRCards</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bubbledot</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Mansion of Cards</Data></Cell>
+    <Cell><Data ss:Type="String">Mansion of Cards name in the world records game title</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">hub.WRMegaband</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bubbledot</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Megaband Ball</Data></Cell>
+    <Cell><Data ss:Type="String">Megaband Ball name in the world records game title</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="longestTongue">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="151"/>
+   <Column ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:Index="5" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="171"/>
+   <Column ss:Width="279"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontSize</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lineHeight</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">longestTongue.score</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">The score at the top of the screen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">longestTongue.distance</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">The distance being tracked at the bottom of the screen.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">longestTongue.measurement</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">m</Data></Cell>
+    <Cell><Data ss:Type="String">The unit of measure being shown next to the distance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">longestTongue.jump</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">JUMP</Data></Cell>
+    <Cell><Data ss:Type="String">Jump header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">longestTongue.spacebar</Data></Cell>
+    <Cell><Data ss:Type="String">Font_SpongeboyTT1</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">SPACEBAR</Data></Cell>
+    <Cell><Data ss:Type="String">Spacebar instructions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">longestTongue.avoid</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">AVOID</Data></Cell>
+    <Cell><Data ss:Type="String">Avoid header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">longestTongue.powerup</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">POWER-UP</Data></Cell>
+    <Cell><Data ss:Type="String">Power-up header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">longestTongue.indestructable</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">INDESTRUCTIBLE</Data></Cell>
+    <Cell><Data ss:Type="String">Indestructible powerup</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">longestTongue.speedBoost</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">SPEED BOOST</Data></Cell>
+    <Cell><Data ss:Type="String">Speed boost powerup</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="cobraMilking">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="113"/>
+   <Column ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="160"/>
+   <Column ss:AutoFitWidth="0" ss:Width="271"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontSize</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lineHeight</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cobra.controls</Data></Cell>
+    <Cell><Data ss:Type="String">Font_DuoLine</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Controls</Data></Cell>
+    <Cell><Data ss:Type="String">Controls header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cobra.instructions</Data></Cell>
+    <Cell><Data ss:Type="String">Font_DuoLine</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Instructions</Data></Cell>
+    <Cell><Data ss:Type="String">Instructions header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cobra.clickFangs</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">CLICK FANGS</Data></Cell>
+    <Cell><Data ss:Type="String">Click Fangs instruction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cobra.cobraStrike</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">2.5</Data></Cell>
+    <Cell><Data ss:Type="String">COBRAS STRIKE&lt;br&gt;WHEN FANGS&lt;br&gt;ARE FULL</Data></Cell>
+    <Cell><Data ss:Type="String">Cobra Strikes instruction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cobra.clickSpongebob</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">2.5</Data></Cell>
+    <Cell><Data ss:Type="String">CLICK SPONGEBOB&lt;br&gt;TO CHARM COBRAS</Data></Cell>
+    <Cell><Data ss:Type="String">Click Spongebob instruction</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="meggabandBall">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="160"/>
+   <Column ss:AutoFitWidth="0" ss:Width="143"/>
+   <Column ss:Index="5" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="166"/>
+   <Column ss:AutoFitWidth="0" ss:Width="264"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontSize</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lineHeight</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">meggabandBall.score</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">The score for the game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">meggabandBall.x</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">x</Data></Cell>
+    <Cell><Data ss:Type="String">The 'x' indicating a mulitplier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">meggabandBall.rubberbands</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">The number of rubberbands currently collected</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">meggabandBall.balls</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">The number of balls remaining</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">meggabandBall.powerups</Data></Cell>
+    <Cell><Data ss:Type="String">Font_HeavyData</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">POWER-UPS</Data></Cell>
+    <Cell><Data ss:Type="String">Powerups header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">meggabandBall.bPowerup</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">BUST A MOVE</Data></Cell>
+    <Cell><Data ss:Type="String">The 'B' Powerup description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">meggabandBall.sPowerup</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">SPEED</Data></Cell>
+    <Cell><Data ss:Type="String">The 'S' Powerup description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">meggabandBall.scoreMultiplier</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">SCORE MULTIPLIER</Data></Cell>
+    <Cell><Data ss:Type="String">The rubberband description. Score multiplier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">meggabandBall.controls</Data></Cell>
+    <Cell><Data ss:Type="String">Font_HeavyData</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">CONTROLS</Data></Cell>
+    <Cell><Data ss:Type="String">Controls header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">meggabandBall.avoid</Data></Cell>
+    <Cell><Data ss:Type="String">Font_HeavyData</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">AVOID</Data></Cell>
+    <Cell><Data ss:Type="String">Avoid header</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="chainsawJuggler">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="130"/>
+   <Column ss:AutoFitWidth="0" ss:Width="237"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="192"/>
+   <Column ss:AutoFitWidth="0" ss:Width="266"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontSize</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lineHeight</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chainsaw.powerups</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Toggle</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">POWER-UPS</Data></Cell>
+    <Cell><Data ss:Type="String">Powerups header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chainsaw.slowsTime</Data></Cell>
+    <Cell><Data ss:Type="String">Font_ChaletNewYorkNineteenSeventy</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">Slows Time</Data></Cell>
+    <Cell><Data ss:Type="String">Slows Time under the powerups</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chainsaw.superJuggle</Data></Cell>
+    <Cell><Data ss:Type="String">Font_ChaletNewYorkNineteenSeventy</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">Super Juggle</Data></Cell>
+    <Cell><Data ss:Type="String">Super Juggle under powerups</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chainsaw.avoid</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Toggle</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">AVOID</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Avoid&quot; the falling Patrick</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chainsaw.controls</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Toggle</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">CONTROLS</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Controls&quot; header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chainsaw.move</Data></Cell>
+    <Cell><Data ss:Type="String">Font_ChaletNewYorkNineteenSeventy</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Move</Data></Cell>
+    <Cell><Data ss:Type="String">Move text under the left and right arrow keys</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chainsaw.spacebar</Data></Cell>
+    <Cell><Data ss:Type="String">Font_SpongeboyTT1</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">SPACEBAR</Data></Cell>
+    <Cell><Data ss:Type="String">Text on the spacebar under controls</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chainsaw.grabToss</Data></Cell>
+    <Cell><Data ss:Type="String">Font_ChaletNewYorkNineteenSeventy</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Grab and Toss.</Data></Cell>
+    <Cell><Data ss:Type="String">Description of the spacebar functionality.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="chumGuzzler">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="190"/>
+   <Column ss:AutoFitWidth="0" ss:Width="212"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="241"/>
+   <Column ss:AutoFitWidth="0" ss:Width="190"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontSize</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lineHeight</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chum.controls</Data></Cell>
+    <Cell><Data ss:Type="String">Font_TechniqueBRK</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">CONTROLS</Data></Cell>
+    <Cell><Data ss:Type="String">Text for Controls header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chum.move</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">MOVE</Data></Cell>
+    <Cell><Data ss:Type="String">Text for Move under Controls</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chum.gameOver</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">GAME OVER</Data></Cell>
+    <Cell><Data ss:Type="String">Game Over</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chum.chumLevel</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">WHEN CHUM LEVEL REACHES HERE</Data></Cell>
+    <Cell><Data ss:Type="String">Text describing game over condition of when the Chum reaches the dotted line. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chum.powerups</Data></Cell>
+    <Cell><Data ss:Type="String">Font_TechniqueBRK</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">POWER-UPS</Data></Cell>
+    <Cell><Data ss:Type="String">Powerups header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chum.freezeHose</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">FREEZE&lt;br&gt;HOSE</Data></Cell>
+    <Cell><Data ss:Type="String">Text for freeze hose powerup</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chum.drain</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">DRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">Text for drain powerup</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">chum.bigMouth</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">BIG&lt;br&gt;MOUTH</Data></Cell>
+    <Cell><Data ss:Type="String">Text for Big Mouth powerup</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="mansionCards">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="169"/>
+   <Column ss:AutoFitWidth="0" ss:Width="167"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="228"/>
+   <Column ss:AutoFitWidth="0" ss:Width="204"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontSize</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lineHeight</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cards.match3</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Minotaur</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">MATCH 3</Data></Cell>
+    <Cell><Data ss:Type="String">Match 3 header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cards.orMore</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">or more</Data></Cell>
+    <Cell><Data ss:Type="String">The or more under Match 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cards.powerups</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Minotaur</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">POWER-UPS</Data></Cell>
+    <Cell><Data ss:Type="String">Powerups header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cards.bonus</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">bonus</Data></Cell>
+    <Cell><Data ss:Type="String">bonus powerup</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cards.wildCard</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">wild&lt;br&gt;card</Data></Cell>
+    <Cell><Data ss:Type="String">wild card powerup</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cards.controls</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Minotaur</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">CONTROLS</Data></Cell>
+    <Cell><Data ss:Type="String">Controls header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cards.move</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">move</Data></Cell>
+    <Cell><Data ss:Type="String">move control</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cards.spacebar</Data></Cell>
+    <Cell><Data ss:Type="String">Font_SpongeboyTT1</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">SPACEBAR</Data></Cell>
+    <Cell><Data ss:Type="String">spacebar name in controls</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cards.fastDrop</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Neon80s</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">rotate</Data></Cell>
+    <Cell><Data ss:Type="String">fast drop in controls</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cards.height</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Minotaur</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">0 M</Data></Cell>
+    <Cell><Data ss:Type="String">How high the tower is currently stacked.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="common">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="177"/>
+   <Column ss:AutoFitWidth="0" ss:Width="163"/>
+   <Column ss:Index="5" ss:Width="245"/>
+   <Column ss:Width="220"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontSize</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lineHeight</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">gameover.text</Data></Cell>
+    <Cell><Data ss:Type="String">Font_TechniqueBRK</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">GAME OVER</Data></Cell>
+    <Cell><Data ss:Type="String">The game over text on a game over screen. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">pause.no</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">No button text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">pause.yes</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">Yes button text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">pause.areYouSure</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ARE YOU SURE YOU WANT&lt;br&gt;TO QUIT?</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to Quit?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">common.startGame</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Press Spacebar to Start</Data></Cell>
+    <Cell><Data ss:Type="String">Start game screen.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">startScreen.tongue</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Longest Tongue</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Sets the game title in the leaderboard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">startScreen.chum</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Buckets of Chum</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Sets the game title in the leaderboard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">startScreen.cobra</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Cobra Milker</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Sets the game title in the leaderboard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">startScreen.chainsaw</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Chainsaw Juggler</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Sets the game title in the leaderboard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">startScreen.cards</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Mansion of Cards</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Sets the game title in the leaderboard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">startScreen.meggaband</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Megaband Ball</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Sets the game title in the leaderboard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">askLogin.login</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LOG IN</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">text for yes, they would like to login</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">askLogin.noThanks</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NO THANKS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">text for no, they don't want to login</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">askLogin.text</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">LOG IN TO SUBMIT A SCORE&lt;br&gt; OR TO WIN BADGES</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Text on popup menu before leaderboard.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>25</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="leaderboard">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="166"/>
+   <Column ss:AutoFitWidth="0" ss:Width="136"/>
+   <Column ss:Index="5" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="146"/>
+   <Column ss:Width="285"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontSize</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lineHeight</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.highScores</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">High Scores</Data></Cell>
+    <Cell><Data ss:Type="String">The &quot;High Scores&quot; header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.topPlayerName</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">GUEST42</Data></Cell>
+    <Cell><Data ss:Type="String">The name of the player in 1st place</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.topPlayerScore</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20580</Data></Cell>
+    <Cell><Data ss:Type="String">The score of the player in 1st place</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.number1</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">#1</Data></Cell>
+    <Cell><Data ss:Type="String">The &quot;#1&quot; text next to the number 1 player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.yourBest</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Your Best</Data></Cell>
+    <Cell><Data ss:Type="String">The &quot;Your Best&quot; header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.currPlayerName</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Player Name</Data></Cell>
+    <Cell><Data ss:Type="String">The name of the current player. Set in code.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.currPlayerScore</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">10203</Data></Cell>
+    <Cell><Data ss:Type="String">The high score of the current player. Set in code.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.print</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">PRINT RECORD</Data></Cell>
+    <Cell><Data ss:Type="String">The print button</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.submitted</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">SCORE&lt;br&gt;SUBMITTED</Data></Cell>
+    <Cell><Data ss:Type="String">Text for after the score has been submitted. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.submitScore</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">SUBMIT SCORE</Data></Cell>
+    <Cell><Data ss:Type="String">The Submit Score button</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.replay</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">PLAY&lt;br&gt;AGAIN</Data></Cell>
+    <Cell><Data ss:Type="String">The Replay button</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.backToArcade</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">BACK TO ARCADE</Data></Cell>
+    <Cell><Data ss:Type="String">The Back to Arcade button</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.entryRank</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">Set in code. The rank of that leaderboard entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.entryPlayerName</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">awsome name</Data></Cell>
+    <Cell><Data ss:Type="String">Set in code. The player's name in that leaderboard entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.entryPlayerScore</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">10203</Data></Cell>
+    <Cell><Data ss:Type="String">Set in code. The player's score of that leaderboard entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.tongue</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Longest Tongue</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the game title in the leaderboard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.chum</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Buckets of Chum</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the game title in the leaderboard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.cobra</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Cobra Milker</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the game title in the leaderboard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.chainsaw</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Chainsaw Juggler</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the game title in the leaderboard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.cards</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Mansion of Cards</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the game title in the leaderboard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">leaderboard.meggaband</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Megaband Ball</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the game title in the leaderboard</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="code">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="142"/>
+   <Column ss:AutoFitWidth="0" ss:Width="119"/>
+   <Column ss:Index="5" ss:Width="276"/>
+   <Column ss:AutoFitWidth="0" ss:Width="183"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontSize</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lineHeight</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">code.enterSecret</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ENTER THE SECRET CODE</Data></Cell>
+    <Cell><Data ss:Type="String">Enter the Secret Code header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">code.desc</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ENTER THE CODE TO UNLOCK&lt;br&gt;CHAINSAW JUGGLER</Data></Cell>
+    <Cell><Data ss:Type="String">Description of what the code will do when entered.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">code.submit</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">-4</Data></Cell>
+    <Cell><Data ss:Type="String">SUBMIT CODE</Data></Cell>
+    <Cell><Data ss:Type="String">submit button text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">code.back</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">BACK</Data></Cell>
+    <Cell><Data ss:Type="String">back button text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">code.input</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Uni05_53</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">CODE</Data></Cell>
+    <Cell><Data ss:Type="String">Input field for user to put code in</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="printable">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="13" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="122"/>
+   <Column ss:AutoFitWidth="0" ss:Width="162"/>
+   <Column ss:Index="5" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="235"/>
+   <Column ss:AutoFitWidth="0" ss:Width="230"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fontSize</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lineHeight</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">printable.guinness</Data></Cell>
+    <Cell><Data ss:Type="String">Font_DuoLine</Data></Cell>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Guinness O'Ripley's</Data></Cell>
+    <Cell><Data ss:Type="String">Title on the page</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">printable.playerName</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bitwise</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Player Name</Data></Cell>
+    <Cell><Data ss:Type="String">The current player's name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">printable.gameTitle</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bitwise</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">GameTitle</Data></Cell>
+    <Cell><Data ss:Type="String">The title of the game from which we're printing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">printable.scoreHeader</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bitwise</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">score:</Data></Cell>
+    <Cell><Data ss:Type="String">Indicating that the score is to follow</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">printable.score</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bubbledot</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">The high score the player has on this game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">printable.recordHolder</Data></Cell>
+    <Cell><Data ss:Type="String">Font_DuoLine</Data></Cell>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Record Holder</Data></Cell>
+    <Cell><Data ss:Type="String">The text &quot;Record Holder&quot; at the bottom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">printable.tongue</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bitwise</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Longest Tongue</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the game title in the printable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">printable.chum</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bitwise</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Buckets of Chum</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the game title in the printable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">printable.cobra</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bitwise</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Cobra Milker</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the game title in the printable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">printable.chainsaw</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bitwise</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Chainsaw Juggler</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the game title in the printable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">printable.cards</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bitwise</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Mansion of Cards</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the game title in the printable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">printable.meggaband</Data></Cell>
+    <Cell><Data ss:Type="String">Font_Bitwise</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Megaband Ball</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the game title in the printable</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

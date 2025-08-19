@@ -1,0 +1,29 @@
+<gameLevel>
+	<level width="12" height="8" set="sb_tileset" tilesize="50" />
+	<player_hit_damage>125</player_hit_damage> <!-- default damage -to- player -->
+	<opponant_hit_damage>100</opponant_hit_damage> <!-- default damage -to- opponant -->
+	<opponant_ai_delay>40</opponant_ai_delay><!-- number of frame before opponant makes a decision - set this per level also -->
+	<opponant_speed_increment>0.5</opponant_speed_increment>
+	<layers>
+		<layer name="front" tiles="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,10,-1,-1,-1,14,10,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,53,54,-1,14,-1,-1,-1,-1,-1,-1,50,51,58,59,-1,-1,-1,-1,-1,14,-1,-1,55,56,42,42,42,43,44,-1,-1,40,41,42,42,42,47,47,47,48,49,-1,-1,45,46,47,47,47,-1" />
+		<layer name="back" tiles="60,61,60,61,60,61,60,61,60,61,60,61,62,63,62,63,62,63,62,63,62,63,62,63,60,61,60,61,60,61,60,61,60,61,60,61,62,63,62,63,62,63,62,63,62,63,62,63,60,61,60,61,60,61,60,61,60,61,60,61,62,63,62,63,62,63,62,63,62,63,62,63,60,61,60,61,60,61,60,61,60,61,60,61,62,63,62,63,62,63,62,63,62,63,62,63,-1" ratio="0.5" />
+		<layer name="canWalk" tiles="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,-1" />
+	</layers>
+		<mobs>
+		<!-- player and baddy start positions -->
+		<!-- tiles are numbered starting with 0, so a 12 tile width would be 0-11 -->
+		<mob x="0" y="5" id="12" mType="spongebob"/>
+		<mob x="11" y="3" id="12" mType="bubble"/>
+	</mobs>
+	<objects>
+		<!-- object spawn points defined below 
+		<object x="5" y="11" oID="10" oType="burger"/>
+		where oType can be one of the following:
+		burger,pow,candy,hat
+		Its possible to change the odds of display by loading up multiple coppies of a single type
+		-->
+		<object x="2" y="6" oID="10" oType="burger" />
+		<object x="10" y="6" oID="10" oType="hat" />
+		<object x="11" y="4" oID="10" oType="pow" />
+	</objects>
+</gameLevel>

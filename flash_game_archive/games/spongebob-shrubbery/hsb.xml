@@ -1,0 +1,9 @@
+<game_config>
+	<nick>
+		<international>false</international>
+		<gameID>spongebob-shrubbery-hsb</gameID>
+		<scoresURL>http://www.nick.com/common/score/Scoreboard.jhtml</scoresURL>
+		<userURL>http://www.nick.com/games/common/user_name/getUserInfo.jhtml</userURL>
+		<!--<swfpath>http://www.nick.com/games/data/movie_games/im_last/</swfpath>-->
+	</nick>
+</game_config>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<screens>
+		<game_play path="./screens/gameplay.swf" status="true" loadbar_text="Game Engine" load="true" />
+		<title path="./screens/title.swf" status="true" loadbar_text="Title Screen" load="true" />
+		<instructions path="./screens/instructions.swf" status="true" loadbar_text="Instructions Screen" load="true" />
+		<high_scores path="./screens/gamehighscore.swf" status="true" loadbar_text="High Scores" load="true" />
+		<game_win path="./screens/gamewin.swf" status="true" loadbar_text="Win Screen" load="true" />
+		<game_lose path="./screens/gamelose.swf" status="true" loadbar_text="Lose Screen" load="true" />
+		<game_end path="./screens/gameend.swf" status="true" loadbar_text="End Screen" load="true" />
+		<game_menu path="./screens/menu.swf" status="true" loadbar_text="Menu" load="true" />
+	</screens>
+	<levels>
+		<level id="1" path="./assets/levels/level1.xml" />
+		<level id="1" path="./assets/levels/level2.xml" />
+		<level id="1" path="./assets/levels/level3.xml" />
+	</levels>
+	<shared>		
+		<character path="./assets/spritesheets/Level1/level1_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Level1/SeaWeed_Rock_SpriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Level2/Laser_SpriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Level2/level2_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Level2/Wall_Light_SpriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Level3/Cage_Bars_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Level3/level3_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Level3/sb_Victory_Walk_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Level3/wallMonitor_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/BadGuys/FinBack_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/BadGuys/Greaser_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/BadGuys/Hamburger_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/BadGuys/Headphones_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/BadGuys/JellyFish_Dark_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/BadGuys/JellyFish_swim_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/BadGuys/Karen_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/BadGuys/plankton_Jump_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/BadGuys/plankton_Walk_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/BadGuys/Strangler_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/gary/gary_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/L1_L2_pit_wallPieces/L1_L2_pit_wallPieces.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/objects/FoodBowl_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/objects/GoldSnail_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/objects/shoes_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/stomper/stomper_spriteSheet.png" status="true" loadbar_text="Spritesheet" load="true" />
+		<character path="./assets/spritesheets/Shared/gary_hook/gary_hook.png" status="true" loadbar_text="Spritesheet" load="true" />
+	</shared>
+	<sounds path="./assets/sounds.swf" loadtype="asset" loadbar_text="Sounds" preload="initial">
+		<sound id="garyDie" volume="1" />
+		<sound id="garyPowerUpCollision" volume="1" />
+		<sound id="garyFoodCollision" volume=".35" />
+		<sound id="garyJumping" volume=".15" />
+		<sound id="garyRunning" volume="1" />
+		<sound id="garyHurt" volume="1" />
+		<sound id="garyBubbleShoes" volume="1" />
+		<sound id="badGuyGrunt" volume=".35" />
+		<sound id="badGuyJellyfishSwimming" volume=".35" />
+		<sound id="badGuyPlanktonRobotWalking" volume=".35" />
+		<sound id="badGuyPlanktonRobotJumping" volume=".35" />
+		<sound id="badGuyStompers" volume=".6" />
+		<sound id="badGuyRobotWheels" volume=".2" />
+		<sound id="badGuyRobotSpiderWalking" volume=".5" />
+		<sound id="gameEndCelebration" volume="1" />
+		<sound id="bubbleTransition" volume="1" />
+	</sounds>
+	<music>
+		<track id="introMusic" volume=".25" path="./assets/music/title_loop.mp3" loadbar_text="Music" load="true" loadtype="sound" />
+		<track id="level1Music" volume=".25" path="./assets/music/level1.mp3" loadbar_text="Music" load="false" loadtype="sound" />
+		<track id="level2Music" volume=".25" path="./assets/music/level2.mp3" loadbar_text="Music" load="false" loadtype="sound" />
+		<track id="level3Music" volume=".25" path="./assets/music/level3.mp3" loadbar_text="Music" load="false" loadtype="sound" />
+	</music>
+	<zones>
+		<zone id="level_one" path="zones/level_one.xml" priority="1" status="true" />
+		<zone id="level_two" path="zones/level_two.xml" priority="2" status="false" />
+		<zone id="level_three" path="zones/level_three.xml" priority="3" status="false" />
+	</zones>
+	<spritesheet>
+		<config path="./assets/spritesheets/xml/level_1/level1_spritesheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/level_1/seaweed_spritesheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/level_2/Laser_SpriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/level_2/level2_spritesheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/level_2/Wall_Light_SpriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/level_3/Cage_Bars_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/level_3/level3_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/level_3/sb_Victory_Walk_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/level_3/wallMonitor_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/BadGuys/FinBack_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/BadGuys/Greaser_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/BadGuys/Hamburger_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/BadGuys/Headphones_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/BadGuys/JellyFish_Dark_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/BadGuys/JellyFish_swim_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/BadGuys/Karen_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/BadGuys/plankton_Jump_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/BadGuys/plankton_Walk_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/BadGuys/Strangler_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/gary/gary_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/L1_L2_pit_wallPieces/Pitfall_L1_L2.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/objects/FoodBowl_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/objects/GoldSnail_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/objects/shoes_spriteSheet.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/stomper/Stomper.xml" status="true" />
+		<config path="./assets/spritesheets/xml/shared/gary_hook/gary_hook.xml" status="true" />
+	</spritesheet>
+</settings>

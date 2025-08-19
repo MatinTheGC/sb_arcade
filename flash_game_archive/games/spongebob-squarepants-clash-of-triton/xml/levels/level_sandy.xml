@@ -1,0 +1,48 @@
+<triton>
+	<level assetUrl="assets/levels/spongebob_cot_level_sandy_dome.swf" music="sandy"  midground="AssetMgLevelSD" background="AssetBgLevelSD" foreground="AssetFgLevelSD" horizon="AssetHorizonLevelSD" movedir="1">
+
+		<arena id="0" centerx="650" boundleft="50" boundright="1230">
+			<wave id="0" startscript="" endscript="">
+				<mob type="fishbasic" id="1" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishsandy" id="2" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishbasic" id="3" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishsandy" id="4" faction="triton" enter="right" enterscript="walkin"/>
+			</wave>
+			<wave id="1" startscript="" endscript="">
+				<mob type="fishsandy" id="1" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishsandy" id="2" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishbasic" id="3" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishsandy" id="5" faction="triton" enter="right" enterscript="walkin"/>
+			</wave>
+		</arena>
+		<arena id="1" centerx="1200" boundleft="600" boundright="1750">
+			<wave id="0" startscript="" endscript="">
+				<mob type="fishsandy" id="1" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishsandy" id="2" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishtough" id="3" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishtough" id="4" faction="triton" enter="left" enterscript="runin"/>
+			</wave>
+			<wave id="1" startscript="" endscript="">
+				<mob type="fishsandy" id="1" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishsandy" id="2" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishsandy" id="3" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishsandy" id="4" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishsandy" id="5" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishsandy" id="6" faction="triton" enter="right" enterscript="walkin"/>
+			</wave>
+		</arena>
+		<arena id="2" centerx="1700" boundleft="1100" boundright="2250">
+			<wave id="0" startscript="" endscript="">
+				<mob type="fishtough" id="1" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishsandy" id="2" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishtough" id="3" faction="triton" enter="right" enterscript="runin"/>
+				<mob type="fishsandy" id="4" faction="triton" enter="right" enterscript="runin"/>
+			</wave>
+		</arena>
+		<arena id="3" centerx="2400" boundleft="1900" boundright="2900">
+			<wave id="0" startscript="sandy_boss_intro" endscript="">
+				<mob type="boss_sandy" id="1" faction="triton" enter="right" enterscript=""/>
+			</wave>
+		</arena>
+	</level>
+</triton>

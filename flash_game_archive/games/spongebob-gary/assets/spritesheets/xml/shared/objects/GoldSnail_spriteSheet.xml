@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+
+<!--Shared Object -->
+
+
+<group id="golden_snail">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+<!-- Frame_1 --><sprite x="560" y="80" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_2 --><sprite x="480" y="80" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_3 --><sprite x="400" y="80" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_4 --><sprite x="320" y="80" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_5 --><sprite x="240" y="80" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_6 --><sprite x="160" y="80" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_7 --><sprite x="80" y="80" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_8 --><sprite x="0" y="80" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_9 --><sprite x="1120" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_10 --><sprite x="1040" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_11 --><sprite x="960" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_12 --><sprite x="880" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_13 --><sprite x="720" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_14 --><sprite x="640" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_15 --><sprite x="560" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_16 --><sprite x="480" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_17 --><sprite x="400" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_18 --><sprite x="320" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_19 --><sprite x="240" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_20 --><sprite x="160" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_21 --><sprite x="80" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_22 --><sprite x="0" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_23 --><sprite x="160" y="0" width="80" height="80" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+						
+	
+</spritesheet>
+	
+	
+	
+	
+	

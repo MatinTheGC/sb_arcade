@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+	
+	<introPlayButton>PLAY</introPlayButton>
+	<introPlayButtonOver>PLAY</introPlayButtonOver>
+	<instructHeader>PLAYBILL</instructHeader>
+	<instructText>SpongeBob wants to save Squidward from humiliation! Stop food from hitting him while he dances.</instructText>
+	<instructions_1a>LEFT / RIGHT ARROWS .........</instructions_1a>
+	<instructions_1b>move from side to side</instructions_1b>
+	<instructions_2a>UP ARROW ....................................</instructions_2a>
+	<instructions_2b>jump to catch food</instructions_2b>
+	<instructions_3a>SPACEBAR .....</instructions_3a>
+	<instructions_3b>launch Krabby Patties to calm crowd</instructions_3b>
+	<instructions_3c>(collect Special Sauce for an extra boost)</instructions_3c>
+	<billSquid>SQUIDWARD as "AWFUL"</billSquid>
+	<billSponge>SPONGEBOB as "MOP BOY"</billSponge>
+	<instructionsPlayButton>PLAY</instructionsPlayButton>
+	<instructionsPlayButtonOver>PLAY</instructionsPlayButtonOver>
+	<instructionsPlayButtonOut>PLAY</instructionsPlayButtonOut>
+	<line_label>PATTY MAKER</line_label>
+	<vault_label>PATTY VAULT</vault_label>
+	<payoffContinueButton>CONTINUE</payoffContinueButton>
+	<payoffContinueButtonOver>CONTINUE</payoffContinueButtonOver>
+	<payoffContinueButtonOut>CONTINUE</payoffContinueButtonOut>
+	<level_text_label>SCENE</level_text_label>
+	
+</localization>

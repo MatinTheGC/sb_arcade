@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	
+	<universal_End_Screen>sponge_universal_end.swf</universal_End_Screen>
+	
+	<play_game >Play Game</play_game>
+	<how_to_play>How To Play</how_to_play>
+	
+	<instructions_1> Help Plankton play a song for his computer wife Karen! </instructions_1>
+	
+	<instructions_2> Plankton will follow your mouse up and down the piano. </instructions_2>
+	<instructions_3> Click your mouse to make Plankton stomp on a piano key. </instructions_3>
+	<instructions_4> Watch out for the giant hands! They can squash you. </instructions_4>
+	
+	<watchSpongeBob> Watch SpongeBob SquarePants on Nickelodeon! </watchSpongeBob>
+		
+	<double> DOUBLE! </double>
+	<triple> TRIPLE! </triple>
+	<amazing>  AMAZING! </amazing>
+	<epic> EPIC! </epic>
+	<legendary> LEGENDARY! </legendary>
+
+	<level> Level </level>
+	
+	<bonus_level> BONUS LEVEL! </bonus_level>
+	
+	<Score> Score </Score>
+
+	<game_lives> Lives </game_lives>
+	<game_help> HELP! </game_help>
+
+	<continue_game> CONTINUE </continue_game>
+
+</localization>

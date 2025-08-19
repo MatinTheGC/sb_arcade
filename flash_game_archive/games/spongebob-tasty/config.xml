@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	
+	<universal_End_Screen>sponge_universal_end.swf</universal_End_Screen>
+	
+	<play_game> Play </play_game>
+
+	<how_to_play> HOW To PLAY </how_to_play>
+	
+	<instructions1> It's Patrick's Birthday! Make him his favorite cakes by dragging ingredients from the SHELF to the BOWL. </instructions1>
+	<instructions2> HURRY! You must finish as many cakes as you can before the sun goes down. </instructions2>
+	
+	<watchSpongeBob> Watch SpongeBob SquarePants on Nickelodeon! </watchSpongeBob>
+
+	<level> LEVEL </level>
+	
+	<Score> Score </Score>
+	
+	<smelly> smelly </smelly>
+	<shocking> shocking </shocking>
+	<glowing> glowing </glowing>
+	<round> round </round>
+	<scary> scary </scary>
+	
+	<chattery> chattery </chattery>
+	<moldy> moldy </moldy>
+	<slimy> slimy </slimy>
+	<furry> furry </furry>
+	
+	<snaily> snaily </snaily>
+	<scary> scary </scary>
+	<brown> brown </brown>
+	
+	<continue_game> CONTINUE </continue_game>
+
+</localization>

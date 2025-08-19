@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level num="3" levelTime="180" specialTime="15">
+
+	<background> 
+	<!--top_bar_stalagtites_level3-->
+		<item type="bkgTile" spriteId="top_bar_stalagtites_level3" x="0" y="0" span="6000" />
+	<!--background_tile_clean_level3-->
+		<item type="bkgTile" spriteId="background_tile_clean_level3" x="0" y="27" span="6000" />
+		<item type="bkgTile" spriteId="background_tile_clean_level3" x="0" y="159" span="6000" />
+		<item type="bkgTile" spriteId="background_tile_clean_level3" x="0" y="291" span="6000" />
+	<!--background_tile_rusty_level3-->
+	    <!--row1-->
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="0" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="256" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="384" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="896" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1024" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1152" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1408" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1536" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1664" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1792" y="27" />
+		
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2048" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2304" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2432" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2944" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3072" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3200" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3456" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3584" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3712" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3840" y="27" />
+		
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="4096" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="4352" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="4480" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="4992" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="5120" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="5248" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="5504" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="5632" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="5760" y="27" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="5888" y="27" />
+		
+		<!--row2-->
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="128" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="384" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="640" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1152" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1536" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1920" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2176" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2432" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2688" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3200" y="159" />
+		
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3584" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3968" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="4224" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="4480" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="4736" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="5248" y="159" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="5632" y="159" />
+		
+		<!--row3-->
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="0" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="128" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="512" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="640" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="896" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1152" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1408" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1664" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="1920" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2048" y="291" />
+		
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2176" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2304" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2560" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2688" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="2944" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3200" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3456" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3712" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="3968" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="4096" y="291" />
+		
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="4224" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="4608" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="4736" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="4992" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="5248" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="5504" y="291" />
+		<item type="bkgItem" spriteId="background_tile_rusty_level3" x="5760" y="291" />
+	<!--sign_beware_hot_level3-->	
+		<item type="bkgItem" spriteId="sign_beware_hot_level3" x="660" y="320" />
+	<!--plankton_picture_level3-->	
+		<item type="bkgItem" spriteId="plankton_picture_level3" x="5065" y="120" />
+	<!--wall_monitor-->	
+		<item type="bkgItem" spriteId="wall_monitor" x="3720" y="190" />
+		<item type="bkgItem" spriteId="wall_monitor" x="4362" y="190" />	
+	<!--sign_almost_there_level3-->	
+		<item type="bkgItem" spriteId="sign_almost_there_level3" x="2468" y="227" />
+	
+	
+	
+	
+	
+	
+	
+	<!--lava_tile_level3-->
+		<item type="groundTile" spriteId="lava_tile_level3" x="0" y="410" span="6000" />	
+	<!--ground_tile_level3-->
+		<item type="groundTile" spriteId="ground_tile_level3" x="4526" y="395" span="1474" />
+	
+	<!--platform_large_level3-->
+		<item type="groundTile" spriteId="platform_large_level3" x="512" y="395" />
+		<item type="groundTile" spriteId="platform_large_level3" x="348" y="395" />
+		<item type="groundTile" spriteId="platform_large_level3" x="880" y="395" />
+		<item type="groundTile" spriteId="platform_large_level3" x="1253" y="395" />
+		<item type="groundTile" spriteId="platform_large_level3" x="1626" y="395" />
+		<item type="groundTile" spriteId="platform_large_level3" x="2186" y="395" />
+		<item type="groundTile" spriteId="platform_large_level3" x="2751" y="395" />
+		<item type="groundTile" spriteId="platform_large_level3" x="4492" y="395" />
+	<!--ground_tile_level3-->
+		<item type="groundTile" spriteId="ground_tile_level3" x="0" y="395" />
+	<!--main_door_Left_level3-->
+		<item type="bkgItem" spriteId="main_door_Left_level3" x="0" y="0" />	
+	
+	<!--Spongebob in cage-->
+		<item type="spongebob" x="5700" y="0" />
+	
+	<!--spongebob_cage_base
+		<item type="bkgItem" spriteId="spongebob_cage_base" x="5675" y="342" />
+		-->
+	<!--cage_bars-->
+		<!--back row
+		<item type="bkgItem" spriteId="cage_bars" x="5685" y="195" />
+		<item type="bkgItem" spriteId="cage_bars" x="5745" y="195" />	
+		<item type="bkgItem" spriteId="cage_bars" x="5804" y="195" />	
+		<item type="bkgItem" spriteId="cage_bars" x="5846" y="195" />	
+		-->
+		<!--middle row
+		<item type="bkgItem" spriteId="cage_bars" x="5703" y="214" />	
+		<item type="bkgItem" spriteId="cage_bars" x="5866" y="214" />	
+		-->
+		<!--spongebob_walk
+		<item type="bkgItem" spriteId="spongebob_walk" x="5720" y="250" span="150"/>	
+		-->
+		<!--front row
+		<item type="bkgItem" spriteId="cage_bars" x="5723" y="232" />	
+		<item type="bkgItem" spriteId="cage_bars" x="5778" y="232" />	
+		<item type="bkgItem" spriteId="cage_bars" x="5835" y="232" />	
+		<item type="bkgItem" spriteId="cage_bars" x="5890" y="232" />		
+		-->
+	<!--blackness INVISIBLE-->
+		<item type="groundGap" spriteId="pitfall_level1" x="750" y="409" />
+		<item type="groundGap" spriteId="pitfall_level1" x="1120" y="409" />
+		<item type="groundGap" spriteId="pitfall_level1" x="1490" y="409" />
+		<item type="groundGap" spriteId="pitfall_level1" x="1865" y="409" />
+		<item type="groundGap" spriteId="blackness" x="1900" y="409" />	
+		<item type="groundGap" spriteId="blackness" x="1970" y="409" />	
+		<item type="groundGap" spriteId="blackness" x="2040" y="409" />	
+		<item type="groundGap" spriteId="pitfall_level1" x="2065" y="409" />	
+		<item type="groundGap" spriteId="pitfall_level1" x="2425" y="409" />
+		<item type="groundGap" spriteId="blackness" x="2560" y="409" />	
+		<item type="groundGap" spriteId="pitfall_level1" x="2630" y="409" />
+		
+		<item type="groundGap" spriteId="pitfall_level1" x="2990" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3050" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3120" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3190" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3260" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3330" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3400" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3470" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3540" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3610" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3680" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3750" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3820" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3890" y="409" />
+		<item type="groundGap" spriteId="blackness" x="3960" y="409" />
+		<item type="groundGap" spriteId="blackness" x="4030" y="409" />
+		<item type="groundGap" spriteId="blackness" x="4100" y="409" />
+		<item type="groundGap" spriteId="blackness" x="4170" y="409" />
+		<item type="groundGap" spriteId="blackness" x="4240" y="409" />
+		<item type="groundGap" spriteId="blackness" x="4310" y="409" />	
+		<item type="groundGap" spriteId="pitfall_level1" x="4370" y="409" />	
+	
+		
+	
+	
+	<!--spongebob_cage_lid	
+		<item type="bkgItem" spriteId="spongebob_cage_lid" x="5691" y="-15" />		
+		-->
+	
+	
+		
+		
+	
+	
+	
+		
+	
+	</background>
+	
+	<objects>
+	<!--platform_small_level3-->
+		<item type="platform" spriteId="platform_small_level3" x="900" y="310" />
+		<item type="platform" spriteId="platform_small_level3" x="1035" y="185" />
+		<item type="platform" spriteId="platform_small_level3" x="1157" y="135" />
+		<item type="platform" spriteId="platform_small_level3" x="1277" y="95" />
+		<item type="platform" spriteId="platform_small_level3" x="1515" y="310" />
+		<item type="platform" spriteId="platform_small_level3" x="1791" y="270" />
+		<item type="platform" spriteId="platform_small_level3" x="2021" y="270" />
+		<item type="platform" spriteId="platform_small_level3" x="2250" y="235" />
+		<item type="platform" spriteId="platform_small_level3" x="2979" y="310" />
+		<item type="platform" spriteId="platform_small_level3" x="3087" y="260" />
+		<item type="platform" spriteId="platform_small_level3" x="3193" y="215" />
+		<item type="platform" spriteId="platform_small_level3" x="3451" y="170" />
+		<item type="platform" spriteId="platform_small_level3" x="3497" y="360" />
+		<item type="platform" spriteId="platform_small_level3" x="3717" y="320" />
+		<item type="platform" spriteId="platform_small_level3" x="4255" y="320" />
+		<item type="platform" spriteId="platform_small_level3" x="4476" y="246" />
+		<item type="platform" spriteId="platform_small_level3" x="4707" y="217" />
+		<item type="platform" spriteId="platform_small_level3" x="4886" y="170" />
+		
+	<!--platform_large_level3-->	
+		<item type="platform" spriteId="platform_large_level3" x="625" y="205" />
+		<item type="platform" spriteId="platform_large_level3" x="2445" y="150" />
+		<item type="platform" spriteId="platform_large_level3" x="2445" y="350" />
+		<item type="platform" spriteId="platform_large_level3" x="3943" y="260" />
+		
+	
+	<!--stompers-->
+		<!--stomp 1 -->
+		<item type="stomper" spriteId="stomper" x="275" y="-16" maskHeight="462" verticalSpan="150" />
+		<!--stomp 2 -->
+		<item type="stomper" spriteId="stomper" x="400" y="-16" maskHeight="462" verticalSpan="200" />
+		
+		<!--stomp 3 -->
+		<item type="stomper" spriteId="stomper" x="525" y="-16" maskHeight="462" verticalSpan="150" />
+		
+		<!--stomp 4 -->
+		<item type="stomper" spriteId="stomper" x="1550" y="-131" maskHeight="345" verticalSpan="100" />
+		
+		<!--stomp 5 -->
+		<item type="stomper" spriteId="stomper" x="1820" y="-176" maskHeight="300" verticalSpan="100"/>
+		
+		<!--stomp 6 -->
+		<item type="stomper" spriteId="stomper" x="2060" y="-176" maskHeight="300" verticalSpan="100"/>
+		
+		<!--stomp 7 -->
+		<item type="stomper" spriteId="stomper" x="2815" y="-16" maskHeight="462" verticalSpan="100"/>
+		
+		<!--stomp 8 -->
+		<item type="stomper" spriteId="stomper" x="4015" y="-176" maskHeight="300" verticalSpan="100"/>
+		
+	
+	
+	
+	
+	
+	
+		
+	<!--food_bowl-->		
+		<item type="food" spriteId="food_bowl" x="650" y="205" />
+		<item type="food" spriteId="food_bowl" x="710" y="205" />
+		<item type="food" spriteId="food_bowl" x="770" y="205" />
+		<item type="food" spriteId="food_bowl" x="950" y="315" />
+		<item type="food" spriteId="food_bowl" x="920" y="420" />
+		<item type="food" spriteId="food_bowl" x="1000" y="420" />
+		<item type="food" spriteId="food_bowl" x="1080" y="175" />
+		<item type="food" spriteId="food_bowl" x="1200" y="130" />
+		<item type="food" spriteId="food_bowl" x="1290" y="420" />
+		<item type="food" spriteId="food_bowl" x="1660" y="420" />
+	
+		<item type="food" spriteId="food_bowl" x="1750" y="420" />
+		<item type="food" spriteId="food_bowl" x="2220" y="420" />
+		<item type="food" spriteId="food_bowl" x="2320" y="420" />
+		<item type="food" spriteId="food_bowl" x="2590" y="350" />
+		<item type="food" spriteId="food_bowl" x="3250" y="210" />
+		<item type="food" spriteId="food_bowl" x="3545" y="350" />
+		<item type="food" spriteId="food_bowl" x="4300" y="315" />
+		<item type="food" spriteId="food_bowl" x="4755" y="215" />
+		
+		
+	<!--gold_shoe-->	
+		<item type="special" spriteId="gold_shoe" x="740" y="-10" />
+	<!--red_shoe-->	
+		<item type="special" spriteId="red_shoe" x="1290" y="20" />
+	<!--green_shoe-->	
+		<item type="special" spriteId="green_shoe" x="3480" y="90" />
+	<!--golden_snail-->	
+		<item type="special" spriteId="golden_snail" x="4260" y="30" />	
+	
+	<!--karen-->		
+		<item type="badGuy" spriteId="karen" x="1295" y="360" span="310" />
+		<item type="badGuy" spriteId="karen" x="2495" y="110" span="310" />
+	<!--plankton-->		
+		<item type="plankton" spriteId="plankton_walk" x="5050" y="270" span="1200" />	
+					
+		
+		
+				
+		
+	</objects>
+	
+	<foreground>
+	<!--seaweed_rock
+		<item type="foreground" spriteId="seaweed_rock" x="150" y="404" />-->
+		
+	</foreground>
+
+	<safezones>
+		<point x="200" y="0" />
+		<point x="700" y="0" />
+		<point x="950" y="0" />
+		<point x="1020" y="0" />
+		<point x="1754" y="260" />
+		<point x="2300" y="160" />
+		<point x="2951" y="200" />
+		<point x="3830" y="200" />
+		<point x="4600" y="0" />
+	</safezones>
+	
+</level>

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's tag-->
+<!-- english, when set to TRUE, ignores all localization and uses the default field data in the FLA.-->
+
+<!-- <Node Attributes> -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the defaul size in the FLA.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the defaul font (specified by defaultFont).-->
+<!-- id is not Optional. It determines where flash places the text.-->
+<strings defaultFont="Latin" english="true">
+	<!--Preloader-->
+	<string id="loading"	fontName="Latin"	fontSize="16"	><![CDATA[Loading]]></string>
+	<!--Basics-->
+	<string id="title"		fontName="Latin"	><![CDATA[MONSTER ISLAND]]></string>	
+	<string id="play_word"	fontName="Latin"	fontSize="16"	><![CDATA[PLAY]]></string>
+	<string id="play_again"	fontName="Latin"	fontSize="16"	><![CDATA[Play Again]]></string>	
+	<string id="how_to_play" fontName="Latin"	fontSize="16"	><![CDATA[How to Play]]></string>
+	<string id="next"		fontName="Latin"	fontSize="16"	><![CDATA[Next]]></string>
+	<string id="back_to_game"	fontName="Latin"	fontSize="16"	><![CDATA[Back to Game]]></string>
+	<string id="continue"	fontName="Latin"	fontSize="16"	><![CDATA[Continue]]></string>
+	<string id="close"		fontName="Latin"	fontSize="16"	><![CDATA[close]]></string>
+	<string id="printable"	fontName="Latin"	fontSize="16"	><![CDATA[Printable]]></string>
+	<string id="skip"		fontName="Latin"	fontSize="16"	><![CDATA[Skip]]></string>
+	<string id="gotext"		fontName="Latin"	fontSize="16"	><![CDATA[Go!]]></string>
+	<!--Game Buttons-->
+	<string id="menu"		fontName="Latin"	fontSize="16"	><![CDATA[?]]></string>
+	<string id="help"		fontName="Latin"	fontSize="16"	><![CDATA[How to Play]]></string>
+	<string id="sound_on"	fontName="Latin"	fontSize="16"	><![CDATA[Sound On]]></string>
+	<string id="sound_off"	fontName="Latin"	fontSize="16"	><![CDATA[Sound Off]]></string>
+	<string id="resume"		fontName="Latin"	fontSize="16"	><![CDATA[Resume]]></string>
+	<!--Quit-->
+	<string id="quit"		fontName="Latin"	fontSize="16"	><![CDATA[Quit]]></string>
+	<string id="quit_confirm_header"	fontName="Latin"	fontSize="16"><![CDATA[Are you sure you want to quit?]]></string>
+	<string id="yes"		fontName="Latin"	fontSize="16"	><![CDATA[Yes]]></string>
+	<string id="no"			fontName="Latin"	fontSize="16"	><![CDATA[No]]></string>
+	<!--Gameplay-->
+	<string id="level"		fontName="Latin"	fontSize="16"	><![CDATA[Level]]></string>
+	<string id="score"		fontName="Latin"	fontSize="16"	><![CDATA[Score]]></string>	
+	<string id="paused"		fontName="Latin"	fontSize="16"	><![CDATA[Paused]]></string>
+	<string id="level_up"	fontName="Latin"	fontSize="16"	><![CDATA[Level Up]]></string>
+	<string id="game_over"	fontName="Latin"	fontSize="16"	><![CDATA[GAME OVER...
+OR IS IT?]]></string>	
+	<string id="game_over_coming_soon"	fontName="Latin"	fontSize="16"	><![CDATA[CHECK BACK
+TOMORROW FOR THE
+NEXT EPISODE!]]></string>	
+	<string id="game_over_avail"	fontName="Latin"	fontSize="16"	><![CDATA[WHAT
+WILL HAPPEN NEXT?
+CLICK TO FIND OUT!]]></string>	
+	<string id="game_over_the_end"	fontName="Latin"	fontSize="16"	><![CDATA[THE END!
+...OR IS IT?]]></string>	
+	<!--Leaderboard-->
+	<string id="you"		fontName="Latin"	fontSize="16"	><![CDATA[You: ]]></string>
+	<string id="top"		fontName="Latin"	fontSize="16"	><![CDATA[Top]]></string>	
+	<string id="leaderboard"	fontName="Latin"	fontSize="16"><![CDATA[Leaderboard]]></string>
+	<string id="submit_score"	fontName="Latin"	fontSize="16"><![CDATA[Submit Score]]></string>	
+	<!-- Copy/Body -->
+	<string id="help_copy"	fontName="Latin"	fontSize="16"><![CDATA[HELP COPY]]></string>
+	<string id="watch"		fontName="Latin"	fontSize="16"	><![CDATA[WATCH PREVIEW]]></string>
+	
+	<string id="locked89"	fontName="Latin"	fontSize="16"><![CDATA[LOCKED UNTIL 8/9!]]></string>
+	<string id="locked810"	fontName="Latin"	fontSize="16"><![CDATA[LOCKED UNTIL 8/10!]]></string>
+	<string id="locked811"	fontName="Latin"	fontSize="16"><![CDATA[LOCKED UNTIL 8/11!]]></string>
+	<string id="locked812"	fontName="Latin"	fontSize="16"><![CDATA[LOCKED UNTIL 8/12!]]></string>
+	<string id="locked813"	fontName="Latin"	fontSize="16"><![CDATA[LOCKED UNTIL 8/13!]]></string>
+	<string id="comingmonday"	fontName="Latin"	fontSize="16"><![CDATA[Coming This Monday, 8/9
+as Nick.com's New Game of the Week!]]></string>
+	<string id="splash_return"	fontName="Latin"	fontSize="16"><![CDATA[PICK ANOTHER EPISODE]]></string>
+	<string id="next_level"	fontName="Latin"	fontSize="16"><![CDATA[NEXT LEVEL]]></string>
+	<string id="next_locked"	fontName="Latin"	fontSize="16"><![CDATA[NEXT EPISODE COMING SOON!]]></string>
+	<string id="tbc"	fontName="Latin"	fontSize="16"><![CDATA[TO BE CONTINUED?]]></string>
+	
+	<!-- Generic -->
+	<string id="introstarringsb"	fontName="Latin"	fontSize="16"><![CDATA[Starring:
+SpongeBob
+SquarePants]]></string>
+	<string id="introstarringpat"	fontName="Latin"	fontSize="16"><![CDATA[Also Starring:
+Patrick Star]]></string>
+	<string id="introstarringsandy"	fontName="Latin"	fontSize="16"><![CDATA[Introducing:
+Island Sandy]]></string>
+	<string id="tobecontinued"	fontName="Latin"	fontSize="16"><![CDATA[TO BE CONTINUED!]]></string>
+	<string id="checkbacksoon"	fontName="Latin"	fontSize="16"><![CDATA[COMING SOON 8/9!]]></string>
+	<string id="prev"	fontName="Latin"	fontSize="16"><![CDATA[PREVIOUSLY...]]></string>
+	<string id="stringerror"	fontName="Latin"	fontSize="16"><![CDATA[STRING ERROR]]></string>
+	<string id="tbcoutro"	fontName="Latin"	fontSize="16"><![CDATA[TO BE CONTINUED...]]></string>
+	
+	<!-- Episode1 -->
+	<string id="e1title"	fontName="Latin"	fontSize="16"><![CDATA[EPISODE ONE]]></string>
+	<string id="e1help"	fontName="Latin"	fontSize="16"><![CDATA[Control SpongeBob with the mouse!
+Running into rocks slows you down, dodge them!
+Touch crystals to pick them up, and
+Throw the crystals with the Mouse Button
+or the Spacebar to slow down the monster!]]></string>
+	<string id="e1help1"	fontName="Latin"	fontSize="16"><![CDATA[Steer SpongeBob with the mouse!]]></string>
+	<string id="e1help2"	fontName="Latin"	fontSize="16"><![CDATA[Dodge rocks, they'll slow you down if you touch them!]]></string>
+	<string id="e1help3"	fontName="Latin"	fontSize="16"><![CDATA[Touch crystals to pick them up!]]></string>
+	<string id="e1help4"	fontName="Latin"	fontSize="16"><![CDATA[Throw crystals with the Mouse Button or Spacebar!]]></string>
+	<string id="e1help5"	fontName="Latin"	fontSize="16"><![CDATA[Slow down the monster chasing you by throwing crystals!]]></string>
+	<string id="e1title"	fontName="Latin"	fontSize="16"><![CDATA[EPISODE ONE]]></string>
+	<string id="intro1line1"	fontName="Latin"	fontSize="16"><![CDATA[P-PATRICK...?]]></string>
+	<string id="intro1line2"	fontName="Latin"	fontSize="16"><![CDATA[Weee! This is fun!]]></string>
+	<string id="intro1line3"	fontName="Latin"	fontSize="16"><![CDATA[Patrick, OH NO!]]></string>
+	<string id="intro1line4"	fontName="Latin"	fontSize="16"><![CDATA[Grrrrrrrr!]]></string>
+	<string id="intro1line5"	fontName="Latin"	fontSize="16"><![CDATA[!]]></string>
+	<string id="intro1monsterx"	fontName="Latin"	fontSize="16"><![CDATA[And Introducing:
+Monster X]]></string>
+
+	<!-- Episode2 -->
+	<string id="e2title"	fontName="Latin"	fontSize="16"><![CDATA[EPISODE TWO]]></string>
+	<string id="e2help"	fontName="Latin"	fontSize="16"><![CDATA[Control SpongeBob with the mouse!
+Click the Mouse Button or the Spacebar to jump, 
+and if your power is charged up,
+press the button again to double jump!
+Grab crystals and avoid other monsters and rocks!]]></string>
+	<string id="e2help1"	fontName="Latin"	fontSize="16"><![CDATA[Move left and right with the mouse!]]></string>
+	<string id="e2help2"	fontName="Latin"	fontSize="16"><![CDATA[Jump with the Mouse Button or Spacebar!]]></string>
+	<string id="e2help3"	fontName="Latin"	fontSize="16"><![CDATA[Jump again in the air if you have enough power!]]></string>
+	<string id="e2help4"	fontName="Latin"	fontSize="16"><![CDATA[Dodge rocks, they keep you from jumping!]]></string>
+	<string id="e2help5"	fontName="Latin"	fontSize="16"><![CDATA[Grab crystals to zap enemies on screen!]]></string>
+	<string id="e2help6"	fontName="Latin"	fontSize="16"><![CDATA[Avoid monsters to keep from getting hurt!]]></string>
+	<string id="intro2line1"	fontName="Latin"	fontSize="16"><![CDATA[Here, use this!]]></string>
+	<string id="intro2line2"	fontName="Latin"	fontSize="16"><![CDATA[Now you can control that Varmit!]]></string>
+	
+	<!-- Episode3 -->
+	<string id="e3title"	fontName="Latin"	fontSize="16"><![CDATA[EPISODE THREE]]></string>
+	<string id="e3help"	fontName="Latin"	fontSize="16"><![CDATA[Control SpongeBob with the mouse!
+Steer to catch the crystals.
+Crystals power up your shock wave!
+Press the Mouse Button or the Spacebar 
+to use the shock wave and clear away the enemies!]]></string>
+	<string id="e3help1"	fontName="Latin"	fontSize="16"><![CDATA[Steer your monster with the mouse!]]></string>
+	<string id="e3help2"	fontName="Latin"	fontSize="16"><![CDATA[Avoid rocks, they slow you down!]]></string>
+	<string id="e3help3"	fontName="Latin"	fontSize="16"><![CDATA[Grab crystals to charge up your Zap power!]]></string>
+	<string id="e3help4"	fontName="Latin"	fontSize="16"><![CDATA[Zap with the Mouse Button or Spacebar!]]></string>
+	<string id="e3help5"	fontName="Latin"	fontSize="16"><![CDATA[Avoid urchins to keep from getting hurt!]]></string>
+	<string id="intro3line1"	fontName="Latin"	fontSize="16"><![CDATA[OOOF!]]></string>
+	<string id="intro3line2"	fontName="Latin"	fontSize="16"><![CDATA[Good thing I landed on something soft... and...]]></string>
+	<string id="intro3line3"	fontName="Latin"	fontSize="16"><![CDATA[...ALIVE?!]]></string>
+	<string id="intro3line4"	fontName="Latin"	fontSize="16"><![CDATA[Hold on Patrick!]]></string>
+	<string id="intro3monstery" fontName="Latin"	fontSize="16"><![CDATA[And Introducing:
+Monster Y]]></string>
+	
+	<!-- Episode4 -->
+	<string id="e4title"	fontName="Latin"	fontSize="16"><![CDATA[EPISODE FOUR]]></string>
+	<string id="e4help"	fontName="Latin"	fontSize="16"><![CDATA[Control SpongeBob with the mouse!
+Avoid bouncing monsters!
+Press the Mouse Button or the Spacebar to use
+your monster's smash attack to knock away turtles!
+If you get hurt, catch falling crystals to heal!
+]]></string>
+	<string id="e4help1"	fontName="Latin"	fontSize="16"><![CDATA[Move left and right with the mouse!]]></string>
+	<string id="e4help2"	fontName="Latin"	fontSize="16"><![CDATA[Collect crystals to heal your monster!]]></string>
+	<string id="e4help3"	fontName="Latin"	fontSize="16"><![CDATA[If your power is full, you can charge through enemies!]]></string>
+	<string id="e4help4"	fontName="Latin"	fontSize="16"><![CDATA[Press the Mouse Button or Spacebar to use your power!]]></string>
+	<string id="e4help5"	fontName="Latin"	fontSize="16"><![CDATA[Dodge rock monsters and charge through turtles!]]></string>
+	<string id="intro4monsterz" fontName="Latin"	fontSize="16"><![CDATA[And Introducing:
+Monster Z]]></string>
+	<string id="intro4line1"	fontName="Latin"	fontSize="16"><![CDATA[HMM...HOW CAN I GET TO THE
+TOP OF THE MOUNTAIN?]]></string>
+	<string id="intro4line2"	fontName="Latin"	fontSize="16"><![CDATA[WHAT WAS
+THAT?!]]></string>
+	
+	<!-- Episode5 -->
+	<string id="e5title"	fontName="Latin"	fontSize="16"><![CDATA[EPISODE FIVE]]></string>
+	<string id="e5help"	fontName="Latin"	fontSize="16"><![CDATA[Control your monster with the mouse!
+Press the Mouse Button or Spacebar to punch and break rocks!
+Hold the Mouse Button or Spacebar to charge up your power!
+Let go of the charge for a big punch!
+Break through rocks in time to keep from getting crushed!]]></string>
+	<string id="e5help1"	fontName="Latin"	fontSize="16"><![CDATA[Steer your monster with the mouse!]]></string>
+	<string id="e5help2"	fontName="Latin"	fontSize="16"><![CDATA[Press the Mouse Button or Spacebar to break rocks!]]></string>
+	<string id="e5help3"	fontName="Latin"	fontSize="16"><![CDATA[Hold down the Mouse Button or Spacebar to charge up!]]></string>
+	<string id="e5help4"	fontName="Latin"	fontSize="16"><![CDATA[Let go of the charge for a big punch!]]></string>
+	<string id="e5help5"	fontName="Latin"	fontSize="16"><![CDATA[Collect crystals to get a high score!]]></string>
+	<string id="e5help6"	fontName="Latin"	fontSize="16"><![CDATA[Break rocks so you don't get crushed!]]></string>
+	<string id="intro5monsteraa" fontName="Latin"	fontSize="16"><![CDATA[And Introducing:
+Monster ??]]></string>
+	<string id="intro5line1"	fontName="Latin"	fontSize="16"><![CDATA[WHAT IS
+THAT?!]]></string>
+	<string id="intro5line2"	fontName="Latin"	fontSize="16"><![CDATA[RUN!!!]]></string>
+	<string id="outro5line1"	fontName="Latin"	fontSize="16"><![CDATA[AHHHH!!!]]></string>
+	<string id="outro5line2"	fontName="Latin"	fontSize="16"><![CDATA[PATRICK!!!!!]]></string>
+	<string id="outro5line3"	fontName="Latin"	fontSize="16"><![CDATA[HUH?]]></string>
+	<string id="outro5line4"	fontName="Latin"	fontSize="16"><![CDATA[SPONGEBOB?]]></string>
+	<string id="outro5line5"	fontName="Latin"	fontSize="16"><![CDATA[HOP ON!!!]]></string>
+	<string id="outro5line6"	fontName="Latin"	fontSize="16"><![CDATA[TO BE CONTINUED...?]]></string>
+
+</strings>

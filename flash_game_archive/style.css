@@ -1,0 +1,239 @@
+/* --- Google Font Import --- */
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+/* --- General Body & Page Styling --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0077be; /* Deep sea blue */
+    background-image: linear-gradient(
+        to bottom,
+        #0077be,
+        #87ceeb
+    ); /* Gradient to a lighter sky blue */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.85
+    ); /* Semi-transparent white background */
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border: 5px solid #8b4513; /* Wood-like border */
+}
+
+/* --- Header & Title --- */
+header h1 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 4rem;
+    color: #ffde29; /* Spongebob Yellow */
+    text-shadow:
+        -3px -3px 0 #8b4513,
+        3px -3px 0 #8b4513,
+        -3px 3px 0 #8b4513,
+        3px 3px 0 #8b4513,
+        -4px -4px 5px rgba(0, 0, 0, 0.5); /* Brown outline and shadow */
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+}
+
+/* --- Section Styling --- */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 2.5rem;
+    color: #e63946; /* Mr. Krabs Red */
+    border-bottom: 4px dotted #8b4513;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* --- Search Bar --- */
+#search-container {
+    margin-bottom: 30px;
+}
+
+#search-input {
+    width: 60%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: 3px solid #8b4513; /* Wood border */
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #ffde29;
+    box-shadow: 0 0 10px #ffde29;
+}
+
+/* --- Game List --- */
+#game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#game-list li {
+    background-color: #ffde29; /* Spongebob Yellow */
+    border: 3px solid #8b4513; /* Wood color */
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+#game-list li:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+#game-list a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #8b4513; /* Wood color text */
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: "Luckiest Guy", cursive;
+    letter-spacing: 1px;
+}
+
+/* Message for no results */
+#no-results {
+    display: none; /* Hidden by default */
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e63946;
+    margin-top: 20px;
+}
+
+/* --- FAQ Section --- */
+.faq-item {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.faq-question {
+    width: 100%;
+    background-color: #ff87b5; /* Patrick Pink */
+    color: white;
+    padding: 15px 20px;
+    border: 3px solid #c75c87;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+    text-align: left;
+    position: relative;
+}
+
+.faq-question:hover {
+    background-color: #f76ca4;
+}
+
+.faq-question::after {
+    content: "+";
+    font-size: 2rem;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+
+.faq-question.active::after {
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition:
+        max-height 0.5s ease-out,
+        padding 0.5s ease-out;
+    background-color: #fafafa;
+    border-radius: 0 0 10px 10px;
+    border: 2px solid #ff87b5;
+    border-top: none;
+    padding: 0 20px;
+}
+
+.faq-answer p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+/* --- Footer --- */
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    font-weight: bold;
+}
+
+footer a {
+    color: #ffde29; /* Spongebob Yellow */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #search-input {
+        width: 80%;
+        padding: 12px;
+    }
+
+    #game-list {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+}

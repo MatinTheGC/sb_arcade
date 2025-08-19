@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fonts>
+	<font>assets.FooFont</font>
+	<font>assets.TartarSauceFont</font>
+	<!--  <font><![CDATA[Foo]]></font>
+	<font><![CDATA[tartarsauce_erc]]></font>-->
+</fonts>

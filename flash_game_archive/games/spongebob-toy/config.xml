@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<localization>		
+	
+	<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+	
+	<splash_watch>watch 'spongebob squarepants' on nickelodeon!</splash_watch>
+	<play_button>PLAY</play_button>
+	<score>SCORE</score>
+
+	<how_to_play>HOW TO PLAY</how_to_play>
+	<instructions_copy_1>The toys at the Toy Barrel Store have come to life! Help SpongeBob and Patrick fend them off while keeping Patrick's lights on.</instructions_copy_1>	
+	<instructions_copy_2>Use your MOUSE to AIM.
+
+CLICK to SHOOT the TOYS and the BATTERIES for Patrick's lights.</instructions_copy_2>	
+	
+	<level>level</level>
+	<battery>BATTERY</battery>
+	<power>POWER</power>
+	
+	<game_over>GAME OVER</game_over>
+	<continue_button>continue</continue_button>
+	<sale_sign>SALE!</sale_sign>
+	
+</localization>

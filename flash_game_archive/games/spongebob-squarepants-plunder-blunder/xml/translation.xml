@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<strings>
+	<string id="plunder" fontName="ZombieHolocaust" fontSize="200" lineHeight="16"><![CDATA[PLUNDER]]></string>
+	<string id="blunder" fontName="ZombieHolocaust" fontSize="200" lineHeight="16"><![CDATA[BLUNDER]]></string>
+    <string id="play" fontName="ZombieHolocaust" fontSize="60" lineHeight="16"><![CDATA[PLAY]]></string>
+    <string id="instruction1" fontName="ZombieHolocaust" fontSize="35" lineHeight="16"><![CDATA[Use the ARROW keys to move]]></string>
+    <string id="instruction2" fontName="ZombieHolocaust" fontSize="35" lineHeight="16"><![CDATA[LEFT CLICK to shoot]]></string>
+    <string id="instruction3" fontName="ZombieHolocaust" fontSize="35" lineHeight="16"><![CDATA[press UP to jump]]></string>
+    <string id="instruction4" fontName="ZombieHolocaust" fontSize="35" lineHeight="16"><![CDATA[press DOWN to slide]]></string>
+    <string id="instruction5" fontName="ZombieHolocaust" fontSize="55" lineHeight="16"><![CDATA[CLICK TO CONTINUE]]></string>
+    <string id="score" fontName="ZombieHolocaust" fontSize="35" lineHeight="16"><![CDATA[Score]]></string>
+    <string id="level" fontName="verdana" fontSize="50" lineHeight="16"><![CDATA[Level ]]></string>
+	<string id="health" fontName="ZombieHolocaust" fontSize="35" lineHeight="16"><![CDATA[Health]]></string>
+    <string id="gameover" fontName="ZombieHolocaust" fontSize="200" lineHeight="16"><![CDATA[Game Over]]></string>
+    <string id="submit" fontName="ZombieHolocaust" fontSize="35" lineHeight="16"><![CDATA[Submit]]></string>
+    <string id="playagain" fontName="ZombieHolocaust" fontSize="35" lineHeight="16"><![CDATA[Play Again]]></string>
+    <string id="highscore" fontName="ZombieHolocaust" fontSize="35" lineHeight="16"><![CDATA[HighScore]]></string>
+	<string id="highscoreBanner" fontName="ZombieHolocaust" fontSize="100" lineHeight="16"><![CDATA[HighScore]]></string>
+    <string id="quit" fontName="ZombieHolocaust" fontSize="50" lineHeight="16"><![CDATA[Are you sure you <br> want to Quit]]></string>
+    <string id="yes" fontName="ZombieHolocaust" fontSize="45" lineHeight="16"><![CDATA[Yes]]></string>
+    <string id="no" fontName="ZombieHolocaust" fontSize="45" lineHeight="16"><![CDATA[No]]></string>
+</strings>

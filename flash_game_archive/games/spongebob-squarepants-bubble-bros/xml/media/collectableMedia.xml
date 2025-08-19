@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<element name="collectable">
+		<media alias="collectable01" />
+		<media alias="collectable02" />	
+		<media alias="collectable03" />		
+	</element>
+	<element name="powerUp">
+		<media alias="powerUp01" />
+		<media alias="powerUp02" />
+	</element>
+</list>

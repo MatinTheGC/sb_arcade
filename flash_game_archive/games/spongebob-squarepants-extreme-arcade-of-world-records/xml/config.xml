@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- NICKELODEON TRACKABLES -->
+	<playButton>
+		<func>trackKidsGamePlay</func>
+		<urlAlias>spongebob-squarepants-extreme-arcade-of-world-records</urlAlias>
+	</playButton>
+	<scoreTracking>
+		<gameID>spongebob-do-not-remove</gameID>
+		<chumID>spongebob-squarepants-buckets-of-chum-hsb</chumID>
+		<chainsawID>spongebob-squarepants-chainsaw-juggler-hsb</chainsawID>
+		<cobraID>spongebob-squarepants-cobra-milker-hsb</cobraID>
+		<cardID>spongebob-squarepants-mansion-of-cards-hsb</cardID>
+		<megabandID>spongebob-squarepants-mega-band-ball-hsb</megabandID>
+		<tongueID>spongebob-squarepants-longest-tongue-hsb</tongueID>
+	</scoreTracking>
+	<printButton enabled="true">
+		<func>KIDS.reporting.omnifunctions.printReporting</func>
+		<division>nick</division>
+		<urlAlias>spongebob-squarepants-extreme-arcade-of-world-records</urlAlias>
+		<contentType>game</contentType>
+		<showID>spongebob-squarepants-extreme-arcade-of-world-records</showID>
+		<numPages>1</numPages>
+	</printButton>
+	<leaderBoard enabled="true" />
+	
+<!-- **START** Nickelodeon Framework Config Information -->
+
+	<!-- Domains this application is intended to run on -->
+	<allowedDomains>
+		<allowedDomain>localhost</allowedDomain>
+		<allowedDomain>nick.com</allowedDomain>
+		<allowedDomain>mtvi.com</allowedDomain>
+		<allowedDomain>mtvnimages.com</allowedDomain>
+		<allowedDomain>seven2.com</allowedDomain>
+		<allowedDomain>seven2.net</allowedDomain>
+	</allowedDomains>
+	<!--ServiceLocator url-->
+	<urlNickServiceLocator>common/flash/services/data/services.xml</urlNickServiceLocator>
+	<!-- Used by nick services plugin -->
+	<nickServicesSettings>
+		<enableLogin method="3">true</enableLogin> <!-- method "3" should always be used. -->
+		<enableNickPoints>true</enableNickPoints>
+		<enableAchievements>true</enableAchievements>
+		<enableUniversalEndGameScreen>true</enableUniversalEndGameScreen>
+		<enableAnalytics id="651577037274816645" >true</enableAnalytics>
+	</nickServicesSettings>		
+	<!-- Nick Points -->
+	<!-- moduleSwfUrl should only be used if specifically directed. Otherwise leave it empty.-->
+	<nickPoints moduleSwfUrl="">
+		<campaignName>sb-arcade-badges</campaignName> <!-- [TODO] Needs custom data -->
+	</nickPoints>
+	<!-- Nick Achievements --> <!-- Needs custom data -->
+	<achievements gameId="spongebob-squarepants-extreme-arcade-of-world-records" urlBaseIcons="/nick-assets/achievements/images/spongebob-squarepants-extreme-arcade-of-world-records/" 
+			urlUIPopup="components/achievement_popup.swf" urlUISummary="components/achievement_summary.swf" 
+			popupAlignment="bottomleft" popupDuration="3" badgeAssetOffsetX="0" badgeAssetOffsetY="0">
+		<!-- popupAlignment can be "top", "bottom", "topleft", "topright", "bottomleft", "bottomright" top and bottom are centered, left and right are in the top corners -->
+		<!-- id is for local use only. You can call it whatever you want. The node value is the actual trigger that will be sent to nick.com services -->
+		<achievement>
+			<id>badge-one</id> <!-- The local reference ID to be used in-game for earning/testing. Any time you need to reference this badge in your game, use this id. Not supplied by Nick. -->
+			<trigger>BitOfAStretch</trigger> <!-- the actual trigger value that is sent by the API to nick.com servers. Supplied by Nick. -->
+			<serverCode>spongebob-squarepants-extreme-arcade-of-world-records_game_10</serverCode><!-- This is the badge ID on the server side. It is needed by the API to verify that a badge has been earned. Supplied by Nick.  -->
+			<nickPointEventName>badge-one</nickPointEventName> <!-- Valid settings are "badge-one", "badge-two", "badge-three", "badge-four", "badge-five" and "trophy". -->
+			<title><![CDATA[Bit of a Stretch]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Get a fair distance in Longest Tongue.]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data that will be sent with this achievement. Can be either "Number" or "String".  -->
+			<urlIconEnabled>spongebob-squarepants-extreme-arcade-of-world-records_game_10.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>spongebob-squarepants-extreme-arcade-of-world-records_game_10_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->
+		</achievement> 
+		<achievement>
+			<id>badge-two</id> <!-- The local reference to be used in the game-->
+            <trigger>RaininChum</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+            <serverCode>spongebob-squarepants-extreme-arcade-of-world-records_game_20</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+            <nickPointEventName>badge-two</nickPointEventName> <!-- This will normally be: badge-one, badge-two, badge-three, badge-four, badge-five, trophy -->
+            <title><![CDATA[Rainin' Chum]]></title> <!-- The title of the achievement for in-game display. -->
+            <description><![CDATA[Catch a good amount of chum in Buckets of Chum.]]></description> <!-- The description of the achievement for in-game display. -->
+            <dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+            <urlIconEnabled>spongebob-squarepants-extreme-arcade-of-world-records_game_20.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+            <urlIconDisabled>spongebob-squarepants-extreme-arcade-of-world-records_game_20_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon --> 
+		</achievement> 
+		<achievement>
+			<id>badge-three</id> <!-- The local reference to be used in the game-->
+            <trigger>MilkinIt</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+            <serverCode>spongebob-squarepants-extreme-arcade-of-world-records_game_30</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+            <nickPointEventName>badge-three</nickPointEventName> <!-- This will normally be: badge-one, badge-two, badge-three, badge-four, badge-five, trophy -->
+            <title><![CDATA[Milkin' It!]]></title> <!-- The title of the achievement for in-game display. -->
+            <description><![CDATA[Milk a pretty good amount from cobras in Cobra Milker.]]></description> <!-- The description of the achievement for in-game display. -->
+            <dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+            <urlIconEnabled>spongebob-squarepants-extreme-arcade-of-world-records_game_30.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+            <urlIconDisabled>spongebob-squarepants-extreme-arcade-of-world-records_game_30_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->
+		</achievement> 
+		<achievement>
+			<id>badge-four</id> <!-- The local reference to be used in the game-->
+            <trigger>OffTheChainsaw</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+            <serverCode>spongebob-squarepants-extreme-arcade-of-world-records_game_40</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+            <nickPointEventName>badge-four</nickPointEventName> <!-- This will normally be: badge-one, badge-two, badge-three, badge-four, badge-five, trophy -->
+            <title><![CDATA[Off the Chainsaw]]></title> <!-- The title of the achievement for in-game display. -->
+            <description><![CDATA[Juggling is pretty tough in Chainsaw Juggler.]]></description> <!-- The description of the achievement for in-game display. -->
+            <dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+            <urlIconEnabled>spongebob-squarepants-extreme-arcade-of-world-records_game_40.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+            <urlIconDisabled>spongebob-squarepants-extreme-arcade-of-world-records_game_40_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->
+		</achievement> 
+		<achievement>
+			<id>badge-five</id> <!-- The local reference to be used in the game-->
+            <trigger>SkyStacker</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+            <serverCode>spongebob-squarepants-extreme-arcade-of-world-records_game_50</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+            <nickPointEventName>badge-five</nickPointEventName> <!-- This will normally be: badge-one, badge-two, badge-three, badge-four, badge-five, trophy -->
+            <title><![CDATA[Sky Stacker]]></title> <!-- The title of the achievement for in-game display. -->
+            <description><![CDATA[Reach to the sky with your card tower in Mansion of Cards.]]></description> <!-- The description of the achievement for in-game display. -->
+            <dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+            <urlIconEnabled>spongebob-squarepants-extreme-arcade-of-world-records_game_50.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+            <urlIconDisabled>spongebob-squarepants-extreme-arcade-of-world-records_game_50_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon --> 
+		</achievement>
+		<achievement>
+			<id>trophy</id> <!-- The local reference to be used in the game-->
+            <trigger>MadeForArcade</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+            <serverCode>spongebob-squarepants-extreme-arcade-of-world-records_game_100</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+            <nickPointEventName>trophy</nickPointEventName> <!-- This will normally be: badge-one, badge-two, badge-three, badge-four, badge-five, trophy -->
+            <title><![CDATA[Made for Arcade]]></title> <!-- The title of the achievement for in-game display. -->
+            <description><![CDATA[Hunker down on all games to get a high score.]]></description> <!-- The description of the achievement for in-game display. -->
+            <dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+            <urlIconEnabled>spongebob-squarepants-extreme-arcade-of-world-records_game_100.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+            <urlIconDisabled>spongebob-squarepants-extreme-arcade-of-world-records_game_100_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->    
+		</achievement>  
+	</achievements>
+
+<!-- **END** Nickelodeon Framework Config Information -->
+	
+	<!-- DEBUG SETTINGS -->
+	<debugSettings debugMode="false">
+		<godMode>false</godMode>
+	</debugSettings>
+	
+	<!-- GAME SETTINGS -->
+	<gameSettings>
+		<title>Spongebob Retro Arcade</title>
+		<buildTimestamp>06-05-2012 0500</buildTimestamp>
+		<code>sbfan,fbkrabs</code>
+	</gameSettings>
+	
+	<!-- Custom Badge settings for Spongebob Arcade -->
+	<badgeGoals>
+		<!-- The number of points to score on the Longest tongue for badge-one. Total meters x 10. -->
+		<badgeOne>200</badgeOne>
+		<!-- The number of points to score on the Buckets of Chum for badge-two -->
+		<badgeTwo>5000</badgeTwo>
+		<!-- The number of points to score on the Cobra Milker for badge-three -->
+		<badgeThree>3500</badgeThree>
+		<!-- The number of points to score on the Chainsaw Juggler for badge-four -->
+		<badgeFour>2200</badgeFour>
+		<!-- The number of points to score on the Mansion of Cards for badge-five -->
+		<badgeFive>550</badgeFive>
+		<!-- The number of points to score on megaband ball for the trophy. -->
+		<trophy>1300</trophy>
+	</badgeGoals>
+	
+</config>
+
+

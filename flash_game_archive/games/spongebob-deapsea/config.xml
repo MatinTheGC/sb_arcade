@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+	
+	<introPlayButton>Play</introPlayButton>
+	<instructText>SpongeBob is feeling a little under the weather.
+Drag the objects through the maze of intestines 
+to remove them from his pores and onto the trays. 
+Don't touch the edges of his intestines or you could make SpongeBob sicker than he already is!</instructText>
+	<instructionsPlayButton>Play</instructionsPlayButton>
+	<hudTimeLabel>Time</hudTimeLabel>
+	<hudHealthLabel>Health</hudHealthLabel>
+	<hudScoreLabel>Score</hudScoreLabel>
+	<payoffScoreLabel>Score</payoffScoreLabel>
+	<payoffLevelLabel>Level:</payoffLevelLabel>
+	<payoffContinueButton>Continue?</payoffContinueButton>
+	<levelLabel>Level</levelLabel>
+	
+</localization>

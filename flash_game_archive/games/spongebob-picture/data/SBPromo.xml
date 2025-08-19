@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nickPoints>
+	
+	<campaignID>sb-picturenps</campaignID>
+	
+	<modulePath>http://www.nick.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath>
+
+	<events>
+		<event>
+			<name>low_rank</name>
+		</event>
+		<event>
+			<name>mid_rank</name>
+		</event>
+		<event>
+			<name>high_rank</name>
+		</event>
+	</events>
+
+	<sbpromo>
+		<img>spbob_cavity.jpg</img>
+		<url target="_blank">http://www.spongebob.nick.com/games/play/spongebob-squarepants-cavity-crisis/</url>
+	</sbpromo>
+
+</nickPoints>

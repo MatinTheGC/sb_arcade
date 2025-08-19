@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+
+<!--Bad Guy Animation -->
+
+<group id="greaser">
+		<animation looping="true" autorun="true" speed="100" />
+		<sprites>
+<!-- Frame_1 --><sprite x="0" y="560" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_2 --><sprite x="360" y="448" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_3 --><sprite x="270" y="448" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_4 --><sprite x="180" y="448" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_5 --><sprite x="90" y="448" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_6 --><sprite x="0" y="448" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_7 --><sprite x="360" y="336" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_8 --><sprite x="270" y="336" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_9 --><sprite x="180" y="336" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_10 --><sprite x="90" y="336" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_11 --><sprite x="0" y="336" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_12 --><sprite x="360" y="224" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_13 --><sprite x="270" y="224" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_14 --><sprite x="180" y="224" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_15 --><sprite x="90" y="224" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_16 --><sprite x="0" y="224" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_17 --><sprite x="360" y="112" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_18 --><sprite x="270" y="112" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_19 --><sprite x="180" y="112" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_20 --><sprite x="90" y="112" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_21 --><sprite x="0" y="112" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_22 --><sprite x="360" y="0" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_23 --><sprite x="270" y="0" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_24 --><sprite x="180" y="0" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_25 --><sprite x="90" y="0" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_26 --><sprite x="0" y="0" width="90" height="112" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>								
+				
+	
+</spritesheet>
+	
+	
+	
+	
+	

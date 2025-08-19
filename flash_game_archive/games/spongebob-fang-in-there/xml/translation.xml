@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<strings>
+    <string id="title" fontName="ZombieHolocaust" fontSize="150" lineHeight="16"><![CDATA[Fang in There]]></string>
+    <string id="play" fontName="ZombieHolocaust" fontSize="45" lineHeight="16"><![CDATA[PLAY]]></string>
+    <string id="instruction1" fontName="HalloweenSpider" fontSize="25" lineHeight="16"><![CDATA[Left click or press spacebar to jump]]></string>
+    <string id="instruction2" fontName="HalloweenSpider" fontSize="18" lineHeight="16"><![CDATA[Run away from Patrick]]></string>
+    <string id="instruction3" fontName="HalloweenSpider" fontSize="18" lineHeight="16"><![CDATA[Avoid the three ghosts]]></string>
+    <string id="instruction4" fontName="HalloweenSpider" fontSize="22" lineHeight="16"><![CDATA[Jump]]></string>
+    <string id="instruction5" fontName="HalloweenSpider" fontSize="22" lineHeight="16"><![CDATA[Speed Boost]]></string>
+    <string id="instruction6" fontName="HalloweenSpider" fontSize="22" lineHeight="16"><![CDATA[Cobwebs]]></string>
+    <string id="instruction7" fontName="HalloweenSpider" fontSize="14" lineHeight="16"><![CDATA[Click anywhere to start playing]]></string>
+    <string id="distance" fontName="HalloweenSpider" fontSize="20" lineHeight="16"><![CDATA[Distance]]></string>
+    <string id="distanceunit" fontName="HalloweenSpider" fontSize="20" lineHeight="16"><![CDATA[ft]]></string>
+    <string id="distanceunitlong" fontName="HalloweenSpider" fontSize="20" lineHeight="16"><![CDATA[feet]]></string>
+    <string id="level" fontName="HalloweenSpider" fontSize="20" lineHeight="16"><![CDATA[Level]]></string>
+    <string id="gameover" fontName="HalloweenSpider" fontSize="45" lineHeight="16"><![CDATA[Game<br>Over]]></string>
+    <string id="submit" fontName="ZombieHolocaust" fontSize="35" lineHeight="16"><![CDATA[Submit]]></string>
+    <string id="playagain" fontName="ZombieHolocaust" fontSize="35" lineHeight="16"><![CDATA[Play Again]]></string>
+    <string id="highscore" fontName="ZombieHolocaust" fontSize="35" lineHeight="16"><![CDATA[High Scores]]></string>
+    <string id="highscoreheader" fontName="HalloweenSpider" fontSize="35" lineHeight="16"><![CDATA[HIGH SCORES]]></string>
+    <string id="quit" fontName="HalloweenSpider" fontSize="30" lineHeight="16"><![CDATA[Are you sure you<br>want to Quit?]]></string>
+    <string id="yes" fontName="ZombieHolocaust" fontSize="30" lineHeight="16"><![CDATA[Yes]]></string>
+    <string id="no" fontName="ZombieHolocaust" fontSize="30" lineHeight="16"><![CDATA[No]]></string>
+</strings>

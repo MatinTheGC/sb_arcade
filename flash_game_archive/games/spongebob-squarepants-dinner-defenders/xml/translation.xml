@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<strings lang="en">
+<!--Preloader-->
+	<!--Loading Text in Preloader-->
+	<string id="txtLoading" fontName="assets.TartarSauceFont" fontSize="60" lineHeight="0"><![CDATA[Loading]]></string>
+	<!--Percent Text Format-->
+	<string id="txtPercent" fontName="assets.FooFont" fontSize="40" lineHeight="0"><![CDATA[0]]></string>
+<!--Introduction-->
+	<string id="txtIntro" fontName="assets.FooFont" fontSize="22" lineHeight="0"><![CDATA[Protect that Turkey Patty, SpongeBob my boy! Me money's counting on it!]]></string>
+<!--How To Play-->
+	<!--Instruction Title Text-->
+	<string id="ins_txtHowToPlay" fontName="assets.TartarSauceFont" fontSize="45" lineHeight="0"><![CDATA[HOW TO PLAY]]></string>
+	<!--Instruction Content-->
+	<string id="ins_txtMovement" fontName="assets.TartarSauceFont" fontSize="30" lineHeight="0"><![CDATA[movement]]></string>
+	<string id="ins_txtInHouse" fontName="assets.TartarSauceFont" fontSize="25" lineHeight="0"><![CDATA[go inside house]]></string>
+	<string id="ins_txtOutHouse" fontName="assets.TartarSauceFont" fontSize="25" lineHeight="0"><![CDATA[go outside house]]></string>
+	<string id="ins_txtShoot" fontName="assets.TartarSauceFont" fontSize="30" lineHeight="0"><![CDATA[shoot]]></string>
+	<string id="ins_txtSwapWeapons" fontName="assets.TartarSauceFont" fontSize="30" lineHeight="0"><![CDATA[swap weapons]]></string>
+	<string id="ins_txtAmmo" fontName="assets.TartarSauceFont" fontSize="30" lineHeight="0"><![CDATA[ammo]]></string>
+	<string id="ins_txtSnailFood" fontName="assets.TartarSauceFont" fontSize="30" lineHeight="0"><![CDATA[snail food]]></string>
+	<!--Instruction Image Texts-->>
+	<string id="ins_txtSpace" fontName="assets.TartarSauceFont" fontSize="30" lineHeight="0"><![CDATA[space]]></string>
+	<string id="ins_txtZ" fontName="assets.TartarSauceFont" fontSize="30" lineHeight="0"><![CDATA[z]]></string>
+<!--Game-->
+	<!--Level Text-->
+	<string id="game_txtLevel" fontName="assets.TartarSauceFont" fontSize="80" lineHeight="0"><![CDATA[Level]]></string>
+	<!--Cash Text-->
+	<string id="game_txtCash" fontName="assets.TartarSauceFont" fontSize="27" lineHeight="0"><![CDATA[clams]]></string>
+	<!--Cash Value Text-->
+	<string id="game_txtCashValue" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[0]]></string>
+	<!--HP Text-->
+	<string id="game_txtHp" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[0]]></string>
+	<!--Ammo Text-->
+	<string id="game_txtAmmo" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[0]]></string>
+<!--Shop-->
+	<!--Shop Text-->
+	<string id="shop_txtShop" fontName="assets.TartarSauceFont" fontSize="50" lineHeight="0"><![CDATA[SHOP]]></string>
+	<!--Cash Text-->
+	<string id="shop_txtCash" fontName="assets.TartarSauceFont" fontSize="34" lineHeight="0"><![CDATA[clams]]></string>
+	<!--Cash Value Text-->
+	<string id="shop_txtCashValue" fontName="assets.FooFont" fontSize="25" lineHeight="0"><![CDATA[0]]></string>
+	<!--Price Text-->
+	<string id="shop_txtPrice" fontName="assets.FooFont" fontSize="25" lineHeight="0"><![CDATA[0]]></string>
+	<!--Equipped Text-->
+	<string id="shop_txtEquipped" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[EQUIPPED]]></string>
+	<!--Item Descriptions-->
+	<string id="shop_txtCBAmmo" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[Cornbread Bomber Ammo]]></string>
+	<string id="shop_txtCBWeapon" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[Cornbread Bomber]]></string>
+	<string id="shop_txtCCCAmmo" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[Cream Corn Cannon Ammo]]></string>
+	<string id="shop_txtCCCWeapon" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[Cream Corn Cannon]]></string>
+	<string id="shop_txtMPPAmmo" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[Mashed Potato Pelter Ammo]]></string>
+	<string id="shop_txtMPPWeapon" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[Mashed Potato Pelter]]></string>
+	<string id="shop_txtSnailFood" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[Snail Food]]></string>
+	<string id="shop_txtSPSAmmo" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[Sweet Pea Shooter Ammo]]></string>
+<!--Speech Text-->
+	<string id="txtSpeech" fontName="assets.FooFont" fontSize="32" lineHeight="0"><![CDATA[Meow!]]></string>
+<!--Quit-->
+	<!--Quit Screen Text-->
+	<string id="txtQuit" fontName="assets.FooFont" fontSize="28" lineHeight="0"><![CDATA[Are you sure you want to quit?]]></string>
+<!--Level End-->
+	<string id="end_txtLvlComplete" fontName="assets.FooFont" fontSize="55" lineHeight="0"><![CDATA[LEVEL complete]]></string>
+	<string id="end_txtScore" fontName="assets.FooFont" fontSize="22" lineHeight="0"><![CDATA[Plankton Defeated:]]></string>
+<!--Game End-->
+	<string id="end_txtGameOver" fontName="assets.FooFont" fontSize="55" lineHeight="0"><![CDATA[GAME over]]></string>
+	<string id="end_txtTotalScore" fontName="assets.FooFont" fontSize="22" lineHeight="0"><![CDATA[Total Plankton Defeated:]]></string>
+<!--Enter Code Screen-->
+	<!--enter code instructions when locked text-->
+	<string id="code_txtLocked" fontName="assets.FooFont" fontSize="22" lineHeight="0"><![CDATA[Type the code in the box below and press enter!]]></string>
+	<!--enter code instructions when unlocked text-->
+	<string id="code_txtUnlocked" fontName="assets.FooFont" fontSize="22" lineHeight="0"><![CDATA[You have already entered the code!]]></string>
+	<!--code input format-->
+	<string id="code_txtInput" fontName="assets.FooFont" fontSize="22" lineHeight="0"><![CDATA[Enter Code Here]]></string>
+	<!--code correct confirmation text-->
+	<string id="code_txtCorrect" fontName="assets.FooFont" fontSize="22" lineHeight="0"><![CDATA[Code Correct!]]></string>
+	<!--code incorrect confirmation text -->
+	<string id="code_txtIncorrect" fontName="assets.FooFont" fontSize="22" lineHeight="0"><![CDATA[Code Incorrect!]]></string>
+<!--High Scores-->
+	<string id="hs_txtTitle" fontName="assets.TartarSauceFont" fontSize="38" lineHeight="0"><![CDATA[Leaderboard]]></string>
+	<string id="hs_txtLoading" fontName="assets.FooFont" fontSize="38" lineHeight="0"><![CDATA[Loading Scores...]]></string>
+	<string id="compDataGrid_header_rank" fontName="assets.TartarSauceFont" fontSize="24" lineHeight="0"><![CDATA[Rank]]></string>
+	<string id="compDataGrid_header_name" fontName="assets.TartarSauceFont" fontSize="24" lineHeight="0"><![CDATA[Name]]></string>
+	<string id="compDataGrid_header_score" fontName="assets.TartarSauceFont" fontSize="24" lineHeight="0"><![CDATA[Score]]></string>
+	<string id="compDataGrid_data" fontName="assets.FooFont" fontSize="18" lineHeight="0"><![CDATA[Data. No need to translate]]></string>
+<!--Buttons-->
+	<!--Title Screen-->
+	<string id="btnPlay" fontName="assets.TartarSauceFont" fontSize="105" lineHeight="0"><![CDATA[play]]></string>
+	<string id="btnEnterCode" fontName="assets.TartarSauceFont" fontSize="41" lineHeight="0"><![CDATA[enter code]]></string>
+	<!--Other-->
+	<string id="btnBuy" fontName="assets.TartarSauceFont" fontSize="45" lineHeight="0"><![CDATA[buy]]></string>
+	<string id="btnContinue" fontName="assets.TartarSauceFont" fontSize="42" lineHeight="0"><![CDATA[continue]]></string>
+	<string id="btnHighScore" fontName="assets.TartarSauceFont" fontSize="42" lineHeight="0"><![CDATA[high scores]]></string>
+	<string id="btnNo" fontName="assets.TartarSauceFont" fontSize="45" lineHeight="0"><![CDATA[no]]></string>
+	<string id="btnOk" fontName="assets.TartarSauceFont" fontSize="45" lineHeight="0"><![CDATA[ok]]></string>
+	<string id="btnPlayAgain" fontName="assets.TartarSauceFont" fontSize="55" lineHeight="0"><![CDATA[play again]]></string>
+	<string id="btnQuit" fontName="assets.TartarSauceFont" fontSize="45" lineHeight="0"><![CDATA[quit]]></string>
+	<string id="btnRetry" fontName="assets.TartarSauceFont" fontSize="45" lineHeight="0"><![CDATA[retry]]></string>
+	<string id="btnShop" fontName="assets.TartarSauceFont" fontSize="45" lineHeight="0"><![CDATA[shop]]></string>
+	<string id="btnSubmitScore" fontName="assets.TartarSauceFont" fontSize="42" lineHeight="0"><![CDATA[submit score]]></string>
+	<string id="btnYes" fontName="assets.TartarSauceFont" fontSize="45" lineHeight="0"><![CDATA[yes]]></string>
+</strings>

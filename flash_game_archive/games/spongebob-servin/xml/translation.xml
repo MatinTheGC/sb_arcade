@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Note that <br> tags may be used within strings to cause line breaks. -->
+
+<phrases>
+	<!--Preloader-->
+	<string id="loading"		fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Loading]]></string>
+	<string id="please_wait"	fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Please Wait]]></string>
+	<!--Title Screen-->
+	<string id="title"			fontName="Font_Hobo"	fontSize="70"	lineHeight="0"><![CDATA[My Cool Game]]></string>
+	<string id="play"			fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Play]]></string>
+	<string id="play1p"			fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[PLAY 1 Player]]></string>
+	<string id="play2p"			fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[PLAY 2 Players]]></string>
+	<!--Instructions-->
+	<string id="help_text1"		fontName="Font_Hobo"	fontSize="20"	lineHeight="0"><![CDATA[This is how to play the game:<br> 1) First, imagine winning.<br> 2) Second, you WIN!]]></string>
+	<string id="help_text2"		fontName="Font_Hobo"	fontSize="20"	lineHeight="0"><![CDATA[Oh, and if you get stuck, try writing a hiku.<br><br>It probably won't help you, but at least you'll feel more relaxed.]]></string>
+	<string id="next"			fontName="Font_Hobo"	fontSize="20"	lineHeight="0"><![CDATA[Next]]></string>
+	<string id="back"			fontName="Font_Hobo"	fontSize="20"	lineHeight="0"><![CDATA[Back]]></string>
+	<string id="skip"			fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Skip]]></string>
+	<string id="go"				fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Go!]]></string>
+	<string id="close"			fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Close]]></string>
+	<!--Game Buttons-->
+	<string id="menu"			fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Menu]]></string>
+	<string id="help"			fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Help]]></string>
+	<string id="sound_on"		fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Sound On]]></string>
+	<string id="sound_off"		fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Sound Off]]></string>
+	<!--Game Menu-->
+	<string id="resume"			fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Resume]]></string>
+	<string id="instructions"	fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[How to Play]]></string>
+	<string id="quit"			fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Quit]]></string>
+	<string id="are_you_sure"	fontName="Font_Hobo"	fontSize="22"	lineHeight="0"><![CDATA[Are you sure you<br>want to Quit?]]></string>
+	<string id="yes"			fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Yes]]></string>
+	<string id="no"				fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[No]]></string>
+	<!--Results Screen-->
+	<string id="score"			fontName="Font_Hobo"	fontSize="22"	lineHeight="0"><![CDATA[Score]]></string>
+	<string id="score_p1"		fontName="Font_Hobo"	fontSize="22"	lineHeight="0"><![CDATA[Player 1 Score]]></string>
+	<string id="score_p2"		fontName="Font_Hobo"	fontSize="22"	lineHeight="0"><![CDATA[Player 2 Score]]></string>
+	<string id="play_again"		fontName="Font_Hobo"	fontSize="22"	lineHeight="0"><![CDATA[Play Again]]></string>
+	<string id="submit_score"	fontName="Font_Hobo"	fontSize="22"	lineHeight="0"><![CDATA[Submit Score]]></string>
+	<string id="leaderboard"	fontName="Font_Hobo"	fontSize="22"	lineHeight="0"><![CDATA[Leaderboard]]></string>
+	<string id="leaderhead"		fontName="Font_Hobo"	fontSize="22"	lineHeight="0"><![CDATA[Leaderboard]]></string>
+	<string id="scoresload"		fontName="Font_Hobo"	fontSize="30"	lineHeight="0"><![CDATA[Loading...]]></string>
+	<string id="leaderclose"	fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Close]]></string>
+	<string id="print"			fontName="Font_Hobo"	fontSize="22"	lineHeight="0"><![CDATA[Print]]></string>
+	<!--Game Content-->
+	<string id="game_over"		fontName="Font_Hobo"	fontSize="24"	lineHeight="0"><![CDATA[Game Over]]></string>
+</phrases>

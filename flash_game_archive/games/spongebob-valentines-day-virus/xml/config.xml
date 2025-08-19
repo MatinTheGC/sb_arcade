@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<unlock enabled="true">cupid</unlock>
+	<!-- Ad Interruption Functionality -->
+	<adInterruption enabled="false">content/ad_animation/interruption.swf</adInterruption>
+	<!-- External plugins to load -->
+	<plugins enabled="true">
+		<plugin id="leaderboard" enabled="true">plugins/plugin_nick_leaderboard.swf</plugin>
+		<plugin id="services" enabled="true">plugins/plugin_nick_services.swf</plugin>
+		<plugin id="localization" enabled="true">plugins/plugin_nick_localization.swf</plugin>
+	</plugins>
+	<!-- URL of Nick in-game notification API -->
+	<nickServicesAPIAchievementsURL>games/data/awards/in-game-notifications/nick_services_achievements.swf</nickServicesAPIAchievementsURL>
+	<!-- Used by Universal End Game Screen -->
+	<nickUEGSSettings>
+		<titleText>GAME_TITLE_HERE</titleText>
+		<scoreText>Score</scoreText>
+	</nickUEGSSettings>	
+	<!-- Used by nick services plugin -->
+	<nickServicesSettings>
+		<enableLogin method="2">true</enableLogin> <!-- method "2" should always be used. -->
+		<enableTracking method="0">true</enableTracking>
+		<enableNickPoints>false</enableNickPoints>
+		<enableAchievements>false</enableAchievements>		
+		<enableClubItems>false</enableClubItems>
+		<enableUniversalEndGameScreen>false</enableUniversalEndGameScreen>
+		<enableLegacyServiceProxy url="plugins/legacy/nick_legacy_services.swf">true</enableLegacyServiceProxy> <!-- This is still necessary for leaderboards -->	
+	</nickServicesSettings>		
+	<!-- Domains this application is intended to run on -->
+	<allowedDomains>
+		<allowedDomain>workinman.com</allowedDomain>
+		<allowedDomain>localhost</allowedDomain>
+		<allowedDomain>nick.com</allowedDomain>
+		<allowedDomain>mtvi.com</allowedDomain>
+		<allowedDomain>mtvnimages.com</allowedDomain>
+	</allowedDomains>
+	<!-- Used by services plugin -->
+	<tracking>	
+		<tracking_legacy>
+			<trackingPlayFunction>trackKidsGamePlay</trackingPlayFunction>
+			<trackingPlayAgainFunction>trackKidsGamePlay</trackingPlayAgainFunction>
+			<trackingPlayGameName>spongebob-squarepants-valentines-day-virus</trackingPlayGameName> <!-- Needs custom data -->
+			<trackingPrintFunction>printTracker</trackingPrintFunction>
+			<trackingPrintSite>nick</trackingPrintSite> <!-- Needs custom data -->
+			<trackingPrintUrlAlias>spongebob-squarepants-valentines-day-virus</trackingPrintUrlAlias> <!-- Needs custom data -->
+			<trackingPrintContentType>Printable</trackingPrintContentType>
+			<trackingPrintShowID>spo</trackingPrintShowID> <!-- Needs custom data -->
+		</tracking_legacy> 
+		<tracking_2011>
+			<trackingGameLoad>ON_GAME_LOAD</trackingGameLoad>
+			<trackingGamePlay>ON_GAME_PLAY</trackingGamePlay>
+			<trackingLevelStart>ON_GAME_LEVELSTART</trackingLevelStart>
+		</tracking_2011>
+	</tracking>	
+	<!-- Used by leaderboard plugin -->
+	<leaderboard>
+		<gameId id="game">spongebob-squarepants-valentines-day-virus-hsb</gameId> <!-- Needs custom data -->
+	</leaderboard>
+	<!-- Used by localization plugin. Technically all translationXml collections are tied to an appId. However if you leave the appId as "" and do the same in the app itself, it will treat it as a "generic" localization file. Convenient for fast/easy access. -->
+	<localization>
+		<fontFile>fonts/embeddedFonts.swf</fontFile>
+		<fontXml>fonts/fonts.xml</fontXml>
+		<translationXmls>
+			<translationXml appId="">xml/translation.xml</translationXml>
+		</translationXmls>
+	</localization>
+	<!-- External Files to load -->
+	<file_collections>
+		<collection id="initial">
+			
+		</collection>		
+	</file_collections>			
+	<!-- Printable -->
+	<printable enabled="true" />	
+	<!-- Nick Points -->
+	<!-- moduleSwfUrl should only be used if specifically directed. Otherwise leave it empty.-->
+	<nickPoints moduleSwfUrl="">
+		<campaignName>NICKPOINTS_CAMPAIGN_NAME</campaignName> <!-- [TODO] Needs custom data -->
+	</nickPoints>
+	<!-- Nick Achievements --> <!-- Needs custom data -->
+	<achievements gameId="ACHIEVEMENT_GAME_ID" urlBaseIcons="http://www.nick.com/nick-assets/achievements/images/supah-ninjas-true-ninja-test/" 
+			urlUIPopup="components/achievement_popup.swf" urlUISummary="components/achievement_summary.swf" 
+			popupAlignment="bottomleft" popupDuration="3" badgeAssetOffsetX="0" badgeAssetOffsetY="0">
+		<!-- popupAlignment can be "top", "bottom", "topleft", "topright", "bottomleft", "bottomright" top and bottom are centered, left and right are in the top corners -->
+		<!-- id is for local use only. You can call it whatever you want. The node value is the actual trigger that will be sent to nick.com services -->		
+		<achievement>
+			<id>BADGE_LOCAL_ID_HERE</id> <!-- The local reference to be used in the game-->
+            <trigger>BADGE_TRIGGER_HERE</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+            <serverCode>BADGE_SERVER_CODE_HERE</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+            <nickPointEventName>badge-one</nickPointEventName> <!-- This will normally be: badge-one, badge-two, badge-three, badge-four, badge-five, trophy -->
+            <title><![CDATA[badge title]]></title> <!-- The title of the achievement for in-game display. -->
+            <description><![CDATA[badge description here]]></description> <!-- The description of the achievement for in-game display. -->
+            <dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+            <urlIconEnabled>ICON_ENABLED_FILE_NAME_HERE</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+            <urlIconDisabled>ICON_DISABLED_FILE_NAME_HERE</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->    
+		</achievement>
+		<achievement>
+			<id>BADGE_LOCAL_ID_HERE</id> <!-- The local reference to be used in the game-->
+            <trigger>BADGE_TRIGGER_HERE</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+            <serverCode>BADGE_SERVER_CODE_HERE</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+            <nickPointEventName>badge-two</nickPointEventName> <!-- This will normally be: badge-one, badge-two, badge-three, badge-four, badge-five, trophy -->
+            <title><![CDATA[badge title]]></title> <!-- The title of the achievement for in-game display. -->
+            <description><![CDATA[badge description here]]></description> <!-- The description of the achievement for in-game display. -->
+            <dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+            <urlIconEnabled>ICON_ENABLED_FILE_NAME_HERE</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+            <urlIconDisabled>ICON_DISABLED_FILE_NAME_HERE</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->    
+		</achievement> 
+		<achievement>
+			<id>BADGE_LOCAL_ID_HERE</id> <!-- The local reference to be used in the game-->
+            <trigger>BADGE_TRIGGER_HERE</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+            <serverCode>BADGE_SERVER_CODE_HERE</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+            <nickPointEventName>badge-three</nickPointEventName> <!-- This will normally be: badge-one, badge-two, badge-three, badge-four, badge-five, trophy -->
+            <title><![CDATA[badge title]]></title> <!-- The title of the achievement for in-game display. -->
+            <description><![CDATA[badge description here]]></description> <!-- The description of the achievement for in-game display. -->
+            <dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+            <urlIconEnabled>ICON_ENABLED_FILE_NAME_HERE</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+            <urlIconDisabled>ICON_DISABLED_FILE_NAME_HERE</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->    
+		</achievement> 
+		<achievement>
+			<id>BADGE_LOCAL_ID_HERE</id> <!-- The local reference to be used in the game-->
+            <trigger>BADGE_TRIGGER_HERE</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+            <serverCode>BADGE_SERVER_CODE_HERE</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+            <nickPointEventName>badge-four</nickPointEventName> <!-- This will normally be: badge-one, badge-two, badge-three, badge-four, badge-five, trophy -->
+            <title><![CDATA[badge title]]></title> <!-- The title of the achievement for in-game display. -->
+            <description><![CDATA[badge description here]]></description> <!-- The description of the achievement for in-game display. -->
+            <dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+            <urlIconEnabled>ICON_ENABLED_FILE_NAME_HERE</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+            <urlIconDisabled>ICON_DISABLED_FILE_NAME_HERE</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->    
+		</achievement> 
+		<achievement>
+			<id>BADGE_LOCAL_ID_HERE</id> <!-- The local reference to be used in the game-->
+            <trigger>BADGE_TRIGGER_HERE</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+            <serverCode>BADGE_SERVER_CODE_HERE</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+            <nickPointEventName>badge-five</nickPointEventName> <!-- This will normally be: badge-one, badge-two, badge-three, badge-four, badge-five, trophy -->
+            <title><![CDATA[badge title]]></title> <!-- The title of the achievement for in-game display. -->
+            <description><![CDATA[badge description here]]></description> <!-- The description of the achievement for in-game display. -->
+            <dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+            <urlIconEnabled>ICON_ENABLED_FILE_NAME_HERE</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+            <urlIconDisabled>ICON_DISABLED_FILE_NAME_HERE</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->    
+		</achievement>
+		<achievement>
+			<id>BADGE_LOCAL_ID_HERE</id> <!-- The local reference to be used in the game-->
+            <trigger>BADGE_TRIGGER_HERE</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+            <serverCode>BADGE_SERVER_CODE_HERE</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+            <nickPointEventName>trophy</nickPointEventName> <!-- This will normally be: badge-one, badge-two, badge-three, badge-four, badge-five, trophy -->
+            <title><![CDATA[badge title]]></title> <!-- The title of the achievement for in-game display. -->
+            <description><![CDATA[badge description here]]></description> <!-- The description of the achievement for in-game display. -->
+            <dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+            <urlIconEnabled>ICON_ENABLED_FILE_NAME_HERE</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+            <urlIconDisabled>ICON_DISABLED_FILE_NAME_HERE</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->    
+		</achievement>  
+	</achievements>
+</config>

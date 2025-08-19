@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's individual tag.-->
+<!-- english, when set to TRUE, ignores all localization data and uses the default text data in the FLA.-->
+<!-- rightToLeft, when set to TRUE, prints the text from right to left instead of left to right -->
+
+<!-- <Node Attributes> -->
+<!-- id is not Optional. It tells flash which text field to change. -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the default size in the FLA.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the default font (specified by defaultFont).-->
+<!-- offsetX is Optional. It allows you to move the text field a certain number of pixels on the X axis. Leave it out or use 0 if you don't want to move the text. -->
+<!-- offsetY is Optional. It allows you to move the text field a certain number of pixels on the Y axis. Leave it out or use 0 if you don't want to move the text.--> 
+
+<strings defaultFont="Latin" english="true" rightToLeft="false">
+	<!--Preloader-->
+	<string id="loading"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Loading]]></string>
+	<!--Basics-->
+	<string id="title"		fontName="Latin"	fontSize="32"	offsetX="0" offsetY="0"><![CDATA[Game Title]]></string>	
+	<string id="play"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Play]]></string>
+	<string id="play_again"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Try Again]]></string>	
+	<string id="how_to_play"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[How to Play]]></string>
+	<string id="next"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Next]]></string>
+	<string id="back"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Back to Game]]></string>
+	<string id="continue"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Continue]]></string>
+	<string id="close"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[close]]></string>
+	<string id="printable"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Printable]]></string>
+		<!--Code Buttons-->
+	<string id="enter_code"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Enter Code]]></string>
+	<string id="enter_code_header"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Enter Code:]]></string>
+	<string id="enter"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Enter]]></string>
+	<string id="invalid_code"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Invalid Code!]]></string>
+	<string id="code_accept"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[JELLY BOOTS ENABLED!]]></string>
+	<!--Game Buttons-->
+	<string id="menu"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Menu]]></string>
+	<string id="back_to_game"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Back to Game]]></string>
+	<string id="help"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[How to Play]]></string>
+	<string id="sound_on"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Sound On]]></string>
+	<string id="sound_off"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Sound Off]]></string>
+	<string id="resume"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Resume]]></string>
+	<!--Quit-->
+	<string id="quit"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Quit]]></string>
+	<string id="quit_confirm_header"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Are you sure you want to quit?]]></string>
+	<string id="yes"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Yes]]></string>
+	<string id="no"			fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[No]]></string>
+	<!--Gameplay-->
+	<string id="level"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Level]]></string>
+	<string id="score"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Score]]></string>	
+	<string id="paused"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Paused]]></string>
+	<string id="level_up"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Level Up]]></string>
+	<string id="game_over"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Game Over]]></string>
+	<string id="help_questionmark"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[?]]></string>
+	<string id="quit_x"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[x]]></string>
+	<string id="spacebar_prompt"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Press Spacebar to Activate Jelly Boots!]]></string>		
+	<!--Leaderboard-->
+	<string id="you"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[You: ]]></string>
+	<string id="top"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Top]]></string>	
+	<string id="leaderboard"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Leaderboard]]></string>
+	<string id="submit_score"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Submit Score]]></string>	
+	<!-- Copy/Body -->
+	<string id="help_copy"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Use LEFT and RIGHT to run. Use UP to jump.  Catch trophies and stash them in your wheelbarrow.  Stack trophies for bonus points!]]></string>
+	<string id="watch"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Watch 'Show Name' on]]></string>
+	<!-- Cutscene Dialog -->
+	<string id="cs1line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[This is cutscene dialog!]]></string>
+	<string id="cs1line2"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[It sure is little buddy!]]></string>
+	
+</strings>

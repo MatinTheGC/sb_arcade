@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+
+<config>
+	
+	<version>
+		<!-- "false" will enable high score viewing/submission. "true" will disable high score viewing/submission.  -->
+		<isInternational>false</isInternational>
+	</version>
+
+	<highScore>
+		
+		<!-- Debug mode. Force user to be logged in with the username of "DEBUG_USER". -->
+		<debug>false</debug>
+		
+		<userPath>http://www.nick.com/games/common/user_name/getUserInfo.jhtml</userPath>
+		<scorePath>http://www.nick.com/common/score/Scoreboard.jhtml</scorePath>
+		<serviceLink>http://www.nick.com</serviceLink>
+		<gameID>spongebob-bikini-hsb</gameID>
+		
+	</highScore>
+	
+	<gameSettings>
+		<nickPoints>
+			<campaignID>sb-bikini-nps</campaignID>
+			<modulePath>http://www.nick-d.mtvi.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath>
+			<!-->Run the module locally when running on your machine, but swap the modulePath(s) when you deliver<!-->
+			<!--modulePath>NickPoints_Module_build.swf</modulePath><!-->
+			<events>
+				<event>
+					<name>rank_low</name>
+					<scoreThreshold>10000</scoreThreshold>
+				</event>
+				<event>
+					<name>rank_mid</name>
+					<scoreThreshold>35000</scoreThreshold>
+				</event>
+				<event>
+					<name>rank_high</name>
+					<scoreThreshold>50000</scoreThreshold>
+				</event>
+			</events>
+			
+			<sbpromo>
+				<img>spobob_geyser.jpg</img>
+				<url target="_blank">http://www.nick.com/games/nick_games/spongebob/spongebob-geyser.jhtml</url>
+			</sbpromo>
+			
+		</nickPoints>
+		
+		<scoreLevels>
+			<scoreLevel id="0">10000</scoreLevel>
+			<scoreLevel id="1">35000</scoreLevel>
+			<scoreLevel id="2">50000</scoreLevel>
+		</scoreLevels>
+		
+		<baseHealth>100</baseHealth>
+		
+		<baseLevelTimer>30</baseLevelTimer>
+		<levelTimerIncrease>7</levelTimerIncrease>
+		<levelTimerMax>120</levelTimerMax>
+		
+		<buildingSpawnTimer>1.5</buildingSpawnTimer>
+		<pickupChance>.15</pickupChance>
+		
+		<baseSpawnTimer>2</baseSpawnTimer>
+		<spawnTimerDecrease>.08</spawnTimerDecrease>
+		<spawnTimerMin>1</spawnTimerMin>
+		
+		<maxEnemies>6</maxEnemies>
+		
+		<pickup id="1">
+			<power>25</power>
+		</pickup>
+		<pickup id="2">
+			<power>1</power>
+		</pickup>
+		<pickup id="3">
+			<power>20</power>
+		</pickup>
+		<pickup id="4">
+			<power>20</power>
+		</pickup>
+		
+		<weapon id="0">
+			<shotDamage>10</shotDamage>
+			<shotTimer>.5</shotTimer>
+		</weapon>
+		<weapon id="1">
+			<shotDamage>8</shotDamage>
+			<shotTimer>0.1</shotTimer>
+		</weapon>
+		<weapon id="2">
+			<shotDamage>50</shotDamage>
+			<shotTimer>.5</shotTimer>
+		</weapon>
+		
+		<enemy id="0">
+			<maxCount>3</maxCount>
+			<xSpeed>0</xSpeed>
+			<ySpeed>0</ySpeed>
+			<zSpeed>250</zSpeed>
+			<health>5</health>
+			<shotTimer>0</shotTimer>
+			<shotDamage>10</shotDamage>
+			
+			<xSpeedPerLevel>0</xSpeedPerLevel>
+			<ySpeedPerLevel>0</ySpeedPerLevel>
+			<zSpeedPerLevel>50</zSpeedPerLevel>
+			<healthPerLevel>2</healthPerLevel>
+			<shotTimerPerLevel>0</shotTimerPerLevel>
+			<shotDamagePerLevel>5</shotDamagePerLevel>
+			
+			<xSpeedMax>0</xSpeedMax>
+			<ySpeedMax>0</ySpeedMax>
+			<zSpeedMax>700</zSpeedMax>
+			<shotDamageMax>50</shotDamageMax>
+			
+			<shotTimerMin>0</shotTimerMin>		
+		</enemy>
+		<enemy id="1">
+			<maxCount>2</maxCount>
+			<xSpeed>0</xSpeed>
+			<ySpeed>0</ySpeed>
+			<zSpeed>150</zSpeed>
+			<health>15</health>
+			<shotTimer>2</shotTimer>
+			<shotDamage>10</shotDamage>
+			
+			<xSpeedPerLevel>0</xSpeedPerLevel>
+			<ySpeedPerLevel>0</ySpeedPerLevel>
+			<zSpeedPerLevel>50</zSpeedPerLevel>
+			<healthPerLevel>2</healthPerLevel>
+			<shotTimerPerLevel>.25</shotTimerPerLevel>
+			<shotDamagePerLevel>8</shotDamagePerLevel>
+			
+			<xSpeedMax>0</xSpeedMax>
+			<ySpeedMax>0</ySpeedMax>
+			<zSpeedMax>300</zSpeedMax>
+			<shotDamageMax>50</shotDamageMax>
+			
+			<shotTimerMin>2</shotTimerMin>	
+		</enemy>
+		<enemy id="2">
+			<maxCount>3</maxCount>
+			<xSpeed>100</xSpeed>
+			<ySpeed>100</ySpeed>
+			<zSpeed>0</zSpeed>
+			<health>25</health>
+			<shotTimer>5</shotTimer>
+			<shotDamage>10</shotDamage>
+			
+			<xSpeedPerLevel>50</xSpeedPerLevel>
+			<ySpeedPerLevel>50</ySpeedPerLevel>
+			<zSpeedPerLevel>0</zSpeedPerLevel>
+			<healthPerLevel>4</healthPerLevel>
+			<shotTimerPerLevel>.25</shotTimerPerLevel>
+			<shotDamagePerLevel>8</shotDamagePerLevel>
+			
+			<xSpeedMax>400</xSpeedMax>
+			<ySpeedMax>400</ySpeedMax>
+			<zSpeedMax>250</zSpeedMax>
+			<shotDamageMax>50</shotDamageMax>
+			
+			<shotTimerMin>1.5</shotTimerMin>	
+		</enemy>
+	</gameSettings>
+	
+</config>

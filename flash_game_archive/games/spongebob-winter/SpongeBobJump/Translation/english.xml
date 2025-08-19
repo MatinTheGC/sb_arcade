@@ -1,0 +1,18 @@
+<language>
+   <loadScreen>
+      <play>PLAY</play>
+   </loadScreen>
+   <gameMessages>
+      <controls>CLICK TO LEAP!</controls>
+      <final_score>FINAL SCORE:</final_score>
+      <game_over>GAME OVER!</game_over>
+      <next_level>DAY</next_level>
+   </gameMessages>
+   <gameOverScreen>
+      <game_over>GAME OVER</game_over>
+      <thank_you>Thank you for playing a SpongeBob 10th Anniversary Nickelodeon game!</thank_you>
+      <sincerely>Sincerely</sincerely>
+      <play_again>PLAY AGAIN</play_again>
+      <printable>PRINTABLE</printable>
+   </gameOverScreen>
+</language>

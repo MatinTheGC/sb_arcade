@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- *************  WARNING  ************ -->
+<!-- DO NOT EDIT THIS DOCUMENT DIRECTLY   -->
+<!-- USE THE LOCALIZATION TOOL TO EDIT    -->
+<!-- ************************************ -->
+<strings>
+  <language id="0">american_latin</language>
+  <string id="ui_loading_label" fontName="Tiki-Island" fontSize="40" charSpace="0" lineSpace="0" catID="0"><![CDATA[Loading]]></string>
+  <string id="ui_loading_building" fontName="Tiki-Island" fontSize="40" charSpace="0" lineSpace="0" catID="0"><![CDATA[Building]]></string>
+  <string id="ui_loading_optimizing" fontName="Tiki-Island" fontSize="40" charSpace="0" lineSpace="0" catID="0"><![CDATA[Optimizing]]></string>
+  <string id="ui_loading_progress" fontName="Tiki-Island" fontSize="40" charSpace="0" lineSpace="0" catID="0"><![CDATA[%24value%24]]></string>
+  <string id="ui_title_Text" fontName="Tiki-Surf" fontSize="28" charSpace="0" lineSpace="0" catID="1"><![CDATA[%20SPONGEBOB%27S%3Cbr%3E%20%20%20JELLYFISHIN%27%3Cbr%3E%20%20%20%20%20MISSION]]></string>
+  <string id="ui_title_Sign_Jellyfield" fontName="Tiki-Island" fontSize="18" charSpace="0" lineSpace="0" catID="1"><![CDATA[JELLYFISH%20FIELDS]]></string>
+  <string id="ui_title_Sign_Highway01_Phase01" fontName="Tiki-Island" fontSize="23" charSpace="0" lineSpace="0" catID="1"><![CDATA[SHELLY%3Cbr%3ESUPERHIGHWAY]]></string>
+  <string id="ui_title_Sign_Highway02_Phase01" fontName="Tiki-Island" fontSize="17" charSpace="0" lineSpace="0" catID="1"><![CDATA[COMING%3Cbr%3ESOON]]></string>
+  <string id="ui_title_Sign_Highway01_Phase02" fontName="Tiki-Island" fontSize="45" charSpace="0" lineSpace="0" catID="1"><![CDATA[SHELLY]]></string>
+  <string id="ui_title_Sign_Highway02_Phase02" fontName="Tiki-Island" fontSize="23" charSpace="0" lineSpace="0" catID="1"><![CDATA[SUPERHIGHWAY]]></string>
+  <string id="ui_title_Sign_KrustyKrab" fontName="Tiki-Island" fontSize="17" charSpace="0" lineSpace="0" catID="1"><![CDATA[KRUSTY%20KRAB]]></string>
+  <string id="ui_title_Sign_BikiniBottom" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="1"><![CDATA[BIKINI%20BOTTOM]]></string>
+  <string id="ui_title_Sign_ChumBucket" fontName="Tiki-Island" fontSize="18" charSpace="0" lineSpace="0" catID="1"><![CDATA[CHUM%3Cbr%3EBUCKET]]></string>
+  <string id="ui_title_btnLevel" fontName="Tiki-Surf" fontSize="19" charSpace="0" lineSpace="0" catID="1"><![CDATA[%24value%24]]></string>
+  <string id="ui_title_button_help" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="1"><![CDATA[How%20to%20Play]]></string>
+  <string id="ui_title_button_entercode" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="1"><![CDATA[Enter%20code]]></string>
+  <string id="ui_video_skip" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="1"><![CDATA[Skip]]></string>
+  <string id="id_popup_playerSelect_title" fontName="Tiki-Island" fontSize="45" charSpace="0" lineSpace="0" catID="2"><![CDATA[Select%20your%20character]]></string>
+  <string id="id_popup_playerSelect_playerName" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="2"><![CDATA[%24value%24]]></string>
+  <string id="id_characterName_spongebob" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="2"><![CDATA[Spongebob]]></string>
+  <string id="id_characterName_patrick" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="2"><![CDATA[Patrick]]></string>
+  <string id="id_characterName_squidward" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="2"><![CDATA[Squidward]]></string>
+  <string id="id_popup_playerSelect_btnOk" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="2"><![CDATA[Play]]></string>
+  <string id="id_popup_playerSelect_btnBack" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="2"><![CDATA[Back]]></string>
+  <string id="ui_howtoplay_title" fontName="Tiki-Island" fontSize="50" charSpace="0" lineSpace="0" catID="3"><![CDATA[How%20To%20Play]]></string>
+  <string id="ui_howtoplay_Help_1" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[To%20walk%2C%20use]]></string>
+  <string id="ui_howtoplay_Help_2" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[To%20jump%2C%20use]]></string>
+  <string id="ui_howtoplay_Help_3" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="3"><![CDATA[To%20catch%20a%20jellyfish%2C%20hit]]></string>
+  <string id="ui_howtoplay_Help_4" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="3"><![CDATA[To%20throw%20a%20jellyfish%2C%20hit]]></string>
+  <string id="ui_howtoplay_Help_8" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="3"><![CDATA[Hint%20%3A%20You%20can%20jump%20again%20once%20in%20mid-air.]]></string>
+  <string id="ui_howtoplay_Help_5" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="3"><![CDATA[To%20crunch%2C%20hit]]></string>
+  <string id="ui_howtoplay_Help_6" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="3"><![CDATA[SPACEBAR]]></string>
+  <string id="ui_howtoplay_Help_7" fontName="Tiki-Island" fontSize="22" charSpace="0" lineSpace="0" catID="3"><![CDATA[X]]></string>
+  <string id="ui_howtoplay_button_back" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="3"><![CDATA[Back]]></string>
+  <string id="ui_howtoplay_button_next" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="3"><![CDATA[Next]]></string>
+  <string id="ui_howtoplay_button_play" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="3"><![CDATA[Play]]></string>
+  <string id="ui_howtoplay_button_close" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="3"><![CDATA[Close]]></string>
+  <string id="ui_howtoplay_button_resume" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="3"><![CDATA[Resume]]></string>
+  <string id="ui_hs_title" fontName="Tiki-Island" fontSize="45" charSpace="0" lineSpace="0" catID="4"><![CDATA[Leaderboard]]></string>
+  <string id="ui_hs_back" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="4"><![CDATA[Back]]></string>
+  <string id="ui_hs_button_submit" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="4"><![CDATA[Submit%20Score]]></string>
+  <string id="ui_hs_levelLabel" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="4"><![CDATA[Level%20%24levelID%24%20%3A%20]]></string>
+  <string id="ui_hs_allLabel" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="4"><![CDATA[%24levelsScores%24Total%20%3A%20]]></string>
+  <string id="ui_hs_allScore" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="4"><![CDATA[%24value%24]]></string>
+  <string id="ui_hs_board_rank" fontName="Tiki-Island" fontSize="12" charSpace="0" lineSpace="0" catID="4"><![CDATA[%24value%24]]></string>
+  <string id="ui_hs_board_name" fontName="Tiki-Island" fontSize="12" charSpace="0" lineSpace="0" catID="4"><![CDATA[%24value%24]]></string>
+  <string id="ui_hs_board_score" fontName="Tiki-Island" fontSize="12" charSpace="0" lineSpace="0" catID="4"><![CDATA[%24value%24]]></string>
+  <string id="ui_hs_board_info_wait" fontName="Tiki-Island" fontSize="12" charSpace="0" lineSpace="0" catID="4"><![CDATA[The%20High%20Scores%20list%20is%20updating%21]]></string>
+  <string id="ui_hs_board_info_error" fontName="Tiki-Island" fontSize="12" charSpace="0" lineSpace="0" catID="4"><![CDATA[Oops%21%20The%20High%20Scores%20list%20is%20not%20available%20right%20now%21]]></string>
+  <string id="ui_hs_board_info_empty" fontName="Tiki-Island" fontSize="12" charSpace="0" lineSpace="0" catID="4"><![CDATA[No%20high%20score%20yet%21%20What%20are%20you%20waiting%20for%3F]]></string>
+  <string id="ui_hud_button_menu" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="5"><![CDATA[Menu]]></string>
+  <string id="ui_hud_score" fontName="Tiki-Island" fontSize="27" charSpace="0" lineSpace="0" catID="5"><![CDATA[Score%20%3A%20%24value%24]]></string>
+  <string id="ui_hud_ammo" fontName="Tiki-Island" fontSize="27" charSpace="0" lineSpace="0" catID="5"><![CDATA[x%20%24value%24]]></string>
+  <string id="ui_hud_timer" fontName="Tiki-Island" fontSize="27" charSpace="0" lineSpace="0" catID="5"><![CDATA[%20%24value%24]]></string>
+  <string id="ui_hud_lives" fontName="Tiki-Island" fontSize="27" charSpace="0" lineSpace="0" catID="5"><![CDATA[x%20%24value%24]]></string>
+  <string id="ui_floatingPoints" fontName="Tiki-Island" fontSize="27" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24%20PTS]]></string>
+  <string id="ui_lifeUp" fontName="Tiki-Island" fontSize="27" charSpace="0" lineSpace="0" catID="5"><![CDATA[Life%20UP]]></string>
+  <string id="ui_goldenJelly" fontName="Tiki-Island" fontSize="27" charSpace="0" lineSpace="0" catID="5"><![CDATA[Golden%20Jellyfish%3Cbr%3E%24collected%24/%24total%24]]></string>
+  <string id="ui_popup_menu_title" fontName="Tiki-Island" fontSize="44" charSpace="0" lineSpace="0" catID="6"><![CDATA[Menu]]></string>
+  <string id="ui_popup_menu_vol_music_label" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="6"><![CDATA[Music%20volume]]></string>
+  <string id="ui_popup_menu_vol_music_value" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="6"><![CDATA[%24value%24]]></string>
+  <string id="ui_popup_menu_vol_sounds_label" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="6"><![CDATA[Sounds%20volume]]></string>
+  <string id="ui_popup_menu_vol_sounds_value" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="6"><![CDATA[%24value%24]]></string>
+  <string id="ui_popup_menu_button_resume" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="6"><![CDATA[Resume]]></string>
+  <string id="ui_popup_menu_button_quit" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="6"><![CDATA[Quit]]></string>
+  <string id="ui_popup_menu_button_howtoplay" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="6"><![CDATA[How%20to%20Play]]></string>
+  <string id="ui_popup_preBoss_1_6_title" fontName="Tiki-Island" fontSize="44" charSpace="0" lineSpace="0" catID="3"><![CDATA[What%27s%20Plankton%20up%20to%3F]]></string>
+  <string id="ui_popup_preBoss_1_6_text1" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[What%27s%20he%20doing%20to%20all%20those%20jellyfish%3F]]></string>
+  <string id="ui_popup_preBoss_1_6_text2" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="3"><![CDATA[Strike%20the%20jellyfishes%20back%20to%20Plankton%20to%20stop%20him%21]]></string>
+  <string id="ui_popup_preBoss_2_6_title" fontName="Tiki-Island" fontSize="40" charSpace="0" lineSpace="0" catID="3"><![CDATA[Warning%21%21%21%20Construction%20zone%20ahead%21%21%21]]></string>
+  <string id="ui_popup_preBoss_2_6_text1" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Stop%20Plankton%20from%20destroying%20Jellyfish%20Fields%20with%20his%20demolition%20machine%21]]></string>
+  <string id="ui_popup_preBoss_2_6_text2" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="3"><![CDATA[It%uFFE2%uFF80%uFF99s%20now%20or%20never%21%20Put%20Plankton%20and%20his%20bulldozer%20out%20of%20business%20and%20SAVE%20Jellyfish%20Fields%21]]></string>
+  <string id="ui_popup_preLevel_button_play" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="3"><![CDATA[Play]]></string>
+  <string id="ui_popup_preLevel_title" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Are%20you%20ready%3F]]></string>
+  <string id="ui_popup_preLevel_text1" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="3"><![CDATA[Catch%20pink%20Jellyfishes%20and%20use%20them%20against%20your%20enemies.]]></string>
+  <string id="ui_popup_preLevel_text2" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="3"><![CDATA[Beware%20of%20purple%20and%20blue%20Jellyfishes.]]></string>
+  <string id="ui_popup_preLevel_text3" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="3"><![CDATA[Reach%20the%20flag%20before%20time%20runs%20out%21]]></string>
+  <string id="ui_popup_preLevel_text4" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="3"><![CDATA[Psst%21%20Collect%20all%203%20golden%20jellyfishes%20in%20each%20level%20to%20get%20a%20big%20bonus%21]]></string>
+  <string id="ui_popup_control_title" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Controls]]></string>
+  <string id="ui_popup_control_text1" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="3"><![CDATA[Jump]]></string>
+  <string id="ui_popup_control_text2" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="3"><![CDATA[Move]]></string>
+  <string id="ui_popup_control_text3" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="3"><![CDATA[Throw]]></string>
+  <string id="ui_popup_control_text4" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="3"><![CDATA[Catch]]></string>
+  <string id="ui_popup_hint_title" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Hints]]></string>
+  <string id="ui_popup_hint_text1" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="3"><![CDATA[You%20can%20jump%20again%20once%20in%20mid-air]]></string>
+  <string id="ui_popup_patrickInfo_textTitle" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Stomp]]></string>
+  <string id="ui_popup_patrickInfo_textInfo" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="3"><![CDATA[Use%20this%20power%20to%20break%20walls%20and%20disband%20schools%20of%20fish.]]></string>
+  <string id="ui_popup_sbInfo_textTitle" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Crouch]]></string>
+  <string id="ui_popup_sbInfo_textInfo" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="3"><![CDATA[Use%20this%20power%20to%20make%20your%20way%20through%20tight%20openings.]]></string>
+  <string id="ui_popup_squidInfo_textTitle" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Glide]]></string>
+  <string id="ui_popup_squidInfo_textInfo" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="3"><![CDATA[Use%20this%20power%20to%20fly%20up%20on%20geysers%20and%20float%20shortly%20in%20mid-air.]]></string>
+  <string id="ui_popup_levelStats_title" fontName="Tiki-Island" fontSize="44" charSpace="0" lineSpace="0" catID="6"><![CDATA[Level%20Stats]]></string>
+  <string id="ui_popup_levelStats_text" fontName="Tiki-Island" fontSize="50" charSpace="0" lineSpace="0" catID="6"><![CDATA[AWESOME%21]]></string>
+  <string id="ui_popup_levelStats_levelCompleted" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="6"><![CDATA[Level%20completed%20%3A%20]]></string>
+  <string id="ui_popup_levelStats_jellyCaught" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="6"><![CDATA[Jellyfish%20caught%20%3A%20]]></string>
+  <string id="ui_popup_levelStats_RemainingTime" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="6"><![CDATA[Remaning%20time%20%3A]]></string>
+  <string id="ui_popup_levelStats_goldenJelly" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="6"><![CDATA[Golden%20Jellyfish%20found%20%3A]]></string>
+  <string id="ui_popup_levelStats_Total" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="6"><![CDATA[Total%20%3A]]></string>
+  <string id="ui_popup_levelStats_scoreDisplay" fontName="Tiki-Island" fontSize="35" charSpace="0" lineSpace="0" catID="6"><![CDATA[%24value%24]]></string>
+  <string id="ui_popup_levelStats_button_next" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="6"><![CDATA[Next]]></string>
+  <string id="ui_popup_quit_title" fontName="Tiki-Island" fontSize="44" charSpace="0" lineSpace="0" catID="6"><![CDATA[Quit]]></string>
+  <string id="ui_popup_quit_text" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="6"><![CDATA[Are%20you%20sure%20you%20want%20to%20quit%3F]]></string>
+  <string id="ui_popup_quit_button_yes" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="6"><![CDATA[Yes]]></string>
+  <string id="ui_popup_quit_button_no" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="6"><![CDATA[No]]></string>
+  <string id="ui_popup_text_timeUp" fontName="Tiki-Island" fontSize="70" charSpace="0" lineSpace="0" catID="6"><![CDATA[Time%27s%20up%21]]></string>
+  <string id="ui_popup_text_gameover" fontName="Tiki-Island" fontSize="70" charSpace="0" lineSpace="0" catID="6"><![CDATA[Game%20Over]]></string>
+  <string id="ui_popup_code_title" fontName="Tiki-Island" fontSize="44" charSpace="0" lineSpace="0" catID="1"><![CDATA[Enter%20a%20Code]]></string>
+  <string id="ui_popup_code_button_yes" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="1"><![CDATA[Submit]]></string>
+  <string id="ui_popup_code_button_no" fontName="Tiki-Island" fontSize="25" charSpace="0" lineSpace="0" catID="1"><![CDATA[Back]]></string>
+  <string id="ui_popup_code_input" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="1"><![CDATA[]]></string>
+  <string id="ui_popup_code_notice1" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="1"><![CDATA[To%20get%20the%20code%20and%20save%20Jellyfish%20Fields%20join%20the%20Big%20Help%20on%20Earth%20Day%20April%2022nd%2C%20at%20%3Cu%3E%3Ca%20href%3D%22http%3A//thebighelp.com%22%20target%3D%22_blank%22%3Ethebighelp.com%3C/a%3E%3C/u%3E.%3Cbr%3E]]></string>
+  <string id="ui_popup_code_notice2" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="1"><![CDATA[And%20tune%20in%20to%20see%20SpongeBob%27s%20Last%20Stand%20on%204/22%2C%20ONLY%20on%20Nick%21]]></string>
+  <categories>
+    <category id="0">Loading</category>
+    <category id="1">Title</category>
+    <category id="2">Player%20Select</category>
+    <category id="3">How%20to%20play</category>
+    <category id="4">Leaderboard</category>
+    <category id="5">Game%20and%20Hud</category>
+    <category id="6">InGame%20Menus</category>
+  </categories>
+</strings>

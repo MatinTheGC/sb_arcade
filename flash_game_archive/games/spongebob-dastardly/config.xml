@@ -1,0 +1,31 @@
+<config>
+	<hit_damage>150</hit_damage> <!-- default damage-->
+	<skull_candy_hit_damage>75</skull_candy_hit_damage>
+	<hit_knockback_distance>25</hit_knockback_distance> <!-- number of pixels to knock back when hit-->
+	<hit_invincible_duration>15</hit_invincible_duration> <!-- number of frames that char is unhittable after a hit-->
+	<player_candy>20</player_candy><!-- how much candy to start with-->
+	<player_candy_hold>20</player_candy_hold><!-- how much candy can I hold to start with?-->
+	<player_x_release_speed>10</player_x_release_speed>
+	<player_y_release_speed>-5</player_y_release_speed>
+	<player_jump_speed>15</player_jump_speed><!-- player jump power-->
+	<friction_h>0.75</friction_h>;<!-- horizontal drag/friction multiplier  when objects bounce 0 to 1.0 (0.8)-->
+	<friction_v>0.5</friction_v>;<!-- vertical drag/friction multiplier  when objects bounce 0 to 1.0  (0.6)-->
+	<powerup_lifespan>35</powerup_lifespan><!-- number of frames before powerup icons disappear  -->
+	<cloud_attack_lifespan>200</cloud_attack_lifespan>
+	<pow_powerup_candy_count>25</pow_powerup_candy_count>
+	
+	<opponant_start_speed>6</opponant_start_speed>
+	<opponant_top_speed>18</opponant_top_speed>
+	<opponant_speed_increment>0.5</opponant_speed_increment>
+	<opponant_ai_delay>30</opponant_ai_delay><!-- number of frame before opponant makes a decision - set this per level also -->
+	<opponant_attack_range_horizontal>8</opponant_attack_range_horizontal><!-- number of tiles in which opponat will attack -->
+	<opponant_attack_range_vertical>8</opponant_attack_range_vertical><!-- this is in each direction from the opponant -->
+	<opponant_ai_range_horizontal>2</opponant_ai_range_horizontal><!-- number of tiles in which opponant will force an AI cycle if idle -->
+	<opponant_ai_range_vertical>2</opponant_ai_range_vertical><!-- this is in each direction from the opponant -->
+	
+	<pirate_mode_appear>500</pirate_mode_appear><!-- when does the hat show up? number of frames-->
+	<pirate_mode_duration>200</pirate_mode_duration><!-- number of frames the hat stays on screen -->
+	
+	<nick_emulation>false</nick_emulation>
+	
+</config>

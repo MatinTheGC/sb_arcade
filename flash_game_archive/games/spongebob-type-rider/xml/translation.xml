@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's tag-->
+<!-- english, when set to TRUE, ignores all localization and uses the default field data in the FLA.-->
+
+<!-- <Node Attributes> -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the defaul size in the FLA.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the defaul font (specified by defaultFont).-->
+<!-- id is not Optional. It determines where flash places the text.-->
+<strings defaultFont="Latin" english="true">
+	<!--Preloader-->
+	<string id="loading"	fontName="Latin"	fontSize="16"	><![CDATA[Loading]]></string>
+	<!--Basics-->
+	<string id="title"		fontName="Latin"	><![CDATA[GAME NAME]]></string>	
+	<string id="play"		fontName="Latin"	fontSize="16"	><![CDATA[Play]]></string>
+	<string id="play_again"	fontName="Latin"	fontSize="16"	><![CDATA[Try Again]]></string>	
+	<string id="how_to_play"fontName="Latin"	fontSize="16"	><![CDATA[How to Play]]></string>
+	<string id="next"		fontName="Latin"	fontSize="16"	><![CDATA[Next]]></string>
+	<string id="back"		fontName="Latin"	fontSize="16"	><![CDATA[Back to Game]]></string>
+	<string id="continue"	fontName="Latin"	fontSize="16"	><![CDATA[Continue]]></string>
+	<string id="close"		fontName="Latin"	fontSize="16"	><![CDATA[close]]></string>
+	<string id="printable"	fontName="Latin"	fontSize="16"	><![CDATA[Printable]]></string>
+	<!--Game Buttons-->
+	<string id="menu"		fontName="Latin"	fontSize="16"	><![CDATA[?]]></string>
+	<string id="help"		fontName="Latin"	fontSize="16"	><![CDATA[How to Play]]></string>
+	<string id="sound_on"	fontName="Latin"	fontSize="16"	><![CDATA[Sound On]]></string>
+	<string id="sound_off"	fontName="Latin"	fontSize="16"	><![CDATA[Sound Off]]></string>
+	<string id="resume"		fontName="Latin"	fontSize="16"	><![CDATA[Resume]]></string>
+	<!--Quit-->
+	<string id="quit"		fontName="Latin"	fontSize="16"	><![CDATA[Quit]]></string>
+	<string id="quit_confirm_header"	fontName="Latin"	fontSize="16"><![CDATA[Are you sure you want to quit?]]></string>
+	<string id="yes"		fontName="Latin"	fontSize="16"	><![CDATA[Yes]]></string>
+	<string id="no"			fontName="Latin"	fontSize="16"	><![CDATA[No]]></string>
+	<!--Gameplay-->
+	<string id="level"		fontName="Latin"	fontSize="16"	><![CDATA[Level]]></string>
+	<string id="score"		fontName="Latin"	fontSize="16"	><![CDATA[Score]]></string>	
+	<string id="paused"		fontName="Latin"	fontSize="16"	><![CDATA[Paused]]></string>
+	<string id="level_up"	fontName="Latin"	fontSize="16"	><![CDATA[Level Up]]></string>
+	<string id="game_over"	fontName="Latin"	fontSize="16"	><![CDATA[Game Over]]></string>	
+	<!--Leaderboard-->
+	<string id="you"		fontName="Latin"	fontSize="16"	><![CDATA[You: ]]></string>
+	<string id="top"		fontName="Latin"	fontSize="16"	><![CDATA[Top]]></string>	
+	<string id="leaderboard"	fontName="Latin"	fontSize="16"><![CDATA[Leaderboard]]></string>
+	<string id="submit_score"	fontName="Latin"	fontSize="16"><![CDATA[Submit Score]]></string>	
+	<!-- Copy/Body -->
+	<string id="help_copy"	fontName="Latin"	fontSize="16"><![CDATA[HELP COPY]]></string>
+	<string id="watch"		fontName="Latin"	fontSize="16"	><![CDATA[Watch 'Show Name' on]]></string>
+	<!-- Skill Levels -->
+	<string id="what_skill_level"	fontName="Latin"	fontSize="16"><![CDATA[WHAT KIND OF TYPER ARE YOU?]]></string>
+	<string id="easy"	fontName="Latin"	fontSize="16"><![CDATA[Beginner]]></string>
+	<string id="medium"	fontName="Latin"	fontSize="16"><![CDATA[Novice]]></string>
+	<string id="hard"	fontName="Latin"	fontSize="16"><![CDATA[Pro]]></string>
+</strings>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's tag-->
+<!-- english, when set to TRUE, ignores all localization and uses the default field data in the FLA.-->
+
+<!-- <Node Attributes> -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the defaul size in the FLA.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the defaul font (specified by defaultFont).-->
+<!-- id is not Optional. It determines where flash places the text.-->
+
+<!-- <<<GHOSTLY GRAMMAR NOTES>>> : -->
+<!-- the following three <string> elements should only contain dummy text for content (they will be cleared when the game starts), they are only used to change the font/font-size of the dynamic gameplay text-boxes : -->
+<!-- "word_display_grid" : the font/fontSize of the text on the game grid -->
+<!-- "word_display_hud" : the font/fontSize of the "rhymes with" level word in the gameplay HUD (on the right of the screen) -->
+<!-- "word_display_popup" : the font/fontSize of the text on the pop-up screen that displays before each level -->
+<!-- How to Localize Gameplay Words (xml/config.xml) : -->
+<!-- The words used for gameplay are found in the config.xml. For each level, the game selects one 'pool' of rhyming words and one word from that pool as the "rhymes with" word. -->
+<!-- The grid is populated with correct words (from the level word pool) + a random selection of words from all of the other word pools-->
+<!-- Each <pool> element should contain a string of rhyming words separated by a comma (no spaces)
+<!-- Word-pools that use non-Latin fonts must be formatted with the CDATA tag wrapping the entire string -->
+<!-- (EXAMPLE USING Latin : <pool><![CDATA[?,?,?,?]]></pool>) -->
+<!-- To avoid excessive repetition in levels, fill each pool with as many rhyming words as possible -->
+
+
+<strings defaultFont="Latin" english="false">
+	<!-- MainScreen -->
+	<string id="TitlePrefixMC"				fontName="BangersFont"> <![CDATA[THE]]> </string>
+	<string id="TitleMC"					fontName="BangersFont"> <![CDATA[QUICKSTER]]> </string>
+	
+	<string id="PlayBTN_Up"					fontName="RumpelstiltskinFont"> <![CDATA[Play]]> </string>
+	<string id="PlayBTN_Over"				fontName="RumpelstiltskinFont"> <![CDATA[Play]]> </string>
+	<string id="PlayBTN_Down"				fontName="RumpelstiltskinFont"> <![CDATA[Play]]> </string>
+	
+	<string id="EnterCodeBTN_Up"			fontName="BangersFont"> <![CDATA[Enter Code]]> </string>
+	<string id="EnterCodeBTN_Over"			fontName="BangersFont"> <![CDATA[Enter Code]]> </string>
+	<string id="EnterCodeBTN_Down"			fontName="BangersFont"> <![CDATA[Enter Code]]> </string>
+	
+	<string id="EnterBTN_Up"				fontName="BangersFont"> <![CDATA[Enter]]> </string>
+	<string id="EnterBTN_Over"				fontName="BangersFont"> <![CDATA[Enter]]> </string>
+	<string id="EnterBTN_Down"				fontName="BangersFont"> <![CDATA[Enter]]> </string>
+	
+	<!-- Instructions -->
+	<string id="InstructionsTextMC"			fontName="RumpelstiltskinFont"> <![CDATA[Instructions]]> </string>
+	<string id="ResolutionTextMC"			fontName="RumpelstiltskinFont"> <![CDATA[Resolution]]> </string>
+	<string id="ResolutionText2MC"			fontName="RumpelstiltskinFont"> <![CDATA[I Promise to  Practice being a]]> </string>
+	<string id="ResolutionText3MC"			fontName="RumpelstiltskinFont"> <![CDATA[Super Hero]]> </string>
+	
+	<string id="AvoidLavaTextMC"			fontName="RumpelstiltskinFont"> <![CDATA[Avoid Hot Lava]]> </string>
+	<string id="RaftsTextMC"				fontName="RumpelstiltskinFont"> <![CDATA[Rafts Give An extra Chance]]> </string>
+	<string id="SpaceOrClickTextMC"			fontName="RumpelstiltskinFont"> <![CDATA[Spacebar or Click To Jump]]> </string>
+	
+	<!-- Game Over -->
+	<string id="GameTextMC"					fontName="RumpelstiltskinFont"> <![CDATA[Game]]> </string>
+	<string id="OverTextMC"					fontName="RumpelstiltskinFont"> <![CDATA[Over]]> </string>
+	
+	<!-- Game -->
+	<string id="DistanceTextMC"				fontName="RumpelstiltskinFont"> <![CDATA[Distance]]> </string>
+	
+	<!-- Quit Game Prompt -->
+	<string id="QuitGameTextMC"				fontName="RumpelstiltskinFont"> <![CDATA[Quit Game]]> </string>
+	<string id="AreU_SureTextMC"			fontName="RumpelstiltskinFont"> <![CDATA[Are you sure?]]> </string>
+	
+	<string id="YesBTN_Up"					fontName="RumpelstiltskinFont"> <![CDATA[Yes]]> </string>
+	<string id="YesBTN_Over"				fontName="RumpelstiltskinFont"> <![CDATA[Yes]]> </string>
+	<string id="YesBTN_Down"				fontName="RumpelstiltskinFont"> <![CDATA[Yes]]> </string>
+	
+	<string id="NoBTN_Up"					fontName="RumpelstiltskinFont"> <![CDATA[No]]> </string>
+	<string id="NoBTN_Over"					fontName="RumpelstiltskinFont"> <![CDATA[No]]> </string>
+	<string id="NoBTN_Down"					fontName="RumpelstiltskinFont"> <![CDATA[No]]> </string>
+	
+	<!-- Enter Code -->
+	<string id="EnterCodeTextMC"			fontName="BangersFont"> <![CDATA[Enter Code!]]> </string>
+	<string id="EnterCodeBelowTextMC"		fontName="BangersFont"> <![CDATA[Enter Code In The Box Below!]]> </string>
+	<string id="CodeAcceptedTextMC"			fontName="BangersFont"> <![CDATA[Code Accepted]]> </string>
+	<string id="InvalidCodeTextMC"			fontName="BangersFont"> <![CDATA[Invalid Code]]> </string>
+	
+	<!-- End Screen -->
+	<string id="FinalScoreTextMC"			fontName="RumpelstiltskinFont"> <![CDATA[Final Score]]> </string>
+	<string id="DistanceTraveledTextMC"		fontName="RumpelstiltskinFont"> <![CDATA[Distance Travelled]]> </string>
+	<string id="CoinsCollectedTextMC"		fontName="RumpelstiltskinFont"> <![CDATA[Coins Collected]]> </string>
+	<string id="RaftsCollectedTextMC"		fontName="RumpelstiltskinFont"> <![CDATA[Rafts Collected]]> </string>
+	<string id="MaxSpeedTextMC"				fontName="RumpelstiltskinFont"> <![CDATA[Maximum Speed Reached]]> </string>
+	<string id="TotalScoreTextMC"			fontName="RumpelstiltskinFont"> <![CDATA[Total Score]]> </string>
+	
+	<!-- The leader board button contains 2 text fields for the "Leader" and the "Board" words -->
+	<string id="LeaderTextMC"				fontName="RumpelstiltskinFont"> <![CDATA[Leader]]> </string>
+	<string id="BoardTextMC"				fontName="RumpelstiltskinFont"> <![CDATA[Board]]> </string>
+	
+	<!-- The play again button contains 2 text fields for the "Play" and the "Again" words -->
+	<string id="PlayTextMC"					fontName="RumpelstiltskinFont"> <![CDATA[Play]]> </string>
+	<string id="AgainTextMC"				fontName="RumpelstiltskinFont"> <![CDATA[Again]]> </string>
+	
+	<!-- Leaderboard -->
+	<string id="LeaderboardTextMC"			fontName="SFSlapstickComicFont"> <![CDATA[Leaderboard]]> </string>
+	
+	<!-- The submit score button contains 2 text fields for the "Submit" and the "Score" words -->
+	<string id="SubmitTextMC"				fontName="RumpelstiltskinFont"> <![CDATA[Submit]]> </string>
+	<string id="ScoreTextMC"				fontName="RumpelstiltskinFont"> <![CDATA[Score]]> </string>
+	
+</strings>

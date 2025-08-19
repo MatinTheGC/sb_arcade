@@ -1,0 +1,153 @@
+<!-- *********** INSTRUCTIONS *********** -->
+<!-- for each lines : -->
+<!-- id should not be changed -->
+<!-- change fontName to use another font -->
+<!-- -make sure this font is in locale/***/fonts/font.swf and fonts.xml -->
+<!-- change fontSize to reduce/expand font size to fit the textfield -->
+<!-- set html to true or false if you wish the text to be rendered as html -->
+<!-- insert the text within the <![CDATA[TEXT HERE]]> brackets -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<!-- Loading screen -->
+	<string id="ui_loading_label"				fontName="Tiki-Island"		fontSize="40"	html="false"><![CDATA[Night is falling]]></string>
+	<string id="ui_loading_building"			fontName="Tiki-Island"		fontSize="40"	html="false"><![CDATA[The creatures are stirring]]></string>
+	<string id="ui_loading_optimizing"			fontName="Tiki-Island"		fontSize="40"	html="false"><![CDATA[Night is falling]]></string>
+	<string id="ui_loading_progress"			fontName="Tiki-Surf"		fontSize="40"	html="false"><![CDATA[$value$]]></string>
+
+	<!-- Title screen -->
+	<string id="ui_title_Text_p1"				fontName="Baron Kuffner"	fontSize="86"	html="false"><![CDATA[HALLOWEEN]]></string>
+	<string id="ui_title_Text_p2"				fontName="Baron Kuffner"	fontSize="86"	html="false"><![CDATA[HORROR]]></string>
+	<string id="ui_title_Text_p3"				fontName="Bolide"			fontSize="42"	html="false"><![CDATA[FrankenBob's Quest]]></string>
+	<string id="ui_title_Text_p4"				fontName="Bolide"			fontSize="42"	html="false"><![CDATA[part 1]]></string>
+	<string id="ui_title_Text_p5"				fontName="Bolide"			fontSize="42"	html="false"><![CDATA[part 2]]></string>
+	<string id="ui_title_button_play"			fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Play]]></string>
+	<string id="ui_title_button_howtoplay"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[How to Play]]></string>
+	<string id="ui_title_button_viewhs"			fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Leaderboard]]></string>
+	
+	<!-- StoryLine -->
+	<string id="ui_StoryLine_title_1"			fontName="Tiki-Surf"		fontSize="50"	html="false"><![CDATA[How it all began...]]></string>
+	<string id="ui_StoryLine_1"					fontName="Tiki-Surf"		fontSize="25"	html="false"><![CDATA[It's Halloween eve, and the sun is setting on Bikini Bottom. In the dim light, something ghastly is taking place...the whole town is transforming! Streets are turning into graveyards, sunken pirate ships are popping up all over town, and all the residents of Bikini Bottom are acting very strangely...Madness, you say? Welcome to Inikib Mottob!]]></string>
+	<string id="ui_StoryLine_title_2"			fontName="Tiki-Surf"		fontSize="50"	html="false"><![CDATA[The story so far...]]></string>
+	<string id="ui_StoryLine_2"					fontName="Tiki-Surf"		fontSize="25"	html="false"><![CDATA[Midnight is fast approaching and unless FrankenBob can figure out who is behind this creepy chaos; Bikini Bottom will be doomed! <br><br>There is no time to lose; FrankenBob must press forward deep into Inikib Mottob and find the culprit!]]></string>
+	
+	<!-- How to play screen -->
+	<string id="ui_howtoplay_title"				fontName="Tiki-Surf"		fontSize="50"	html="false"><![CDATA[How To Play]]></string>
+	<string id="ui_howtoplay_Help_1"			fontName="Tiki-Surf"		fontSize="30"	html="false"><![CDATA[You control FrankenBob!]]></string>
+	<string id="ui_howtoplay_Help_2"			fontName="Tiki-Surf"		fontSize="25"	html="false"><![CDATA[To Walk.]]></string>
+	<string id="ui_howtoplay_Help_3"			fontName="Tiki-Surf"		fontSize="25"	html="false"><![CDATA[To Jump.]]></string>
+	<string id="ui_howtoplay_Help_4"			fontName="Tiki-Surf"		fontSize="25"	html="false"><![CDATA[To Crouch.]]></string>
+	<string id="ui_howtoplay_Help_5"			fontName="Tiki-Island"		fontSize="12"	html="false"><![CDATA[SPACEBAR]]></string>
+	<string id="ui_howtoplay_Help_6"			fontName="Tiki-Surf"		fontSize="25"	html="false"><![CDATA[To Attack.]]></string>
+	<string id="ui_howtoplay_Help_7"			fontName="Tiki-Surf"		fontSize="25"	html="false"><![CDATA[To use the secondary attack.]]></string>
+	<string id="ui_howtoplay_Help_9"			fontName="Tiki-Surf"		fontSize="25"	html="false"><![CDATA[To Move.]]></string>
+	<string id="ui_howtoplay_Help_10"			fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Z]]></string>
+	
+	<string id="ui_howtoPlay_ooze_title"		fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Special Weapon : Sticky Ooze]]></string>
+	<string id="ui_howtoPlay_ooze_text"			fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Collect them throughout Inikib Mottob and tap Z to throw at enemies out of your reach.]]></string>
+	<string id="ui_howtoPlay_dash_title"		fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Secret Ability : Dash]]></string>
+	<string id="ui_howtoPlay_dash_text"			fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Double tap on the direction arrow to perform a dash attack. It can hurt enemies and break some walls]]></string>
+	<string id="ui_howtoPlay_jump_title"		fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Secret Ability : Double Jump]]></string>
+	<string id="ui_howtoPlay_jump_text"			fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Tap the UP arrow twice while in mid-air to perform a second jump and reach higher grounds.]]></string>
+	<string id="ui_howtoPlay_lightning_title"	fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Special Weapon : Lightning Spike]]></string>
+	<string id="ui_howtoPlay_lightning_text"	fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Collect them throughout Inikib Mottob and tap Z to cast a bolt that heals you and hurt your opponents.]]></string>
+	<string id="ui_howtoPlay_superSpike_title"	fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Special Weapon : Super Spike]]></string>
+	<string id="ui_howtoPlay_superSpike_text"	fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Collect them throughout Inikib Mottob and tap Z to use. It packs quite a punch against stronger enemies.]]></string>
+	<string id="ui_howtoPlay_airDash_title"		fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Secret Ability : Air Dash]]></string>
+	<string id="ui_howtoPlay_airDash_text"		fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Double tap on the direction arrow while in mid-air to perform a dash attack. Use it to access new area.]]></string>
+	
+	<string id="ui_story_page4_title"			fontName="Tiki-Surf"		fontSize="50"	html="false"><![CDATA[Special Abilities]]></string>
+	<string id="ui_story_page4_dash_title"		fontName="Tiki-Island"		fontSize="26"	html="false"><![CDATA[Dash]]></string>
+	<string id="ui_story_page4_dash_text"		fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Double tap on the direction arrow to perform a dash attack. It can hurt enemies and break some walls.]]></string>
+	<string id="ui_story_page4_jump_title"		fontName="Tiki-Island"		fontSize="26"	html="false"><![CDATA[Double jump]]></string>
+	<string id="ui_story_page4_jump_text"		fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[Tap the UP arrow twice while in mid-air to perform a second jump and reach higher grounds.]]></string>
+	
+	<string id="ui_howtoplay_button_back"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Back]]></string>
+	<string id="ui_howtoplay_button_next"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Next]]></string>
+	<string id="ui_howtoplay_button_play"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Play]]></string>
+	<string id="ui_howtoplay_button_skip"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Skip]]></string>
+	<string id="ui_howtoplay_button_resume"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Resume]]></string>
+
+	<!-- Win screen -->
+	<string id="ui_win_title"					fontName="Tiki-Surf"		fontSize="50"	html="false"><![CDATA[You Win!]]></string>
+	<string id="ui_win_text_1_part1"			fontName="Tiki-Surf"		fontSize="25"	html="false"><![CDATA[You defeated Gary's doppelganger, Gary-zilla, and returned Gary back to normal!]]></string>
+	<string id="ui_win_text_2_part1"			fontName="Tiki-Surf"		fontSize="25"	html="false"><![CDATA[But what about the rest of Bikini Bottom...or should we say Inikib Mottob! Who's behind all this? Can you save everyone in time? Are you wearing clean socks?!]]></string>
+	<string id="ui_win_text_1_part2"			fontName="Tiki-Surf"		fontSize="25"	html="false"><![CDATA[You foiled Planktons HORROR-ible plot to change Bikini Bottom into a twisted place where everyone loves eating at the Chum Bucket! Sorry Plankton, nothin' beats a krabby patty...or SpongeBob!]]></string>
+	<string id="ui_win_score"					fontName="Tiki-Surf"		fontSize="40"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_win_button_playagain"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Play Again]]></string>
+	<string id="ui_win_button_hs_view"			fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Leaderboard]]></string>
+	<string id="ui_win_button_hs_submit"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Submit Score]]></string>
+	
+	<!-- Lose screen -->
+	<string id="ui_lose_title"					fontName="Tiki-Surf"		fontSize="40"	html="false"><![CDATA[You Lose!]]></string>
+	<string id="ui_lose_score"					fontName="Tiki-Surf"		fontSize="40"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_lose_text_part1"				fontName="Tiki-Surf"		fontSize="30"	html="false"><![CDATA[Don't give up now, FrankenBob!  All of Bikini Bottom is counting on you!]]></string>
+	<string id="ui_lose_text_part2"				fontName="Tiki-Surf"		fontSize="30"	html="false"><![CDATA[Don't give up now, FrankenBob!  All of Bikini Bottom is counting on you!]]></string>
+	<string id="ui_lose_button_tryagain"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Try Again]]></string>
+	<string id="ui_lose_button_hs_view"			fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Leaderboard]]></string>
+	<string id="ui_lose_button_hs_submit"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Submit Score]]></string>
+	<string id="ui_lose_button_print"			fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Printable]]></string>
+	
+	<!-- HighScores Screen -->
+	<string id="ui_hs_title"					fontName="Tiki-Surf"		fontSize="50"	html="false"><![CDATA[Leaderboard]]></string>
+	<string id="ui_hs_back"						fontName="Tiki-Surf"		fontSize="16"	html="false"><![CDATA[Back]]></string>
+	<string id="ui_hs_button_playagain"			fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Play Again]]></string>
+	<string id="ui_hs_button_tryagain"			fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Try Again]]></string>
+	<string id="ui_hs_button_submit"			fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Submit Score]]></string>
+	<string id="ui_hs_playerscore"				fontName="Tiki-Island"		fontSize="40"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_hs_board_rank"				fontName="Trebuchet MS"		fontSize="12"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_hs_board_name"				fontName="Trebuchet MS"		fontSize="12"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_hs_board_score"				fontName="Trebuchet MS"		fontSize="12"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_hs_board_info_wait"			fontName="Trebuchet MS"		fontSize="12"	html="false"><![CDATA[The High Scores list is updating!]]></string>
+	<string id="ui_hs_board_info_error"			fontName="Trebuchet MS"		fontSize="12"	html="false"><![CDATA[Oops! The High Scores list is not available right now!]]></string>
+	<string id="ui_hs_board_info_empty"			fontName="Trebuchet MS"		fontSize="12"	html="false"><![CDATA[No high score yet! What are you waiting for?]]></string>
+	
+	<!-- HUD -->
+	<string id="ui_hud_button_menu"				fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Menu]]></string>
+	<string id="ui_hud_score"					fontName="Tiki-Island"		fontSize="27"	html="false"><![CDATA[$value$]]></string>
+	<string id="ui_hud_lives"					fontName="Tiki-Island"		fontSize="22"	html="false"><![CDATA[X $value$]]></string>
+	<string id="ui_floatingPoints"				fontName="Tiki-Island"		fontSize="27"	html="false"><![CDATA[$value$ PTS]]></string>
+	<string id="ui_lifeUp"						fontName="Tiki-Island"		fontSize="27"	html="false"><![CDATA[Life UP]]></string>
+	
+	<!-- Menu Pop-up -->
+	<string id="ui_popup_menu_title"			fontName="Tiki-Surf"		fontSize="50"	html="false"><![CDATA[Menu]]></string>
+	<string id="ui_popup_menu_vol_music_label"	fontName="Tiki-Surf"		fontSize="16"	html="false"><![CDATA[Music volume]]></string>
+	<string id="ui_popup_menu_vol_music_value"	fontName="Tiki-Surf"		fontSize="16"	html="false"><![CDATA[$value$]]></string>
+	
+	<string id="ui_popup_menu_vol_sounds_label"	fontName="Tiki-Surf"		fontSize="16"	html="false"><![CDATA[Sounds volume]]></string>
+	<string id="ui_popup_menu_vol_sounds_value"	fontName="Tiki-Surf"		fontSize="16"	html="false"><![CDATA[$value$]]></string>
+	
+	
+	<string id="ui_popup_menu_button_resume"	fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Resume]]></string>
+	<string id="ui_popup_menu_button_quit"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Quit]]></string>
+	<string id="ui_popup_menu_button_howtoplay"	fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[How to Play]]></string>
+	
+	<!-- Ability Popup -->
+	<string id="ui_popup_Ability_title"			fontName="Tiki-Surf"		fontSize="40"	html="false"><![CDATA[New Ability]]></string>
+	
+	<string id="ui_popup_Ability_unlock_Dash_1"	fontName="Tiki-Surf"		fontSize="26"	html="false"><![CDATA[You have unlocked the dash!]]></string>
+	<string id="ui_popup_Ability_unlock_Dash_2"	fontName="Tiki-Surf"		fontSize="24"	html="false"><![CDATA[Quickly tap the left or right arrows twice.]]></string>
+	
+	<string id="ui_popup_Ability_unlock_Jump_1"	fontName="Tiki-Surf"		fontSize="26"	html="false"><![CDATA[You have unlocked the double jump!]]></string>
+	<string id="ui_popup_Ability_unlock_Jump_2"	fontName="Tiki-Surf"		fontSize="24"	html="false"><![CDATA[Tap the up arrow while in mid-air.]]></string>
+	
+	<string id="ui_popup_Ability_unlock_SuperSpike_1"	fontName="Tiki-Surf"		fontSize="26"	html="false"><![CDATA[You have unlocked the super spike!]]></string>
+	<string id="ui_popup_Ability_unlock_SuperSpike_2"	fontName="Tiki-Surf"		fontSize="24"	html="false"><![CDATA[Collect one to equip it. It can be used as a powerfull secondary weapon by pressing the Z key.]]></string>
+	
+	<string id="ui_popup_Ability_unlock_AirDash_1"	fontName="Tiki-Surf"		fontSize="26"	html="false"><![CDATA[You have unlocked the Air-dash!]]></string>
+	<string id="ui_popup_Ability_unlock_AirDash_2"	fontName="Tiki-Surf"		fontSize="24"	html="false"><![CDATA[Quickly tap the left or right arrows twice in mid-air.]]></string>
+	
+	<!-- Goal Popup -->
+	<string id="ui_popup_Goal_title"			fontName="Tiki-Surf"		fontSize="42"	html="false"><![CDATA[Warning!!!]]></string>
+	<string id="ui_popup_Goal_title2"			fontName="Tiki-Surf"		fontSize="30"	html="false"><![CDATA[Boss Fight ahead!!!!]]></string>
+	<string id="ui_popup_Goal_text_Boss1"		fontName="Tiki-Surf"		fontSize="20"	html="false"><![CDATA[Gary!!! Is that you? What have they done to you buddy?! Don't worry pal; I'll get you back to your old self!]]></string>
+	<string id="ui_popup_Goal_text_Boss2"		fontName="Tiki-Surf"		fontSize="20"	html="false"><![CDATA[Plankton! So it was YOU all along! Wait...what? A half zombie, half robot, half vampire! Hmm, Isn't that one half too many?]]></string>
+	
+	
+	<!-- Quit Popup -->
+	<string id="ui_popup_quit_title"			fontName="Tiki-Surf"		fontSize="50"	html="false"><![CDATA[Quit]]></string>
+	<string id="ui_popup_quit_text"				fontName="Tiki-Island"		fontSize="30"	html="false"><![CDATA[Are you sure you want to quit?]]></string>
+	<string id="ui_popup_quit_button_yes"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[Yes]]></string>
+	<string id="ui_popup_quit_button_no"		fontName="Tiki-Island"		fontSize="20"	html="false"><![CDATA[No]]></string>
+	
+</strings>

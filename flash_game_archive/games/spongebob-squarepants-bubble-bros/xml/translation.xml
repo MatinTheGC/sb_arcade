@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- *************  WARNING  ************ -->
+<!-- DO NOT EDIT THIS DOCUMENT DIRECTLY   -->
+<!-- USE THE LOCALIZATION TOOL TO EDIT    -->
+<!-- ************************************ -->
+<strings>
+  <language id="0">american_latin</language>
+  <string id="id_ui_loading_label" fontName="Wellbutrin" fontSize="18" charSpace="0" lineSpace="0" catID="0"><![CDATA[LOADING]]></string>
+  <string id="id_ui_loading_building" fontName="Wellbutrin" fontSize="18" charSpace="0" lineSpace="0" catID="0"><![CDATA[OPTIMIZING]]></string>
+  <string id="id_ui_loading_progress" fontName="Wellbutrin" fontSize="16" charSpace="0" lineSpace="0" catID="0"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_title_button_play" fontName="Wellbutrin" fontSize="28" charSpace="0" lineSpace="0" catID="1"><![CDATA[PLAY]]></string>
+  <string id="id_ui_howtoplay_title" fontName="Wellbutrin" fontSize="42" charSpace="0" lineSpace="0" catID="2"><![CDATA[How%20to%20Play]]></string>
+  <string id="id_ui_howtoplay_button_back" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="2"><![CDATA[Back]]></string>
+  <string id="id_ui_hs_title" fontName="Wellbutrin" fontSize="30" charSpace="0" lineSpace="0" catID="5"><![CDATA[Leaderboard]]></string>
+  <string id="id_ui_hs_next" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="5"><![CDATA[Next]]></string>
+  <string id="id_ui_hs_button_playagain" fontName="Wellbutrin" fontSize="24" charSpace="0" lineSpace="0" catID="5"><![CDATA[Play%20Again]]></string>
+  <string id="id_ui_hs_button_submit" fontName="Wellbutrin" fontSize="38" charSpace="0" lineSpace="0" catID="5"><![CDATA[Submit%3Cbr%3EScore]]></string>
+  <string id="id_ui_hs_playerscore" fontName="Wellbutrin" fontSize="20" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hs_board_rank" fontName="Wellbutrin" fontSize="20" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hs_board_name" fontName="Wellbutrin" fontSize="20" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hs_board_score" fontName="Wellbutrin" fontSize="20" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hs_board_info_wait" fontName="Wellbutrin" fontSize="36" charSpace="0" lineSpace="0" catID="5"><![CDATA[The%20High%20Scores%20list%20is%20updating%21]]></string>
+  <string id="id_ui_hs_board_info_error" fontName="Wellbutrin" fontSize="36" charSpace="0" lineSpace="0" catID="5"><![CDATA[Oops%21%20The%20High%20Scores%20list%20is%20not%20available%20right%20now%21]]></string>
+  <string id="id_ui_hs_board_info_empty" fontName="Wellbutrin" fontSize="36" charSpace="0" lineSpace="0" catID="5"><![CDATA[No%20high%20score%20yet%21%20What%20are%20you%20waiting%20for%3F]]></string>
+  <string id="id_ui_hud_button_pause" fontName="Wellbutrin" fontSize="50" charSpace="0" lineSpace="0" catID="6"><![CDATA[%3F]]></string>
+  <string id="id_ui_hud_score" fontName="Wellbutrin" fontSize="16" charSpace="0" lineSpace="0" catID="6"><![CDATA[Score%3A%20%24value%24]]></string>
+  <string id="id_ui_popup_menu_title" fontName="Wellbutrin" fontSize="42" charSpace="0" lineSpace="0" catID="7"><![CDATA[Menu]]></string>
+  <string id="id_ui_popup_menu_button_resume" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="7"><![CDATA[Resume]]></string>
+  <string id="id_ui_popup_menu_button_quit" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="7"><![CDATA[Quit]]></string>
+  <string id="id_ui_popup_menu_button_howtoplay" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="7"><![CDATA[How%20to%20Play]]></string>
+  <string id="id_ui_popup_menu_vol_music_label" fontName="Wellbutrin" fontSize="16" charSpace="0" lineSpace="0" catID="7"><![CDATA[Music%20volume]]></string>
+  <string id="id_ui_popup_menu_vol_music_value" fontName="Wellbutrin" fontSize="12" charSpace="0" lineSpace="0" catID="7"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_popup_menu_vol_sounds_label" fontName="Wellbutrin" fontSize="16" charSpace="0" lineSpace="0" catID="7"><![CDATA[Sounds%20volume]]></string>
+  <string id="id_ui_popup_menu_vol_sounds_value" fontName="Wellbutrin" fontSize="12" charSpace="0" lineSpace="0" catID="7"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_popup_quit_title" fontName="Wellbutrin" fontSize="46" charSpace="0" lineSpace="0" catID="8"><![CDATA[Quit]]></string>
+  <string id="id_ui_popup_quit_text" fontName="Wellbutrin" fontSize="40" charSpace="0" lineSpace="0" catID="8"><![CDATA[Are%20you%20sure%20you%20want%20to%20quit%3F]]></string>
+  <string id="id_ui_popup_quit_button_yes" fontName="Wellbutrin" fontSize="36" charSpace="0" lineSpace="0" catID="8"><![CDATA[Yes]]></string>
+  <string id="id_ui_popup_quit_button_no" fontName="Wellbutrin" fontSize="36" charSpace="0" lineSpace="0" catID="8"><![CDATA[No]]></string>
+  <string id="id_setup_text_charName" fontName="Wellbutrin" fontSize="22" charSpace="0" lineSpace="0" catID="9"><![CDATA[%24value%24]]></string>
+  <string id="id_setup_text_title" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="9"><![CDATA[Choose%20your%20Bubble%20Bro.%21]]></string>
+  <string id="id_setup_btn_play" fontName="Wellbutrin" fontSize="28" charSpace="0" lineSpace="0" catID="9"><![CDATA[NEXT]]></string>
+  <string id="id_setup_txt_speed" fontName="Wellbutrin" fontSize="30" charSpace="0" lineSpace="0" catID="9"><![CDATA[Speed%20%3A]]></string>
+  <string id="id_setup_txt_jump" fontName="Wellbutrin" fontSize="30" charSpace="0" lineSpace="0" catID="9"><![CDATA[Jump%20%3A]]></string>
+  <string id="id_ui_howtoplay_text1" fontName="Wellbutrin" fontSize="40" charSpace="0" lineSpace="0" catID="2"><![CDATA[Welcome%20All%20Bubble%20Bros%21]]></string>
+  <string id="id_ui_howtoplay_text2" fontName="Wellbutrin" fontSize="36" charSpace="0" lineSpace="0" catID="2"><![CDATA[Move]]></string>
+  <string id="id_ui_howtoplay_text3" fontName="Wellbutrin" fontSize="36" charSpace="0" lineSpace="0" catID="2"><![CDATA[Blow%20Bubbles]]></string>
+  <string id="id_ui_howtoplay_text4" fontName="Wellbutrin" fontSize="36" charSpace="0" lineSpace="0" catID="2"><![CDATA[Power-up]]></string>
+  <string id="id_game_start_level" fontName="Wellbutrin" fontSize="46" charSpace="0" lineSpace="0" catID="10"><![CDATA[GO%21]]></string>
+  <string id="id_game_start_secret" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="10"><![CDATA[Break%20it%20fast%21]]></string>
+  <string id="id_game_room_complete" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="10"><![CDATA[Success%21]]></string>
+  <string id="id_game_bonus_life" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="10"><![CDATA[1-up]]></string>
+  <string id="id_hud_room_name" fontName="Wellbutrin" fontSize="16" charSpace="0" lineSpace="0" catID="6"><![CDATA[Room%20%24world%24%20-%20%24room%24]]></string>
+  <string id="id_hud_secretname" fontName="Wellbutrin" fontSize="16" charSpace="0" lineSpace="0" catID="6"><![CDATA[Secret%20Room]]></string>
+  <string id="id_game_bonus_speed" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="10"><![CDATA[Speed%20bonus%20%3A%207%20500pts]]></string>
+  <string id="id_game_start_boss" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="10"><![CDATA[INCOMING%20BOSS%21]]></string>
+  <string id="id_game_collectable" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="10"><![CDATA[%24value%24pts]]></string>
+  <string id="id_hud_lifes" fontName="Wellbutrin" fontSize="16" charSpace="0" lineSpace="0" catID="6"><![CDATA[x%20%24value%24]]></string>
+  <string id="id_ui_howtoplay_text5" fontName="Wellbutrin" fontSize="36" charSpace="0" lineSpace="0" catID="2"><![CDATA[Follow%20these%203%20rules%20to%20win%20%3A]]></string>
+  <string id="id_end_txt_title" fontName="Wellbutrin" fontSize="46" charSpace="0" lineSpace="0" catID="3"><![CDATA[Results%21]]></string>
+  <string id="id_end_txt_success" fontName="Wellbutrin" fontSize="20" charSpace="0" lineSpace="0" catID="3"><![CDATA[Congrats%20Bro%2C%20you%20really%20got%20it%20poppin%27%21%20Now%20go%20bubble%20up%20some%20more.]]></string>
+  <string id="id_end_txt_fail" fontName="Wellbutrin" fontSize="20" charSpace="0" lineSpace="0" catID="3"><![CDATA[Total%20fail%20Bro...%20but%20don%27t%20let%20it%20get%20you%20down.%20Get%20back%20to%20bubblin%27]]></string>
+  <string id="id_game_secret_found" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="10"><![CDATA[Secret%20room%20found%21]]></string>
+  <string id="id_ui_howtoplay_button_play" fontName="Wellbutrin" fontSize="28" charSpace="0" lineSpace="0" catID="2"><![CDATA[PLAY]]></string>
+  <string id="id_game_score_display" fontName="Wellbutrin" fontSize="24" charSpace="0" lineSpace="0" catID="10"><![CDATA[%24value%24%20pts]]></string>
+  <string id="id_hud_button_quit" fontName="Wellbutrin" fontSize="50" charSpace="0" lineSpace="0" catID="6"><![CDATA[X]]></string>
+  <string id="id_setup_text_episodeName" fontName="Wellbutrin" fontSize="22" charSpace="0" lineSpace="0" catID="9"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_button_tryagain" fontName="Wellbutrin" fontSize="24" charSpace="0" lineSpace="0" catID="3"><![CDATA[Play%20Again]]></string>
+  <string id="id_ui_end_button_hs_submit" fontName="Wellbutrin" fontSize="38" charSpace="0" lineSpace="0" catID="3"><![CDATA[Submit%3Cbr%3EScore]]></string>
+  <string id="id_ui_end_button_hs_view" fontName="Wellbutrin" fontSize="20" charSpace="0" lineSpace="0" catID="3"><![CDATA[Leaderboard]]></string>
+  <string id="id_end_text_jumper" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="3"><![CDATA[Wind-up%20Jumper]]></string>
+  <string id="id_end_text_seeker" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="3"><![CDATA[Wind-up%20Seeker]]></string>
+  <string id="id_end_text_boss" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="3"><![CDATA[Boss]]></string>
+  <string id="id_end_text_emptyBubble" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="3"><![CDATA[Empty%20Bubble%20Popped]]></string>
+  <string id="id_end_text_collectable" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="3"><![CDATA[Collectables]]></string>
+  <string id="id_end_text_speedCompletion" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="3"><![CDATA[Quick%20Completion%20Bonus]]></string>
+  <string id="id_end_text_total" fontName="Wellbutrin" fontSize="38" charSpace="0" lineSpace="0" catID="3"><![CDATA[TOTAL]]></string>
+  <string id="id_end_text_score_plural" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24%20pts]]></string>
+  <string id="id_end_text_score_singular" fontName="Wellbutrin" fontSize="32" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24%20pt]]></string>
+  <categories>
+    <category id="0">Loading</category>
+    <category id="1">Title</category>
+    <category id="2">How%20to%20play</category>
+    <category id="3">End</category>
+    <category id="5">High%20scores</category>
+    <category id="6">Hud</category>
+    <category id="7">Popup%20menu</category>
+    <category id="8">Popup%20quit</category>
+    <category id="9">Setup</category>
+    <category id="10">Game</category>
+  </categories>
+</strings>

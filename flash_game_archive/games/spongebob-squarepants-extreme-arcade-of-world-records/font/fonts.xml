@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fonts>
+	<!-- Change the [id] tag attribute below to the name of the embedded font you created utilizing the "embeddedFonts.fla" -->
+	
+	<font id="Font_Uni05_53"							file="font/FontUni05_53.swf" />
+	<font id="Font_Bubbledot"							file="font/Font_Bubbledot.swf" />
+	<font id="Font_DuoLine"								file="font/Font_DuoLine.swf" />
+	<font id="Font_Standard07_55"						file="font/Font_Standard07_55.swf" />
+	<font id="Font_TechniqueBRK"						file="font/Font_TechniqueBRK.swf" />
+	<font id="Font_FortySecondStreetHB"					file="font/Font_FortySecondStreetHB.swf" />
+	<font id="Font_HeavyData"							file="font/FontHeavyData.swf" />
+	<font id="Font_Minotaur"							file="font/FontMinotaur.swf" />
+	<font id="Font_Neon80s"								file="font/FontNeon80s.swf" />
+	<font id="Font_Toggle"								file="font/FontToggle.swf" />
+	<font id="Font_ChaletNewYorkNineteenSeventy"		file="font/Font_ChaletNewYorkNineteenSeventy.swf" />
+	<font id="Font_SpongeboyTT1"						file="font/Font_SpongeboyTT1.swf" />
+	<font id="Font_Bitwise"								file="font/FontBitwise.swf" />
+	
+	<enableRightToLeftText>false</enableRightToLeftText>
+</fonts>
+

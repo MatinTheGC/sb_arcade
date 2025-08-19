@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<property name="locale">en_us</property>
+	<property name="nick_highscores_available">true</property>
+	<property name="nick_highscores_hs_id">spongebob-viking-hsb</property>
+	<property name="nick_promo_available">true</property>
+	<property name="nick_promo_config_url">nick_promo.xml</property>
+</config>

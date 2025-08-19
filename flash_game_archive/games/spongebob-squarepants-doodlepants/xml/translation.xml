@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- *************  WARNING  ************ -->
+<!-- DO NOT EDIT THIS DOCUMENT DIRECTLY   -->
+<!-- USE THE LOCALIZATION TOOL TO EDIT    -->
+<!-- ************************************ -->
+<strings>
+  <language id="0">american_latin</language>
+  <string id="id_ui_loading_label" fontName="FontOnAStick" fontSize="18" charSpace="0" lineSpace="0" catID="0"><![CDATA[LOADING]]></string>
+  <string id="id_ui_loading_building" fontName="FontOnAStick" fontSize="18" charSpace="0" lineSpace="0" catID="0"><![CDATA[OPTIMIZING]]></string>
+  <string id="id_ui_loading_progress" fontName="FontOnAStick" fontSize="60" charSpace="0" lineSpace="0" catID="0"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_title_button_play" fontName="FontOnAStick" fontSize="45" charSpace="0" lineSpace="0" catID="1"><![CDATA[Play]]></string>
+  <string id="id_ui_howtoplay_button_play" fontName="FontOnAStick" fontSize="45" charSpace="0" lineSpace="0" catID="2"><![CDATA[Go%21]]></string>
+  <string id="id_ui_end_button_playagain" fontName="FontOnAStick" fontSize="45" charSpace="0" lineSpace="0" catID="3"><![CDATA[Next]]></string>
+  <string id="id_ui_hs_button_playagain" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="5"><![CDATA[Play%20Again]]></string>
+  <string id="id_ui_hs_button_tryagain" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="5"><![CDATA[Try%20Again]]></string>
+  <string id="id_ui_hs_button_submit" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="5"><![CDATA[Submit%20Score]]></string>
+  <string id="id_ui_hs_board_rank" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hs_board_name" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hs_board_score" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hs_board_info_wait" fontName="FontOnAStick" fontSize="25" charSpace="0" lineSpace="0" catID="5"><![CDATA[The%20High%20Scores%20list%20is%20updating.]]></string>
+  <string id="id_ui_hs_board_info_error" fontName="FontOnAStick" fontSize="25" charSpace="0" lineSpace="0" catID="5"><![CDATA[The%20High%20Scores%20list%20is%20not%20available%20right%20now.]]></string>
+  <string id="id_ui_hs_board_info_empty" fontName="FontOnAStick" fontSize="25" charSpace="0" lineSpace="0" catID="5"><![CDATA[No%20high%20score%20yet.%20You%20should%20submit%20your%20score.]]></string>
+  <string id="id_ui_hud_button_menu" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="6"><![CDATA[Menu]]></string>
+  <string id="id_ui_hud_score" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="6"><![CDATA[x%24value%24]]></string>
+  <string id="id_ui_popup_menu_button_resume" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="7"><![CDATA[Resume]]></string>
+  <string id="id_ui_popup_menu_button_quit" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="7"><![CDATA[Quit]]></string>
+  <string id="id_ui_popup_menu_button_howtoplay" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="7"><![CDATA[How%20to%20Play]]></string>
+  <string id="id_ui_popup_menu_vol_music_label" fontName="FontOnAStick" fontSize="25" charSpace="0" lineSpace="0" catID="7"><![CDATA[Music]]></string>
+  <string id="id_ui_popup_menu_vol_music_value" fontName="FontOnAStick" fontSize="20" charSpace="0" lineSpace="0" catID="7"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_popup_menu_vol_sounds_label" fontName="FontOnAStick" fontSize="25" charSpace="0" lineSpace="0" catID="7"><![CDATA[Sounds]]></string>
+  <string id="id_ui_popup_menu_vol_sounds_value" fontName="FontOnAStick" fontSize="20" charSpace="0" lineSpace="0" catID="7"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_popup_quit_text" fontName="FontOnAStick" fontSize="25" charSpace="0" lineSpace="0" catID="8"><![CDATA[Are%20you%20sure%20you%20want%20to%20quit%3F]]></string>
+  <string id="id_ui_popup_quit_button_yes" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="8"><![CDATA[Yes]]></string>
+  <string id="id_ui_popup_quit_button_no" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="8"><![CDATA[No]]></string>
+  <string id="id_ui_end_title_1" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="3"><![CDATA[Health]]></string>
+  <string id="id_ui_end_title_2" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="3"><![CDATA[Collection]]></string>
+  <string id="id_ui_end_title_3" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="3"><![CDATA[Skills]]></string>
+  <string id="id_ui_end_title_4" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="3"><![CDATA[Completion]]></string>
+  <string id="id_ui_end_title_5" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="3"><![CDATA[Final%20Grade]]></string>
+  <string id="id_ui_howtoplay_text1" fontName="FontOnAStick" fontSize="45" charSpace="0" lineSpace="0" catID="2"><![CDATA[Move%3A]]></string>
+  <string id="id_ui_howtoplay_text2" fontName="FontOnAStick" fontSize="45" charSpace="0" lineSpace="0" catID="2"><![CDATA[Dash%3A]]></string>
+  <string id="id_ui_hs_score" fontName="FontOnAStick" fontSize="50" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hs_board_rank_title" fontName="FontOnAStick" fontSize="25" charSpace="0" lineSpace="0" catID="5"><![CDATA[Rank]]></string>
+  <string id="id_ui_hs_board_name_title" fontName="FontOnAStick" fontSize="25" charSpace="0" lineSpace="0" catID="5"><![CDATA[Name]]></string>
+  <string id="id_ui_hs_board_score_title" fontName="FontOnAStick" fontSize="25" charSpace="0" lineSpace="0" catID="5"><![CDATA[Score]]></string>
+  <string id="id_ui_end_survival_precision_1" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Red%20marks]]></string>
+  <string id="id_ui_end_survival_precisionDone_1" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_survival_precision_2" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Lifes]]></string>
+  <string id="id_ui_end_survival_precisionDone_2" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_survival_precisionAll_2" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_collection_precision_1" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Gold%20Stars]]></string>
+  <string id="id_ui_end_collection_precisionDone_1" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_collection_precisionAll_1" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_collection_precision_2" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Stickers]]></string>
+  <string id="id_ui_end_collection_precisionDone_2" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_collection_precisionAll_2" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_defense_precision_1" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Enemies%20defeated]]></string>
+  <string id="id_ui_end_defense_precisionDone_1" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_defense_precisionAll_1" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_completion_precision_1" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Level%20Completed]]></string>
+  <string id="id_ui_end_final_precision_1" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="3"><![CDATA[Final%20Score]]></string>
+  <string id="id_ui_end_survival_grade" fontName="FontOnAStick" fontSize="60" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_collection_grade" fontName="FontOnAStick" fontSize="60" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_defense_grade" fontName="FontOnAStick" fontSize="60" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_completion_grade" fontName="FontOnAStick" fontSize="60" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_final_grade" fontName="FontOnAStick" fontSize="60" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_final_precisionScore_1" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_howtoplay_text3" fontName="FontOnAStick" fontSize="45" charSpace="0" lineSpace="0" catID="2"><![CDATA[Jump%20on%20to%20defeat%3A]]></string>
+  <string id="id_ui_howtoplay_text4" fontName="FontOnAStick" fontSize="45" charSpace="0" lineSpace="0" catID="2"><![CDATA[Collect%3A]]></string>
+  <string id="id_ui_howtoplay_text1c" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="2"><![CDATA[spacebar]]></string>
+  <string id="id_ui_win_title" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="9"><![CDATA[Level%20%24value%24]]></string>
+  <string id="id_ui_win_precision" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="9"><![CDATA[Final%20Score]]></string>
+  <string id="id_ui_win_score" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="9"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_win_grade" fontName="FontOnAStick" fontSize="60" charSpace="0" lineSpace="0" catID="9"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_win_titleFinal" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="9"><![CDATA[Year%20End%27s%20Grade]]></string>
+  <string id="id_ui_win_button_playagain" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="9"><![CDATA[Play%20Again]]></string>
+  <string id="id_ui_win_button_viewHS" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="9"><![CDATA[Leaderboard]]></string>
+  <string id="id_ui_win_precisionFinal" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="9"><![CDATA[Year%20End%27s%20Score]]></string>
+  <string id="id_ui_end_title_main" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="3"><![CDATA[Report%20card]]></string>
+  <string id="id_ui_end_button_restart" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="3"><![CDATA[Restart]]></string>
+  <string id="id_ui_win_title_main" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="9"><![CDATA[Report%20card]]></string>
+  <string id="id_ui_win_scoreFinal" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="9"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_howtoplay_text5" fontName="FontOnAStick" fontSize="45" charSpace="0" lineSpace="0" catID="2"><![CDATA[avoid%3A]]></string>
+  <string id="id_tutorial_move" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[Hey%2C%20DoodlePants.%20Use%20the%20arrow%20keys%20to%20move%20around.]]></string>
+  <string id="id_tutorial_jump" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[Press%20Up%20to%20jump%20and%20get%20the%20gold%20star.%20Everyone%20likes%20gold%20stars.]]></string>
+  <string id="id_tutorial_double" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[Want%20this%20one%20too%3F%20Press%20Up%20twice%20to%20double%20jump.]]></string>
+  <string id="id_tutorial_moveable" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[Time%20your%20jump.%20Wouldn%u2019t%20want%20to%20fall%20already%2C%20would%20you%3F]]></string>
+  <string id="id_tutorial_sharpener1" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[Pencil%20sharpeners%20can%20be%20pushed%20around.%20They%20might%20even%20save%20your%20life.]]></string>
+  <string id="id_tutorial_sharpener2" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[Bring%20the%20pencil%20sharpener%20to%20this%20spot%20or%20forget%20about%20getting%20out%20of%20here.]]></string>
+  <string id="id_tutorial_basketball1" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[It%u2019s%20okay%20to%20bully%20basketballs.%20Give%20it%20a%20shove%21%20It%20doesn%u2019t%20have%20lunch%20money%2C%20though.]]></string>
+  <string id="id_tutorial_basketball2" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[If%20a%20basketball%20was%20here%2C%20you%20might%20reach%20the%20gold%20stars%20up%20there.%20I%u2019m%20just%20saying%u2026]]></string>
+  <string id="id_tutorial_globe" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[This%20is%20heavy%20but%20can%20be%20rolled%20around.%20Just%20don%u2019t%20let%20the%20weight%20of%20the%20world%20crush%20you.]]></string>
+  <string id="id_tutorial_pencil" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[Pencils%20are%20deadly.%20Consider%20yourself%20warned.]]></string>
+  <string id="id_tutorial_through" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[You%20can%20jump%20through%20these%20to%20get%20to%20the%20top.]]></string>
+  <string id="id_tutorial_beaker" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[The%20beaker%20will%20shoot%20you.%20Jump%20on%20it%20and%20see%20what%20happens.%20It%u2019ll%20blow%20your%20mind.]]></string>
+  <string id="id_tutorial_sticker" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[This%2C%20my%20spongy%20friend%2C%20is%20a%20sticker.%20You%20should%20collect%20the%20one%20hidden%20in%20each%20level.]]></string>
+  <string id="id_tutorial_retractable" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[This%20platform%20is%20a%20bit%20shy.%20It%u2019ll%20hide%20pretty%20quickly%20after%20you%20land%20on%20it.]]></string>
+  <string id="id_tutorial_dash" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[Want%20to%20try%20something%20neat%3F%20Jump%20then%20hit%20spacebar%20to%20dash%20over%20the%20pencil%20trap%21]]></string>
+  <string id="id_tutorial_eraser" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[You%u2019re%20a%20doodle%2C%20dude.%20Rubbing%20elbows%20with%20an%20eraser%20is%20NOT%20part%20of%20the%20plan.]]></string>
+  <string id="id_tutorial_notes" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[Get%20in%20the%20beat%20or%20these%20musical%20notes%20will%20stump%20you%20in%20rhythm.]]></string>
+  <string id="id_tutorial_fraction" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[Looky%20here%21%20Another%20baddy%21%20Jump%20on%20its%20head%20and%20be%20done%20with%20it.]]></string>
+  <string id="id_tutorial_collapsable" fontName="FontOnAStick" fontSize="15" charSpace="0" lineSpace="0" catID="10"><![CDATA[Paper%20clips%20aren%u2019t%20the%20trustiest%20ground.%20But%20I%u2019m%20just%20a%20post-it%20note%3A%20what%20do%20I%20know%2C%20right%3F]]></string>
+  <string id="id_minigame_score" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="11"><![CDATA[%24value%24]]></string>
+  <string id="id_minigame_best" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="11"><![CDATA[%24value%24]]></string>
+  <string id="id_minigame_scoreTitle" fontName="FontOnAStick" fontSize="40" charSpace="0" lineSpace="0" catID="11"><![CDATA[Score%3A]]></string>
+  <string id="id_minigame_bestTitle" fontName="FontOnAStick" fontSize="30" charSpace="0" lineSpace="0" catID="11"><![CDATA[Best%3A]]></string>
+  <string id="id_minigame_timer" fontName="FontOnAStick" fontSize="72" charSpace="0" lineSpace="0" catID="11"><![CDATA[%24value%24]]></string>
+  <string id="id_minigame_help1" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="11"><![CDATA[Jump%20over%20the%20basketball.]]></string>
+  <string id="id_minigame_help2" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="11"><![CDATA[Catch%20the%20stars.]]></string>
+  <string id="id_minigame_help3" fontName="FontOnAStick" fontSize="35" charSpace="0" lineSpace="0" catID="11"><![CDATA[Bounce%20with%20SpongeBob%20now%2C%20%3Cbr%3EGet%20Ready%20for%20the%20Next%20Level%20in%20just%20a%20few%20moments]]></string>
+  <categories>
+    <category id="0">Loading</category>
+    <category id="1">Title</category>
+    <category id="2">How%20to%20play</category>
+    <category id="3">End</category>
+    <category id="5">Leaderboard</category>
+    <category id="6">Hud</category>
+    <category id="7">Popup%20menu</category>
+    <category id="8">Popup%20quit</category>
+    <category id="9">win</category>
+    <category id="10">tutorial</category>
+    <category id="11">minigame</category>
+  </categories>
+</strings>

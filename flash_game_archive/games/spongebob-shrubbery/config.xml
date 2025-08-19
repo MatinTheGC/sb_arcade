@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<localization>		
+	
+	<play_button>PLAY</play_button>
+	<sandys>SANDY'S</sandys>
+
+	<how_to_play>HOW TO PLAY</how_to_play>
+	<instruction_copy_1>Sandy is hungry for acorns- help Sandy shoot them down from her tree.</instruction_copy_1>	
+	<instruction_copy_2>Aim, then CLICK to SHOOT.</instruction_copy_2>	
+	
+	<points>POINTS</points>
+	<level>LEVEL</level>
+	<game_over>GAME OVER</game_over>
+	
+	<loc_view_scores>View Scores</loc_view_scores>
+	<loc_submit_scores>Submit Scores</loc_submit_scores>
+	
+	<continue_button>Play Again</continue_button>
+	
+</localization>
+

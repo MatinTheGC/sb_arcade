@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	
+	<universal_End_Screen>end.swf</universal_End_Screen>
+	
+	<play_game >Play Game</play_game>
+	<how_to_play>How To Play</how_to_play>
+	
+	<instructions_1> Bandits are trying to derail the train. Stop them before it's Too late! </instructions_1>
+	
+	<instructions_2> Click below the train to throw horse shoes at the bandits. </instructions_2>
+	<instructions_3> Click above the train to jump. </instructions_3>
+	<instructions_4> Jump on the parachute bandits to defeat them.  </instructions_4>
+	
+	<double> DOUBLE! </double>
+	<triple> TRIPLE! </triple>
+	<amazing>  AMAZING! </amazing>
+	<epic> EPIC! </epic>
+	<legendary> LEGENDARY! </legendary>
+
+	<level> Level </level>
+
+	<Score> Score </Score>
+
+	<game_lives> Lives </game_lives>
+	<game_help> HELP! </game_help>
+
+	<continue_game> CONTINUE </continue_game>
+
+</localization>

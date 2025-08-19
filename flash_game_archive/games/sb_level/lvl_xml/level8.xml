@@ -1,0 +1,124 @@
+ <overmap>
+ <map linkId="tile_mc" isometric="2" tileWidth="58" tileHeight="58" levelHeight="9" scrollSpeed="3" baseMap="Basic" world="Fire" gameType="switch" timer="10">
+ <row>
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="2" walkable="0" level="0" object="WoodCase" dir="left" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="0" level="0" object="WoodCase" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="2" walkable="1" level="0" object="RockBlock" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="Plate" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="2" walkable="1" level="0" object="IceBlock" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" object="IceBlock" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="2" walkable="1" level="0" object="Aang" /> 
+  <tile type="1" walkable="0" level="0" object="Switch" /> 
+  <tile type="2" walkable="1" level="0" object="IceBlock" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" object="RockBlock" /> 
+  </row>
+ <row>
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="2" walkable="0" level="0" object="WoodBox" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="2" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  </row>
+  </map>
+ </overmap>

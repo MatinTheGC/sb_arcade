@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	
+	<universal_End_Screen>end.swf</universal_End_Screen>
+	
+	<start_game>Start Game</start_game>
+	<how_to_play>How To Play</how_to_play>
+	
+	<instructions_1>SpongeBob has done it again. He’s fallen into a pit filled with lava-spewing geysers!</instructions_1>
+	
+	<instructions_2>Tickle SpongeBob's nose to make him sneeze and launch him over the geysers.</instructions_2>
+	<instructions_3>Left-click and hold on SpongeBob to tickle his nose, let go to make him sneeze. </instructions_3>
+	
+	<double> DOUBLE! </double>
+	<triple> TRIPLE! </triple>
+	<amazing>  AMAZING! </amazing>
+	<epic> EPIC! </epic>
+	<legendary> LEGENDARY! </legendary>
+	
+	<distance>distance</distance>
+	<you_made_it>You made it</you_made_it>
+	<feet>feet!</feet>
+	<continue_game>Continue</continue_game>
+
+</localization>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+
+	<!-- gary_hook -->
+	
+<group id="gary_hook">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="0" y="0" width="600" height="60" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+	
+<group id="gary_hook_around">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="0" y="60" width="600" height="60" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>		
+		
+
+</spritesheet>
+	
+	
+	
+	
+	

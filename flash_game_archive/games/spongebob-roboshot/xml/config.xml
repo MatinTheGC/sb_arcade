@@ -1,0 +1,76 @@
+<config>
+		
+	<serviceSettings>
+		<servicesModuleURL>nick_services_module.swf</servicesModuleURL>		
+		<enableServices>true</enableServices> <!-- Set to FALSE to disable all Nick Services completely. TRUE will follow the specific service settings. -->
+		<enableLogin>true</enableLogin>
+		<enableLeaderboard>true</enableLeaderboard>
+		<enableNickPoints>false</enableNickPoints>		
+		<enableTracking>true</enableTracking>
+		<serviceManagerURL>/common/flash/services/ServiceManager.swf</serviceManagerURL>
+		<serviceManagerConfigURL>/common/flash/services/data/services.xml</serviceManagerConfigURL>		
+	</serviceSettings>
+	<tracking>
+		<gameName>spongebob-squarepants-roboshot</gameName>
+		<urlAlias>spongebob-squarepants-roboshot</urlAlias> <!-- This is currently only used for Printable tracking-->
+		<showID>spo</showID> <!-- This is currently only used for Printable tracking-->
+	</tracking>
+	<leaderboard>
+		<gameID>spongebob-squarepants-roboshot-hsb</gameID>
+	</leaderboard>
+	<!-- vvv PRE-MADE LEVELS vvv -->
+	<levels>
+		<level ammo="1" name="Long Shot">
+			<grid>
+				<target col="3" row="2" type="deer" />
+			</grid>
+		</level>
+		<level ammo="1" name="Long Shot">
+			<grid>
+				<target col="1" row="1" type="deer" />
+				<target col="3" row="2" type="moose" />
+			</grid>
+		</level>
+		<level ammo="3" name="Long Shot">
+			<grid>
+				<target col="1" row="0" type="deer" />
+				<target col="1" row="2" type="moose" />
+				<target col="1" row="4" type="deer" />
+			</grid>
+		</level>
+		<level ammo="5" name="Long Shot">
+			<grid>
+				<obstacle col="2" row="2" />
+				<target col="3" row="4" type="deer" />
+			</grid>
+		</level>
+		<level ammo="5" name="Long Shot">
+			<grid>
+				<target col="1" row="2" type="deer" />
+				<target col="4" row="2" type="moose" />
+				<moving col="0" row="4" speed="100">
+					<pt col="6" row="0" />
+				</moving>
+			</grid>
+		</level>
+		<level ammo="5" name="Dead Head 101">
+			<grid>
+				<target col="2" row="0" type="deer" />
+				<target col="2" row="3" type="deer" />
+				<target col="5" row="0" type="deer" />
+				<target col="5" row="3" type="deer" />
+			</grid>
+		</level>
+	</levels>
+	<targets>
+		<target name="whale" assetID="AssetWhale" gridSize="1" />
+		<target name="walrus" assetID="AssetWalrus" gridSize="1" />
+		<target name="stingray" assetID="AssetStingray" gridSize="1" />
+		<target name="shark" assetID="AssetShark" gridSize="1" />
+		<target name="rhino" assetID="AssetRhino" gridSize="1" />
+		<target name="moose" assetID="AssetMoose" gridSize="1" />
+		<target name="lion" assetID="AssetLion" gridSize="1" />
+		<target name="deer" assetID="AssetDeer" gridSize="1" />
+		<target name="default" assetID="AssetTargetBase" gridSize="1" />
+	</targets>
+</config>

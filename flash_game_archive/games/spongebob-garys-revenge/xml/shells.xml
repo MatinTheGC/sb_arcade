@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shells>
+		<shell id="NORMAL" 		shakePercent="0.04" powerPercent="1.0" hp="25" score="10000" stillDamage="-7" particlePercent="0.05" radius="0.6" angularDamping = "1.1" density="2" restitution="0.2" friction="0.5" 	/>
+		<shell id="STOMP" 		shakePercent="0.06" powerPercent="1.1" hp="35" score="10000" stillDamage="-6" particlePercent="0.05" radius="0.6" angularDamping = "1.1" density="2" restitution="0.2" friction="0.5" 	stompVelocity="150"/>
+		<shell id="EXPAND" 		shakePercent="0.06" powerPercent="1.1" hp="35" score="10000" stillDamage="-6" particlePercent="0.05" radius="0.6" angularDamping = "1.1" density="2" restitution="0.35" friction="0.5" 	/>
+		<shell id="EXPLOSIVE" 	shakePercent="0.08" powerPercent="1.3" hp="35" score="10000" stillDamage="-6" particlePercent="0.05" radius="0.6" angularDamping = "1.1" density="2" restitution="0.2" friction="0.5" 	cameraShakeX="20" cameraShakeY="20" explosionRadius="7" impulsion="5"  explosionDamage="25"/>
+		<shell id="TYPHOON" 	shakePercent="0.08" powerPercent="1.2" hp="10" score="10000" stillDamage="-10" particlePercent="0.05" radius="0.6" angularDamping = "1.1" density="2" restitution="0.2" friction="0.5" 	cameraShakeX="3" cameraShakeY="3" explosionRadius="10" impulsion="4" />
+		
+</shells>

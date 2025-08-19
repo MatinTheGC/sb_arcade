@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<strings>
+	<localization>
+		<delivery_complete><![CDATA[Delivery Complete!]]></delivery_complete>
+		<end_screen_deliveries><![CDATA[Deliveries: ]]></end_screen_deliveries>
+		<end_screen_kudos_3_2><![CDATA[I'm getting complaints about smashed patties!]]></end_screen_kudos_3_2>
+		<end_screen_kudos_3_1><![CDATA[SpongeBob!!!]]></end_screen_kudos_3_1>
+		<end_screen_kudos_2_2><![CDATA[Now give me my money.]]></end_screen_kudos_2_2>
+		<end_screen_kudos_2_1><![CDATA[Good Job! ]]></end_screen_kudos_2_1>
+		<end_screen_kudos_1_2><![CDATA[Want to share some of those tips?]]></end_screen_kudos_1_2>
+		<end_screen_kudos_1_1><![CDATA[Great Job! ]]></end_screen_kudos_1_1>
+		<end_screen_kills><![CDATA[Hits: ]]></end_screen_kills>
+		<end_screen_score><![CDATA[Score: ]]></end_screen_score>
+		<submit_score_btn><![CDATA[SUBMIT SCORE]]></submit_score_btn>
+		<play_again_btn><![CDATA[PLAY AGAIN]]></play_again_btn>
+		<quit_btn><![CDATA[QUIT]]></quit_btn>
+		<music_off_btn><![CDATA[MUSIC OFF]]></music_off_btn>
+		<music_on_btn><![CDATA[MUSIC ON]]></music_on_btn>
+		<help_btn><![CDATA[HELP]]></help_btn>
+		<resume_btn><![CDATA[RESUME]]></resume_btn>
+		<no_btn><![CDATA[no]]></no_btn>
+		<yes_btn><![CDATA[yes]]></yes_btn>
+		<quit_confirmation><![CDATA[Are you sure you want to quit?]]></quit_confirmation>
+		<menu_btn><![CDATA[MENU]]></menu_btn>
+		<help_line_5><![CDATA[Blast these robots!]]></help_line_5>
+		<help_line_4><![CDATA[Press the spacebar<br>to toss pineapple bombs.]]></help_line_4>
+		<help_line_3><![CDATA[Collect hearts for health.]]></help_line_3>
+		<help_line_2><![CDATA[Collect weapon upgrades.]]></help_line_2>
+		<help_line_1><![CDATA[Use your mouse to aim.<br>Click to shoot and collect items. ]]></help_line_1>
+		<help_header><![CDATA[How To Play]]></help_header>
+		<level_up_transition><![CDATA[Level:]]></level_up_transition>
+		<back_btn><![CDATA[back]]></back_btn>
+		<next_btn><![CDATA[next]]></next_btn>
+		<intro_page_3><![CDATA[Earn points for each delivery you make and for every robot you break!]]></intro_page_3>
+		<intro_page_2><![CDATA[But watch out for Plankton's robot army, they get stronger as night falls!<br><br>Blast 'em all to clear a path.]]></intro_page_2>
+		<intro_page_1><![CDATA[Deliver Krabby Patties to the hungry hordes of Bikini Bottom.]]></intro_page_1>
+		<view_scores_btn><![CDATA[VIEW SCORES]]></view_scores_btn>
+		<play_btn><![CDATA[PLAY]]></play_btn>
+	</localization>
+</strings>
+
+	

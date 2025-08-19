@@ -1,0 +1,22 @@
+<config>
+	<jingleBrawl enabled="false" allowClick="true" url="http://www.nick.com/games/jingle-brawl.html"/>
+	<serviceSettings>
+		<servicesModuleURL>nick_services_module.swf</servicesModuleURL>		
+		<enableServices>true</enableServices> <!-- Set to FALSE to disable all Nick Services completely. TRUE will follow the specific service settings. -->
+		<enableLogin>true</enableLogin>
+		<enableLeaderboard>true</enableLeaderboard>
+		<enableNickPoints>false</enableNickPoints>		
+		<enableTracking>true</enableTracking>
+		<serviceManagerURL>/common/flash/services/ServiceManager.swf</serviceManagerURL>
+		<serviceManagerConfigURL>/common/flash/services/data/services.xml</serviceManagerConfigURL>		
+	</serviceSettings>
+	<tracking>
+		<gameName>spongebob-squarepants-deep-freeze-freak-out</gameName>
+		<urlAlias>URL_ALIAS</urlAlias> <!-- This is currently only used for Printable tracking-->
+		<showID>SHOW_ID</showID> <!-- This is currently only used for Printable tracking-->
+	</tracking>
+	<leaderboard>
+		<gameID>spongebob-deep-freeze-hsb</gameID>
+	</leaderboard>
+	
+</config>

@@ -1,0 +1,54 @@
+<triton>
+	<level assetUrl="assets/levels/spongebob_cot_level_bikini_bottom.swf" music="bikini" midground="AssetMgLevelBB" background="AssetBgLevelBB" foreground="AssetFgLevelBB" horizon="AssetHorizonLevelBB" movedir="1">
+
+		<arena id="1" centerx="640" boundleft="150" boundright="1150">
+			<wave id="0" startscript="bbr_intro" endscript="">
+				<mob type="fishcivilian1" id="1" faction="civilian" enter="right" enterscript="flee"/>
+				<mob type="fishcivilian2" id="2" faction="civilian" enter="right" enterscript="flee"/>
+				<mob type="fishcivilian3" id="4" faction="civilian" enter="right" enterscript="flee"/>
+			</wave>
+			<wave id="1" startscript="" endscript="">
+				<mob type="fishbasic" id="1" faction="triton" enter="right" enterscript=""/>
+				<mob type="fishbasic" id="2" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishkrabs" id="3" faction="triton" enter="right" enterscript="walkin"/>
+			</wave>
+		</arena>
+		<arena id="2" centerx="1350" boundleft="870" boundright="1830">
+			<wave id="0" startscript="" endscript="">
+				<mob type="fishtough" id="1" faction="triton" enter="right" enterscript="runin"/>
+				<mob type="fishkrabs" id="2" faction="triton" enter="right" enterscript="runin"/>
+				<mob type="fishbasic" id="3" faction="triton" enter="right" enterscript="runin"/>
+			</wave>
+			<wave id="1" startscript="" endscript="">
+				<mob type="fishtough" id="1" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishbasic" id="2" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishbasic" id="3" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishkrabs" id="4" faction="triton" enter="right" enterscript="walkin"/>
+			</wave>
+			<wave id="2" startscript="" endscript="">
+				<mob type="fishbasic" id="1" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishtough" id="2" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishkrabs" id="3" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishkrabs" id="5" faction="triton" enter="right" enterscript="walkin"/>
+			</wave>
+			<wave id="3" startscript="" endscript="">
+				<mob type="fishtough" id="1" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishbasic" id="2" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishbasic" id="3" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishkrabs" id="4" faction="triton" enter="right" enterscript="walkin"/>
+			</wave>
+			<wave id="4" startscript="" endscript="">
+				<mob type="fishbasic" id="1" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishtough" id="2" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishkrabs" id="3" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishkrabs" id="5" faction="triton" enter="right" enterscript="walkin"/>
+			</wave>
+		</arena>
+		<arena id="2" centerx="1700" boundleft="1100" boundright="2150">
+			<wave id="0" startscript="krabs_boss_intro" endscript="">
+				<mob type="boss_krabs" id="1" faction="triton" enter="right" enterscript=""/>
+			</wave>
+		</arena>
+
+	</level>
+</triton>

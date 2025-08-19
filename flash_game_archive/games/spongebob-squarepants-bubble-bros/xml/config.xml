@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<!-- Media path (path relative to media domain) -->
+	<property name="media_path"><![CDATA[media]]></property>
+	
+	<!-- Delay between feedback popup's opening and closing-->
+	<property name="FEEDBACK_POPUP_DELAY"><![CDATA[30]]></property>
+	<property name="CHANGE_LEVEL_DELAY"><![CDATA[90]]></property>
+	
+	// NICK GAME SETTING //
+	
+	<!-- Flag : Nick high score enabled -->
+	<property name="nick_highscores_available">	<![CDATA[true]]>			</property>
+	<!-- Game's nick HSB ID -->
+	<property name="nick_highscores_hs_id">		<![CDATA[spongebob-squarepants-bubble-bros-hsb]]>		</property>	
+	<!-- Game's nick GameID for tracking -->
+	<property name="nick_game_id">				<![CDATA[spongebob-squarepants-bubble-bros]]>		</property>	
+
+	<property name="nick_print_tracking">		<![CDATA[SBprintTracker]]>						</property>       
+    <property name="nick_print_site">			<![CDATA[spongebob]]>							</property>       
+    <property name="nick_print_urlAlias">		<![CDATA[spongebob-squarepants-bubble-bros]]>	</property>
+	<property name="nick_print_contentType">	<![CDATA[game]]>								</property>       
+    <property name="nick_print_showID">			<![CDATA[spo]]>									</property>
+
+
+
+	// VOLUME SETTING  //
+
+	<!-- MUSIC default volume -->
+	<property name="nDEFAULT_VOLUME_MUSIC">		<![CDATA[0.6]]>		</property>
+	
+	<!-- PACKAGING default volume -->
+	<property name="nDEFAULT_VOLUME_PACKAGING">		<![CDATA[0.7]]>		</property>
+	
+	<!-- TRANSITION default volume -->
+	<property name="nDEFAULT_VOLUME_TRANSITION">		<![CDATA[0.7]]>		</property>
+	
+	<!-- UI default volume -->
+	<property name="nDEFAULT_VOLUME_UI">		<![CDATA[0.4]]>		</property>
+	
+	<!-- UI default volume -->
+	<property name="nDEFAULT_VOLUME_HUD">		<![CDATA[0.4]]>		</property>
+	
+	<!-- STINGER default volume -->
+	<property name="nDEFAULT_VOLUME_STINGER">		<![CDATA[0.6]]>		</property>
+	
+	<!-- CHARACTER default volume -->
+	<property name="nDEFAULT_VOLUME_CHARACTER">		<![CDATA[0.5]]>		</property>
+	
+	<!-- SFX default volume -->
+	<property name="nDEFAULT_VOLUME_SFX">		<![CDATA[0.6]]>		</property>
+	
+</config>

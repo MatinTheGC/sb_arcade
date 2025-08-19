@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level num="1" levelTime="180" specialTime="20">
+
+	<background>
+	<!--back_ground_tile-->
+		<item type="bkgTile" spriteId="back_ground_tile" x="0" y="0" span="6000" />
+	<!--house1-->
+		<item type="bkgItem" spriteId="house_1" x="142" y="281" />
+		<item type="bkgItem" spriteId="house_1" x="544" y="281" />
+		<item type="bkgItem" spriteId="house_1" x="926" y="281" />
+		<item type="bkgItem" spriteId="house_1" x="1858" y="281" />
+		<item type="bkgItem" spriteId="house_1" x="2259" y="281" />
+		<item type="bkgItem" spriteId="house_1" x="2641" y="281" />
+	<!--house2-->
+		<item type="bkgItem" spriteId="house_2" x="233" y="290" />
+		<item type="bkgItem" spriteId="house_2" x="794" y="290" />
+		<item type="bkgItem" spriteId="house_2" x="1016" y="290" />
+		<item type="bkgItem" spriteId="house_2" x="1948" y="290" />
+		<item type="bkgItem" spriteId="house_2" x="2509" y="290" />
+		<item type="bkgItem" spriteId="house_2" x="2731" y="290" />
+	<!--house3-->
+		<item type="bkgItem" spriteId="house_3" x="1174" y="304" />
+	<!--warning sign-->
+		<item type="bkgItem" spriteId="warning_sign" x="1355" y="374" />
+	<!--ground_tile_level1-->
+		<item type="groundTile" spriteId="ground_tile_level1" x="0" y="422" span="6000" />
+	<!--rock
+		<item type="bkgItem" spriteId="rock" x="275" y="412" />
+		<item type="bkgItem" spriteId="rock" x="1015" y="412" />
+		<item type="bkgItem" spriteId="rock" x="3766" y="412" />
+	-->
+	<!--pitfall_level1-->
+		<item type="groundGap" spriteId="pitfall_level1" x="617" y="409" />
+		<item type="groundGap" spriteId="pitfall_level1" x="1385" y="409" />
+		<item type="groundGap" spriteId="pitfall_level1" x="1597" y="409" />
+		<item type="groundGap" spriteId="pitfall_level1" x="3032" y="409" />
+		<item type="groundGap" spriteId="pitfall_level1" x="5244" y="409" />
+	<!--blackness-->
+		<item type="groundGap" spriteId="blackness" x="1416" y="409" />
+		<item type="groundGap" spriteId="blackness" x="1488" y="409" />
+		<item type="groundGap" spriteId="blackness" x="1558" y="409" />
+		<item type="groundGap" spriteId="blackness" x="1629" y="409" />
+	<!--pineapple-->
+		<item type="bkgItem" spriteId="pineapple" x="0" y="0" />
+	<!--chum_bucket-->
+		<item type="bkgItem" spriteId="chum_bucket" x="5607" y="-30" />
+
+	</background>
+
+	<objects>
+
+	<!--short_plank_level1-->
+		<item type="platform" spriteId="short_plank_level1" x="436" y="140" />
+		<item type="platform" spriteId="short_plank_level1" x="364" y="112" />
+		<item type="platform" spriteId="short_plank_level1" x="290" y="85" />
+		<item type="platform" spriteId="short_plank_level1" x="955" y="80" />
+		<item type="platform" spriteId="short_plank_level1" x="1113" y="330" />
+		<item type="platform" spriteId="short_plank_level1" x="1321" y="284" />
+		<item type="platform" spriteId="short_plank_level1" x="1710" y="284" />
+		<item type="platform" spriteId="short_plank_level1" x="1902" y="218" />
+		<item type="platform" spriteId="short_plank_level1" x="2107" y="234" />
+		<item type="platform" spriteId="short_plank_level1" x="2296" y="168" />
+		<item type="platform" spriteId="short_plank_level1" x="3035" y="226" />
+		<item type="platform" spriteId="short_plank_level1" x="3189" y="330" />
+		<item type="platform" spriteId="short_plank_level1" x="3397" y="270" />
+		<item type="platform" spriteId="short_plank_level1" x="3886" y="141" />
+		<item type="platform" spriteId="short_plank_level1" x="3797" y="118" />
+		<item type="platform" spriteId="short_plank_level1" x="4341" y="146" />
+		<item type="platform" spriteId="short_plank_level1" x="4405" y="121" />
+		<item type="platform" spriteId="short_plank_level1" x="4565" y="340" />
+		<item type="platform" spriteId="short_plank_level1" x="4772" y="270" />
+		<item type="platform" spriteId="short_plank_level1" x="5140" y="270" />
+	<!--long_plank_level1-->
+		<item type="platform" spriteId="long_plank_level1" x="378" y="316" />
+		<item type="platform" spriteId="long_plank_level1" x="558" y="228" />
+		<item type="platform" spriteId="long_plank_level1" x="1423" y="202" />
+		<item type="platform" spriteId="long_plank_level1" x="2435" y="210" />
+		<item type="platform" spriteId="long_plank_level1" x="2753" y="100" />
+		<item type="platform" spriteId="long_plank_level1" x="3498" y="188" />
+		<item type="platform" spriteId="long_plank_level1" x="3831" y="325" />
+		<item type="platform" spriteId="long_plank_level1" x="4066" y="234" />
+		<item type="platform" spriteId="long_plank_level1" x="4875" y="188" />
+	<!--ramp
+		<item type="platform" spriteId="ramp" x="2772" y="384" />
+	-->
+	<!--rock-->
+		<item type="obstacle" spriteId="rock" x="275" y="412" />
+		<item type="obstacle" spriteId="rock" x="1015" y="412" />
+		<item type="obstacle" spriteId="rock" x="3766" y="412" />
+	<!--food_bowl-->
+		<item type="food" spriteId="food_bowl" x="310" y="50" />
+		<item type="food" spriteId="food_bowl" x="380" y="70" />
+		<item type="food" spriteId="food_bowl" x="460" y="100" />
+		<item type="food" spriteId="food_bowl" x="470" y="305" />
+		<item type="food" spriteId="food_bowl" x="560" y="220" />
+		<item type="food" spriteId="food_bowl" x="660" y="220" />
+		<item type="food" spriteId="food_bowl" x="940" y="435" />
+		<item type="food" spriteId="food_bowl" x="1130" y="320" />
+		<item type="food" spriteId="food_bowl" x="1165" y="430" />
+		<item type="food" spriteId="food_bowl" x="1340" y="250" />
+
+		<item type="food" spriteId="food_bowl" x="1430" y="155" />
+		<item type="food" spriteId="food_bowl" x="1510" y="155" />
+		<item type="food" spriteId="food_bowl" x="1710" y="250" />
+		<item type="food" spriteId="food_bowl" x="2125" y="180" />
+		<item type="food" spriteId="food_bowl" x="2315" y="120" />
+		<item type="food" spriteId="food_bowl" x="2450" y="170" />
+		<item type="food" spriteId="food_bowl" x="2510" y="170" />
+		<item type="food" spriteId="food_bowl" x="2580" y="170" />
+		<item type="food" spriteId="food_bowl" x="2315" y="425" />
+
+		<item type="food" spriteId="food_bowl" x="2380" y="425" />
+		<item type="food" spriteId="food_bowl" x="2450" y="425" />
+		<item type="food" spriteId="food_bowl" x="2510" y="425" />
+		<item type="food" spriteId="food_bowl" x="2580" y="425" />
+		<item type="food" spriteId="food_bowl" x="2650" y="425" />
+		<item type="food" spriteId="food_bowl" x="2760" y="55" />
+		<item type="food" spriteId="food_bowl" x="2815" y="25" />
+		<item type="food" spriteId="food_bowl" x="3050" y="190" />
+		<item type="food" spriteId="food_bowl" x="3200" y="295" />
+		<item type="food" spriteId="food_bowl" x="3320" y="425" />
+
+
+		<item type="food" spriteId="food_bowl" x="3495" y="150" />
+		<item type="food" spriteId="food_bowl" x="3560" y="150" />
+		<item type="food" spriteId="food_bowl" x="3620" y="150" />
+		<item type="food" spriteId="food_bowl" x="3690" y="150" />
+		<item type="food" spriteId="food_bowl" x="3600" y="425" />
+		<item type="food" spriteId="food_bowl" x="3670" y="425" />
+		<item type="food" spriteId="food_bowl" x="3810" y="70" />
+		<item type="food" spriteId="food_bowl" x="3905" y="100" />
+		<item type="food" spriteId="food_bowl" x="3880" y="285" />
+		<item type="food" spriteId="food_bowl" x="3950" y="285" />
+
+		<item type="food" spriteId="food_bowl" x="3915" y="425" />
+		<item type="food" spriteId="food_bowl" x="4000" y="425" />
+		<item type="food" spriteId="food_bowl" x="4090" y="425" />
+		<item type="food" spriteId="food_bowl" x="4340" y="100" />
+		<item type="food" spriteId="food_bowl" x="4395" y="70" />
+		<item type="food" spriteId="food_bowl" x="4460" y="70" />
+		<item type="food" spriteId="food_bowl" x="4380" y="425" />
+		<item type="food" spriteId="food_bowl" x="4450" y="425" />
+		<item type="food" spriteId="food_bowl" x="4520" y="425" />
+		<item type="food" spriteId="food_bowl" x="4620" y="425" />
+
+		<item type="food" spriteId="food_bowl" x="4700" y="425" />
+		<item type="food" spriteId="food_bowl" x="4580" y="285" />
+		<item type="food" spriteId="food_bowl" x="4785" y="230" />
+		<item type="food" spriteId="food_bowl" x="4875" y="135" />
+		<item type="food" spriteId="food_bowl" x="4935" y="135" />
+		<item type="food" spriteId="food_bowl" x="5160" y="235" />
+
+	<!--blue_shoe-->
+		<item type="special" spriteId="blue_shoe" x="180" y="10" />
+		<item type="special" spriteId="blue_shoe" x="1910" y="145" />
+		<item type="special" spriteId="blue_shoe" x="4510" y="25" />
+	<!--green_shoe-->
+		<item type="special" spriteId="green_shoe" x="2850" y="15" />
+	<!--golden_snail-->
+		<item type="special" spriteId="golden_snail" x="960" y="20" />
+	<!--finback-->
+		<item type="badGuy" spriteId="finback" x="425" y="358" span="375" />
+		<item type="badGuy" spriteId="finback" x="585" y="140" span="430" />
+		<item type="badGuy" spriteId="finback" x="1760" y="358" span="550" />
+	<!--strangler-->
+		<!-- item type="badGuy" spriteId="strangler" x="780" y="345" span="415" /-->
+		<item type="badGuy" spriteId="strangler" x="3910" y="345" span="840" />
+		<item type="badGuy" spriteId="strangler" x="4905" y="82" span="430" />
+	<!--greaser-->
+		<item type="badGuy" spriteId="greaser" x="1150" y="350" span="440" />
+		<item type="badGuy" spriteId="greaser" x="1465" y="105" span="400" />
+		<item type="badGuy" spriteId="greaser" x="2700" y="350" span="550" />
+	<!--headphones-->
+		<item type="badGuy" spriteId="headphones" x="3200" y="345" span="650" />
+		<item type="badGuy" spriteId="headphones" x="4100" y="125 " span="410" />
+		<item type="badGuy" spriteId="headphones" x="4820" y="345" span="650" />
+	<!--jellyfish-->
+		<item type="badGuy" spriteId="jellyfish" x="1900" y="80" span="800" />
+		<item type="badGuy" spriteId="jellyfish" x="2300" y="385" span="600" />
+		<item type="badGuy" spriteId="jellyfish" x="3170" y="170" span="600" />
+		<item type="badGuy" spriteId="jellyfish" x="3975" y="35" span="650" />
+
+
+	</objects>
+
+	<foreground>
+	<!--seaweed_rock-->
+		<item type="foreground" spriteId="seaweed_rock" x="150" y="388" />
+		<item type="foreground" spriteId="seaweed_rock" x="460" y="388" />
+		<item type="foreground" spriteId="seaweed_rock" x="2040" y="388" />
+		<item type="foreground" spriteId="seaweed_rock" x="2350" y="388" />
+		<item type="foreground" spriteId="seaweed_rock" x="3260" y="388" />
+		<item type="foreground" spriteId="seaweed_rock" x="3570" y="388" />
+		<item type="foreground" spriteId="seaweed_rock" x="4570" y="388" />
+		<item type="foreground" spriteId="seaweed_rock" x="4880" y="388" />
+		<item type="foreground" spriteId="seaweed_rock" x="5460" y="388" />
+	</foreground>
+
+	<safezones>
+		<point x="250" y="0" />
+		<point x="1083" y="0" />
+		<point x="2142" y="0" />
+		<point x="2550" y="0" />
+		<point x="2640" y="0" />
+		<point x="3225" y="0" />
+		<point x="3637" y="0" />
+		<point x="3950" y="0" />
+		<point x="4370" y="0" />
+		<point x="4625" y="0" />
+		<point x="5798" y="0" />
+	</safezones>
+
+</level>

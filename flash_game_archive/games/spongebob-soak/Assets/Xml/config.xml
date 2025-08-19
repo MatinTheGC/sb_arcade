@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<url>
+		<object url="Assets/Xml/translation.xml"></object>
+	</url>
+	
+	<lang>
+		<code>en</code>
+	</lang>
+
+	<nickPoints>
+		<campaignID>nbb-manage-hsb</campaignID>
+	<!--	<modulePath>http://www.nick.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath>-->
+	<!-->Run the module locally when running on your machine, but swap the modulePath(s) when you deliver<!-->
+		<modulePath>Assets/Libraries/NickPoints_Module_build.swf</modulePath>
+		
+		<events>
+			<event>
+				<name>low_rank</name>
+			</event>
+			<event>
+				<name>mid_rank</name>
+			</event>
+			<event>
+				<name>high_rank</name>
+			</event>
+		</events>
+
+		<sbpromo>
+			<img>Assets/placeholder.jpg</img>
+			<url target="_self">http://www.spongebob.nick.com/games/play/spongebob-dancin/</url>
+		</sbpromo>
+
+	</nickPoints>
+</data>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<loading><![CDATA[Loading]]></loading>
+	
+	<print><![CDATA[Print]]></print>
+	<enterCode><![CDATA[Enter Code]]></enterCode>
+	<startGame><![CDATA[Start Game]]></startGame>
+	
+	<enterCodeContent><![CDATA[Enter the code in the box below and press Enter]]></enterCodeContent>
+	<submit><![CDATA[Submit]]></submit>
+	<enterCodeHere><![CDATA[Enter code here]]></enterCodeHere>
+	
+	<howToPlay><![CDATA[How to Play]]></howToPlay>
+	<howToPlayContent>
+		<![CDATA[Plankton is on a mission to grab all gifts in Bikini Bottom!
+
+Click and drag the mouse to draw a snowy path to help Plankton sled his way to all the gifts."]]>
+	</howToPlayContent>
+
+	<clickToStart><![CDATA[Click anywhere to Start]]></clickToStart>
+	
+	<time><![CDATA[Time:]]></time>
+	<score><![CDATA[Score:]]></score>
+	<distance><![CDATA[Distance:]]></distance>
+	<ft><![CDATA[ft]]></ft>
+	<total><![CDATA[Total:]]></total>
+	
+	<playAgain><![CDATA[Play Again]]></playAgain>
+	<highScore><![CDATA[High Score]]></highScore>
+	<submitScore><![CDATA[Submit Score]]></submitScore>
+	
+	<title><![CDATA[Gift Lift]]></title>
+	<spongebob><![CDATA[Spongebob Squarepants]]></spongebob>
+	<gameOver><![CDATA[Game Over!]]></gameOver>
+	<leaderboard><![CDATA[Leaderboard]]></leaderboard>
+
+</data>

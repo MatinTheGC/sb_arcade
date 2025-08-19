@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<data>
+	<config>
+		<!-- flashvars -->
+		<params>
+			<param name="userpath" param="userpath" defaultValue="/games/common/user_name/getUserInfo.jhtml" />
+			<param name="scorePath" param="scorePath" defaultValue="/common/score/Scoreboard.jhtml" />
+			<param name="gameId" param="gameId" defaultValue="sb_showdown" /><!-- sb_showdown --><!-- av_battle -->
+			<param name="strings" param="strings" defaultValue="/games/sb_spitwad/sb_spitwad_strings.xml" />
+			<param name="scoreboard" param="scoreboard" defaultValue="1" />
+		</params>
+		<game>
+			<number name="devmode" value="0" />
+			<number name="mouseMode" value="0" />
+			<number name="roundTime" value="60" />
+			<number name="shotValue" value="10" />
+			<number name="pointFrequency" value="5" />
+			<number name="jellySpeed" value="25" />
+			<number name="levelStartOffset" value="5" />
+			<array name="pointValues">
+				<number value="10" />
+				<number value="25" />
+				<number value="50" />
+				<number value="100" />
+			</array>
+			<array name="modifiers">
+				<object value="5" type="spread" assetId="SeaCucumberBlue" />
+				<object value="5" type="blast" assetId="SeaCucumberRed"  />
+				<object value="5" type="screwball" assetId="SeaCucumberGreen" />
+			</array>
+			<object name="player">
+				<number name="computerLevelStart" value="1" />
+				<number name="scale" value="0.6" />
+				<number name="leftX" value="-200" />
+				<number name="rightX" value="200" />
+				<number name="boundsX" value="275" />
+				<number name="minY" value="-600" />
+				<number name="maxY" value="50" />
+				<number name="spongebobShotOffsetX" value="75" />
+				<number name="spongebobShotOffsetY" value="-25" />
+				<number name="patrickShotOffsetX" value="0" />
+				<number name="patrickShotOffsetY" value="0" />
+				<number name="shotSpeed" value="400" />
+				<number name="moveSpeed" value="200" />
+			</object>
+		</game>
+	</config>
+</data>

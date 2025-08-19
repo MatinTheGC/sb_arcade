@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+
+<config>
+	
+	<version>
+		<!-- "false" will enable high score viewing/submission. "true" will disable high score viewing/submission.  -->
+		<isInternational>false</isInternational>
+		<!-- "true" will enable game play tracking.  "false" will disable game play tracking.  Make sure <highScore><gameID> is set. -->
+		<trackingEnabled>true</trackingEnabled>
+	</version>
+
+	<highScore>
+		
+		<!-- Debug mode. Force user to be logged in with the username of "DEBUG_USER". -->
+		<debug>false</debug>
+		
+		<userPath>http://www.nick.com/games/common/user_name/getUserInfo.jhtml</userPath>
+		<scorePath>http://www.nick.com/common/score/Scoreboard.jhtml</scorePath>
+		<serviceLink>http://www.nick.com</serviceLink>
+		<gameID>spongebob-hot-hsb</gameID>
+		
+	</highScore>
+	
+	<gameSettings>
+		<nickPoints>
+			<campaignID>sb-hotnps</campaignID>
+			<modulePath>http://www.nick.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath>
+			<!-->Run the module locally when running on your machine, but swap the modulePath(s) when you deliver<!-->
+			<!--modulePath>NickPoints_Module_build.swf</modulePath-->
+			<events>
+				<event>
+					<name>rank_low</name>
+					<scoreThreshold>1000</scoreThreshold>
+				</event>
+				<event>
+					<name>rank_mid</name>
+					<scoreThreshold>2500</scoreThreshold>
+				</event>
+				<event>
+					<name>rank_high</name>
+					<scoreThreshold>5000</scoreThreshold>
+				</event>
+			</events>
+			
+			<sbpromo>
+				<img>spbob_train_gain.jpg</img>
+				<url target="_blank">http://www.spongebob.nick.com/games/play/spongebob-squarepants-no-train-no-gain/</url>
+			</sbpromo>
+			
+		</nickPoints>
+		
+		
+		<game>
+			<player>
+				<speed>125</speed>
+				<health max="100" decrease="15" increase="50" />
+				<position x="300" bottomY="240" topY="300">
+					<x min="0" max="600" />
+					<y min="200" max="150" />
+				</position>
+			</player>
+			<playField>
+				<height>
+					<base>1000</base>
+					<increase>500</increase>maybe 
+				</height>
+				<movingObstacleTileFrequency>1</movingObstacleTileFrequency>
+				<movingObstacleSpeed>50</movingObstacleSpeed>
+				<speedIncreasePerLevel>15</speedIncreasePerLevel>
+			</playField>
+			<iceCream>
+				<baseLifeSpan>300</baseLifeSpan>
+				<lifeSpanIncreasePerLevel>100</lifeSpanIncreasePerLevel>
+				<meltRate>10</meltRate>
+			</iceCream>
+			<coins>
+				<points>25</points>
+				<count_per_tile>1</count_per_tile>
+				<required_per_tile>1</required_per_tile>
+			</coins>
+		</game>
+		
+	</gameSettings>
+	
+	
+
+	<localization>
+		
+	</localization>
+	
+</config>

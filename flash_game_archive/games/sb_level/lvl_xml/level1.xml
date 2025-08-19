@@ -1,0 +1,124 @@
+ <overmap>
+ <map linkId="tile_mc" isometric="2" tileWidth="58" tileHeight="58" levelHeight="9" scrollSpeed="3" baseMap="Basic" world="Fire" gameType="switch" timer="10">
+ <row>
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="0" level="0" object="Three01" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" object="RockBlock" /> 
+  <tile type="1" walkable="0" level="0" object="Switch" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="1" walkable="0" level="0" object="WoodBox" /> 
+  <tile type="1" walkable="0" level="0" object="WoodBox" dir="left" /> 
+  <tile type="1" walkable="0" level="0" object="WoodBox" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="1" walkable="0" level="0" object="SpecialThree" /> 
+  </row>
+ <row>
+  <tile type="1" walkable="0" level="0" object="Statue" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="1" walkable="0" level="0" object="Statue" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="1" walkable="1" level="0" object="Aang" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  <tile type="1" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="1" walkable="0" level="0" object="Statue" /> 
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="0" level="0" object="Three02" /> 
+  <tile type="1" walkable="0" level="0" object="Basket" /> 
+  </row>
+  </map>
+ </overmap>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+
+<!--Level3-->
+
+<group id="main_door_Left_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="0" y="0" width="185" height="472" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="plankton_picture_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="185" y="0" width="280" height="259" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="platform_small_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="267" y="350" width="166" height="76" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="platform_large_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="267" y="259" width="240" height="91" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="top_bar_stalagtites_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="465" y="0" width="289" height="69" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="spongebob_cage_lid">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="754" y="0" width="215" height="252" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="spongebob_cage_base">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="754" y="252" width="248" height="124" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+<group id="ground_tile_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="611" y="376" width="382" height="91" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="lava_tile_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="508" y="201" width="245" height="89" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="background_tile_clean_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="465" y="69" width="128" height="132" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+<group id="background_tile_rusty_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="593" y="69" width="128" height="132" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="sign_beware_hot_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="536" y="370" width="75" height="65" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>			
+<group id="sign_almost_there_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="433" y="350" width="103" height="85" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+<group id="stomper_head_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="185" y="342" width="82" height="142" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+<group id="stomper_extender_level3">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="185" y="259" width="82" height="83" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>		
+	
+						
+	
+</spritesheet>
+	
+	
+	
+	
+	

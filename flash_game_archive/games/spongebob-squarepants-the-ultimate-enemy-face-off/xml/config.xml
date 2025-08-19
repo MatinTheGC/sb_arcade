@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<!-- Counter effect speed when displaying score in HUD-->
+	<property name="nHUD_SCORE_COUNTER_EFFECT_SPEED">	<![CDATA[25]]>		</property>
+
+	<!-- HP at start -->
+	<property name="nHP_START">	<![CDATA[100]]>		</property>
+	
+	<!-- Energy at start -->
+	<property name="nENERGY_START">	<![CDATA[100]]>		</property>
+	
+	
+	<!-- Energy value restored when a refill occurs -->
+	<property name="nENERGY_REFILL">	<![CDATA[5]]>		</property>
+	
+	<!-- Energy value used when an attack occurs (Initial, modified with monster setup) -->
+	<property name="nENERGY_INITIAL_USAGE">	<![CDATA[20]]>		</property>
+
+	<!-- Up attack power (Initial, modified with monster setup) -->
+	<property name="nATTACK_UP_INITIAL_POWER">	<![CDATA[10]]>		</property>
+	
+	<!-- Mid attack power (Initial, modified with monster setup) -->
+	<property name="nATTACK_MID_INITIAL_POWER">	<![CDATA[10]]>		</property>
+	
+	<!-- Low attack power (Initial, modified with monster setup) -->
+	<property name="nATTACK_LOW_INITIAL_POWER">	<![CDATA[10]]>		</property>
+	
+	
+	<!-- AI chance to block (Initial, modified with monster rank) -->
+	<property name="nAI_CHANCE_TO_BLOCK">	<![CDATA[20]]>		</property>
+	
+	<!-- AI minimal anticipation time (Initial, modified with monster rank) -->
+	<property name="nAI_ANTICIPATION_MIN">	<![CDATA[3]]>		</property>
+	
+	<!-- AI maximal anticipation time (Initial, modified with monster rank) -->
+	<property name="nAI_ANTICIPATION_MAX">	<![CDATA[5]]>		</property>
+	
+	<!-- AI anticipation chance (Initial, modified with monster rank) -->
+	<property name="nAI_ANTICIPATION_CHANCE">	<![CDATA[50]]>		</property>
+	
+	<!-- AI minimal attack wait delay (Initial, modified with monster rank) -->
+	<property name="nAI_ATTACK_WAIT_MIN">	<![CDATA[3]]>		</property>
+	
+	<!-- AI maximal attack wait delay (Initial, modified with monster rank) -->
+	<property name="nAI_ATTACK_WAIT_MAX">	<![CDATA[4]]>		</property>
+	
+	<!-- AI attack wait chance (Initial, modified with monster rank) -->
+	<property name="nAI_ATTACK_WAIT_CHANCE">	<![CDATA[50]]>		</property>
+
+	// NICK GAME SETTING //
+	
+	<!-- Flag : Nick high score enabled -->
+	<property name="nick_highscores_available">	<![CDATA[true]]>			</property>
+	<!-- Game's nick HSB ID -->
+	<property name="nick_highscores_hs_id">		<![CDATA[av_fight2]]>		</property>	
+	<!-- Game's nick GameID for tracking -->
+	<property name="nick_game_id">				<![CDATA[av_fight2]]>		</property>	
+
+	// VOLUME SETTING  //
+
+	<!-- Music default volume -->
+	<property name="nDEFAULT_VOLUME_MUSIC">		<![CDATA[0.5]]>		</property>
+		
+	<!-- Sound default volume -->
+	<property name="nDEFAULT_VOLUME_SOUNDS">	<![CDATA[0.5]]>		</property>
+	
+		<!-- Default AbstractView IN volume-->
+	<property name="nDEFAULT_POPUP_VOL_IN">	<![CDATA[1]]>		</property>
+	
+	<!-- Default AbstractView OUT volume-->
+	<property name="nDEFAULT_POPUP_VOL_OUT">	<![CDATA[1]]>		</property>
+
+	<!-- Default UI Button click volume-->
+	<property name="nDEFAULT_MOUSE_VOL_CLICK">	<![CDATA[1]]>		</property>
+	
+	<!-- Default UI Button rollOver volume-->
+	<property name="nDEFAULT_MOUSE_VOL_ROLL">	<![CDATA[1]]>		</property>
+
+	<!-- Default UI Transition IN volume -->
+	<property name="nDEFAULT_TRANSITION_VOL_IN"><![CDATA[1]]>		</property>
+	
+	<!-- Default UI Button rollOver volume-->
+	<property name="nDEFAULT_TRANSITION_VOL_OUT"><![CDATA[1]]>		</property>
+	
+	<!-- Coin sound's volume-->
+	<property name="nCOIN_VOLUME">				<![CDATA[1]]>		</property>
+	
+</config>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+
+	<!-- pitfall Level1 and 2-->
+	
+<group id="pitfall_level1">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="0" y="0" width="150" height="91" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>		
+<group id="blackness">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="150" y="0" width="72" height="91" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="pitfall_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="222" y="0" width="151" height="91" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>		
+<group id="wall_leak">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="373" y="0" width="67" height="64" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="wall_peel">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="440" y="0" width="53" height="64" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>				
+	
+</spritesheet>
+	
+	
+	
+	
+	

@@ -1,0 +1,124 @@
+ <overmap>
+ <map linkId="tile_mc" isometric="2" tileWidth="58" tileHeight="58" levelHeight="9" scrollSpeed="3" baseMap="Basic" world="Fire" gameType="treasure" timer="10">
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="Straw" dir="left" /> 
+  <tile type="1" walkable="0" level="0" object="Straw" /> 
+  <tile type="1" walkable="0" level="0" object="Straw" dir="left" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="0" level="0" object="WoodCase" inside="Clown" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="2" walkable="0" level="0" object="Three02" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="1" walkable="0" level="0" object="Straw" /> 
+  <tile type="1" walkable="0" level="0" object="Straw" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="0" level="0" object="WoodCase" inside="Treasure" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="0" level="0" object="WoodCase" /> 
+  <tile type="2" walkable="0" level="0" object="Three02" dir="left" /> 
+  <tile type="3" walkable="0" level="0" object="WoodCase" inside="Clown" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="2" walkable="0" level="0" object="Plate" dir="left" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="1" level="0" object="Clown" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="0" level="0" object="WoodCase" inside="Clown" /> 
+  <tile type="1" walkable="1" level="0" object="IceBlock" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" object="Clown" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="0" level="0" object="WoodCase" inside="Apple" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="2" walkable="0" level="0" object="SpecialThree" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="2" walkable="0" level="0" object="SpecialThree" dir="left" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="0" level="0" object="WoodCase" inside="Clown" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="3" walkable="1" level="0" object="Aang" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+ <row>
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="3" walkable="1" level="0" /> 
+  <tile type="3" walkable="0" level="0" object="WoodCase" inside="Clown" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  <tile type="5" walkable="0" level="0" /> 
+  </row>
+  </map>
+ </overmap>

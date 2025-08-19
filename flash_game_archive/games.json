@@ -1,0 +1,598 @@
+[
+  {
+    "slug": "sb_3dracer",
+    "name": "3D Powerkart Grand Prix"
+  },
+  {
+    "slug": "sb_anch",
+    "name": "Anchovy Assault"
+  },
+  {
+    "slug": "sb_atlantis",
+    "name": "Atlantis SquarePantis Bus Rush"
+  },
+  {
+    "slug": "sb_avalanche",
+    "name": "Avalanche at Plankton's Peak!"
+  },
+  {
+    "slug": "sb_bestday",
+    "name": "The Best Day Ever"
+  },
+  {
+    "slug": "sb_bikini",
+    "name": "Bikini Bottom or Bust"
+  },
+  {
+    "slug": "sb_bowling",
+    "name": "B.C. Bowling"
+  },
+  {
+    "slug": "sb_bubblebust",
+    "name": "SpongeBob's Bubble Bustin' Game"
+  },
+  {
+    "slug": "sb_bumpersub",
+    "name": "SpongeBob's Bumper Subs"
+  },
+  {
+    "slug": "sb_carnivale_3",
+    "name": "Bikini Bottom Carnival"
+  },
+  {
+    "slug": "sb_coloringbook",
+    "name": "Coloring Book"
+  },
+  {
+    "slug": "sb_crossword",
+    "name": "SpongeBob's Crosswords"
+  },
+  {
+    "slug": "sb_deepsea",
+    "name": "Deep Sea Smashout"
+  },
+  {
+    "slug": "sb_delivery",
+    "name": "Delivery Dilemma"
+  },
+  {
+    "slug": "sb_dirtybubble",
+    "name": "Dirty Bubble Busters"
+  },
+  {
+    "slug": "sb_dunces",
+    "name": "Lost In Time: Dunces and Dragons"
+  },
+  {
+    "slug": "sb_gone",
+    "name": "Gone Fishing"
+  },
+  {
+    "slug": "sb_invasion",
+    "name": "Invasion of the Patty Snatchers"
+  },
+  {
+    "slug": "sb_kah",
+    "name": "SpongeBob's KahRahTay Contest"
+  },
+  {
+    "slug": "sb_karate",
+    "name": "Bikini Bottom Bust Up"
+  },
+  {
+    "slug": "sb_krabo",
+    "name": "The Krab-O-Matic 3000"
+  },
+  {
+    "slug": "sb_krusty",
+    "name": "Plankton's Krusty Bottom Weekly!"
+  },
+  {
+    "slug": "sb_lava",
+    "name": "Invasion of the Lava King"
+  },
+  {
+    "slug": "sb_level",
+    "name": "Plankton's Fun House"
+  },
+  {
+    "slug": "sb_patty",
+    "name": "Patty Panic"
+  },
+  {
+    "slug": "sb_pest",
+    "name": "Pest of the West Showdown!"
+  },
+  {
+    "slug": "sb_pizza",
+    "name": "SpongeBob's Pizza Toss"
+  },
+  {
+    "slug": "sb_plankton",
+    "name": "Plankton's Pernicious Plot"
+  },
+  {
+    "slug": "sb_pyramid",
+    "name": "Pyramid Peril"
+  },
+  {
+    "slug": "sb_reef",
+    "name": "Reef Rumble"
+  },
+  {
+    "slug": "sb_saves",
+    "name": "SpongeBob Saves Bikini Bottom"
+  },
+  {
+    "slug": "sb_seamonster",
+    "name": "Sea Monster Smoosh"
+  },
+  {
+    "slug": "sb_ship",
+    "name": "Ship O' Ghouls"
+  },
+  {
+    "slug": "sb_shuffleboard",
+    "name": "Jellyfish Shuffleboard"
+  },
+  {
+    "slug": "sb_slammin",
+    "name": "Slammin' Sluggers"
+  },
+  {
+    "slug": "sb_snow",
+    "name": "SpongeBob SnowPants!"
+  },
+  {
+    "slug": "sb_spitwad",
+    "name": "Spitwad Showdown"
+  },
+  {
+    "slug": "sb_spongeseek",
+    "name": "SpongeSeek"
+  },
+  {
+    "slug": "sb_trailsnail",
+    "name": "Trail of the Snail"
+  },
+  {
+    "slug": "sb_trash",
+    "name": "Friend or Foe Trash Bash!"
+  },
+  {
+    "slug": "sb_trick",
+    "name": "Boo or BOOM"
+  },
+  {
+    "slug": "spongebob-bags-away",
+    "name": "Bags Away!"
+  },
+  {
+    "slug": "spongebob-bigone",
+    "name": "SpongeBob Vs. The Big One"
+  },
+  {
+    "slug": "spongebob-bikini",
+    "name": "Bikini Bottom Blaster"
+  },
+  {
+    "slug": "spongebob-boat-o-cross",
+    "name": "Boat-O-Cross"
+  },
+  {
+    "slug": "spongebob-bubble-blast",
+    "name": "Bubble Blast"
+  },
+  {
+    "slug": "spongebob-camping",
+    "name": "Camping Chaos!"
+  },
+  {
+    "slug": "spongebob-chop-chef",
+    "name": "Chop Chef"
+  },
+  {
+    "slug": "spongebob-classroom-cupid",
+    "name": "Classroom Cupid"
+  },
+  {
+    "slug": "spongebob-cookit",
+    "name": "Cook It 'N' Book It!"
+  },
+  {
+    "slug": "spongebob-coral-climb",
+    "name": "Coral Climb"
+  },
+  {
+    "slug": "spongebob-dancin",
+    "name": "Dancin' Tentacles"
+  },
+  {
+    "slug": "spongebob-dark-abyss",
+    "name": "Dark Abyss"
+  },
+  {
+    "slug": "spongebob-dastardly",
+    "name": "Dastardly Dirty Treats"
+  },
+  {
+    "slug": "spongebob-deapsea",
+    "name": "Deep Sea Surgeon"
+  },
+  {
+    "slug": "spongebob-decorating",
+    "name": "Decorating Dilemma"
+  },
+  {
+    "slug": "spongebob-deep-freeze",
+    "name": "Deep Freeze Freak Out"
+  },
+  {
+    "slug": "spongebob-demolition",
+    "name": "Demolition Sponge"
+  },
+  {
+    "slug": "spongebob-drawdown",
+    "name": "Poop Deck Draw Down"
+  },
+  {
+    "slug": "spongebob-elbow",
+    "name": "Elbow Grease Scrub-Down"
+  },
+  {
+    "slug": "spongebob-equation-invasion",
+    "name": "Equation Invasion"
+  },
+  {
+    "slug": "spongebob-fang-in-there",
+    "name": "Fang In There"
+  },
+  {
+    "slug": "spongebob-fiery",
+    "name": "Fiery Tracks of Fury"
+  },
+  {
+    "slug": "spongebob-frankenpatrick",
+    "name": "FrankenPatrick"
+  },
+  {
+    "slug": "spongebob-gary",
+    "name": "Gary's Adventure"
+  },
+  {
+    "slug": "spongebob-garys-revenge",
+    "name": "Gary's Revenge"
+  },
+  {
+    "slug": "spongebob-gas-blast",
+    "name": "Gas Blast"
+  },
+  {
+    "slug": "spongebob-geyser",
+    "name": "Gesundheit Geyser"
+  },
+  {
+    "slug": "spongebob-ghostly",
+    "name": "Ghostly Gold Grab"
+  },
+  {
+    "slug": "spongebob-ghostly-grammar",
+    "name": "Ghostly Grammar"
+  },
+  {
+    "slug": "spongebob-gift-lift",
+    "name": "Gift Lift"
+  },
+  {
+    "slug": "spongebob-hot",
+    "name": "Hot Sand Hustle"
+  },
+  {
+    "slug": "spongebob-i-love-spongebob",
+    "name": "I Love SpongeBob"
+  },
+  {
+    "slug": "spongebob-jelly",
+    "name": "Jelly Jumpin' Jamborine"
+  },
+  {
+    "slug": "spongebob-kash",
+    "name": "Kash Krab"
+  },
+  {
+    "slug": "spongebob-krabs",
+    "name": "Telescope Building"
+  },
+  {
+    "slug": "spongebob-krabs-makes-cents",
+    "name": "Krabs Makes Cents"
+  },
+  {
+    "slug": "spongebob-last-stand",
+    "name": "SpongeBob's Last Stand"
+  },
+  {
+    "slug": "spongebob-legends-of-bikini-bottom-ep1",
+    "name": "Spongebob Legends Of Bikini Bottom Ep1"
+  },
+  {
+    "slug": "spongebob-legends-of-bikini-bottom-ep10",
+    "name": "Spongebob Legends Of Bikini Bottom Ep10"
+  },
+  {
+    "slug": "spongebob-legends-of-bikini-bottom-ep2",
+    "name": "Spongebob Legends Of Bikini Bottom Ep2"
+  },
+  {
+    "slug": "spongebob-legends-of-bikini-bottom-ep3",
+    "name": "Spongebob Legends Of Bikini Bottom Ep3"
+  },
+  {
+    "slug": "spongebob-legends-of-bikini-bottom-ep4",
+    "name": "Spongebob Legends Of Bikini Bottom Ep4"
+  },
+  {
+    "slug": "spongebob-legends-of-bikini-bottom-ep5",
+    "name": "Spongebob Legends Of Bikini Bottom Ep5"
+  },
+  {
+    "slug": "spongebob-legends-of-bikini-bottom-ep6",
+    "name": "Spongebob Legends Of Bikini Bottom Ep6"
+  },
+  {
+    "slug": "spongebob-legends-of-bikini-bottom-ep7",
+    "name": "Spongebob Legends Of Bikini Bottom Ep7"
+  },
+  {
+    "slug": "spongebob-legends-of-bikini-bottom-ep8",
+    "name": "Spongebob Legends Of Bikini Bottom Ep8"
+  },
+  {
+    "slug": "spongebob-legends-of-bikini-bottom-ep9",
+    "name": "Spongebob Legends Of Bikini Bottom Ep9"
+  },
+  {
+    "slug": "spongebob-love",
+    "name": "Valentine Doomsday"
+  },
+  {
+    "slug": "spongebob-madbob-warriorpants",
+    "name": "MadBob WarriorPants"
+  },
+  {
+    "slug": "spongebob-monster-island",
+    "name": "Monster Island"
+  },
+  {
+    "slug": "spongebob-naughty",
+    "name": "Naughty or Nice"
+  },
+  {
+    "slug": "spongebob-no-train",
+    "name": "No Train, No Gain"
+  },
+  {
+    "slug": "spongebob-piano",
+    "name": "Pian-Oh-No!"
+  },
+  {
+    "slug": "spongebob-picture",
+    "name": "Picture Day Disaster"
+  },
+  {
+    "slug": "spongebob-pool",
+    "name": "Pool Party Pooper"
+  },
+  {
+    "slug": "spongebob-postal-panic",
+    "name": "Postal Panic"
+  },
+  {
+    "slug": "spongebob-race",
+    "name": "Race to Goo Lagoon"
+  },
+  {
+    "slug": "spongebob-roboshot",
+    "name": "Robot Knockdown"
+  },
+  {
+    "slug": "spongebob-sand",
+    "name": "Sand Wars"
+  },
+  {
+    "slug": "spongebob-sand-castle",
+    "name": "Sand Castle Hassle"
+  },
+  {
+    "slug": "spongebob-servin",
+    "name": "Servin' Up Seconds"
+  },
+  {
+    "slug": "spongebob-shrubbery",
+    "name": "Sandy's Shrubbery Shakedown"
+  },
+  {
+    "slug": "spongebob-snow",
+    "name": "SpongeBob Snowshredder"
+  },
+  {
+    "slug": "spongebob-soak",
+    "name": "Soak 'N' Squeeze"
+  },
+  {
+    "slug": "spongebob-sockengarten",
+    "name": "Sockengarten"
+  },
+  {
+    "slug": "spongebob-spotless-spongebob",
+    "name": "Spotless SpongeBob"
+  },
+  {
+    "slug": "spongebob-squared-away",
+    "name": "Squared Away"
+  },
+  {
+    "slug": "spongebob-squarepants-bubble-bros",
+    "name": "Bubble Bros"
+  },
+  {
+    "slug": "spongebob-squarepants-candy-dis-order",
+    "name": "Candy Dis-order"
+  },
+  {
+    "slug": "spongebob-squarepants-clash-of-triton",
+    "name": "Clash of Triton"
+  },
+  {
+    "slug": "spongebob-squarepants-colossal-chaos",
+    "name": "Colossal Chaos"
+  },
+  {
+    "slug": "spongebob-squarepants-dinner-defenders",
+    "name": "Dinner Defenders"
+  },
+  {
+    "slug": "spongebob-squarepants-doodlepants",
+    "name": "DoodlePants"
+  },
+  {
+    "slug": "spongebob-squarepants-extreme-arcade-of-world-records",
+    "name": "Extreme Arcade of World Records"
+  },
+  {
+    "slug": "spongebob-squarepants-frosty-fling",
+    "name": "Frosty Fling"
+  },
+  {
+    "slug": "spongebob-squarepants-garys-crush",
+    "name": "Gary's Crush"
+  },
+  {
+    "slug": "spongebob-squarepants-ghoul-getter",
+    "name": "Ghoul Getter"
+  },
+  {
+    "slug": "spongebob-squarepants-gifts-a-go-go",
+    "name": "Gifts a Go-Go"
+  },
+  {
+    "slug": "spongebob-squarepants-halloween-horror-frankenbobs-quest",
+    "name": "Halloween Horror: FrankenBob's Quest Part 1"
+  },
+  {
+    "slug": "spongebob-squarepants-halloween-horror-frankenbobs-quest-2",
+    "name": "Halloween Horror: FrankenBob's Quest Part 2"
+  },
+  {
+    "slug": "spongebob-squarepants-merry-mayhem",
+    "name": "Merry Mayhem"
+  },
+  {
+    "slug": "spongebob-squarepants-operation-holiday-hero",
+    "name": "Operation Holiday Hero"
+  },
+  {
+    "slug": "spongebob-squarepants-pile-the-prize",
+    "name": "Pile the Prize"
+  },
+  {
+    "slug": "spongebob-squarepants-plunder-blunder",
+    "name": "Plunder Blunder"
+  },
+  {
+    "slug": "spongebob-squarepants-pro-sk8r",
+    "name": "Pro Sk8r"
+  },
+  {
+    "slug": "spongebob-squarepants-second-hand-swag",
+    "name": "Second Hand Swag"
+  },
+  {
+    "slug": "spongebob-squarepants-showtime-squirrel",
+    "name": "Showtime Squirrel"
+  },
+  {
+    "slug": "spongebob-squarepants-snail-a-salt",
+    "name": "Snail A-Salt"
+  },
+  {
+    "slug": "spongebob-squarepants-the-jelly-piper",
+    "name": "The Jelly Piper"
+  },
+  {
+    "slug": "spongebob-squarepants-the-quickster",
+    "name": "The Quickster"
+  },
+  {
+    "slug": "spongebob-squarepants-the-ultimate-enemy-face-off",
+    "name": "The Ultimate Enemy Face-Off"
+  },
+  {
+    "slug": "spongebob-squarepants-whale-of-a-sale",
+    "name": "Whale of a Sale"
+  },
+  {
+    "slug": "spongebob-stacker",
+    "name": "Sandy's Sponge Stacker"
+  },
+  {
+    "slug": "spongebob-stinky",
+    "name": "Stinky Swagger"
+  },
+  {
+    "slug": "spongebob-sub-zero-hero",
+    "name": "Sub Zero Hero"
+  },
+  {
+    "slug": "spongebob-sudoku",
+    "name": "Sudoku of the Sponge"
+  },
+  {
+    "slug": "spongebob-surfing",
+    "name": "Goo Lagoon Surfing Showdown"
+  },
+  {
+    "slug": "spongebob-tasty",
+    "name": "Tasty Pastry Party"
+  },
+  {
+    "slug": "spongebob-tighty",
+    "name": "Tighty Whitey Tumble"
+  },
+  {
+    "slug": "spongebob-toy",
+    "name": "Toy Barrel Peril"
+  },
+  {
+    "slug": "spongebob-trouble",
+    "name": "Trouble Clef"
+  },
+  {
+    "slug": "spongebob-truth",
+    "name": "Truth or Square"
+  },
+  {
+    "slug": "spongebob-type-rider",
+    "name": "Type Rider"
+  },
+  {
+    "slug": "spongebob-valentines-day-virus",
+    "name": "Valentine's Day Virus"
+  },
+  {
+    "slug": "spongebob-viking",
+    "name": "Viking Of The Hill"
+  },
+  {
+    "slug": "spongebob-voyage",
+    "name": "InvasiVoyage"
+  },
+  {
+    "slug": "spongebob-whobob",
+    "name": "WhoBob WhatPants"
+  },
+  {
+    "slug": "spongebob-winter",
+    "name": "Winter Run-derland"
+  }
+]

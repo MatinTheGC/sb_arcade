@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nickPoints>
+
+	<campaignID>games_test</campaignID>
+	
+	<!--Run the module locally when running on your machine, but swap the modulePath(s) when you deliver-->
+	<!--<modulePath>http://www.nick.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath>-->
+	<!--<modulePath>http://www.nick-q.mtvi.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath>-->
+	<modulePath>local_only_nick_files/NickPoints_Module_build.swf</modulePath>
+	
+	<events>
+		<event>
+			<name>low_rank</name>
+		</event>
+		<event>
+			<name>mid_rank</name>
+		</event>
+		<event>
+			<name>high_rank</name>
+		</event>
+		<event>
+			<name>event2</name>
+		</event>
+	</events>
+	
+	<sbpromo>
+		<img>promo_img.jpg</img>
+		<url target="_blank">http://www.spongebob.com</url>
+	</sbpromo>
+	
+</nickPoints>

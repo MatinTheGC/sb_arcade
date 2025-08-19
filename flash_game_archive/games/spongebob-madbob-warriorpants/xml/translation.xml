@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's tag-->
+<!-- english, when set to TRUE, ignores all localization and uses the default field data in the FLA.-->
+
+<!-- <Node Attributes> -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the defaul size in the FLA.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the defaul font (specified by defaultFont).-->
+<!-- id is not Optional. It determines where flash places the text.-->
+<strings defaultFont="NickFont" english="true">
+	<!--Preloader-->
+	<string id="loading"	fontName="NickFont"	fontSize="16"	><![CDATA[Loading]]></string>
+	<!--Basics-->
+	<string id="title"		fontName="NickFont"	><![CDATA[GAME NAME]]></string>	
+	<string id="play"		fontName="NickFont"	fontSize="16"	><![CDATA[Play]]></string>
+	<string id="play_again"	fontName="NickFont"	fontSize="16"	><![CDATA[Try Again]]></string>	
+	<string id="how_to_play"fontName="NickFont"	fontSize="16"	><![CDATA[How to Play]]></string>
+	<string id="next"		fontName="NickFont"	fontSize="16"	><![CDATA[Next]]></string>
+	<string id="back"		fontName="NickFont"	fontSize="16"	><![CDATA[Back to Game]]></string>
+	<string id="continue"	fontName="NickFont"	fontSize="16"	><![CDATA[Continue]]></string>
+	<string id="close"		fontName="NickFont"	fontSize="16"	><![CDATA[close]]></string>
+	<string id="printable"	fontName="NickFont"	fontSize="16"	><![CDATA[Printable]]></string>
+	<string id="firstline" 	fontName="NickFont"	fontSize="16"	><![CDATA[MADBOB]]></string>
+	<string id="secondline" fontName="NickFont" 	fontSize="16"	><![CDATA[WARRIOR PANTS]]></string>
+	<string id="instructions" fontName="NickFont" fontSize="16" 	><![CDATA[-STEER WITH THE MOUSE AND CLICK TO JUMP
+- JUMP TO SLAM THE CREW MEMBERS OFF
+- DODGE JUMPING CREW MEMBERS
+- TRY TO GET AS FAR AS YOU CAN!!!]]></string>
+	<!--Game Buttons-->
+	<string id="menu"		fontName="NickFont"	fontSize="16"	><![CDATA[?]]></string>
+	<string id="help"		fontName="NickFont"	fontSize="16"	><![CDATA[How to Play]]></string>
+	<string id="sound_on"	fontName="NickFont"	fontSize="16"	><![CDATA[Sound On]]></string>
+	<string id="sound_off"	fontName="NickFont"	fontSize="16"	><![CDATA[Sound Off]]></string>
+	<string id="resume"		fontName="NickFont"	fontSize="16"	><![CDATA[Resume]]></string>
+	<!--Quit-->
+	<string id="quit"		fontName="NickFont"	fontSize="16"	><![CDATA[Quit]]></string>
+	<string id="quit_confirm_header"	fontName="NickFont"	fontSize="16"><![CDATA[Are you sure you want to quit?]]></string>
+	<string id="yes"		fontName="NickFont"	fontSize="16"	><![CDATA[Yes]]></string>
+	<string id="no"			fontName="NickFont"	fontSize="16"	><![CDATA[No]]></string>
+	<!--Gameplay-->
+	<string id="fuel"		fontName="NickFont"	fontSize="16"	><![CDATA[FUEL LEFT:]]></string>
+	<string id="distance"		fontName="NickFont"	fontSize="16"	><![CDATA[DISTANCE:]]></string>	
+	<string id="paused"		fontName="NickFont"	fontSize="16"	><![CDATA[Paused]]></string>
+	<string id="level_up"	fontName="NickFont"	fontSize="16"	><![CDATA[Level Up]]></string>
+	<string id="game_over"	fontName="NickFont"	fontSize="16"	><![CDATA[Game
+Over]]></string>	
+	<!--Leaderboard-->
+	<string id="you"		fontName="NickFont"	fontSize="16"	><![CDATA[You: ]]></string>
+	<string id="top"		fontName="NickFont"	fontSize="16"	><![CDATA[Top]]></string>	
+	<string id="leaderboard"	fontName="NickFont"	fontSize="16"><![CDATA[Leaderboard]]></string>
+	<string id="submit_score"	fontName="NickFont"	fontSize="16"><![CDATA[Submit Score]]></string>	
+	<!-- Copy/Body -->
+	<string id="help_copy"	fontName="NickFont"	fontSize="16"><![CDATA[HELP COPY]]></string>
+	<string id="watch"		fontName="NickFont"	fontSize="16"	><![CDATA[Watch 'Show Name' on]]></string>
+</strings>

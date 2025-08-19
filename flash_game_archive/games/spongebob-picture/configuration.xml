@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration errorCode="0" errorName="OK">
+	<assets>
+		<!-- size tiene el tamaño de los assets propios del group, sin incluir el tamaño de los sub-grupos -->
+		<group id="swfs" size="2883513" url="assets" >
+			<asset id="avatar" url="avatar.swf" />
+			<asset id="fxs" url="fxs.swf" />
+			<asset id="ingame" url="ingame.swf" />
+			<asset id="levels" url="levels.swf" />
+			<asset id="menues" url="menues.swf" />
+			<asset id="music" url="music.swf" /> 
+			<asset id="npcs" url="npcs.swf" />
+			<asset id="powerups" url="powerups.swf" />
+			<asset id="soundfxs" url="soundfxs.swf" />
+		</group>
+		
+		<group id="xmls" url="data" >
+			<asset id="SBPromo" url="SBPromo.xml" />
+			<group id="levels" url="levels" >
+				<asset id="level1" url="level1.xml" />
+				<asset id="level2" url="level2.xml" />
+				<asset id="level3" url="level3.xml" />
+			</group>
+			
+			<group id="languages" url="languages" >
+				<asset id="en" url="english.xml" />
+			</group>
+		</group>
+		
+	</assets>
+	
+	<settings>
+		<key id="totalLevel" value="3" />
+		<key id="firstLevelIndex" value="1" />
+		<key id="lifesAmount" value="3" />
+		<key id="printableCode" value="EXTRABOB" />
+		
+		<key id="urlAlias" value="spongebob-squarepants-picture-day-disaster" />
+		<key id="showID" value="spo" />
+		<key id="contentType" value="SpongeBob Printable" />
+		
+		<key id="gameName" value="spongebob-squarepants-picture-day-disaster" />
+		<key id="highScoreBoardID" value="spongebob-picture-hsb" />
+		<key id="campaignName" value="sb-picture-nps" />
+	</settings>
+</configuration>

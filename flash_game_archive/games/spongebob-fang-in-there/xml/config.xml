@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <serviceSettings>
+        <enableServices>true</enableServices> <!-- Enable/disable all Nick Services -->
+        <serviceManagerURL>/common/flash/services/ServiceManager.swf</serviceManagerURL>
+        <serviceManagerConfigURL>/common/flash/services/data/services.xml</serviceManagerConfigURL>
+		<defaultURL>http://www.nick.com</defaultURL>
+    </serviceSettings>
+    <leaderBoard>
+        <gameID>spongebob-squarepants-fang-in-there-hsb</gameID>
+    </leaderBoard>
+</config>

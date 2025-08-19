@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<baseMaps>
+	<baseMap name="NONE" id="1" world="Earth" />
+	<baseMap name="NONE" id="2" world="Earth" />
+	<baseMap name="NONE" id="3" world="Earth" />
+	<baseMap name="NONE" id="4" world="Earth" />
+	<baseMap name="Basic" id="5" world="Earth" />
+	<baseMap name="NONE" id="1" world="Air" />
+	<baseMap name="NONE" id="2" world="Air" />
+	<baseMap name="NONE" id="3" world="Air" />
+	<baseMap name="NONE" id="4" world="Air" />
+	<baseMap name="Basic" id="5" world="Air" />
+	<baseMap name="NONE" id="1" world="Fire" />
+	<baseMap name="NONE" id="2" world="Fire" />
+	<baseMap name="NONE" id="3" world="Fire" />
+	<baseMap name="NONE" id="4" world="Fire" />
+	<baseMap name="Basic" id="5" world="Fire" />
+	<baseMap name="Icy Shores" id="1" world="Water" />
+	<baseMap name="South Pole Village" id="2" world="Water" />
+	<baseMap name="Northern Capital" id="3" world="Water" />
+	<baseMap name="Snowy Cliffs" id="4" world="Water" />
+	<baseMap name="Basic Water" id="5" world="Water" />
+</baseMaps>

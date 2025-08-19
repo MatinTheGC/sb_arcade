@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+
+<!--Level2-->
+
+<group id="main_door_Left_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="0" y="0" width="186" height="474" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+<group id="main_door_right_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="0" y="0" width="186" height="474" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+<group id="door_right_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="598" y="238" width="80" height="228" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+<group id="plankton_picture_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="186" y="0" width="281" height="260" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>					
+<group id="sign_nothing_to_see_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="186" y="260" width="103" height="85" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="sign_beware_lasers_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="289" y="260" width="103" height="85" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="sign_beware_doom_ahead_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="392" y="260" width="103" height="85" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="sign_beware_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="495" y="260" width="103" height="85" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>		
+<group id="top_boarder_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="467" y="0" width="290" height="30" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>		
+<group id="platform_small_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="186" y="345" width="156" height="71" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="platform_big_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="342" y="345" width="236" height="71" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+<group id="backgrond_tile_clean_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="549" y="106" width="128" height="132" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>					
+<group id="backgrond_tile_rusty_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="677" y="106" width="128" height="132" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+<group id="floor_tile_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="549" y="30" width="262" height="76" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>
+<group id="window_outside_level2">
+		<animation looping="false" autorun="false" speed="100" />
+		<sprites>
+			<sprite x="811" y="0" width="239" height="244" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>					
+						
+	
+</spritesheet>
+	
+	
+	
+	
+	

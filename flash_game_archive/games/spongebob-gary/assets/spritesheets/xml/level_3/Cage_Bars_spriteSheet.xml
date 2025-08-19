@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritesheet>
+
+<!--Level3 Animated object -->
+
+<group id="cage_bars">
+		<animation looping="false" autorun="true" speed="100" />
+		<sprites>
+<!-- Frame_1 --><sprite x="200" y="0" width="20" height="157" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_2 --><sprite x="180" y="0" width="20" height="157" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_3 --><sprite x="160" y="0" width="20" height="157" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_4 --><sprite x="140" y="0" width="20" height="157" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_5 --><sprite x="120" y="0" width="20" height="157" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_6 --><sprite x="100" y="0" width="20" height="157" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_7 --><sprite x="80" y="0" width="20" height="157" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_8 --><sprite x="60" y="0" width="20" height="157" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_9 --><sprite x="40" y="0" width="20" height="157" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_10 --><sprite x="20" y="0" width="20" height="157" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+<!-- Frame_11 --><sprite x="0" y="0" width="20" height="157" offset_x="0" offset_y="0" color="0x000000" transparent="true" />
+		</sprites>
+	</group>	
+						
+	
+</spritesheet>
+	
+	
+	
+	
+	

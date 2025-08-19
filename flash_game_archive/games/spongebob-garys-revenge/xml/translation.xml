@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- *************  WARNING  ************ -->
+<!-- DO NOT EDIT THIS DOCUMENT DIRECTLY   -->
+<!-- USE THE LOCALIZATION TOOL TO EDIT    -->
+<!-- ************************************ -->
+<strings>
+  <language id="0">american_latin</language>
+  <string id="id_ui_loading_label" fontName="Tiki-Island" fontSize="34" charSpace="0" lineSpace="0" catID="0"><![CDATA[LOADING]]></string>
+  <string id="id_ui_loading_building" fontName="Tiki-Island" fontSize="34" charSpace="0" lineSpace="0" catID="0"><![CDATA[OPTIMIZING]]></string>
+  <string id="id_ui_loading_progress" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="0"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_title_button_play" fontName="Tiki-Island" fontSize="48" charSpace="0" lineSpace="0" catID="1"><![CDATA[Play]]></string>
+  <string id="id_ui_howtoplay_title" fontName="Tiki-Island" fontSize="70" charSpace="0" lineSpace="0" catID="2"><![CDATA[How%20to%20Play]]></string>
+  <string id="id_ui_howtoplay_button_back" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="2"><![CDATA[Back]]></string>
+  <string id="id_ui_howtoplay_button_play" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="2"><![CDATA[Play]]></string>
+  <string id="id_ui_win_title" fontName="Tiki-Island" fontSize="70" charSpace="0" lineSpace="0" catID="3"><![CDATA[Sweet%20revenge%20at%20last%21]]></string>
+  <string id="id_ui_win_score" fontName="Tiki-Island" fontSize="46" charSpace="0" lineSpace="0" catID="3"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_win_button_playagain" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="3"><![CDATA[Play%20Again]]></string>
+  <string id="id_ui_win_button_leaderboard" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="3"><![CDATA[Leaderboard]]></string>
+  <string id="id_ui_hs_title" fontName="Tiki-Island" fontSize="70" charSpace="0" lineSpace="0" catID="5"><![CDATA[Leaderboard]]></string>
+  <string id="id_ui_hs_back" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="5"><![CDATA[Back]]></string>
+  <string id="id_ui_hs_button_submit" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="5"><![CDATA[Submit%20Score]]></string>
+  <string id="id_ui_hs_playerscore" fontName="Tiki-Island" fontSize="60" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hs_board_rank" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hs_board_name" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hs_board_score" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hs_board_info_wait" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="5"><![CDATA[The%20High%20Scores%20list%20is%20updating%21]]></string>
+  <string id="id_ui_hs_board_info_error" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="5"><![CDATA[Oops%21%20The%20High%20Scores%20list%20is%20not%20available%20right%20now%21]]></string>
+  <string id="id_ui_hs_board_info_empty" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="5"><![CDATA[No%20high%20score%20yet%21%20What%20are%20you%20waiting%20for%3F]]></string>
+  <string id="id_ui_hud_button_menu" fontName="Tiki-Island" fontSize="48" charSpace="0" lineSpace="0" catID="6"><![CDATA[%3F]]></string>
+  <string id="id_ui_hud_score" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="6"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_popup_menu_title" fontName="Tiki-Island" fontSize="56" charSpace="0" lineSpace="0" catID="7"><![CDATA[Menu]]></string>
+  <string id="id_ui_popup_menu_button_resume" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="7"><![CDATA[Resume]]></string>
+  <string id="id_ui_popup_menu_button_quit" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="7"><![CDATA[Quit]]></string>
+  <string id="id_ui_popup_menu_button_howtoplay" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="7"><![CDATA[How%20to%20Play]]></string>
+  <string id="id_ui_popup_quit_title" fontName="Tiki-Island" fontSize="56" charSpace="0" lineSpace="0" catID="8"><![CDATA[Quit]]></string>
+  <string id="id_ui_popup_quit_text" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="8"><![CDATA[Are%20you%20sure%20you%20want%20to%20quit%3F]]></string>
+  <string id="id_ui_popup_quit_button_yes" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="8"><![CDATA[Yes]]></string>
+  <string id="id_ui_popup_quit_button_no" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="8"><![CDATA[No]]></string>
+  <string id="id_ui_hud_highest_score" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="6"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_selection_title" fontName="Tiki-Island" fontSize="70" charSpace="0" lineSpace="0" catID="9"><![CDATA[Select%20a%20level]]></string>
+  <string id="id_ui_selection_button_leaderboard" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="9"><![CDATA[Leaderboard]]></string>
+  <string id="id_ui_selection_info_score" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="9"><![CDATA[Level%20Highscore%3A%3Cbr%3E%20%24value%24]]></string>
+  <string id="id_ui_selection_info_require" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="9"><![CDATA[%3Cbr%3EYou%20need%3Cbr%3E%20%3Cb%3E%24value%24%3Cb%3E%20%24medal%24%20%3Cbr%3Erewards%20to%20unlock%20this%20level.]]></string>
+  <string id="id_ui_selection_score" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="9"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_selection_button_level" fontName="Tiki-Island" fontSize="54" charSpace="0" lineSpace="0" catID="9"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_button_next" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="10"><![CDATA[Continue]]></string>
+  <string id="id_ui_end_button_restart" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="10"><![CDATA[Retry]]></string>
+  <string id="id_ui_end_score" fontName="Tiki-Island" fontSize="60" charSpace="0" lineSpace="0" catID="10"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_win_button_hs_submit" fontName="Tiki-Island" fontSize="24" charSpace="0" lineSpace="0" catID="3"><![CDATA[Submit%20score]]></string>
+  <string id="id_ui_hud_button_reset" fontName="Tiki-Island" fontSize="12" charSpace="0" lineSpace="0" catID="6"><![CDATA[]]></string>
+  <string id="id_ui_win_text" fontName="Tiki-Island" fontSize="48" charSpace="0" lineSpace="0" catID="3"><![CDATA[Gary%u2019s%20taste%20for%20revenge%20is%20finally%20sated.%20Congratulations%21]]></string>
+  <string id="id_ui_hud_level" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="6"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_game_score" fontName="Tiki-Island" fontSize="28" charSpace="0" lineSpace="0" catID="11"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_scoreCounter" fontName="Tiki-Island" fontSize="50" charSpace="0" lineSpace="0" catID="10"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_titleCounterMaterial" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="10"><![CDATA[Destruction%3A]]></string>
+  <string id="id_ui_end_titleCounterOpponent" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="10"><![CDATA[Puffy%20Fluffies%3A]]></string>
+  <string id="id_ui_end_completed" fontName="Tiki-Island" fontSize="70" charSpace="0" lineSpace="0" catID="10"><![CDATA[Level%20completed%21]]></string>
+  <string id="id_ui_end_failed" fontName="Tiki-Island" fontSize="70" charSpace="0" lineSpace="0" catID="10"><![CDATA[Level%20failed%21]]></string>
+  <string id="id_ui_end_highscore" fontName="Tiki-Island" fontSize="45" charSpace="0" lineSpace="0" catID="10"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_end_titleCounterShell" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="10"><![CDATA[Unused%20Shell%3A]]></string>
+  <string id="id_ui_hud_highest_title" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="6"><![CDATA[Highscore%3A%20]]></string>
+  <string id="id_ui_hud_level_title" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="6"><![CDATA[Level%3A]]></string>
+  <string id="id_ui_end_score_title" fontName="Tiki-Island" fontSize="40" charSpace="0" lineSpace="0" catID="10"><![CDATA[Score%3A]]></string>
+  <string id="id_ui_end_highscore_title" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="10"><![CDATA[Highscore%3A]]></string>
+  <string id="id_ui_hs_playerscore_title" fontName="Tiki-Island" fontSize="40" charSpace="0" lineSpace="0" catID="5"><![CDATA[Score%3A]]></string>
+  <string id="id_ui_hs_board_rank_title" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="5"><![CDATA[Rank]]></string>
+  <string id="id_ui_hs_board_name_title" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="5"><![CDATA[Name]]></string>
+  <string id="id_ui_hs_board_score_title" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="5"><![CDATA[Score]]></string>
+  <string id="id_ui_hs_totalscore" fontName="Tiki-Island" fontSize="60" charSpace="0" lineSpace="0" catID="5"><![CDATA[%24value%24]]></string>
+  <string id="id_ui_hud_score_title" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="6"><![CDATA[Score%3A]]></string>
+  <string id="id_ui_end_reward_earn" fontName="Tiki-Island" fontSize="32" charSpace="0" lineSpace="0" catID="10"><![CDATA[YOU%27VE%20EARNED%3Cbr%3E%20THE%20%3Cfont%20color%3D%22%24color%24%22%3E%24value%24%3C/font%3E%3Cbr%3E%20REWARD%21]]></string>
+  <string id="id_ui_end_button_back" fontName="Tiki-Island" fontSize="22" charSpace="0" lineSpace="0" catID="10"><![CDATA[Select%20level]]></string>
+  <string id="id_ui_title_Title1" fontName="Tiki-Island" fontSize="70" charSpace="0" lineSpace="0" catID="1"><![CDATA[GARY%27S]]></string>
+  <string id="id_ui_title_Title2" fontName="Tiki-Island" fontSize="140" charSpace="0" lineSpace="0" catID="1"><![CDATA[REVENGE]]></string>
+  <string id="id_howtoplay_subTitle_1" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="2"><![CDATA[Eliminate]]></string>
+  <string id="id_howtoplay_subTitle_2" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="2"><![CDATA[Destroy]]></string>
+  <string id="id_howtoplay_subTitle_3" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="2"><![CDATA[Spare]]></string>
+  <string id="id_howtoplay_subTitle_4" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="2"><![CDATA[Restart]]></string>
+  <string id="id_howtoplay_info1" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="2"><![CDATA[Eliminate%20all%20the%20Puffy%20Fluffies%20to%20win%20the%20level.]]></string>
+  <string id="id_howtoplay_info2" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="2"><![CDATA[Destroying%20materials%20gives%20extra%20points.]]></string>
+  <string id="id_howtoplay_info3" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="2"><![CDATA[At%20the%20end%20of%20a%20level%2C%20every%20unused%20shell%20gives%20extra%20points.]]></string>
+  <string id="id_howtoplay_info4" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="2"><![CDATA[This%20button%20lets%20you%20restart%20a%20level%20anytime.]]></string>
+  <string id="id_ui_selection_scoreTitle" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="9"><![CDATA[Total%20Score%3A]]></string>
+  <string id="id_ui_popup_power_title" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="12"><![CDATA[Click%20to%20activate%20shell%20power%21]]></string>
+  <string id="id_ui_selection_Bonus" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="9"><![CDATA[Bonus%20Levels%21]]></string>
+  <string id="id_howtoplay_info5" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="2"><![CDATA[Activate%20this%20shell%20to%20directly%20smash%20it%20on%20the%20ground.%20]]></string>
+  <string id="id_howtoplay_info6" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="2"><![CDATA[Activate%20this%20shell%20to%20make%20it%20explode%21]]></string>
+  <string id="id_howtoplay_info7" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="2"><![CDATA[Activate%20this%20shell%20to%20make%20it%20grow%20way%20larger%21]]></string>
+  <string id="id_howtoplay_info8" fontName="Tiki-Island" fontSize="16" charSpace="0" lineSpace="0" catID="2"><![CDATA[Activate%20this%20shell%20to%20create%20a%20vortex%20absorbing%20everything%20toward%20its%20center.%20]]></string>
+  <string id="id_ui_title_button_print" fontName="Tiki-Island" fontSize="48" charSpace="0" lineSpace="0" catID="1"><![CDATA[Print]]></string>
+  <string id="id_ui_hud_bonuslevel_title" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="6"><![CDATA[Bonus%20Level%3A]]></string>
+  <string id="id_ui_selection_info_bonusScore" fontName="Tiki-Island" fontSize="20" charSpace="0" lineSpace="0" catID="9"><![CDATA[Bonus%20Level%20Highscore%3A%3Cbr%3E%20%24value%24]]></string>
+  <string id="id_ui_end_titleCounterShells" fontName="Tiki-Island" fontSize="30" charSpace="0" lineSpace="0" catID="10"><![CDATA[Unused%20Shells%3A]]></string>
+  <categories>
+    <category id="0">Loading</category>
+    <category id="1">Title</category>
+    <category id="2">How%20to%20play</category>
+    <category id="3">Win</category>
+    <category id="5">Leaderboard</category>
+    <category id="6">Hud</category>
+    <category id="7">Popup%20menu</category>
+    <category id="8">Popup%20quit</category>
+    <category id="9">Selection</category>
+    <category id="10">endLevel</category>
+    <category id="11">gameplay</category>
+    <category id="12">Popup%20Power</category>
+  </categories>
+</strings>

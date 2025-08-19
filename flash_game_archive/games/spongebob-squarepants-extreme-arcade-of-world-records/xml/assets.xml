@@ -1,0 +1,73 @@
+<assets>
+	<preload>
+		<!-- config files -->
+		<asset id="gameConfig"					src="xml/config.xml" />
+		<asset id="game"						src="game.swf" />
+		
+		<!-- other assets -->
+		<asset id="nick.view"					src="assets/others/nick.swf" />
+		<asset id="screenTrans.view"			src="assets/others/transition.swf" />
+		<asset id="volume.view"					src="assets/others/volume.swf" />
+		
+		<!-- section views -->
+		<group id="title">
+			<asset id="view"					src="assets/sections/title.swf" />
+			<asset id="title"					src="images/gameTitle.png" />
+		</group>
+		<asset id="map.view"					src="assets/sections/map.swf" />
+		<asset id="code.view"					src="assets/sections/code.swf" />
+		<asset id="instruction.view"			src="assets/sections/instruction.swf" />
+		<asset id="baseLevel.view"				src="assets/sections/baseLevel.swf" />
+		<asset id="hud.view"					src="assets/sections/hud.swf" />
+		<asset id="success.view"				src="assets/sections/success.swf" />
+		<asset id="failure.view"				src="assets/sections/failure.swf" />
+		<asset id="leaderboard.view"			src="assets/sections/leaderboard.swf" />
+		<asset id="printable.view"				src="assets/sections/printable.swf" />
+		<asset id="longestTongue.view"			src="assets/sections/levels/longestTongue.swf" />
+		<asset id="cobraMilking.view"			src="assets/sections/levels/cobraMilking.swf" />
+		<asset id="meggabandBall.view"			src="assets/sections/levels/meggabandBall.swf" />
+		<asset id="chainsaw.view"				src="assets/sections/levels/chainsaw.swf" />
+		<asset id="chum.view"					src="assets/sections/levels/chum.swf" />
+		<asset id="card.view"					src="assets/sections/levels/card_house.swf" />
+		<asset id="cabinets.view"				src="assets/sections/cabinets.swf" />
+
+		<!-- In-Game retro SFX -->
+		<group id="fx"							base="assets/audio/in_game">
+			<asset id="card_success" 			type="sndman" src="card_success.mp3" maxVolume=".8" />
+			<asset id="chainsaw_juggle" 		type="sndman" src="chainsaw_juggle.mp3" maxVolume=".8" />
+			<asset id="chainsaw_powerup" 		type="sndman" src="chainsaw_powerup.mp3" maxVolume=".8" />
+			<asset id="death" 					type="sndman" src="death.mp3" maxVolume=".8" />
+			<asset id="hit_jelly" 				type="sndman" src="hit_jelly.mp3" maxVolume=".8" />
+			<asset id="hit_rock" 				type="sndman" src="hit_rock.mp3" maxVolume=".8" />
+			<asset id="hit" 					type="sndman" src="hit.mp3" maxVolume=".8" />
+			<asset id="jump_1" 					type="sndman" src="jump_1.mp3" maxVolume=".8" />
+			<asset id="jump_2" 					type="sndman" src="jump_2.mp3" maxVolume=".8" />
+			<asset id="jump_3" 					type="sndman" src="jump_3.mp3" maxVolume=".8" />
+			<asset id="megaband_explosion" 		type="sndman" src="megaband_explosion.mp3" maxVolume=".8" />
+			<asset id="megaband_hit" 			type="sndman" src="megaband_hit.mp3" maxVolume=".8" />
+			<asset id="megaband_powerup" 		type="sndman" src="megaband_powerup.mp3" maxVolume=".8" />
+			<asset id="powerup" 				type="sndman" src="powerup.mp3" maxVolume=".8" />
+			<asset id="spin" 					type="sndman" src="spin.mp3" maxVolume=".8" />
+			<asset id="tongue_meter" 			type="sndman" src="tongue_meter.mp3" maxVolume=".6" />
+			<asset id="tongue_powerup" 			type="sndman" src="tongue_powerup.mp3" maxVolume=".8" />
+			<asset id="guzzle"		 			type="sndman" src="Guzzle.mp3" maxVolume=".8" />
+		</group>
+		<!-- Arcade ambient SFX -->
+		<group id="arcade"						base="assets/audio/arcade">
+			<asset id="card_success" 			type="sndman" src="game_select.mp3" />
+		</group>
+		<!-- Arcade Music -->
+		<group id="music"						base="assets/audio/music">
+			<asset id="gameover" 				type="sndman" src="gameover_000020399194.mp3" maxVolume=".6" />
+			<asset id="cards" 					type="sndman" src="cards_000011743290.mp3" maxVolume=".8" />
+			<asset id="chainsaw" 				type="sndman" src="chainsaw_000009471760.mp3" maxVolume=".8" />
+			<asset id="chum" 					type="sndman" src="chum_000019035010.mp3" maxVolume=".8" />
+			<asset id="cobra" 					type="sndman" src="cobra_000017660433.mp3" maxVolume=".8" />
+			<asset id="megaband" 				type="sndman" src="megaband_000014809116.mp3" maxVolume=".8" />
+			<asset id="tongue" 					type="sndman" src="tongue_000017660400.mp3" maxVolume=".5" />
+			<asset id="hub" 					type="sndman" src="hub_000016681736.mp3" maxVolume=".7" />
+		</group>
+
+
+	</preload>
+</assets>

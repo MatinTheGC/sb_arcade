@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<jingleBrawl enabled="false" allowClick="true" url="http://www.nick.com/games/jingle-brawl.html"></jingleBrawl>
+	<localization>
+		<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+		<introPlayButton>PLAY</introPlayButton>
+		<introPlayButtonOver>PLAY</introPlayButtonOver>
+		<instructionsPlayButton>PLAY</instructionsPlayButton>
+		<instructionsPlayButtonOver>PLAY</instructionsPlayButtonOver>
+		<howToPlay>How to Play</howToPlay>
+		<instructions_1>SpongeBob is trapped inside the ICE BOX and must escape before he freezes into a block of ice!</instructions_1>
+		<instructions_2>Press UP to JUMP. Find the HEAT VENTS and cups of HOT CHOCOLATE to get warm. Avoid the SNOWBALLS!</instructions_2>
+		<gameOverLabel>GAME OVER</gameOverLabel>
+		<finalLevelLabel_txt>LEVEL:</finalLevelLabel_txt>
+		<finalScoreLabel_txt>SCORE:</finalScoreLabel_txt>
+		<payoffContinueButton>CONTINUE</payoffContinueButton>
+		<payoffContinueButtonRollover>CONTINUE</payoffContinueButtonRollover>
+		<level_text_label>LEVEL</level_text_label>
+	</localization>
+</config>

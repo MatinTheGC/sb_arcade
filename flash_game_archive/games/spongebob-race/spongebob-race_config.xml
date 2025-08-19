@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+
+<config>
+	
+	<version>
+		<!-- "false" will enable high score viewing/submission. "true" will disable high score viewing/submission.  -->
+		<isInternational>false</isInternational>
+		
+	</version>
+
+	<highScore>
+		
+		<!-- URL Alias spongebob-squarepants-race-to-the-goo-lagoon    -->
+		<!-- Debug mode. Force user to be logged in with the username of "DEBUG_USER". -->
+		<debug>false</debug>
+		
+		<userPath>http://www.nick.com/games/common/user_name/getUserInfo.jhtml</userPath>
+		<scorePath>http://www.nick.com/common/score/Scoreboard.jhtml</scorePath>
+		<serviceLink>http://www.nick.com</serviceLink>
+		<gameID>spongebob-race-hsb</gameID>
+		
+		<!-- "false" will turn off play button tracking. Tracking uses the gameID above -->
+		<trackingEnabled>true</trackingEnabled>
+	</highScore>
+	
+	<gameSettings>
+		<nickPoints>
+			<campaignID>sb-goolagoonnps</campaignID>
+			<modulePath>http://www.nick.com/common/flash/nickpoints/NickPoints_Module_build.swf</modulePath>
+			<!-->Run the module locally when running on your machine, but swap the modulePath(s) when you deliver<!-->
+			<!--modulePath>NickPoints_Module_build.swf</modulePath-->
+			<events>
+				<event>
+					<name>game_win</name> <!-- Triggered whenever the user reaches the finish line first. -->
+				</event>
+			</events>
+			
+			
+			<sbpromo>
+				<img>tighty_whitey_thumb.jpg</img>
+				<url target="_blank">http://www.spongebob.nick.com/games/play/spongebob-tighty/.jhtml</url>
+			</sbpromo>
+			
+		</nickPoints>
+		
+		<!-- Move Card Config values -->
+		<chumMove>-2</chumMove>
+		<pattyPowerMove>2</pattyPowerMove>
+		<minMysteryMove>1</minMysteryMove>
+		<maxMysteryMove>4</maxMysteryMove>
+		
+		<!-- Minigame Config values -->
+		<finalBitePoints>10</finalBitePoints>		<!-- Changing this won't update the text field that displays points, only for testing -->
+		<pattyTimeLimit>15000</pattyTimeLimit> 		<!-- milliseconds -->
+		<pattyBaseSpeed>0.15</pattyBaseSpeed>		<!-- starting speed for the conveyer belt -->
+		<pattySpeedIncrease>0.005</pattySpeedIncrease> <!-- frequent incremental boost, even a small change will have a large impact -->
+		
+		<jellyPoints>10</jellyPoints>
+		<jellySpeedModifier>15</jellySpeedModifier>  <!-- Larger values actually LOWERS the speed -->
+		<jellyMinAngle>2.5</jellyMinAngle>
+		<jellyMaxAngle>5</jellyMaxAngle>
+		<jellyTimeLimit>12000</jellyTimeLimit> <!-- milliseconds -->
+		
+		<goodBubblePoints>20</goodBubblePoints>
+		<okayBubblePoints>10</okayBubblePoints>
+		<meterRate>5</meterRate>		<!-- Higher rates makes the meter accelerate faster -->
+		<meterSpeed>15</meterSpeed>		<!-- initial meter speed -->
+		<maxMeterSpeed>150</maxMeterSpeed> <!-- Cap the meter speed so the animation stays reasonable -->
+			
+		<firstBallBouncePoints>10</firstBallBouncePoints>
+		<ballBouncePointDecay>20</ballBouncePointDecay> <!-- Based on the number of balls present. Larger value means a slower decay -->
+		<maxBallCount>8</maxBallCount>
+		
+		<oneMoveBonus>40</oneMoveBonus>			<!-- Amount of points needed to earn one bonus step in a minigame -->
+		<twoMoveBonus>100</twoMoveBonus>		<!-- Amount of points needed to earn two bonus steps in a minigame -->
+		<threeMoveBonus>180</threeMoveBonus> 	<!-- Amount of points needed to earn three bonus steps in a minigame -->
+		
+		<finishLinePoints>500</finishLinePoints>
+		
+		<!-- debug variable, set this to 'none' to have all mini games load -->
+		<forceGame>none</forceGame> 	<!-- options are: bubble, ball, patty, jelly and none -->
+		<forceSteps>0</forceSteps> 		<!-- Force the spinner to move player X steps. 0 for none. 3 for minigame, 5 for move card -->
+		
+		<!-- Tiles go in order from first (Start) to finish. The starting tile is numbered 0 in the FLA -->
+		<mapLayout>
+			<tile name="Start" facing="left"></tile> 
+			<tile name="mediumPoints" facing="left"></tile> 
+			<tile name="smallPoints" facing="left"></tile> 
+			<tile name="minigame" facing="left"></tile> 
+			<tile name="smallPoints" facing="left"></tile> 
+			<tile name="moveCard" facing="left"></tile> 
+			<tile name="mediumPoints" facing="left"></tile> 
+			<tile name="minigame" facing="left"></tile> 
+			<tile name="smallPoints" facing="left"></tile> 
+			<tile name="largePoints" facing="left"></tile> 
+			<tile name="minigame" facing="left"></tile> 
+			<tile name="jellyfish" facing="left"></tile> 
+			<tile name="moveCard" facing="left"></tile> 
+			<tile name="minigame" facing="left"></tile> 
+			<tile name="smallPoints" facing="left"></tile> 
+			<tile name="mediumPoints" facing="left"></tile> 
+			<tile name="minigame" facing="left"></tile> 
+			<tile name="moveCard" facing="left"></tile> 
+			<tile name="badPoints" facing="left"></tile> 
+			<tile name="minigame" facing="left"></tile> 
+			<tile name="largePoints" facing="left"></tile> 
+			<tile name="minigame" facing="left"></tile> 
+			<tile name="badPoints" facing="left"></tile> 
+			<tile name="moveCard" facing="left"></tile> 
+			<tile name="jellyfish" facing="left"></tile> 
+			<tile name="minigame" facing="left"></tile> 
+			<tile name="mediumPoints" facing="left"></tile> 
+			<tile name="largePoints" facing="left"></tile> 
+			<tile name="minigame" facing="left"></tile> 
+			<tile name="finish" facing="left"></tile> 			
+		</mapLayout>
+		
+	</gameSettings>
+	
+	
+
+	<localization>
+		
+	</localization>
+	
+</config>

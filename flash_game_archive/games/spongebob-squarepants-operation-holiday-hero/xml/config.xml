@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<serviceSettings>
+		<servicesModuleURL>nick_services_module.swf</servicesModuleURL>		
+		<enableServices>true</enableServices> <!-- Set to FALSE to disable all Nick Services completely. TRUE will follow the specific service settings. -->
+		<enableLogin>false</enableLogin>
+		<enableLeaderboard>true</enableLeaderboard>
+		<enableNickPoints>false</enableNickPoints>
+		<enableTracking>true</enableTracking>
+		<serviceManagerURL>/common/flash/services/ServiceManager.swf</serviceManagerURL>
+		<serviceManagerConfigURL>/common/flash/services/data/services.xml</serviceManagerConfigURL>	
+	</serviceSettings>
+	<trackingSettings>
+		<type id="printTracker">
+			<enabled>true</enabled>
+			<urlAlias>spongebob-squarepants-gift-lift</urlAlias> <!-- This is currently only used for Printable tracking-->
+			<otherParam>Printable</otherParam> <!-- This is currently only used for Printable tracking, param between URL ALIAS and showId-->
+			<showID>spo</showID> <!-- This is currently only used for Printable tracking-->
+		</type>
+		<type id="trackKidsGamePlay">
+			<enabled>true</enabled>
+		</type>
+	</trackingSettings>
+	<gameSettings>
+		<bonusCode><![CDATA[presents]]></bonusCode><!-- Bonus code. -->
+		<debugMode>true</debugMode><!-- State if debug mode. If true, skips services loading upon error -->
+		<defaultLevel>1</defaultLevel><!-- Set the default level. Default settings is 1 -->
+		<enableBonusCode>true</enableBonusCode>
+		<enableHiddenObject>true</enableHiddenObject>
+		<enablePrintable>true</enablePrintable>
+		<gameID>spongebob-squarepants-gift-lift</gameID><!-- game id, also used for printable tracking. -->
+		<hiddenObjectScore>1000</hiddenObjectScore><!-- score obtained upon finding/clicking hidden object. -->
+		<hiddenObjectMinSpawn>30000</hiddenObjectMinSpawn><!-- min spawn rate of hidden object in milliseconds. 5000-->
+		<hiddenObjectMaxSpawn>45000</hiddenObjectMaxSpawn><!-- max spawn rate of hidden object in milliseconds. 200000-->
+		
+		<!-- height of the first snow layer -->
+		<firstLayerHeight>10</firstLayerHeight>
+		
+		<!-- height of the second snow layer -->
+		<secondLayerHeight>20</secondLayerHeight>
+		
+		<!-- height of the third snow layer -->
+		<thirdLayerHeight>40</thirdLayerHeight>
+		
+		<!-- number of frames between adding collectibles(gift/obstacle) -->
+		<addCollectibleDelay>60</addCollectibleDelay>
+		
+		<!-- number of frames in between tunnel elements -->
+		<tunnelDelay>10</tunnelDelay>
+		
+		<!-- initial time for the game in frames, seconds * fps which is 30 -->
+		<initialTime>900</initialTime>
+		
+		<!-- bonus time for the game in frames, seconds * fps which is 30 -->
+		<bonusTime>450</bonusTime>
+		
+		<!-- bonus time for the game in frames, seconds * fps which is 30 -->
+		<addedTime>90</addedTime>
+		
+		<!-- bonus time for the game in frames, seconds * fps which is 30, when the gift is grabbed while on air -->
+		<airAddedTime>180</airAddedTime>
+		
+		<!-- time penalty for the obstacle hits in frames, seconds * fps which is 30 -->
+		<penaltyTime>300</penaltyTime>
+		
+		<!-- points added for every gift collected -->
+		<addPoints>10</addPoints>
+		
+		<!-- points added for every gift collected while on air -->
+		<airAddPoints>20</airAddPoints>
+	</gameSettings>
+	<hsbSettings>
+		<gameID>spongebob-squarepants-gift-lift-hsb</gameID><!-- hsb game id. -->
+	</hsbSettings>
+</config>

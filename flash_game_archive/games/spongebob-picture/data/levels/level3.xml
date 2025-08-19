@@ -1,0 +1,936 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Map RowCount="16" ColCount="550" TileSize="25" Tag="">
+  <Tiles>
+    <Tile Row="0" Col="0" Kind="Solid" />
+    <Tile Row="1" Col="0" Kind="Solid" />
+    <Tile Row="2" Col="0" Kind="Solid" />
+    <Tile Row="3" Col="0" Kind="Solid" />
+    <Tile Row="4" Col="0" Kind="Solid" />
+    <Tile Row="5" Col="0" Kind="Solid" />
+    <Tile Row="6" Col="0" Kind="Solid" />
+    <Tile Row="7" Col="0" Kind="Solid" />
+    <Tile Row="8" Col="0" Kind="Solid" />
+    <Tile Row="9" Col="0" Kind="Solid" />
+    <Tile Row="10" Col="0" Kind="Solid" />
+    <Tile Row="11" Col="0" Kind="Solid" />
+    <Tile Row="12" Col="0" Kind="Solid" />
+    <Tile Row="13" Col="0" Kind="Solid" />
+    <Tile Row="13" Col="89" Kind="Solid" />
+    <Tile Row="13" Col="90" Kind="Solid" />
+    <Tile Row="13" Col="138" Kind="Solid" />
+    <Tile Row="13" Col="139" Kind="Solid" />
+    <Tile Row="13" Col="230" Kind="Solid" />
+    <Tile Row="13" Col="231" Kind="Solid" />
+    <Tile Row="13" Col="252" Kind="Solid" />
+    <Tile Row="13" Col="253" Kind="Solid" />
+    <Tile Row="13" Col="327" Kind="Solid" />
+    <Tile Row="13" Col="328" Kind="Solid" />
+    <Tile Row="13" Col="329" Kind="Solid" />
+    <Tile Row="13" Col="330" Kind="Solid" />
+    <Tile Row="13" Col="331" Kind="Solid" />
+    <Tile Row="13" Col="340" Kind="Solid" />
+    <Tile Row="13" Col="341" Kind="Solid" />
+    <Tile Row="13" Col="363" Kind="Solid" />
+    <Tile Row="13" Col="364" Kind="Solid" />
+    <Tile Row="13" Col="365" Kind="Solid" />
+    <Tile Row="13" Col="366" Kind="Solid" />
+    <Tile Row="13" Col="367" Kind="Solid" />
+    <Tile Row="13" Col="434" Kind="Solid" />
+    <Tile Row="13" Col="435" Kind="Solid" />
+    <Tile Row="13" Col="436" Kind="Solid" />
+    <Tile Row="13" Col="437" Kind="Solid" />
+    <Tile Row="13" Col="438" Kind="Solid" />
+    <Tile Row="13" Col="459" Kind="Solid" />
+    <Tile Row="13" Col="460" Kind="Solid" />
+    <Tile Row="13" Col="461" Kind="Solid" />
+    <Tile Row="14" Col="0" Kind="Solid" />
+    <Tile Row="14" Col="40" Kind="Solid" />
+    <Tile Row="14" Col="41" Kind="Solid" />
+    <Tile Row="14" Col="42" Kind="Solid" />
+    <Tile Row="14" Col="52" Kind="Solid" />
+    <Tile Row="14" Col="53" Kind="Solid" />
+    <Tile Row="14" Col="54" Kind="Solid" />
+    <Tile Row="14" Col="89" Kind="Solid" />
+    <Tile Row="14" Col="90" Kind="Solid" />
+    <Tile Row="14" Col="128" Kind="Solid" />
+    <Tile Row="14" Col="129" Kind="Solid" />
+    <Tile Row="14" Col="130" Kind="Solid" />
+    <Tile Row="14" Col="138" Kind="Solid" />
+    <Tile Row="14" Col="139" Kind="Solid" />
+    <Tile Row="14" Col="230" Kind="Solid" />
+    <Tile Row="14" Col="231" Kind="Solid" />
+    <Tile Row="14" Col="236" Kind="Solid" />
+    <Tile Row="14" Col="237" Kind="Solid" />
+    <Tile Row="14" Col="238" Kind="Solid" />
+    <Tile Row="14" Col="239" Kind="Solid" />
+    <Tile Row="14" Col="240" Kind="Solid" />
+    <Tile Row="14" Col="252" Kind="Solid" />
+    <Tile Row="14" Col="253" Kind="Solid" />
+    <Tile Row="14" Col="283" Kind="Solid" />
+    <Tile Row="14" Col="284" Kind="Solid" />
+    <Tile Row="14" Col="285" Kind="Solid" />
+    <Tile Row="14" Col="322" Kind="Solid" />
+    <Tile Row="14" Col="323" Kind="Solid" />
+    <Tile Row="14" Col="326" Kind="Solid" />
+    <Tile Row="14" Col="327" Kind="Solid" />
+    <Tile Row="14" Col="328" Kind="Solid" />
+    <Tile Row="14" Col="329" Kind="Solid" />
+    <Tile Row="14" Col="330" Kind="Solid" />
+    <Tile Row="14" Col="331" Kind="Solid" />
+    <Tile Row="14" Col="332" Kind="Solid" />
+    <Tile Row="14" Col="340" Kind="Solid" />
+    <Tile Row="14" Col="341" Kind="Solid" />
+    <Tile Row="14" Col="353" Kind="Solid" />
+    <Tile Row="14" Col="354" Kind="Solid" />
+    <Tile Row="14" Col="355" Kind="Solid" />
+    <Tile Row="14" Col="362" Kind="Solid" />
+    <Tile Row="14" Col="363" Kind="Solid" />
+    <Tile Row="14" Col="364" Kind="Solid" />
+    <Tile Row="14" Col="365" Kind="Solid" />
+    <Tile Row="14" Col="366" Kind="Solid" />
+    <Tile Row="14" Col="367" Kind="Solid" />
+    <Tile Row="14" Col="368" Kind="Solid" />
+    <Tile Row="14" Col="433" Kind="Solid" />
+    <Tile Row="14" Col="434" Kind="Solid" />
+    <Tile Row="14" Col="435" Kind="Solid" />
+    <Tile Row="14" Col="436" Kind="Solid" />
+    <Tile Row="14" Col="437" Kind="Solid" />
+    <Tile Row="14" Col="438" Kind="Solid" />
+    <Tile Row="14" Col="439" Kind="Solid" />
+    <Tile Row="14" Col="451" Kind="Solid" />
+    <Tile Row="14" Col="452" Kind="Solid" />
+    <Tile Row="14" Col="453" Kind="Solid" />
+    <Tile Row="14" Col="458" Kind="Solid" />
+    <Tile Row="14" Col="459" Kind="Solid" />
+    <Tile Row="14" Col="460" Kind="Solid" />
+    <Tile Row="14" Col="461" Kind="Solid" />
+    <Tile Row="14" Col="462" Kind="Solid" />
+    <Tile Row="15" Col="0" Kind="Solid" />
+    <Tile Row="15" Col="1" Kind="Solid" />
+    <Tile Row="15" Col="2" Kind="Solid" />
+    <Tile Row="15" Col="3" Kind="Solid" />
+    <Tile Row="15" Col="4" Kind="Solid" />
+    <Tile Row="15" Col="5" Kind="Solid" />
+    <Tile Row="15" Col="6" Kind="Solid" />
+    <Tile Row="15" Col="7" Kind="Solid" />
+    <Tile Row="15" Col="8" Kind="Solid" />
+    <Tile Row="15" Col="9" Kind="Solid" />
+    <Tile Row="15" Col="10" Kind="Solid" />
+    <Tile Row="15" Col="11" Kind="Solid" />
+    <Tile Row="15" Col="12" Kind="Solid" />
+    <Tile Row="15" Col="13" Kind="Solid" />
+    <Tile Row="15" Col="14" Kind="Solid" />
+    <Tile Row="15" Col="15" Kind="Solid" />
+    <Tile Row="15" Col="16" Kind="Solid" />
+    <Tile Row="15" Col="17" Kind="Solid" />
+    <Tile Row="15" Col="18" Kind="Solid" />
+    <Tile Row="15" Col="19" Kind="Solid" />
+    <Tile Row="15" Col="20" Kind="Solid" />
+    <Tile Row="15" Col="21" Kind="Solid" />
+    <Tile Row="15" Col="22" Kind="Solid" />
+    <Tile Row="15" Col="23" Kind="Solid" />
+    <Tile Row="15" Col="24" Kind="Solid" />
+    <Tile Row="15" Col="25" Kind="Solid" />
+    <Tile Row="15" Col="26" Kind="Solid" />
+    <Tile Row="15" Col="27" Kind="Solid" />
+    <Tile Row="15" Col="28" Kind="Solid" />
+    <Tile Row="15" Col="29" Kind="Solid" />
+    <Tile Row="15" Col="30" Kind="Solid" />
+    <Tile Row="15" Col="31" Kind="Solid" />
+    <Tile Row="15" Col="32" Kind="Solid" />
+    <Tile Row="15" Col="33" Kind="Solid" />
+    <Tile Row="15" Col="34" Kind="Solid" />
+    <Tile Row="15" Col="35" Kind="Solid" />
+    <Tile Row="15" Col="36" Kind="Solid" />
+    <Tile Row="15" Col="37" Kind="Solid" />
+    <Tile Row="15" Col="38" Kind="Solid" />
+    <Tile Row="15" Col="39" Kind="Solid" />
+    <Tile Row="15" Col="40" Kind="Solid" />
+    <Tile Row="15" Col="41" Kind="Solid" />
+    <Tile Row="15" Col="42" Kind="Solid" />
+    <Tile Row="15" Col="43" Kind="Solid" />
+    <Tile Row="15" Col="44" Kind="Solid" />
+    <Tile Row="15" Col="45" Kind="Solid" />
+    <Tile Row="15" Col="46" Kind="Solid" />
+    <Tile Row="15" Col="47" Kind="Solid" />
+    <Tile Row="15" Col="48" Kind="Solid" />
+    <Tile Row="15" Col="49" Kind="Solid" />
+    <Tile Row="15" Col="50" Kind="Solid" />
+    <Tile Row="15" Col="51" Kind="Solid" />
+    <Tile Row="15" Col="52" Kind="Solid" />
+    <Tile Row="15" Col="53" Kind="Solid" />
+    <Tile Row="15" Col="54" Kind="Solid" />
+    <Tile Row="15" Col="55" Kind="Solid" />
+    <Tile Row="15" Col="56" Kind="Solid" />
+    <Tile Row="15" Col="57" Kind="Solid" />
+    <Tile Row="15" Col="58" Kind="Solid" />
+    <Tile Row="15" Col="59" Kind="Solid" />
+    <Tile Row="15" Col="60" Kind="Solid" />
+    <Tile Row="15" Col="61" Kind="Solid" />
+    <Tile Row="15" Col="62" Kind="Solid" />
+    <Tile Row="15" Col="63" Kind="Solid" />
+    <Tile Row="15" Col="64" Kind="Solid" />
+    <Tile Row="15" Col="65" Kind="Solid" />
+    <Tile Row="15" Col="66" Kind="Solid" />
+    <Tile Row="15" Col="67" Kind="Solid" />
+    <Tile Row="15" Col="68" Kind="Solid" />
+    <Tile Row="15" Col="69" Kind="Solid" />
+    <Tile Row="15" Col="70" Kind="Solid" />
+    <Tile Row="15" Col="71" Kind="Solid" />
+    <Tile Row="15" Col="72" Kind="Solid" />
+    <Tile Row="15" Col="73" Kind="Solid" />
+    <Tile Row="15" Col="79" Kind="Solid" />
+    <Tile Row="15" Col="80" Kind="Solid" />
+    <Tile Row="15" Col="81" Kind="Solid" />
+    <Tile Row="15" Col="82" Kind="Solid" />
+    <Tile Row="15" Col="83" Kind="Solid" />
+    <Tile Row="15" Col="84" Kind="Solid" />
+    <Tile Row="15" Col="85" Kind="Solid" />
+    <Tile Row="15" Col="86" Kind="Solid" />
+    <Tile Row="15" Col="87" Kind="Solid" />
+    <Tile Row="15" Col="88" Kind="Solid" />
+    <Tile Row="15" Col="89" Kind="Solid" />
+    <Tile Row="15" Col="90" Kind="Solid" />
+    <Tile Row="15" Col="91" Kind="Solid" />
+    <Tile Row="15" Col="92" Kind="Solid" />
+    <Tile Row="15" Col="93" Kind="Solid" />
+    <Tile Row="15" Col="94" Kind="Solid" />
+    <Tile Row="15" Col="95" Kind="Solid" />
+    <Tile Row="15" Col="96" Kind="Solid" />
+    <Tile Row="15" Col="97" Kind="Solid" />
+    <Tile Row="15" Col="98" Kind="Solid" />
+    <Tile Row="15" Col="99" Kind="Solid" />
+    <Tile Row="15" Col="100" Kind="Solid" />
+    <Tile Row="15" Col="101" Kind="Solid" />
+    <Tile Row="15" Col="102" Kind="Solid" />
+    <Tile Row="15" Col="103" Kind="Solid" />
+    <Tile Row="15" Col="104" Kind="Solid" />
+    <Tile Row="15" Col="105" Kind="Solid" />
+    <Tile Row="15" Col="106" Kind="Solid" />
+    <Tile Row="15" Col="107" Kind="Solid" />
+    <Tile Row="15" Col="108" Kind="Solid" />
+    <Tile Row="15" Col="109" Kind="Solid" />
+    <Tile Row="15" Col="110" Kind="Solid" />
+    <Tile Row="15" Col="111" Kind="Solid" />
+    <Tile Row="15" Col="112" Kind="Solid" />
+    <Tile Row="15" Col="113" Kind="Solid" />
+    <Tile Row="15" Col="114" Kind="Solid" />
+    <Tile Row="15" Col="115" Kind="Solid" />
+    <Tile Row="15" Col="116" Kind="Solid" />
+    <Tile Row="15" Col="117" Kind="Solid" />
+    <Tile Row="15" Col="118" Kind="Solid" />
+    <Tile Row="15" Col="119" Kind="Solid" />
+    <Tile Row="15" Col="120" Kind="Solid" />
+    <Tile Row="15" Col="121" Kind="Solid" />
+    <Tile Row="15" Col="122" Kind="Solid" />
+    <Tile Row="15" Col="123" Kind="Solid" />
+    <Tile Row="15" Col="124" Kind="Solid" />
+    <Tile Row="15" Col="125" Kind="Solid" />
+    <Tile Row="15" Col="126" Kind="Solid" />
+    <Tile Row="15" Col="127" Kind="Solid" />
+    <Tile Row="15" Col="128" Kind="Solid" />
+    <Tile Row="15" Col="129" Kind="Solid" />
+    <Tile Row="15" Col="130" Kind="Solid" />
+    <Tile Row="15" Col="131" Kind="Solid" />
+    <Tile Row="15" Col="132" Kind="Solid" />
+    <Tile Row="15" Col="133" Kind="Solid" />
+    <Tile Row="15" Col="134" Kind="Solid" />
+    <Tile Row="15" Col="135" Kind="Solid" />
+    <Tile Row="15" Col="136" Kind="Solid" />
+    <Tile Row="15" Col="137" Kind="Solid" />
+    <Tile Row="15" Col="138" Kind="Solid" />
+    <Tile Row="15" Col="139" Kind="Solid" />
+    <Tile Row="15" Col="140" Kind="Solid" />
+    <Tile Row="15" Col="141" Kind="Solid" />
+    <Tile Row="15" Col="142" Kind="Solid" />
+    <Tile Row="15" Col="143" Kind="Solid" />
+    <Tile Row="15" Col="144" Kind="Solid" />
+    <Tile Row="15" Col="145" Kind="Solid" />
+    <Tile Row="15" Col="146" Kind="Solid" />
+    <Tile Row="15" Col="147" Kind="Solid" />
+    <Tile Row="15" Col="148" Kind="Solid" />
+    <Tile Row="15" Col="149" Kind="Solid" />
+    <Tile Row="15" Col="150" Kind="Solid" />
+    <Tile Row="15" Col="151" Kind="Solid" />
+    <Tile Row="15" Col="152" Kind="Solid" />
+    <Tile Row="15" Col="153" Kind="Solid" />
+    <Tile Row="15" Col="154" Kind="Solid" />
+    <Tile Row="15" Col="155" Kind="Solid" />
+    <Tile Row="15" Col="156" Kind="Solid" />
+    <Tile Row="15" Col="157" Kind="Solid" />
+    <Tile Row="15" Col="158" Kind="Solid" />
+    <Tile Row="15" Col="159" Kind="Solid" />
+    <Tile Row="15" Col="160" Kind="Solid" />
+    <Tile Row="15" Col="161" Kind="Solid" />
+    <Tile Row="15" Col="162" Kind="Solid" />
+    <Tile Row="15" Col="163" Kind="Solid" />
+    <Tile Row="15" Col="164" Kind="Solid" />
+    <Tile Row="15" Col="165" Kind="Solid" />
+    <Tile Row="15" Col="166" Kind="Solid" />
+    <Tile Row="15" Col="167" Kind="Solid" />
+    <Tile Row="15" Col="168" Kind="Solid" />
+    <Tile Row="15" Col="169" Kind="Solid" />
+    <Tile Row="15" Col="170" Kind="Solid" />
+    <Tile Row="15" Col="171" Kind="Solid" />
+    <Tile Row="15" Col="172" Kind="Solid" />
+    <Tile Row="15" Col="173" Kind="Solid" />
+    <Tile Row="15" Col="174" Kind="Solid" />
+    <Tile Row="15" Col="175" Kind="Solid" />
+    <Tile Row="15" Col="176" Kind="Solid" />
+    <Tile Row="15" Col="177" Kind="Solid" />
+    <Tile Row="15" Col="178" Kind="Solid" />
+    <Tile Row="15" Col="179" Kind="Solid" />
+    <Tile Row="15" Col="180" Kind="Solid" />
+    <Tile Row="15" Col="181" Kind="Solid" />
+    <Tile Row="15" Col="182" Kind="Solid" />
+    <Tile Row="15" Col="183" Kind="Solid" />
+    <Tile Row="15" Col="184" Kind="Solid" />
+    <Tile Row="15" Col="185" Kind="Solid" />
+    <Tile Row="15" Col="186" Kind="Solid" />
+    <Tile Row="15" Col="187" Kind="Solid" />
+    <Tile Row="15" Col="188" Kind="Solid" />
+    <Tile Row="15" Col="189" Kind="Solid" />
+    <Tile Row="15" Col="190" Kind="Solid" />
+    <Tile Row="15" Col="191" Kind="Solid" />
+    <Tile Row="15" Col="192" Kind="Solid" />
+    <Tile Row="15" Col="193" Kind="Solid" />
+    <Tile Row="15" Col="194" Kind="Solid" />
+    <Tile Row="15" Col="195" Kind="Solid" />
+    <Tile Row="15" Col="196" Kind="Solid" />
+    <Tile Row="15" Col="197" Kind="Solid" />
+    <Tile Row="15" Col="198" Kind="Solid" />
+    <Tile Row="15" Col="199" Kind="Solid" />
+    <Tile Row="15" Col="200" Kind="Solid" />
+    <Tile Row="15" Col="201" Kind="Solid" />
+    <Tile Row="15" Col="202" Kind="Solid" />
+    <Tile Row="15" Col="203" Kind="Solid" />
+    <Tile Row="15" Col="204" Kind="Solid" />
+    <Tile Row="15" Col="205" Kind="Solid" />
+    <Tile Row="15" Col="206" Kind="Solid" />
+    <Tile Row="15" Col="207" Kind="Solid" />
+    <Tile Row="15" Col="208" Kind="Solid" />
+    <Tile Row="15" Col="209" Kind="Solid" />
+    <Tile Row="15" Col="215" Kind="Solid" />
+    <Tile Row="15" Col="216" Kind="Solid" />
+    <Tile Row="15" Col="217" Kind="Solid" />
+    <Tile Row="15" Col="218" Kind="Solid" />
+    <Tile Row="15" Col="219" Kind="Solid" />
+    <Tile Row="15" Col="220" Kind="Solid" />
+    <Tile Row="15" Col="221" Kind="Solid" />
+    <Tile Row="15" Col="222" Kind="Solid" />
+    <Tile Row="15" Col="223" Kind="Solid" />
+    <Tile Row="15" Col="224" Kind="Solid" />
+    <Tile Row="15" Col="225" Kind="Solid" />
+    <Tile Row="15" Col="226" Kind="Solid" />
+    <Tile Row="15" Col="227" Kind="Solid" />
+    <Tile Row="15" Col="228" Kind="Solid" />
+    <Tile Row="15" Col="229" Kind="Solid" />
+    <Tile Row="15" Col="230" Kind="Solid" />
+    <Tile Row="15" Col="231" Kind="Solid" />
+    <Tile Row="15" Col="232" Kind="Solid" />
+    <Tile Row="15" Col="233" Kind="Solid" />
+    <Tile Row="15" Col="234" Kind="Solid" />
+    <Tile Row="15" Col="235" Kind="Solid" />
+    <Tile Row="15" Col="236" Kind="Solid" />
+    <Tile Row="15" Col="237" Kind="Solid" />
+    <Tile Row="15" Col="238" Kind="Solid" />
+    <Tile Row="15" Col="239" Kind="Solid" />
+    <Tile Row="15" Col="240" Kind="Solid" />
+    <Tile Row="15" Col="241" Kind="Solid" />
+    <Tile Row="15" Col="242" Kind="Solid" />
+    <Tile Row="15" Col="243" Kind="Solid" />
+    <Tile Row="15" Col="244" Kind="Solid" />
+    <Tile Row="15" Col="245" Kind="Solid" />
+    <Tile Row="15" Col="246" Kind="Solid" />
+    <Tile Row="15" Col="247" Kind="Solid" />
+    <Tile Row="15" Col="248" Kind="Solid" />
+    <Tile Row="15" Col="249" Kind="Solid" />
+    <Tile Row="15" Col="250" Kind="Solid" />
+    <Tile Row="15" Col="251" Kind="Solid" />
+    <Tile Row="15" Col="252" Kind="Solid" />
+    <Tile Row="15" Col="253" Kind="Solid" />
+    <Tile Row="15" Col="254" Kind="Solid" />
+    <Tile Row="15" Col="255" Kind="Solid" />
+    <Tile Row="15" Col="256" Kind="Solid" />
+    <Tile Row="15" Col="257" Kind="Solid" />
+    <Tile Row="15" Col="258" Kind="Solid" />
+    <Tile Row="15" Col="259" Kind="Solid" />
+    <Tile Row="15" Col="260" Kind="Solid" />
+    <Tile Row="15" Col="261" Kind="Solid" />
+    <Tile Row="15" Col="262" Kind="Solid" />
+    <Tile Row="15" Col="263" Kind="Solid" />
+    <Tile Row="15" Col="264" Kind="Solid" />
+    <Tile Row="15" Col="265" Kind="Solid" />
+    <Tile Row="15" Col="266" Kind="Solid" />
+    <Tile Row="15" Col="267" Kind="Solid" />
+    <Tile Row="15" Col="273" Kind="Solid" />
+    <Tile Row="15" Col="274" Kind="Solid" />
+    <Tile Row="15" Col="275" Kind="Solid" />
+    <Tile Row="15" Col="276" Kind="Solid" />
+    <Tile Row="15" Col="277" Kind="Solid" />
+    <Tile Row="15" Col="278" Kind="Solid" />
+    <Tile Row="15" Col="279" Kind="Solid" />
+    <Tile Row="15" Col="280" Kind="Solid" />
+    <Tile Row="15" Col="281" Kind="Solid" />
+    <Tile Row="15" Col="282" Kind="Solid" />
+    <Tile Row="15" Col="283" Kind="Solid" />
+    <Tile Row="15" Col="284" Kind="Solid" />
+    <Tile Row="15" Col="285" Kind="Solid" />
+    <Tile Row="15" Col="286" Kind="Solid" />
+    <Tile Row="15" Col="287" Kind="Solid" />
+    <Tile Row="15" Col="288" Kind="Solid" />
+    <Tile Row="15" Col="289" Kind="Solid" />
+    <Tile Row="15" Col="290" Kind="Solid" />
+    <Tile Row="15" Col="291" Kind="Solid" />
+    <Tile Row="15" Col="292" Kind="Solid" />
+    <Tile Row="15" Col="293" Kind="Solid" />
+    <Tile Row="15" Col="294" Kind="Solid" />
+    <Tile Row="15" Col="295" Kind="Solid" />
+    <Tile Row="15" Col="296" Kind="Solid" />
+    <Tile Row="15" Col="297" Kind="Solid" />
+    <Tile Row="15" Col="298" Kind="Solid" />
+    <Tile Row="15" Col="299" Kind="Solid" />
+    <Tile Row="15" Col="300" Kind="Solid" />
+    <Tile Row="15" Col="301" Kind="Solid" />
+    <Tile Row="15" Col="302" Kind="Solid" />
+    <Tile Row="15" Col="303" Kind="Solid" />
+    <Tile Row="15" Col="304" Kind="Solid" />
+    <Tile Row="15" Col="305" Kind="Solid" />
+    <Tile Row="15" Col="306" Kind="Solid" />
+    <Tile Row="15" Col="307" Kind="Solid" />
+    <Tile Row="15" Col="308" Kind="Solid" />
+    <Tile Row="15" Col="309" Kind="Solid" />
+    <Tile Row="15" Col="310" Kind="Solid" />
+    <Tile Row="15" Col="311" Kind="Solid" />
+    <Tile Row="15" Col="312" Kind="Solid" />
+    <Tile Row="15" Col="313" Kind="Solid" />
+    <Tile Row="15" Col="314" Kind="Solid" />
+    <Tile Row="15" Col="315" Kind="Solid" />
+    <Tile Row="15" Col="316" Kind="Solid" />
+    <Tile Row="15" Col="317" Kind="Solid" />
+    <Tile Row="15" Col="318" Kind="Solid" />
+    <Tile Row="15" Col="319" Kind="Solid" />
+    <Tile Row="15" Col="320" Kind="Solid" />
+    <Tile Row="15" Col="321" Kind="Solid" />
+    <Tile Row="15" Col="322" Kind="Solid" />
+    <Tile Row="15" Col="323" Kind="Solid" />
+    <Tile Row="15" Col="324" Kind="Solid" />
+    <Tile Row="15" Col="325" Kind="Solid" />
+    <Tile Row="15" Col="326" Kind="Solid" />
+    <Tile Row="15" Col="327" Kind="Solid" />
+    <Tile Row="15" Col="328" Kind="Solid" />
+    <Tile Row="15" Col="329" Kind="Solid" />
+    <Tile Row="15" Col="330" Kind="Solid" />
+    <Tile Row="15" Col="331" Kind="Solid" />
+    <Tile Row="15" Col="332" Kind="Solid" />
+    <Tile Row="15" Col="333" Kind="Solid" />
+    <Tile Row="15" Col="339" Kind="Solid" />
+    <Tile Row="15" Col="340" Kind="Solid" />
+    <Tile Row="15" Col="341" Kind="Solid" />
+    <Tile Row="15" Col="342" Kind="Solid" />
+    <Tile Row="15" Col="343" Kind="Solid" />
+    <Tile Row="15" Col="344" Kind="Solid" />
+    <Tile Row="15" Col="345" Kind="Solid" />
+    <Tile Row="15" Col="346" Kind="Solid" />
+    <Tile Row="15" Col="347" Kind="Solid" />
+    <Tile Row="15" Col="348" Kind="Solid" />
+    <Tile Row="15" Col="349" Kind="Solid" />
+    <Tile Row="15" Col="350" Kind="Solid" />
+    <Tile Row="15" Col="351" Kind="Solid" />
+    <Tile Row="15" Col="352" Kind="Solid" />
+    <Tile Row="15" Col="353" Kind="Solid" />
+    <Tile Row="15" Col="354" Kind="Solid" />
+    <Tile Row="15" Col="355" Kind="Solid" />
+    <Tile Row="15" Col="356" Kind="Solid" />
+    <Tile Row="15" Col="357" Kind="Solid" />
+    <Tile Row="15" Col="358" Kind="Solid" />
+    <Tile Row="15" Col="359" Kind="Solid" />
+    <Tile Row="15" Col="360" Kind="Solid" />
+    <Tile Row="15" Col="361" Kind="Solid" />
+    <Tile Row="15" Col="362" Kind="Solid" />
+    <Tile Row="15" Col="363" Kind="Solid" />
+    <Tile Row="15" Col="364" Kind="Solid" />
+    <Tile Row="15" Col="365" Kind="Solid" />
+    <Tile Row="15" Col="366" Kind="Solid" />
+    <Tile Row="15" Col="367" Kind="Solid" />
+    <Tile Row="15" Col="368" Kind="Solid" />
+    <Tile Row="15" Col="369" Kind="Solid" />
+    <Tile Row="15" Col="370" Kind="Solid" />
+    <Tile Row="15" Col="371" Kind="Solid" />
+    <Tile Row="15" Col="372" Kind="Solid" />
+    <Tile Row="15" Col="373" Kind="Solid" />
+    <Tile Row="15" Col="374" Kind="Solid" />
+    <Tile Row="15" Col="375" Kind="Solid" />
+    <Tile Row="15" Col="376" Kind="Solid" />
+    <Tile Row="15" Col="377" Kind="Solid" />
+    <Tile Row="15" Col="378" Kind="Solid" />
+    <Tile Row="15" Col="379" Kind="Solid" />
+    <Tile Row="15" Col="380" Kind="Solid" />
+    <Tile Row="15" Col="381" Kind="Solid" />
+    <Tile Row="15" Col="382" Kind="Solid" />
+    <Tile Row="15" Col="383" Kind="Solid" />
+    <Tile Row="15" Col="384" Kind="Solid" />
+    <Tile Row="15" Col="385" Kind="Solid" />
+    <Tile Row="15" Col="386" Kind="Solid" />
+    <Tile Row="15" Col="387" Kind="Solid" />
+    <Tile Row="15" Col="388" Kind="Solid" />
+    <Tile Row="15" Col="389" Kind="Solid" />
+    <Tile Row="15" Col="390" Kind="Solid" />
+    <Tile Row="15" Col="391" Kind="Solid" />
+    <Tile Row="15" Col="392" Kind="Solid" />
+    <Tile Row="15" Col="393" Kind="Solid" />
+    <Tile Row="15" Col="394" Kind="Solid" />
+    <Tile Row="15" Col="395" Kind="Solid" />
+    <Tile Row="15" Col="396" Kind="Solid" />
+    <Tile Row="15" Col="397" Kind="Solid" />
+    <Tile Row="15" Col="398" Kind="Solid" />
+    <Tile Row="15" Col="399" Kind="Solid" />
+    <Tile Row="15" Col="400" Kind="Solid" />
+    <Tile Row="15" Col="401" Kind="Solid" />
+    <Tile Row="15" Col="402" Kind="Solid" />
+    <Tile Row="15" Col="403" Kind="Solid" />
+    <Tile Row="15" Col="404" Kind="Solid" />
+    <Tile Row="15" Col="405" Kind="Solid" />
+    <Tile Row="15" Col="406" Kind="Solid" />
+    <Tile Row="15" Col="407" Kind="Solid" />
+    <Tile Row="15" Col="408" Kind="Solid" />
+    <Tile Row="15" Col="409" Kind="Solid" />
+    <Tile Row="15" Col="410" Kind="Solid" />
+    <Tile Row="15" Col="411" Kind="Solid" />
+    <Tile Row="15" Col="412" Kind="Solid" />
+    <Tile Row="15" Col="413" Kind="Solid" />
+    <Tile Row="15" Col="414" Kind="Solid" />
+    <Tile Row="15" Col="415" Kind="Solid" />
+    <Tile Row="15" Col="416" Kind="Solid" />
+    <Tile Row="15" Col="417" Kind="Solid" />
+    <Tile Row="15" Col="418" Kind="Solid" />
+    <Tile Row="15" Col="419" Kind="Solid" />
+    <Tile Row="15" Col="420" Kind="Solid" />
+    <Tile Row="15" Col="421" Kind="Solid" />
+    <Tile Row="15" Col="422" Kind="Solid" />
+    <Tile Row="15" Col="423" Kind="Solid" />
+    <Tile Row="15" Col="424" Kind="Solid" />
+    <Tile Row="15" Col="430" Kind="Solid" />
+    <Tile Row="15" Col="431" Kind="Solid" />
+    <Tile Row="15" Col="432" Kind="Solid" />
+    <Tile Row="15" Col="433" Kind="Solid" />
+    <Tile Row="15" Col="434" Kind="Solid" />
+    <Tile Row="15" Col="435" Kind="Solid" />
+    <Tile Row="15" Col="436" Kind="Solid" />
+    <Tile Row="15" Col="437" Kind="Solid" />
+    <Tile Row="15" Col="438" Kind="Solid" />
+    <Tile Row="15" Col="439" Kind="Solid" />
+    <Tile Row="15" Col="440" Kind="Solid" />
+    <Tile Row="15" Col="441" Kind="Solid" />
+    <Tile Row="15" Col="442" Kind="Solid" />
+    <Tile Row="15" Col="443" Kind="Solid" />
+    <Tile Row="15" Col="444" Kind="Solid" />
+    <Tile Row="15" Col="445" Kind="Solid" />
+    <Tile Row="15" Col="446" Kind="Solid" />
+    <Tile Row="15" Col="447" Kind="Solid" />
+    <Tile Row="15" Col="448" Kind="Solid" />
+    <Tile Row="15" Col="449" Kind="Solid" />
+    <Tile Row="15" Col="450" Kind="Solid" />
+    <Tile Row="15" Col="451" Kind="Solid" />
+    <Tile Row="15" Col="452" Kind="Solid" />
+    <Tile Row="15" Col="453" Kind="Solid" />
+    <Tile Row="15" Col="454" Kind="Solid" />
+    <Tile Row="15" Col="455" Kind="Solid" />
+    <Tile Row="15" Col="456" Kind="Solid" />
+    <Tile Row="15" Col="457" Kind="Solid" />
+    <Tile Row="15" Col="458" Kind="Solid" />
+    <Tile Row="15" Col="459" Kind="Solid" />
+    <Tile Row="15" Col="460" Kind="Solid" />
+    <Tile Row="15" Col="461" Kind="Solid" />
+    <Tile Row="15" Col="462" Kind="Solid" />
+    <Tile Row="15" Col="463" Kind="Solid" />
+    <Tile Row="15" Col="469" Kind="Solid" />
+    <Tile Row="15" Col="470" Kind="Solid" />
+    <Tile Row="15" Col="471" Kind="Solid" />
+    <Tile Row="15" Col="472" Kind="Solid" />
+    <Tile Row="15" Col="473" Kind="Solid" />
+    <Tile Row="15" Col="474" Kind="Solid" />
+    <Tile Row="15" Col="475" Kind="Solid" />
+    <Tile Row="15" Col="476" Kind="Solid" />
+    <Tile Row="15" Col="477" Kind="Solid" />
+    <Tile Row="15" Col="478" Kind="Solid" />
+    <Tile Row="15" Col="479" Kind="Solid" />
+    <Tile Row="15" Col="480" Kind="Solid" />
+    <Tile Row="15" Col="481" Kind="Solid" />
+    <Tile Row="15" Col="482" Kind="Solid" />
+    <Tile Row="15" Col="483" Kind="Solid" />
+    <Tile Row="15" Col="484" Kind="Solid" />
+    <Tile Row="15" Col="485" Kind="Solid" />
+    <Tile Row="15" Col="486" Kind="Solid" />
+    <Tile Row="15" Col="487" Kind="Solid" />
+    <Tile Row="15" Col="488" Kind="Solid" />
+    <Tile Row="15" Col="489" Kind="Solid" />
+    <Tile Row="15" Col="490" Kind="Solid" />
+    <Tile Row="15" Col="491" Kind="Solid" />
+    <Tile Row="15" Col="492" Kind="Solid" />
+    <Tile Row="15" Col="493" Kind="Solid" />
+    <Tile Row="15" Col="494" Kind="Solid" />
+    <Tile Row="15" Col="495" Kind="Solid" />
+    <Tile Row="15" Col="496" Kind="Solid" />
+    <Tile Row="15" Col="497" Kind="Solid" />
+    <Tile Row="15" Col="498" Kind="Solid" />
+    <Tile Row="15" Col="499" Kind="Solid" />
+    <Tile Row="15" Col="500" Kind="Solid" />
+    <Tile Row="15" Col="501" Kind="Solid" />
+    <Tile Row="15" Col="502" Kind="Solid" />
+    <Tile Row="15" Col="503" Kind="Solid" />
+    <Tile Row="15" Col="504" Kind="Solid" />
+    <Tile Row="15" Col="505" Kind="Solid" />
+    <Tile Row="15" Col="506" Kind="Solid" />
+    <Tile Row="15" Col="507" Kind="Solid" />
+    <Tile Row="15" Col="508" Kind="Solid" />
+    <Tile Row="15" Col="509" Kind="Solid" />
+    <Tile Row="15" Col="510" Kind="Solid" />
+    <Tile Row="15" Col="511" Kind="Solid" />
+    <Tile Row="15" Col="512" Kind="Solid" />
+    <Tile Row="15" Col="513" Kind="Solid" />
+    <Tile Row="15" Col="514" Kind="Solid" />
+    <Tile Row="15" Col="515" Kind="Solid" />
+    <Tile Row="15" Col="516" Kind="Solid" />
+    <Tile Row="15" Col="517" Kind="Solid" />
+    <Tile Row="15" Col="518" Kind="Solid" />
+    <Tile Row="15" Col="519" Kind="Solid" />
+    <Tile Row="15" Col="520" Kind="Solid" />
+    <Tile Row="15" Col="521" Kind="Solid" />
+    <Tile Row="15" Col="522" Kind="Solid" />
+    <Tile Row="15" Col="523" Kind="Solid" />
+    <Tile Row="15" Col="524" Kind="Solid" />
+    <Tile Row="15" Col="525" Kind="Solid" />
+    <Tile Row="15" Col="526" Kind="Solid" />
+    <Tile Row="15" Col="527" Kind="Solid" />
+    <Tile Row="15" Col="528" Kind="Solid" />
+    <Tile Row="15" Col="529" Kind="Solid" />
+    <Tile Row="15" Col="530" Kind="Solid" />
+    <Tile Row="15" Col="531" Kind="Solid" />
+    <Tile Row="15" Col="532" Kind="Solid" />
+    <Tile Row="15" Col="533" Kind="Solid" />
+    <Tile Row="15" Col="534" Kind="Solid" />
+    <Tile Row="15" Col="535" Kind="Solid" />
+    <Tile Row="15" Col="536" Kind="Solid" />
+    <Tile Row="15" Col="537" Kind="Solid" />
+    <Tile Row="15" Col="538" Kind="Solid" />
+    <Tile Row="15" Col="539" Kind="Solid" />
+    <Tile Row="15" Col="540" Kind="Solid" />
+    <Tile Row="15" Col="541" Kind="Solid" />
+    <Tile Row="15" Col="542" Kind="Solid" />
+    <Tile Row="15" Col="543" Kind="Solid" />
+    <Tile Row="15" Col="544" Kind="Solid" />
+    <Tile Row="15" Col="545" Kind="Solid" />
+    <Tile Row="15" Col="546" Kind="Solid" />
+    <Tile Row="15" Col="547" Kind="Solid" />
+    <Tile Row="15" Col="548" Kind="Solid" />
+    <Tile Row="15" Col="549" Kind="Solid" />
+  </Tiles>
+  <Platforms />
+  <Images>
+    <Image Foreground="false" Name="" X="13200" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="13397" Y="-2" Symbol="Torre02.png" />
+    <Image Foreground="false" Name="" X="13200" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="12747" Y="-49" Symbol="torre03_Back.png" />
+    <Image Foreground="false" Name="" X="12600" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="12925" Y="62" Symbol="torre03_Back.png" />
+    <Image Foreground="false" Name="" X="12200" Y="0" Symbol="Torre02.png" />
+    <Image Foreground="false" Name="" X="12000" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="12150" Y="-1" Symbol="torre01.png" />
+    <Image Foreground="false" Name="" X="7775" Y="-15" Symbol="Torre02.png" />
+    <Image Foreground="false" Name="" X="7800" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="6620" Y="-102" Symbol="Torre02.png" />
+    <Image Foreground="false" Name="" X="2525" Y="-42" Symbol="Torre02.png" />
+    <Image Foreground="false" Name="" X="11550" Y="-50" Symbol="torre01.png" />
+    <Image Foreground="false" Name="" X="11400" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="11650" Y="0" Symbol="Torre02.png" />
+    <Image Foreground="false" Name="" X="10975" Y="8" Symbol="faro_Back.png" />
+    <Image Foreground="false" Name="" X="10800" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="11025" Y="75" Symbol="torre04_back.png" />
+    <Image Foreground="false" Name="" X="10425" Y="-5" Symbol="torre04_back.png" />
+    <Image Foreground="false" Name="" X="10200" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="10575" Y="52" Symbol="torre03_Back.png" />
+    <Image Foreground="false" Name="" X="9600" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="9900" Y="-22" Symbol="torre01.png" />
+    <Image Foreground="false" Name="" X="9000" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="9275" Y="75" Symbol="torre04_back.png" />
+    <Image Foreground="false" Name="" X="8775" Y="-25" Symbol="torre03_Back.png" />
+    <Image Foreground="false" Name="" X="8400" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="8025" Y="0" Symbol="torre01.png" />
+    <Image Foreground="false" Name="" X="8478" Y="-6" Symbol="torre01.png" />
+    <Image Foreground="false" Name="" X="7200" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="7200" Y="0" Symbol="torre01.png" />
+    <Image Foreground="false" Name="" X="6900" Y="-25" Symbol="torre04_back.png" />
+    <Image Foreground="false" Name="" X="6600" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="6125" Y="-100" Symbol="Torre02.png" />
+    <Image Foreground="false" Name="" X="6000" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="6318" Y="54" Symbol="torre03_Back.png" />
+    <Image Foreground="false" Name="" X="5400" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="5475" Y="-7" Symbol="torre01.png" />
+    <Image Foreground="false" Name="" X="4275" Y="-84" Symbol="Torre02.png" />
+    <Image Foreground="false" Name="" X="4200" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="4425" Y="0" Symbol="Torre02.png" />
+    <Image Foreground="false" Name="" X="3600" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="3825" Y="-8" Symbol="torre01.png" />
+    <Image Foreground="false" Name="" X="3300" Y="-40" Symbol="Casa_back.png" />
+    <Image Foreground="false" Name="" X="3000" Y="26" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="3025" Y="-10" Symbol="torre01.png" />
+    <Image Foreground="false" Name="" X="2400" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="2750" Y="75" Symbol="torre04_back.png" />
+    <Image Foreground="false" Name="" X="2100" Y="-71" Symbol="Torre02.png" />
+    <Image Foreground="false" Name="" X="1200" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="1700" Y="75" Symbol="torre03_Back.png" />
+    <Image Foreground="false" Name="" X="1975" Y="7" Symbol="faro_Back.png" />
+    <Image Foreground="false" Name="" X="1800" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="1182" Y="87" Symbol="torre04_back.png" />
+    <Image Foreground="false" Name="" X="800" Y="-100" Symbol="Torre02.png" />
+    <Image Foreground="false" Name="" X="600" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="650" Y="71" Symbol="torre03_Back.png" />
+    <Image Foreground="false" Name="" X="0" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="250" Y="-10" Symbol="torre01.png" />
+    <Image Foreground="false" Name="" X="0" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="600" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="0" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="600" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="4800" Y="25" Symbol="Back_pasto_3er_plano.png" />
+    <Image Foreground="false" Name="" X="1200" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="1800" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="2400" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="3000" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="3600" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="4200" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="4800" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="5400" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="6000" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="6600" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="7200" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="7800" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="8400" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="9000" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="1200" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="1800" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="2400" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="3000" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="3600" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="4200" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="4800" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="5400" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="6000" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="6600" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="7200" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="7800" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="8400" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="9000" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="13200" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="989" Y="347" Symbol="Piedra_3x1Tiles.png" />
+    <Image Foreground="false" Name="" X="1276" Y="338" Symbol="PiedraB_3x1Tiles.png" />
+    <Image Foreground="false" Name="" X="1845" Y="356" Symbol="Pozo.png" />
+    <Image Foreground="false" Name="" X="2211" Y="317" Symbol="Piedra_2x2Tiles.png" />
+    <Image Foreground="true" Name="" X="700" Y="250" Symbol="planta_1er_plano.png" />
+    <Image Foreground="false" Name="" X="3191" Y="343" Symbol="Piedra_3x1Tiles.png" />
+    <Image Foreground="false" Name="" X="3435" Y="317" Symbol="Piedra_2x2Tiles.png" />
+    <Image Foreground="false" Name="" X="5244" Y="356" Symbol="Pozo.png" />
+    <Image Foreground="false" Name="" X="5735" Y="319" Symbol="Piedra_2x2Tiles.png" />
+    <Image Foreground="false" Name="" X="6285" Y="318" Symbol="Piedra_2x2Tiles.png" />
+    <Image Foreground="false" Name="" X="6692" Y="354" Symbol="Pozo.png" />
+    <Image Foreground="true" Name="" X="3600" Y="250" Symbol="planta02_1er_plano.png" />
+    <Image Foreground="true" Name="" X="3725" Y="324" Symbol="planta02_1er_plano.png" />
+    <Image Foreground="false" Name="" X="3700" Y="73" Symbol="torre03_Back.png" />
+    <Image Foreground="false" Name="" X="3850" Y="85" Symbol="torre04_back.png" />
+    <Image Foreground="false" Name="" X="7065" Y="343" Symbol="Piedra_3x1Tiles.png" />
+    <Image Foreground="false" Name="" X="5877" Y="332" Symbol="Piedra_5x1Tiles.png" />
+    <Image Foreground="true" Name="" X="7775" Y="250" Symbol="planta_1er_plano.png" />
+    <Image Foreground="false" Name="" X="5125" Y="50" Symbol="torre03_Back.png" />
+    <Image Foreground="false" Name="" X="6525" Y="-37" Symbol="faro_Back.png" />
+    <Image Foreground="false" Name="" X="8041" Y="344" Symbol="Piedra_EscalonTiles.png" />
+    <Image Foreground="true" Name="" X="575" Y="100" Symbol="Bus_Stop.png" />
+    <Image Foreground="true" Name="" X="4692" Y="100" Symbol="Bus_Stop.png" />
+    <Image Foreground="true" Name="" X="9442" Y="99" Symbol="Bus_Stop.png" />
+    <Image Foreground="false" Name="" X="8127" Y="312" Symbol="Escalones01.png" />
+    <Image Foreground="false" Name="" X="8344" Y="355" Symbol="Pozo.png" />
+    <Image Foreground="false" Name="" X="8486" Y="315" Symbol="Piedra_2x2Tiles.png" />
+    <Image Foreground="false" Name="" X="9600" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="9600" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="10200" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="10200" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="10800" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="11400" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="12000" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="12600" Y="150" Symbol="Back_pasto_2do_plano.png" />
+    <Image Foreground="false" Name="" X="10800" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="11400" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="12000" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="12600" Y="300" Symbol="Back_pasto_1er_plano.png" />
+    <Image Foreground="false" Name="" X="8815" Y="345" Symbol="Piedra_3x1Tiles.png" />
+    <Image Foreground="true" Name="" X="12365" Y="100" Symbol="Bus_Stop.png" />
+    <Image Foreground="false" Name="" X="9023" Y="312" Symbol="Escalones01.png" />
+    <Image Foreground="false" Name="" X="10620" Y="355" Symbol="Pozo.png" />
+    <Image Foreground="false" Name="" X="10799" Y="314" Symbol="Escalones01.png" />
+    <Image Foreground="false" Name="" X="11265" Y="342" Symbol="Piedra_3x1Tiles.png" />
+    <Image Foreground="false" Name="" X="11423" Y="312" Symbol="Escalones02.png" />
+    <Image Foreground="false" Name="" X="11590" Y="358" Symbol="Pozo.png" />
+    <Image Foreground="false" Name="" X="9225" Y="-50" Symbol="estrella_back01.png" />
+  </Images>
+  <Sprites>
+    <Sprite Template="jellyfishFly" Row="1" Col="97" Data1="" Data2="" Direction="Right" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="1" Col="109" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="1" Col="202" Data1="" Data2="" Direction="Right" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="1" Col="302" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="2" Col="113" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="2" Col="227" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="2" Col="257" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="2" Col="307" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="2" Col="407" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="3" Col="54" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="3" Col="58" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="3" Col="90" Data1="" Data2="" Direction="Right" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="3" Col="97" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="3" Col="108" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="3" Col="231" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="3" Col="410" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="3" Col="412" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="3" Col="499" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="4" Col="359" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="4" Col="365" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="4" Col="403" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="4" Col="495" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="5" Col="408" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="jellyfishFly" Row="5" Col="492" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="powerUpMultiBaloon" Row="6" Col="53" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="powerUpSpongeGloss" Row="6" Col="97" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="powerUpMultiBaloon" Row="6" Col="254" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="powerUpPatrick" Row="6" Col="275" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="powerUpSoapOyster" Row="6" Col="309" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="powerUpPatrick" Row="6" Col="352" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="powerUpMultiBaloon" Row="6" Col="427" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="shyteen" Row="7" Col="27" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="shyteen" Row="7" Col="32" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="shyteen" Row="7" Col="38" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="42" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="48" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="57" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="61" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="67" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="71" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="78" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="85" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="88" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="90" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="109" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="shyteen" Row="7" Col="115" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="118" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="powerUpPatrick" Row="7" Col="126" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="132" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="134" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="137" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="140" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="142" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="144" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="163" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="168" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="173" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="180" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="184" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="196" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="201" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="211" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="215" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="221" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="224" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="227" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="242" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="246" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="250" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="260" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="267" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="270" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="272" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="277" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="279" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="281" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="282" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="284" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="286" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="288" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="290" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="292" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="294" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="326" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="328" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="331" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="355" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="358" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="362" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="365" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="368" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="433" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="shyteen" Row="7" Col="437" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="441" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="445" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="449" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teenExtra" Row="7" Col="474" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="shyteen" Row="7" Col="477" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="481" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="484" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="497" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="500" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="teen" Row="7" Col="503" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="buble" Row="9" Col="154" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="6" />
+    <Sprite Template="buble" Row="9" Col="336" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="5" />
+    <Sprite Template="buble" Row="9" Col="375" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="6" />
+    <Sprite Template="buble" Row="10" Col="215" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="7" />
+    <Sprite Template="buble" Row="10" Col="303" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="6" />
+    <Sprite Template="buble" Row="10" Col="468" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="6" />
+    <Sprite Template="buble" Row="11" Col="152" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="4" />
+    <Sprite Template="buble" Row="11" Col="154" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="5" />
+    <Sprite Template="buble" Row="11" Col="157" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="6" />
+    <Sprite Template="squid" Row="11" Col="164" Data1="1250" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="buble" Row="11" Col="172" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="3" />
+    <Sprite Template="buble" Row="11" Col="209" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="5" />
+    <Sprite Template="buble" Row="11" Col="212" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="6" />
+    <Sprite Template="squid" Row="11" Col="239" Data1="1250" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="buble" Row="11" Col="301" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="5" />
+    <Sprite Template="buble" Row="11" Col="304" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="7" />
+    <Sprite Template="buble" Row="11" Col="334" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="5" />
+    <Sprite Template="buble" Row="11" Col="337" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="6" />
+    <Sprite Template="squid" Row="11" Col="343" Data1="1250" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="buble" Row="11" Col="372" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="5" />
+    <Sprite Template="buble" Row="11" Col="373" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="6" />
+    <Sprite Template="buble" Row="11" Col="376" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="7" />
+    <Sprite Template="squid" Row="11" Col="421" Data1="1250" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="squid" Row="11" Col="452" Data1="1250" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="buble" Row="11" Col="464" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="5" />
+    <Sprite Template="buble" Row="11" Col="466" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="5" />
+    <Sprite Template="buble" Row="11" Col="469" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="7" />
+    <Sprite Template="buble" Row="11" Col="509" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="3" />
+    <Sprite Template="buble" Row="11" Col="512" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="4" />
+    <Sprite Template="buble" Row="11" Col="515" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="5" />
+    <Sprite Template="buble" Row="11" Col="518" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="6" />
+    <Sprite Template="buble" Row="12" Col="28" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="5" />
+    <Sprite Template="buble" Row="12" Col="31" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="6" />
+    <Sprite Template="buble" Row="12" Col="34" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="7" />
+    <Sprite Template="electricEel" Row="13" Col="48" Data1="1200" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="squid" Row="13" Col="76" Data1="1000" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="squid" Row="13" Col="159" Data1="1250" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="squid" Row="13" Col="170" Data1="1250" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="electricEel" Row="13" Col="415" Data1="1250" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="squid" Row="13" Col="492" Data1="1250" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="electricEel" Row="14" Col="95" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="electricEel" Row="14" Col="116" Data1="1250" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="signMid" Row="15" Col="49" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="signMid" Row="15" Col="149" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="signMid" Row="15" Col="249" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="signMid" Row="15" Col="349" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="signMid" Row="15" Col="449" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+    <Sprite Template="signFinal" Row="15" Col="528" Data1="" Data2="" Direction="Left" Difficulty="Any" SpawnDelay="0" TriggerDistance="0" />
+  </Sprites>
+  <Checkpoints>
+    <Checkpoint Row="14" Col="6" />
+    <Checkpoint Row="14" Col="190" />
+    <Checkpoint Row="14" Col="380" />
+    <Checkpoint Row="14" Col="529" />
+  </Checkpoints>
+  <DialogTriggers>
+    <DialogTrigger KeyName="180" Row="0" Col="0" />
+  </DialogTriggers>
+</Map>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+	<loc_splash_watch>WATCH "SPONGEBOB SQUAREPANTS" ON NICKELODEON !</loc_splash_watch>
+	<loc_splash_play>Play</loc_splash_play>
+	<loc_instructions_body>OH NO! SpongeBob is being attacked by fishing hooks.  Jump on the jellyfish to avoid the hooks, but don't fall off! Landing on bubbles gives you another jump!</loc_instructions_body>
+	<loc_instructions_play>CONTINUE</loc_instructions_play>
+	<loc_ui_lives>Lives</loc_ui_lives>
+	<loc_ui_score>score</loc_ui_score>
+	<loc_ui_levelup>Level</loc_ui_levelup>
+	<loc_payoff_score>SCORE:</loc_payoff_score>
+	<loc_payoff_continue>CONTINUE</loc_payoff_continue>
+</localization>

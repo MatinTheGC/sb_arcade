@@ -1,0 +1,41 @@
+<config>
+   <game>
+
+      <width>600</width>
+      <height>400</height>
+      <fps>30</fps>
+      <hudLivesIconOFF>true</hudLivesIconOFF>
+
+      <lives>3</lives>
+      <startDelay>1</startDelay>
+      <hitWait>2</hitWait>
+
+      <keyboard>true</keyboard>
+      
+      <increaseInterval>10</increaseInterval>
+      
+      <spongeBobSpeed>15</spongeBobSpeed>
+      <spongeBobSpeedIncrease>0</spongeBobSpeedIncrease>
+      <spongeBobSpeedLimit>15</spongeBobSpeedLimit>
+      
+      <spongeBobAcceleration>1</spongeBobAcceleration>
+      <spongeBobAccelerationIncrease>0</spongeBobAccelerationIncrease>
+      <spongeBobAccelerationLimit>1</spongeBobAccelerationLimit>
+      
+      <gravity>1.7</gravity>
+      <gravityIncrease>0</gravityIncrease>
+      <gravityLimit>1.7</gravityLimit>
+      
+      <jumpForce>34</jumpForce>
+      <jumpForceIncrease>0</jumpForceIncrease>
+      <jumpForceLimit>34</jumpForceLimit>
+      
+      <mass>0.9</mass>
+      
+      <roofGapMin>50</roofGapMin>
+      <roofGapMax>400</roofGapMax>
+
+      <landedScoreBonus>1</landedScoreBonus>
+      
+   </game>
+</config>

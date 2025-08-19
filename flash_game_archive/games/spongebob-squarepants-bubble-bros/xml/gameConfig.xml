@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<type name="general" >
+		<element id="world" 		gravity="30" />
+		<element id="collectable"	spawnDelay="4"	maxCollectablePerLevel="15"
+									collectable="60" powerUp="80"/>
+		<element id="quickCompletion" delay="45" />
+	</type>
+	
+	<type name="playableCharacter">
+		<element id="playableCharacter01"	name="SpongeBob" 
+											mass="50" friction="0.5" restitution="0" damping="1.8"
+											acceleration="1.5" speed="14" jumpImpulse="1300" startingLife="5"
+											invinsibilityDelay="3" powerUpInvincibility="1"
+											statSpeed="3" statJump="2"/>
+		<element id="playableCharacter02"	name="Patrick"
+											mass="100" friction="0.85" restitution="0" damping="1.2"
+											acceleration="1.8" speed="10" jumpImpulse="2800" startingLife="5"
+											invinsibilityDelay="3" powerUpInvincibility="1"
+											statSpeed="2" statJump="3"/>
+	</type>
+	
+	<type name="opponentSeeker">
+		<element id="opponentSeeker01" 	mass="50" friction="0.7" restitution="0" damping="0.8"	
+										walk="5" jumpImpulse="1000" floatingSpeed="3" popDelay="8"
+										waveAmplitude="3" waveSpeed="0.1"
+										normalValue="500" bubbledValue="1000" />
+	</type>
+	<type name="opponentJumper">
+		<element id="opponentJumper01" 	mass="50" friction="0.5" restitution="0.6" damping="0.8"	
+										jumpImpulse="800" jumpAngle="30" floatingSpeed="3"  popDelay="5"
+										waveAmplitude="3" waveSpeed="0.1"
+										normalValue="250" bubbledValue="5000" />
+	</type>
+	
+	<type name="bossSeeker">
+		<element id="bossSeeker01"  mass="50" friction="0.3" restitution="0" damping="0.8"	
+									movingSpeed="0.25" acceleration="0.05"
+									hitPoint="20" difficultyChanges="0.5"
+									floatingSpeed="2" waveAmplitude="3" waveSpeed="0.1"
+									normalValue="2500" bubbledValue="50000"/>
+	</type>
+	<type name="bossShooter">
+		<element id="bossShooter01" mass="50" friction="0.3" restitution="0" damping="0.8"	
+									jumpImpulse="1000" jumpAngle="20" stopPercent="0.5" 
+									jumpImpulseIncrement="100" jumpAngleIncrement="4" stopIncrement="0.1" 
+									projectileSpeed="0.3"
+									hitPoint="20" difficultyChanges="0.5"
+									floatingSpeed="2" waveAmplitude="3" waveSpeed="0.1"
+									normalValue="2500" bubbledValue="50000"/>
+	</type>
+	
+	<type name="bubble">
+		<element id="normalBubble" 	mass="0" friction="0" restitution="0.9" damping="1.2"	
+									floatingSpeed="2.25" creationImpulse="10" shotDelay="1.0" popDelay="5" 
+									waveAmplitude="3" waveSpeed="0.1"/>
+		<element id="rapidBubble" 	mass="0" friction="0" restitution="0.9" damping="1.2"	
+									floatingSpeed="2.25" creationImpulse="10" shotDelay="0.5" popDelay="5" 
+									waveAmplitude="3" waveSpeed="0.1"/>
+		<element id="rangeBubble" 	mass="0" friction="0" restitution="0.9" damping="1.2"	
+									floatingSpeed="2.25" creationImpulse="15" shotDelay="1.0" popDelay="5" 
+									waveAmplitude="3" waveSpeed="0.1"/>
+	</type>
+	
+	<type name="collectable">
+		<element id="collectable01" mass="10" friction="0" restitution="0" damping="0.8"
+									delay="4" value="1000" rarity="20" />
+		<element id="collectable02" mass="10" friction="0" restitution="0" damping="0.8"
+									delay="4" value="5000" rarity="10" />
+		<element id="collectable03" mass="10" friction="0" restitution="0" damping="0.8"
+									delay="4" value="10000" rarity="5" />
+	</type>
+	
+	<type name="powerUp">
+		<!-- PowerUp value can be a bubble name or one of the following -->
+		<element id="powerUp01" mass="10" friction="0" restitution="0" damping="0.8"
+								delay="5" value="rapidBubble" rarity="20" duration="5" />
+		<element id="powerUp02" mass="10" friction="0" restitution="0" damping="0.8"
+								delay="5" value="rangeBubble" rarity="20" duration="5" />
+	</type>
+	
+	<type name="pinataStatic"></type>
+	<type name="pinataHanged">
+		<element id="pinata01" 	mass="20" friction="0" restitution="0.95" damping="0.8"
+								hitPoint="10" impactImpulse="100"/>
+	</type>
+	
+	<type name="surfaces">
+		<element id="platform" density="10" friction="0.1" restitution="0" />
+		<element id="wall" density="10" friction="0" restitution="0" />
+		<element id="levelBound" density="10" friction="10" restitution="0" />
+	</type>
+	
+	<type name="scoring">
+		<element id="emptyBubblePopped"		value="1" />
+		<element id="quickRoomCompletion"	value="7500" />
+		<element id="extraTry"				value="20000" />
+	</type>
+
+</config>

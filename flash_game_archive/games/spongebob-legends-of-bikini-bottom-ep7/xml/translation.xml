@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's tag-->
+<!-- english, when set to TRUE, ignores all localization and uses the default field data in the FLA.-->
+
+<!-- <Node Attributes> -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the defaul size in the FLA.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the defaul font (specified by defaultFont).-->
+<!-- id is not Optional. It determines where flash places the text.-->
+<strings defaultFont="Latin" english="true">
+	<!--Preloader-->
+	<string id="loading"	fontName="Latin"	fontSize="16"	><![CDATA[Loading...]]></string>
+	<!--Basics-->
+	<string id="skip"		fontName="Latin"	fontSize="16"	><![CDATA[SKIP >>]]></string>
+	<string id="more"		fontName="Latin"	fontSize="16"	><![CDATA[MORE >>]]></string>
+	<string id="title"		fontName="Latin"	><![CDATA[LEGENDS OF BIKINI BOTTOM]]></string>	
+	<string id="play_skip"	fontName="Latin"	fontSize="16"	><![CDATA[PLAY]]></string>
+	<string id="play_again"	fontName="Latin"	fontSize="16"	><![CDATA[PLAY AGAIN]]></string>
+	<string id="try_again"	fontName="Latin"	fontSize="16"	><![CDATA[Try Again!]]></string>		
+	<string id="how_to_play"fontName="Latin"	fontSize="16"	><![CDATA[HOW TO PLAY]]></string>
+	<string id="next"		fontName="Latin"	fontSize="16"	><![CDATA[Next]]></string>
+	<string id="continue"	fontName="Latin"	fontSize="16"	><![CDATA[Continue]]></string>
+	<string id="close"		fontName="Latin"	fontSize="16"	><![CDATA[close]]></string>
+	<string id="printable"	fontName="Latin"	fontSize="16"	><![CDATA[Printable]]></string>
+	<string id="back"		fontName="Latin"	fontSize="16"	><![CDATA[BACK >>]]></string>
+	<string id="cancel"		fontName="Latin"	fontSize="16"	><![CDATA[CANCEL]]></string>
+	<string id="submit"		fontName="Latin"	fontSize="16"	><![CDATA[SUBMIT]]></string>
+	<string id="okay"		fontName="Latin"	fontSize="16"	><![CDATA[OKAY]]></string>
+	<string id="play_game"	fontName="Latin"	fontSize="16"	><![CDATA[PLAY GAME]]></string>
+	<string id="newp"		fontName="Latin"	fontSize="16"	><![CDATA[NEW!]]></string>
+	<!--Game Buttons-->
+	<string id="menu"		fontName="Latin"	fontSize="16"	><![CDATA[?]]></string>
+	<string id="back_to_game"	fontName="Latin"	fontSize="16"	><![CDATA[BACK TO GAME]]></string>
+	<string id="help"		fontName="Latin"	fontSize="16"	><![CDATA[How to Play]]></string>
+	<string id="sound_on"	fontName="Latin"	fontSize="16"	><![CDATA[Sound On]]></string>
+	<string id="sound_off"	fontName="Latin"	fontSize="16"	><![CDATA[Sound Off]]></string>
+	<string id="resume"		fontName="Latin"	fontSize="16"	><![CDATA[Resume]]></string>
+	<!--Quit-->
+	<string id="back_to_table"		fontName="Latin"	fontSize="16"	><![CDATA[QUIT]]></string>
+	<string id="quit"		fontName="Latin"	fontSize="16"	><![CDATA[X]]></string>
+	<string id="quit_confirm_header"	fontName="Latin"	fontSize="16"><![CDATA[ARE YOU SURE YOU WANT TO QUIT?]]></string>
+	<string id="yes"		fontName="Latin"	fontSize="16"	><![CDATA[YES]]></string>
+	<string id="no"			fontName="Latin"	fontSize="16"	><![CDATA[NO]]></string>
+	<!--Gameplay-->
+	<string id="level"		fontName="Latin"	fontSize="16"	><![CDATA[Level]]></string>
+	<string id="score"		fontName="Latin"	fontSize="16"	><![CDATA[Score:]]></string>	
+	<string id="paused"		fontName="Latin"	fontSize="16"	><![CDATA[Paused]]></string>
+	<string id="level_up"	fontName="Latin"	fontSize="16"	><![CDATA[Level Up!]]></string>
+	<string id="game_over"	fontName="Latin"	fontSize="16"	><![CDATA[THE END]]></string>	
+	<!--Leaderboard-->
+	<string id="you"		fontName="Latin"	fontSize="16"	><![CDATA[You: ]]></string>
+	<string id="top"		fontName="Latin"	fontSize="16"	><![CDATA[Top]]></string>	
+	<string id="leaderboard"	fontName="Latin"	fontSize="16"><![CDATA[Leaderboard]]></string>
+	<string id="submit_score"	fontName="Latin"	fontSize="16"><![CDATA[Submit Score]]></string>	
+	<!-- Copy/Body -->
+	<string id="help_copy"	fontName="Latin"	fontSize="16"><![CDATA[HELP COPY]]></string>
+	<string id="watch"		fontName="Latin"	fontSize="16"	><![CDATA[Watch 'Show Name' on]]></string>
+	
+	<!-- Game Specific -->
+	
+	<!-- CHAPTER INFORMATION -->
+	<string id="title_comingsoon"	fontName="Latin"	fontSize="16"	><![CDATA[COMING SOON!]]></string>
+	<string id="title_episode1"		fontName="Latin"	fontSize="16"	><![CDATA[Coral Colossus]]></string>
+	<string id="title_episode2"		fontName="Latin"	fontSize="16"	><![CDATA[Bumpin' Bumpkins]]></string>
+	<string id="title_episode3"		fontName="Latin"	fontSize="16"	><![CDATA[Voodoo Un-do]]></string>
+	<string id="title_episode4"		fontName="Latin"	fontSize="16"	><![CDATA[Suction Destruction]]></string>
+	<string id="title_episode5"		fontName="Latin"	fontSize="16"	><![CDATA[Weresquirrel]]></string>
+	<string id="title_episode6"		fontName="Latin"	fontSize="16"	><![CDATA[Goo Tsunami]]></string>
+	<string id="title_episode7"		fontName="Latin"	fontSize="16"	><![CDATA[Tartar Treachery]]></string>
+	<string id="title_episode8"		fontName="Latin"	fontSize="16"	><![CDATA[Pinata Pendulum]]></string>
+	<string id="title_episode9"		fontName="Latin"	fontSize="16"	><![CDATA[Pinatas Locas]]></string>
+	<string id="title_episode10"	fontName="Latin"	fontSize="16"	><![CDATA[Larry's Beach Blast]]></string>
+	<string id="title_episode11"	fontName="Latin"	fontSize="16"	><![CDATA[Episode 11]]></string>
+	
+	<string id="titleshort_episode5" fontName="Latin"	fontSize="16"	><![CDATA[Were Squirrel]]></string>
+	
+	<string id="lockcopyshort_episode8" fontName="Latin"	fontSize="16"	><![CDATA[Locked 
+until 5/2!]]></string>
+	<string id="lockcopyshort_episode9" fontName="Latin"	fontSize="16"	><![CDATA[Locked until 5/5!]]></string>
+	
+	<string id="lockcopy_episode1"	fontName="Latin"	fontSize="16"	><![CDATA[]]></string>
+	<string id="lockcopy_episode2"	fontName="Latin"	fontSize="16"	><![CDATA[will be unlocked on Monday the 24th]]></string>
+	<string id="lockcopy_episode3"	fontName="Latin"	fontSize="16"	><![CDATA[will be unlocked on Tuesday the 25th]]></string>
+	<string id="lockcopy_episode4"	fontName="Latin"	fontSize="16"	><![CDATA[will be unlocked on Wednesday the 26th]]></string>
+	<string id="lockcopy_episode5"	fontName="Latin"	fontSize="16"	><![CDATA[will be unlocked on Thursday the 27th]]></string>
+	<string id="lockcopy_episode6"	fontName="Latin"	fontSize="16"	><![CDATA[Requires the secret word!]]></string>
+	<string id="lockcopy_episode7"	fontName="Latin"	fontSize="16"	><![CDATA[will be unlocked on Tuesday, March 1st!]]></string>
+	<string id="lockcopy_episode8"	fontName="Latin"	fontSize="16"	><![CDATA[will be unlocked on Monday, May 2nd!]]></string>
+	<string id="lockcopy_episode9"	fontName="Latin"	fontSize="16"	><![CDATA[will be unlocked on Thursday, May 5th!]]></string>
+	<string id="lockcopy_episode10"	fontName="Latin"	fontSize="16"	><![CDATA[will be unlocked on --]]></string>
+	<string id="lockcopy_episode11"	fontName="Latin"	fontSize="16"	><![CDATA[will be unlocked on --]]></string>
+	
+	<!-- Shell -->
+	<string id="shell_explore_inst"			fontName="Latin"	fontSize="16"	><![CDATA[Use the arrow keys to explore...]]></string>
+	<string id="shell_tunein_message"		fontName="Latin"	fontSize="16"	><![CDATA[Watch Legends of Bikini Bottom on Nickelodeon, January 28th at 8PM!]]></string>
+	<string id="shell_welcome_back"			fontName="Latin"	fontSize="16"	><![CDATA[WELCOME BACK!]]></string>
+	<string id="shell_welcome"				fontName="Latin"	fontSize="16"	><![CDATA[WELCOME... TO THE LIBRARY.]]></string>
+	<string id="shell_table_of_contents"	fontName="Latin"	fontSize="16"	><![CDATA[TABLE OF CONTENTS]]></string>
+	<string id="shell_records"				fontName="Latin"	fontSize="16"	><![CDATA[RECORDS]]></string>
+	<string id="shell_back_to_contents"		fontName="Latin"	fontSize="16"	><![CDATA[BACK >>]]></string>
+	<string id="shell_reset"				fontName="Latin"	fontSize="16"	><![CDATA[RESET SCORES]]></string>
+	<string id="shell_appendix"				fontName="Latin"	fontSize="16"	><![CDATA[APPENDIX]]></string>
+	<string id="shell_records_yourbest"		fontName="Latin"	fontSize="16"	><![CDATA[Your best scores!]]></string>
+	<string id="shell_records_instruct"		fontName="Latin"	fontSize="16"	><![CDATA[Click on a chapter to see the National leaderboard.]]></string>
+	<string id="shell_records_delete_confirm"	fontName="Latin"	fontSize="16"	><![CDATA[Are you sure you want to delete your progress?]]></string>
+	<string id="shell_secret_code_req"		fontName="Latin"	fontSize="16"	><![CDATA[What's the secret code?]]></string>
+	<string id="shell_wrong_code"			fontName="Latin"	fontSize="16"	><![CDATA[No, that's not the right code!]]></string>
+	<string id="shell_load_chapter"			fontName="Latin"	fontSize="16"	><![CDATA[Now Loading...]]></string>
+	<string id="shell_high_score"			fontName="Latin"	fontSize="16"	><![CDATA[High Score:]]></string>
+	<string id="shell_highscore_fail"		fontName="Latin"	fontSize="16"	><![CDATA[YOU DIDN'T BEAT YOUR HIGH SCORE.]]></string>
+	<string id="shell_highscore_success"	fontName="Latin"	fontSize="16"	><![CDATA[YOU BEAT YOUR HIGH SCORE!]]></string>
+	<string id="shell_highscore_submitq"	fontName="Latin"	fontSize="16"	><![CDATA[SUBMIT IT TO THE LEADERBOARD?]]></string>
+	
+	<string id="shell_tip1"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: Patrick is a starfish!]]></string>
+	<string id="shell_tip2"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: SpongeBob lives in a pineapple under the sea!]]></string>
+	<string id="shell_tip3"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: Sandy Cheeks is from Texas!]]></string>
+	<string id="shell_tip4"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: Squidward is an octopus with only 6 limbs. Try not to mention it though, he gets sensitive...]]></string>
+	<string id="shell_tip5"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: Plankton's robot wife Karen makes the best holographic meatloaf in Bikini Bottom!]]></string>
+	<string id="shell_tip6"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: In "Sleepy Time," SpongeBob dreams that his pet snail Gary is a British librarian who can speak!]]></string>
+	<string id="shell_tip7"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: Sandy Cheeks is a karate expert from Texas… AND she's a squirrel!]]></string>
+	<string id="shell_tip8"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: Squidward enjoys playing the clarinet.]]></string>
+	<string id="shell_tip9"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: Plankton is married to a computer named Karen.]]></string>
+	<string id="shell_tip10"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: Mr. Krabs is a crab, but his daughter Pearl is a whale!]]></string>
+	<string id="shell_tip11"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: SpongeBob creator Stephen Hillenburg is an actual marine biologist!]]></string>
+	<string id="shell_tip12"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: SpongeBob's name was originally supposed to be SpongeBoy, but it was taken by a mop.]]></string>
+	<string id="shell_tip13"	fontName="Latin"	fontSize="16"	><![CDATA[Fun Fact: SpongeBob SquarePants has featured guest vocals from Tina Fey, Will Ferrell, Pink, Victoria Beckham, LeBron James and many, many more.]]></string>
+	
+	<!-- EPISODE 1 -->
+	<string id="episode1_story_copy"		fontName="Latin"	fontSize="16"	><![CDATA[Once upon a time,
+Patrick Star made a
+Ferocious Friend.
+
+But this friend was
+SERIOUSLY SMELLY...]]></string>
+	<string id="episode1_instruct"	fontName="Latin"	fontSize="16"	><![CDATA[MOVE with the ARROW KEYS
+CLICK to throw SNOWGLOBES
+at the holes!]]></string>
+	<string id="episode1_qte_instruct"	fontName="Latin"	fontSize="16"	><![CDATA[Press the
+right keys to hold on!]]></string>
+	<string id="episode1_help1"	fontName="Latin"	fontSize="16"	><![CDATA[Patrick's new monster friend has some stink issues!
+Help him by plugging those smelly barnacles with
+Snow Globes!]]></string>
+	<string id="episode1_help2"	fontName="Latin"	fontSize="16"	><![CDATA[USE THE ARROW KEYS TO CLIMB
+	
+CLICK TO THROW SNOWGLOBES]]></string>
+
+	<!-- EPISODE 2 -->
+	<string id="episode2_story_copy"		fontName="Latin"	fontSize="16"	><![CDATA[Once upon a time, Patrick was challenged to a boxing match with some Trenchbillies! Now Patrick must train for the big day......]]></string>
+	<string id="episode2_punch"	fontName="Latin"	fontSize="16"	><![CDATA[Jab]]></string>
+	<string id="episode2_dodge"	fontName="Latin"	fontSize="16"	><![CDATA[Dodge]]></string>
+	<string id="episode2_block"	fontName="Latin"	fontSize="16"	><![CDATA[Block]]></string>
+	<string id="episode2_opponent"	fontName="Latin"	fontSize="16"	><![CDATA[Opponent]]></string>
+	<string id="episode2_energy"	fontName="Latin"	fontSize="16"	><![CDATA[Energy]]></string>
+	<string id="episode2_health"	fontName="Latin"	fontSize="16"	><![CDATA[Health]]></string>
+	<string id="episode2_help1"	fontName="Latin"	fontSize="16"	><![CDATA[Help Patrick win against Ma's bumpkins!
+Dodge punches and keep away from Ma's trash.
+Every move takes energy, so make sure you watch your energy!]]></string>
+	<string id="episode2_help2"	fontName="Latin"	fontSize="16"	><![CDATA[UP Arrow - Jab or Swipe
+LEFT/RIGHT Arrows - Dodge
+DOWN Arrow (Hold) - Block and Regain Energy]]></string>
+	
+	<!-- EPISODE 3 -->
+	<string id="episode3_story_copy"	fontName="Latin"	fontSize="16"	><![CDATA[Once upon a time, Patrick found a creepy Voodoo mask. When he tried it on, it got stuck and possessed him......]]></string>
+	<string id="episode3_gripmeter"	fontName="Latin"	fontSize="16"	><![CDATA[Grip
+Meter]]></string>
+	<string id="episode3_inst1"	fontName="Latin"	fontSize="16"	><![CDATA[Use LEFT and RIGHT
+arrow keys to move]]></string>
+	<string id="episode3_inst2"	fontName="Latin"	fontSize="16"	><![CDATA[SpongeBob's grip on the mask!
+
+If you run into too many obstacles, he'll lose his grip and fall!]]></string>
+	<string id="episode3_spacebar"	fontName="Latin"	fontSize="16"	><![CDATA[Tap SPACEBAR to pull on the mask!]]></string>
+	<string id="episode3_pull"	fontName="Latin"	fontSize="16"	><![CDATA[Pull!]]></string>
+	<string id="episode3_ouch"	fontName="Latin"	fontSize="16"	><![CDATA[OUCH!]]></string>
+	<string id="episode3_help1"	fontName="Latin"	fontSize="16"	><![CDATA[Steer Patrick from traffic or you'll lose your grip and fall! The grip meter shows how many fingers SpongeBob is holding on with.]]></string>
+	<string id="episode3_help2"	fontName="Latin"	fontSize="16"	><![CDATA[Use the LEFT and RIGHT arrow keys to control Patrick. When the coast is clear, tap SPACEBAR repeatedly to loosen the mask.]]></string>
+	
+	
+	<!-- EPISODE 4 -->
+	<string id="episode4_story_copy"		fontName="Latin"	fontSize="16"	><![CDATA[Once upon a time, a huge mermaid-
+controlled vacuum was sucking everything into another dimension!]]></string>
+	<string id="episode4_inst1"		fontName="Latin"	fontSize="16"	><![CDATA[Press Z to skip the tutorial]]></string>
+	<string id="episode4_inst2"		fontName="Latin"	fontSize="16"	><![CDATA[SET THE FUSE!]]></string>
+	<string id="episode4_tut1"		fontName="Latin"	fontSize="16"	><![CDATA[Use the ARROW KEYS to move, press UP to Jump.]]></string>
+	<string id="episode4_tut2"		fontName="Latin"	fontSize="16"	><![CDATA[Keep AWAY from the vacuum!]]></string>
+	<string id="episode4_tut3"		fontName="Latin"	fontSize="16"	><![CDATA[Good Job! Now do it again!]]></string>
+	<string id="episode4_tut4"		fontName="Latin"	fontSize="16"	><![CDATA[SIRENS! Avoid their noisy notes!]]></string>
+	<string id="episode4_tut5"		fontName="Latin"	fontSize="16"	><![CDATA[AVOID spikey objects.]]></string>
+	<string id="episode4_tut6"		fontName="Latin"	fontSize="16"	><![CDATA[JUMP ONTO barrels to RIDE them into the sky.]]></string>
+	<string id="episode4_tut7"		fontName="Latin"	fontSize="16"	><![CDATA[RIDE explosive barrels to DESTROY the vacuum!]]></string>
+	<string id="episode4_help1"		fontName="Latin"	fontSize="16"	><![CDATA[The Vacuum will suck up all of Bikini Bottom! Destroy it by jumping on explosive barrels. If the Sirens come to stop you, just dodge like the wind!]]></string>
+	<string id="episode4_help2"		fontName="Latin"	fontSize="16"	><![CDATA[USE THE ARROW KEYS TO MOVE
+
+PRESS UP TO JUMP]]></string>
+
+	<!-- EPISODE 5 -->
+	<string id="episode5_story_copy"		fontName="Latin"	fontSize="16"	><![CDATA[Once upon a time, Sandy's workout went overboard and she became...
+DUN DUN DUN...
+WERESQUIRREL!!!!]]></string>
+	<string id="episode5_help1"		fontName="Latin"	fontSize="16"	><![CDATA[Use your WereSquirrel power to break through rocks!
+Meet friendly villagers as Normal Sandy so
+they don't get scared! The clouds will transform you
+on their own from time to time, so be careful!]]></string>
+	<string id="episode5_help2"		fontName="Latin"	fontSize="16"	><![CDATA[Press SPACEBAR to TRANSFORM
+
+Press the UP ARROW to JUMP]]></string>
+
+	<!-- EPISODE 6 -->
+	<string id="episode6_story_copy"		fontName="Latin"	fontSize="16"	><![CDATA[Once upon a time, a terrible sea monster from the Goo Lagoon caused a huge tidal wave, swallowing up Bikini Bottom!]]></string>
+	<string id="episode6_story1"		fontName="Latin"	fontSize="16"	><![CDATA[HELP!!]]></string>
+	<string id="episode6_story2"		fontName="Latin"	fontSize="16"	><![CDATA[YIKES!!]]></string>
+	<string id="episode6_story3"		fontName="Latin"	fontSize="16"	><![CDATA[OH I FOUND A NICKEL!!!]]></string>
+	<string id="episode6_story4"		fontName="Latin"	fontSize="16"	><![CDATA[SPONGE TO THE RESCUE!!!]]></string>
+	<string id="episode6_escapeflood"		fontName="Latin"	fontSize="16"	><![CDATA[Press SPACEBAR to ESCAPE THE FLOOD!]]></string>
+	<string id="episode6_rescued"		fontName="Latin"	fontSize="16"	><![CDATA[RESCUED]]></string>
+	<string id="episode6_help1"		fontName="Latin"	fontSize="16"	><![CDATA[CLICK on PATRICK to find some ANCHOVIES to RESCUE!]]></string>
+	<string id="episode6_help2"		fontName="Latin"	fontSize="16"	><![CDATA[Move your MOUSE to AIM and CLICK again to THROW a light]]></string>
+	<string id="episode6_help3"		fontName="Latin"	fontSize="16"	><![CDATA[CLICK on SPONGEBOB to RESCUE
+the ANCHOVY!]]></string>
+	<string id="episode6_help4"		fontName="Latin"	fontSize="16"	><![CDATA[THROW a RESCUE RAFT to the ANCHOVY!]]></string>
+	<string id="episode6_help5"		fontName="Latin"	fontSize="16"	><![CDATA[GREAT JOB!
+Watch out for the MONSTER!]]></string>
+	<string id="episode6_menu1"		fontName="Latin"	fontSize="16"	><![CDATA[Rescue the ANCHOVIES!]]></string>
+	<string id="episode6_menu2"		fontName="Latin"	fontSize="16"	><![CDATA[CLICK on Patrick to aim and launch lights into the darkness.]]></string>
+	<string id="episode6_menu3"		fontName="Latin"	fontSize="16"	><![CDATA[CLICK on SpongeBob to aim and launch rafts to rescue the Anchovies.]]></string>
+	<string id="episode6_menu4"		fontName="Latin"	fontSize="16"	><![CDATA[Tap the SPACEBAR to avoid waves when the MONSTER gets ANGRY!]]></string>
+	
+	<!-- EPISODE 7 -->
+	<string id="episode7_story"		fontName="Latin"	fontSize="16"	><![CDATA[Once upon a time, Man Ray tried to change the past! Mermaid Man and Barnacle Boy need tartar sauce to destroy him, but Patrick is hungry....]]></string>
+	<string id="episode7_intro1"	fontName="Latin"	fontSize="16"	><![CDATA[QUICK TO THE TIME MACHINE!]]></string>
+	<string id="episode7_intro2"	fontName="Latin"	fontSize="16"	><![CDATA[TAR]]></string>
+	<string id="episode7_intro3"	fontName="Latin"	fontSize="16"	><![CDATA[TAR]]></string>
+	<string id="episode7_intro4"	fontName="Latin"	fontSize="16"	><![CDATA[SAUCE!]]></string>
+	<string id="episode7_intro5"	fontName="Latin"	fontSize="16"	><![CDATA[NO, PATRICK! DON'T DO IT!]]></string>
+	<string id="episode7_inst1"	fontName="Latin"	fontSize="16"	><![CDATA[Our heroes went back in time to defeat MAN RAY, Patrick is hungry for the TARTAR SAUCE needed to defeat him!]]></string>
+	<string id="episode7_inst2"	fontName="Latin"	fontSize="16"	><![CDATA[Press the UP and DOWN ARROW KEYS at the right time to toss the TARTAR SAUCE between characters. Run back and forth with the LEFT and RIGHT ARROWS. Each character has a SPECIAL POWER you can use once a level, to use it press SPACEBAR!]]></string>
+	
+	<string id="episode7_tartar"	fontName="Latin"	fontSize="16"	><![CDATA[TARTAR SAUCE]]></string>
+	
+	<string id="episode7_power_title_freeze"	fontName="Latin"	fontSize="16"	><![CDATA[TIME STOP!]]></string>
+	<string id="episode7_power_desc_freeze"		fontName="Latin"	fontSize="16"	><![CDATA[Freeze time for all Patricks!]]></string>
+	<string id="episode7_power_title_slow"		fontName="Latin"	fontSize="16"	><![CDATA[SLOW TIME!]]></string>
+	<string id="episode7_power_desc_slow"		fontName="Latin"	fontSize="16"	><![CDATA[Slow time for all Patricks!]]></string>
+	<string id="episode7_power_title_repair"	fontName="Latin"	fontSize="16"	><![CDATA[TIME STREAM REPAIR!]]></string>
+	<string id="episode7_power_desc_repair"		fontName="Latin"	fontSize="16"	><![CDATA[All Patricks sent back in time!]]></string>
+	<string id="episode7_power_desc_repfail"	fontName="Latin"	fontSize="16"	><![CDATA[The time stream doesn't need to be repaired yet!]]></string>
+	
+	<string id="episode7_inst_title_move"		fontName="Latin"	fontSize="16"	><![CDATA[HOW TO MOVE!]]></string>
+	<string id="episode7_inst_desc_move"		fontName="Latin"	fontSize="16"	><![CDATA[Press the left and right arrows to move back and forth!]]></string>
+	<string id="episode7_inst_title_throw"		fontName="Latin"	fontSize="16"	><![CDATA[HOW TO THROW!]]></string>
+	<string id="episode7_inst_desc_throw"		fontName="Latin"	fontSize="16"	><![CDATA[Press UP or DOWN to pass the Tartar Sauce to someone else!]]></string>
+	<string id="episode7_inst_title_dodge"		fontName="Latin"	fontSize="16"	><![CDATA[GRAB POWERUPS!]]></string>
+	<string id="episode7_inst_desc_dodge"		fontName="Latin"	fontSize="16"	><![CDATA[Coins will refill your Tartar Sauce or give you points!]]></string>
+	<string id="episode7_inst_title_spawn"		fontName="Latin"	fontSize="16"	><![CDATA[SAVE THE SAUCE!]]></string>
+	<string id="episode7_inst_desc_spawn"		fontName="Latin"	fontSize="16"	><![CDATA[Patrick will try and take the sauce! Pass it to someone safe!]]></string>
+	<string id="episode7_inst_title_power"		fontName="Latin"	fontSize="16"	><![CDATA[USE YOUR POWERS!]]></string>
+	<string id="episode7_inst_desc_power"		fontName="Latin"	fontSize="16"	><![CDATA[Press the SPACE BAR and whoever has the sauce will use their power!]]></string>
+	<string id="episode7_inst_title_final"		fontName="Latin"	fontSize="16"	><![CDATA[GOOD LUCK!]]></string>
+	<string id="episode7_inst_desc_final"		fontName="Latin"	fontSize="16"	><![CDATA[Keep carrying the sauce so you can stop Man Ray!]]></string>
+	
+	<!-- EPISODE 8 -->
+	<string id="episode8_story"	fontName="Latin"	fontSize="16"	><![CDATA[Once upon a time, Bikini Bottom was celebrating Cinco De Mayo when the pinatas came to life! Now it is up to SpongeBob to rescue them....]]></string>
+	<string id="episode8_inst1"	fontName="Latin"	fontSize="16"	><![CDATA[SpongeBob has to rescue the Pinatas! Swing and grab them, then jump to safety!]]></string>
+	<string id="episode8_inst2"	fontName="Latin"	fontSize="16"	><![CDATA[Press UP and DOWN to shorten your rope or make it longer!
+Press SPACEBAR to grab a Pinata
+and to jump to safety at the end of a level!
+Dodge bat-swinging partygoers and flaming peppers!]]></string>
+	
+	<string id="episode8_inst_pinyata_g"	fontName="Latin"	fontSize="16"	><![CDATA[Press Spacebar to
+grab Pinatas!]]></string>
+	<string id="episode8_inst_pillar_g"	fontName="Latin"	fontSize="16"	><![CDATA[Press Spacebar to
+jump to safety!]]></string>
+	<string id="episode8_inst_escape"	fontName="Latin"	fontSize="16"	><![CDATA[The Pinatas are safe
+it's time to escape!]]></string>
+
+	<!-- EPISODE 9 -->
+	<string id="episode9_story"	fontName="Latin"	fontSize="16"	><![CDATA[Hurray! SpongeBob has managed to wrangle captive Pinatas from the grip of the merciless Cinco De Mayo partiers! The chase begins...]]></string>
+	<string id="episode9_inst1"	fontName="Latin"	fontSize="16"	><![CDATA[Help SpongeBob and the Pinatas
+escape the Cinco de Mayo Partiers!]]></string>
+	<string id="episode9_inst2"	fontName="Latin"	fontSize="16"	><![CDATA[Run back and forth with the LEFT and RIGHT arrows!
+Jump and double jump with the UP arrow!
+Dodge Cactii and Tumble Kelp that are in your way!
+Each type of Pinata has a special power,
+the game will tell you on screen how to use it!]]></string>
+
+	<string id="episode9_powerSpace"	fontName="Latin"	fontSize="16"	><![CDATA[Press SPACE!]]></string>
+	<string id="episode9_powerWhale"	fontName="Latin"	fontSize="16"	><![CDATA[Splash Power!]]></string>
+	<string id="episode9_powerPig"		fontName="Latin"	fontSize="16"	><![CDATA[Quadruple Jump Power!]]></string>
+	<string id="episode9_powerBeaver"	fontName="Latin"	fontSize="16"	><![CDATA[Slow Time Power!]]></string>
+	<string id="episode9_powerLlama"	fontName="Latin"	fontSize="16"	><![CDATA[Shield Power!]]></string>
+	
+	<string id="episode9_pickup_lives"	fontName="Latin"	fontSize="16"	><![CDATA[Extra Life!]]></string>
+	
+	<!-- EPISODE 10 -->
+	<string id="episode10_story"	fontName="Latin"	fontSize="16"	><![CDATA[Oh No! Toxic waste has fallen on the shores of Goo Lagoon! Help Larry the Lobster take back the beach from the toxic tube worms!]]></string>
+	<string id="episode10_inst1"	fontName="Latin"	fontSize="16"	><![CDATA[Help Larry the Lobster defeat the Toxic Slime Monsters!]]></string>
+	<string id="episode10_inst2"	fontName="Latin"	fontSize="16"	><![CDATA[Press the LEFT, RIGHT and DOWN arrows
+to punch in each direction!
+Grab Anchovies before the monster holding
+them explodes, or you'll lose a life!
+Watch out for spike monsters! Don't hit them,
+and block with the UP button before they explode!v]]></string>
+	
+	<string id="episode10_combo_break"	fontName="Latin"	fontSize="16"	><![CDATA[Combo Lost!]]></string>
+	
+	<string id="episode10_help1"	fontName="Latin"	fontSize="16"	><![CDATA[Press the arrow to hit a monster, LEFT, RIGHT or DOWN!]]></string>
+	<string id="episode10_help2"	fontName="Latin"	fontSize="16"	><![CDATA[Knock Anchovies away from monsters before you lose a life!]]></string>
+	<string id="episode10_help3"	fontName="Latin"	fontSize="16"	><![CDATA[Don't hit spikey monsters, and block with UP before they pop!]]></string>
+	
+</strings>

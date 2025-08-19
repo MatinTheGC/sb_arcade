@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+	<instruct_title_txt>iNSTRUCTiONS</instruct_title_txt>
+	<instruct_carnival_txt>AT THE VALENTiNE'S DAY CARNiVAL...</instruct_carnival_txt>
+	<instruct_top_txt>No card! No present! No NOTHIN' from his buddy SpongeBob on Valentine's Day, and now Patrick's on the rampage!</instruct_top_txt>
+	<instruct_bottom_txt>Grab the CHOCOLATES and throw them at Patrick. Crash Sandy's chocolate balloon into him for BONUS points.
+
+Press UP to jump and SPACEBAR to throw.
+
+Press LEFT and RIGHT arrow keys to go back and forth in the game.</instruct_bottom_txt>
+	<instruct_play_txt>PLAY!</instruct_play_txt>
+	<intro_button_play_txt>PLAY</intro_button_play_txt>
+	<intro_button_play_txt_over>PLAY</intro_button_play_txt_over>
+	<payoff_score_txt>SCORE:</payoff_score_txt>
+	<continue_txt>CONTiNUE</continue_txt>
+</localization>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<tuneInMessage enabled="false"></tuneInMessage>	
+	<printable enabled="true"></printable>
+	<!-- Domains this application is intended to run on -->
+	<allowedDomains>
+		<allowedDomain>workinman.com</allowedDomain>
+		<allowedDomain>localhost</allowedDomain>
+		<allowedDomain>nick.com</allowedDomain>
+		<allowedDomain>mtvi.com</allowedDomain>
+		<allowedDomain>mtvnimages.com</allowedDomain>
+	</allowedDomains>
+	<plugins enabled="true">
+		<plugin id="analytics" enabled="false">plugins/plugin_nick_analytics.swf</plugin>
+		<plugin id="leaderboard" enabled="true">plugins/plugin_nick_leaderboard.swf</plugin>
+		<plugin id="services" enabled="true">plugins/plugin_nick_services.swf</plugin>
+	</plugins>
+	<!--ServiceLocator url-->
+	<urlNickServiceLocator>common/flash/services/data/services.xml</urlNickServiceLocator>
+	<!-- URL of Nick in-game notification API -->
+	<nickServicesAPIAchievementsURL>games/data/awards/in-game-notifications/nick_services_achievements.swf</nickServicesAPIAchievementsURL>
+	<!-- Used by nick services plugin -->
+	<nickServicesSettings>
+		<enableAnalytics method="1" useEncryption="false" id="7492907968780873224">false</enableAnalytics>
+		<enableLogin method="2">true</enableLogin> <!-- method "3" should always be used. -->
+		<enableTracking method="0">true</enableTracking>
+		<enableNickPoints>false</enableNickPoints>
+		<enableAchievements>true</enableAchievements>		
+		<enableClubItems>false</enableClubItems>
+		<enableUniversalEndGameScreen>false</enableUniversalEndGameScreen>	
+		<enableLegacyServiceProxy url="plugins/legacy/nick_legacy_services.swf">true</enableLegacyServiceProxy> <!-- This is still necessary for leaderboards -->
+	</nickServicesSettings>		
+	<!-- Printable -->
+	<tracking>	
+		<trackingPlayFunction>trackKidsGamePlay</trackingPlayFunction>
+		<trackingPlayAgainFunction>trackKidsGamePlay</trackingPlayAgainFunction>
+		<trackingPlayGameName>spongebob-squarepants-legends-of-bikini-bottom</trackingPlayGameName>
+		<trackingPrintFunction>printTracker</trackingPrintFunction>
+		<trackingPrintSite>spongebob</trackingPrintSite>
+		<trackingPrintUrlAlias>spongebob-legends</trackingPrintUrlAlias>
+		<trackingPrintContentType>game</trackingPrintContentType>
+		<trackingPrintShowID>spo</trackingPrintShowID>
+	</tracking>
+	<leaderboard>
+		<gameIds>
+			<gameId id="ch1">spongebob-squarepants-coral-colossus-hsb</gameId>			
+			<gameId id="ch2">spongebob-squarepants-bumpin-bumpkins-hsb</gameId>
+			<gameId id="ch3">spongebob-squarepants-voodoo-undo-hsb</gameId>
+			<gameId id="ch4">spongebob-squarepants-suction-destruction-hsb</gameId>
+			<gameId id="ch5">spongebob-squarepants-weresquirrel-hsb</gameId>
+			<gameId id="ch6">spongebob-squarepants-goonami-hsb</gameId>		
+			<gameId id="ch7">spongebob-squarepants-tartar-treachery-hsb</gameId>
+			<gameId id="ch8">spongebob-squarepants-pinata-pendulum-hsb</gameId>
+			<gameId id="ch9">spongebob-squarepants-pinatas-locas-hsb</gameId>
+			<gameId id="ch10">spongebob-squarepants-larrys-beach-blast-hsb</gameId>
+		</gameIds>
+	</leaderboard>
+	<localization>
+		<fontFile>fonts/embeddedFonts.swf</fontFile>
+		<fontXml>fonts/fonts.xml</fontXml>
+		<translationXmls>
+			<translationXml id="game">xml/translation.xml</translationXml>
+		</translationXmls>
+	</localization>
+	<!-- Nick Points -->
+	 <nickpoints>
+	 	<campaign_name>sb-legend</campaign_name>
+	 </nickpoints>
+	<!-- Nick Achievements -->
+	<achievements gameId="spongebob-squarepants-legends-of-bikini-bottom" urlBaseIcons="/nick-assets/achievements/images/spongebob-squarepants-legends-of-bikini-bottom/" 
+		urlUIPopup="components/achievement_popup.swf" urlUISummary="components/achievement_summary.swf" 
+		popupAlignment="bottomleft" popupDuration="3" badgeAssetOffsetX="0" badgeAssetOffsetY="0">
+	<!-- id is for local use only. You can call it whatever you want. The node value is the actual trigger that will be sent to nick.com services -->
+		<achievement>
+			<id>BarnacleBust</id> <!-- The local reference to be used in the game-->
+			<trigger>BarnacleBust</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+			<serverCode>spongebob-squarepants-legends-of-bikini-bottom_game_10</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+			<nickPointEventName>badge-one</nickPointEventName>
+			<title><![CDATA[Barnacle Bust]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Plug 10 barnacles with the snow globes]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data that will be sent with this achievement. Can be either Number or String. -->
+			<urlIconEnabled>spongebob-squarepants-legends-of-bikini-bottom_game_10.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>spongebob-squarepants-legends-of-bikini-bottom_game_10_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->
+		</achievement>
+		<achievement>
+			<id>BarrelBump</id> <!-- The local reference to be used in the game-->
+			<trigger>BarrelBump</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+			<serverCode>spongebob-squarepants-legends-of-bikini-bottom_game_20</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+			<nickPointEventName>badge-two</nickPointEventName>
+			<title><![CDATA[Barrel Bump]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Jump on to 20 barrels without getting hit by an object]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data that will be sent with this achievement. Can be either Number or String. -->
+			<urlIconEnabled>spongebob-squarepants-legends-of-bikini-bottom_game_20.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>spongebob-squarepants-legends-of-bikini-bottom_game_20_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->
+		</achievement>
+		<achievement>
+			<id>WereTear</id> <!-- The local reference to be used in the game-->
+			<trigger>WereTear</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+			<serverCode>spongebob-squarepants-legends-of-bikini-bottom_game_30</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+			<nickPointEventName>badge-three</nickPointEventName>
+			<title><![CDATA[Were-n-Tear]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Reach a score of 50,000 points]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data that will be sent with this achievement. Can be either Number or String. -->
+			<urlIconEnabled>spongebob-squarepants-legends-of-bikini-bottom_game_30.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>spongebob-squarepants-legends-of-bikini-bottom_game_30_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->
+		</achievement>
+		<achievement>
+			<id>GooRescue</id> <!-- The local reference to be used in the game-->
+			<trigger>GooRescue</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+			<serverCode>spongebob-squarepants-legends-of-bikini-bottom_game_40</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+			<nickPointEventName>badge-four</nickPointEventName>
+			<title><![CDATA[Goo Rescue]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Rescue 30 anchovies from the goo]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data that will be sent with this achievement. Can be either Number or String. -->
+			<urlIconEnabled>spongebob-squarepants-legends-of-bikini-bottom_game_40.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>spongebob-squarepants-legends-of-bikini-bottom_game_40_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->
+		</achievement>
+		<achievement>
+			<id>MermaidMania</id> <!-- The local reference to be used in the game-->
+			<trigger>MermaidMania</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+			<serverCode>spongebob-squarepants-legends-of-bikini-bottom_game_50</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+			<nickPointEventName>badge-five</nickPointEventName>
+			<title><![CDATA[Mermaid Mania]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Finish 3 levels in a row without using any power-ups]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data that will be sent with this achievement. Can be either Number or String. -->
+			<urlIconEnabled>spongebob-squarepants-legends-of-bikini-bottom_game_50.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>spongebob-squarepants-legends-of-bikini-bottom_game_50_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->
+		</achievement>
+		<achievement>
+			<id>CanCraze</id> <!-- The local reference to be used in the game-->
+			<trigger>CanCraze</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+			<serverCode>spongebob-squarepants-legends-of-bikini-bottom_game_100</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+			<nickPointEventName>trophy</nickPointEventName>
+			<title><![CDATA[Can Craze]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Finish 5 levels without being hit by a tin can]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data that will be sent with this achievement. Can be either Number or String. -->
+			<urlIconEnabled>spongebob-squarepants-legends-of-bikini-bottom_game_100.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>spongebob-squarepants-legends-of-bikini-bottom_game_100_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->
+		</achievement>
+	</achievements>
+</config>

@@ -1,0 +1,56 @@
+<triton>
+	<level assetUrl="assets/levels/spongebob_cot_level_neptune_valley.swf" music="neptune" midground="AssetMgLevelNV" background="AssetBgLevelNV" foreground="AssetFgLevelNV" horizon="AssetHorizonLevelNV" movedir="1">
+		<arena id="0" centerx="650" boundleft="50" boundright="1230">
+			<wave id="0" startscript="" endscript="">
+				<mob type="fishepic" id="3" faction="triton" enter="right" enterscript="walkin"/>		
+				<mob type="fishepic" id="4" faction="triton" enter="right" enterscript="walkin"/>		
+			</wave> 
+		</arena>
+		<arena id="1" centerx="1200" boundleft="600" boundright="1750">
+			<wave id="0" startscript="" endscript="">
+				<mob type="fishepic" id="1" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishepic" id="3" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishepic" id="4" faction="triton" enter="right" enterscript="runin"/>
+			</wave> 
+			<wave id="2" startscript="" endscript="">
+				<mob type="fishepic" id="1" faction="triton" enter="right" enterscript="runin"/>
+				<mob type="fishepic" id="2" faction="triton" enter="right" enterscript="runin"/>
+				<mob type="fishepic" id="3" faction="triton" enter="right" enterscript="walkin"/>
+				<mob type="fishepic" id="4" faction="triton" enter="right" enterscript="walkin"/>
+			</wave>
+		</arena>
+	
+		<arena id="2" centerx="2000" boundleft="1500" boundright="2500">
+			<wave id="0" startscript="" endscript="">
+				<mob type="fishgiant" id="1" faction="triton" enter="right" enterscript="runin"/>
+			</wave> 
+			<wave id="1" startscript="" endscript="">
+				<mob type="fishepic" id="1" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishepic" id="2" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishepic" id="3" faction="triton" enter="right" enterscript="runin"/>
+				<mob type="fishepic" id="4" faction="triton" enter="right" enterscript="runin"/>
+				<mob type="fishepic" id="5" faction="triton" enter="right" enterscript="runin"/>
+			</wave> 
+			<wave id="2" startscript="" endscript="">
+				<mob type="fishepic" id="1" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishepic" id="2" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishepic" id="3" faction="triton" enter="right" enterscript="runin"/>
+				<mob type="fishepic" id="4" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishepic" id="5" faction="triton" enter="right" enterscript="runin"/>
+			</wave> 
+			<wave id="3" startscript="" endscript="">
+				<mob type="fishepic" id="1" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishepic" id="2" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishepic" id="3" faction="triton" enter="right" enterscript="runin"/>
+				<mob type="fishepic" id="4" faction="triton" enter="left" enterscript="runin"/>
+				<mob type="fishepic" id="5" faction="triton" enter="right" enterscript="runin"/>
+			</wave> 
+		</arena>
+		<arena id="3" centerx="3000" boundleft="2500" boundright="3500">
+			<wave id="0" startscript="triton_boss_intro" endscript="">							
+				<mob type="boss_triton_two" id="1" faction="triton" enter="right" enterscript=""/>			
+			</wave> 
+		</arena>
+	</level>
+	
+</triton>

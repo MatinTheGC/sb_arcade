@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<strings>
+	<localization>
+		<kudos_high_trophy_level><![CDATA[Solid Gold]]></kudos_high_trophy_level>
+		<kudos_high_trophy_label><![CDATA[Mr. Krabs Makes Cents]]></kudos_high_trophy_label>
+		<kudos_med_trophy_level><![CDATA[bronze ]]></kudos_med_trophy_level>
+		<kudos_med_trophy_label><![CDATA[Mr. Krabs Makes Cents]]></kudos_med_trophy_label>
+		<kudos_low_trophy_label><![CDATA[Mr. Krabs Makes Cents]]></kudos_low_trophy_label>
+		<kudos_low_trophy_level><![CDATA[Aluminum]]></kudos_low_trophy_level>
+		<game_title_mrkrabs><![CDATA[Mr. Krabs]]></game_title_mrkrabs>
+		<leaderboard_user_label><![CDATA[You]]></leaderboard_user_label>
+		<leaderboard_score><![CDATA[score]]></leaderboard_score>
+		<leaderboard_nickname><![CDATA[NickName]]></leaderboard_nickname>
+		<leaderboard_rank><![CDATA[Rank]]></leaderboard_rank>
+		<leaderboard_error><![CDATA[Problem connecting to server,<br/>please try again later.]]></leaderboard_error>
+		<leaderboard_sending><![CDATA[Sending Score...]]></leaderboard_sending>
+		<leaderboard_loading><![CDATA[Loading Scores...]]></leaderboard_loading>
+		<loading_label><![CDATA[Loading...]]></loading_label>
+		<kudos_label><![CDATA[Your Prize!]]></kudos_label>
+		<kudos_level_reached_label><![CDATA[level ]]></kudos_level_reached_label>
+		<kudos_level_reached_header><![CDATA[You reached ]]></kudos_level_reached_header>
+		<ui_level_label><![CDATA[level:]]></ui_level_label>
+		<quit_confirmation_message><![CDATA[Are you sure you want to quit?]]></quit_confirmation_message>
+		<kudos_high_tagline><![CDATA[i'LL BE SWIMMING IN MONEY!]]></kudos_high_tagline>
+		<kudos_high_title><![CDATA[solid gold]]></kudos_high_title>
+		<kudos_med_tagline><![CDATA[mY JAR BE OVERFLOWIN'!]]></kudos_med_tagline>
+		<kudos_med_title><![CDATA[BRONZE]]></kudos_med_title>
+		<kudos_low_tagline><![CDATA[Is that all you got?]]></kudos_low_tagline>
+		<kudos_low_title><![CDATA[Aluminum]]></kudos_low_title>
+		<title_leaderboard><![CDATA[Leaderboard]]></title_leaderboard>
+		<game_ui_level><![CDATA[LEVEL]]></game_ui_level>
+		<game_over_reason><![CDATA[Oops, you ran out of time!]]></game_over_reason>
+		<game_over_no_solutions><![CDATA[Oops, you ran out of matches!]]></game_over_no_solutions>
+		<btn_yes><![CDATA[yes I am]]></btn_yes>
+		<btn_leaderboard><![CDATA[Leaderboard >]]></btn_leaderboard>
+		<btn_submit_score><![CDATA[Submit score >]]></btn_submit_score>
+		<btn_shuffle><![CDATA[shuffle]]></btn_shuffle>
+		<btn_resume_help><![CDATA[Resume]]></btn_resume_help>
+		<btn_resume><![CDATA[Resume >]]></btn_resume>
+		<btn_quit><![CDATA[quit >]]></btn_quit>
+		<btn_play_again><![CDATA[Play Again]]></btn_play_again>
+		<btn_play><![CDATA[Play]]></btn_play>
+		<btn_no><![CDATA[no I'm not]]></btn_no>
+		<btn_menu><![CDATA[MENU]]></btn_menu>
+		<btn_help><![CDATA[help >]]></btn_help>
+		<help_shuffle_explanation><![CDATA[Stuck? Out of Moves? Click shuffle!<br/>but it will cost Mr. Krabs money!]]></help_shuffle_explanation>
+		<help_coin_explanation_lock><![CDATA[locks rows and columns until match is made.]]></help_coin_explanation_lock>
+		<help_coin_explanation_bomb><![CDATA[Match Clears all surrounding coins.]]></help_coin_explanation_bomb>
+		<help_coin_label_lock><![CDATA[Locked coin]]></help_coin_label_lock>
+		<help_coin_label_bomb><![CDATA[coin bomb]]></help_coin_label_bomb>
+		<help_jar_explanation_2><![CDATA[Match more than 3 for bonus money!]]></help_jar_explanation_2>
+		<help_jar_explanation_1><![CDATA[Fill Mr. Krabs' money jar by matching 3 or more colors. ]]></help_jar_explanation_1>
+		<help_jar_game_over><![CDATA[game<br/>over]]></help_jar_game_over>
+		<help_jar_level_up><![CDATA[Level<br/>up]]></help_jar_level_up>
+		<help_title><![CDATA[How to Play]]></help_title>
+		
+		<score_match><![CDATA[MATCH x]]></score_match>
+		<score_combo><![CDATA[COMBO x]]></score_combo>
+		<score_chain><![CDATA[CHAIN x]]></score_chain>
+		<score_no_matches><![CDATA[OH NO!<br/>NO POSSIBLE<br/>MATCHES!]]></score_no_matches>
+		<score_try_shuffle><![CDATA[TRY<br/>SHUFFLING]]></score_try_shuffle>
+	</localization>
+</strings>
+
+	

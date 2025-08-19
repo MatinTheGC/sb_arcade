@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<localization>		
+
+	<play_button>Play</play_button>
+	<instructions>instructions</instructions>
+	
+	<instruction_copy>Squidward has swallowed a bunch of clarinet reeds! Using Sandy's shrink ray and submarine, travel inside Squidward. REMOVE the REEDS and SHOOT the BUBBLES.</instruction_copy>	
+	
+	<score>SCORE</score>
+	<continue_button>continue</continue_button>
+	
+	
+</localization>
