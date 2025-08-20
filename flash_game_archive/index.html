@@ -1,266 +1,248 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>SpongeBob Flash Game Archive</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <h1>SpongeBob Flash Game Archive</h1>
-                <p>
-                    Welcome, sea critters! This is a special offline archive of
-                    the classic SpongeBob SquarePants Flash games from
-                    TheSpongeBobCommunity.com. Dive in and relive the golden age
-                    of browser gaming, preserved for future generations to
-                    enjoy!
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpongeBob Flash Game Archive</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>SpongeBob Flash Game Archive</h1>
+            <p>
+                Welcome, sea critters! This is a special offline archive of
+                the classic SpongeBob SquarePants Flash games. Dive in and relive the golden age
+                of browser gaming, preserved for future generations to
+                enjoy!
+            </p>
+        </header>
+
+        <main>
+            <!-- Game Browser Section -->
+            <section id="game-browser">
+                <h2>Game Collection</h2>
+                <div id="search-container">
+                    <input type="text" id="search-input" placeholder="Search for a game..." />
+                </div>
+                <ul id="game-list">
+                    <!-- Game links will be dynamically inserted here by script.js -->
+                </ul>
+                <p id="no-results">
+                    Barnacles! No games found with that name.
                 </p>
-            </header>
+            </section>
 
-            <main>
-                <!-- Game Browser Section -->
-                <section id="game-browser">
-                    <h2>Game Collection</h2>
-                    <div id="search-container">
-                        <input
-                            type="text"
-                            id="search-input"
-                            placeholder="Search for a game..."
-                        />
+            <!-- FAQ Section -->
+            <section id="faq">
+                <h2>F.A.Q. (Frequently Asked Questions)</h2>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Why was this archive created?
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            While TheSpongeBobCommunity hosts a nearly
+                            complete archive, some games have issues: broken
+                            assets, reliance on third-party URLs that no
+                            longer exist, or other bugs. This project's goal
+                            was to create a definitive, high-quality, and
+                            completely offline version of that collection.
+                        </p>
+                        <p>
+                            By curating the games, increasing compatibility,
+                            and adding quality-of-life features, we aim to
+                            provide a better overall experience. The primary
+                            motivation for a fully offline archive was to
+                            prevent these games from disappearing again, as
+                            they did from their original websites. This
+                            ensures permanent access for everyone, free of
+                            advertisements and online dependencies.
+                        </p>
                     </div>
-                    <ul id="game-list">
-                        <!-- Game links will be dynamically inserted here by script.js -->
-                    </ul>
-                    <p id="no-results">
-                        Barnacles! No games found with that name.
-                    </p>
-                </section>
+                </div>
 
-                <!-- FAQ Section -->
-                <section id="faq">
-                    <h2>F.A.Q. (Frequently Asked Questions)</h2>
-
-                    <div class="faq-item">
-                        <button class="faq-question">
-                            Why was this archive created?
-                        </button>
-                        <div class="faq-answer">
-                            <p>
-                                While TheSpongeBobCommunity hosts a nearly
-                                complete archive, some games have issues: broken
-                                assets, reliance on third-party URLs that no
-                                longer exist, or other bugs. This project's goal
-                                was to create a definitive, high-quality, and
-                                completely offline version of that collection.
-                            </p>
-                            <p>
-                                By curating the games, increasing compatibility,
-                                and adding quality-of-life features, we aim to
-                                provide a better overall experience. The primary
-                                motivation for a fully offline archive was to
-                                prevent these games from disappearing again, as
-                                they did from their original websites. This
-                                ensures permanent access for everyone, free of
-                                advertisements and online dependencies.
-                            </p>
-                        </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How was the archive created?
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            The process began with an automated Python
+                            script to scrape the existing online archive,
+                            but this initial attempt had numerous problems.
+                            The final collection is the result of a
+                            significant manual effort: I went through every
+                            single game, one by one, to download all
+                            necessary files, apply patches to fix bugs, and
+                            reverse-engineer workarounds for broken
+                            features.
+                        </p>
+                        <p>
+                            Following this manual work, additional Python
+                            scripts were written to automate repetitive
+                            tasks like updating titles and patching HTML
+                            files. Because of the extensive manual
+                            intervention required, there is no simple,
+                            ordered way to run the scripts and reproduce
+                            this exact archive. It's a combination of
+                            automated tools and hands-on preservation work.
+                        </p>
                     </div>
+                </div>
 
-                    <div class="faq-item">
-                        <button class="faq-question">
-                            How was the archive created?
-                        </button>
-                        <div class="faq-answer">
-                            <p>
-                                The process began with an automated Python
-                                script to scrape the existing online archive,
-                                but this initial attempt had numerous problems.
-                                The final collection is the result of a
-                                significant manual effort: I went through every
-                                single game, one by one, to download all
-                                necessary files, apply patches to fix bugs, and
-                                reverse-engineer workarounds for broken
-                                features.
-                            </p>
-                            <p>
-                                Following this manual work, additional Python
-                                scripts were written to automate repetitive
-                                tasks like updating titles and patching HTML
-                                files. Because of the extensive manual
-                                intervention required, there is no simple,
-                                ordered way to run the scripts and reproduce
-                                this exact archive. It's a combination of
-                                automated tools and hands-on preservation work.
-                            </p>
-                        </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Why does the archive require an internet connection
+                        to run?
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            To provide the most seamless experience, the
+                            archive is launched using a special script that
+                            includes a proxy server. This server is
+                            essential because many Flash games were designed
+                            to fetch assets dynamically as you play—for
+                            example, loading a new level or character model
+                            from the server only when it's needed.
+                        </p>
+                        <p>
+                            It's nearly impossible to guarantee that 100% of
+                            every game's assets are included in the initial
+                            download without playing through every path of
+                            every game. The proxy server solves this by
+                            intelligently downloading any missing files from
+                            the original website on-the-fly and saving them
+                            locally. The next time the game needs that file,
+                            it will be loaded instantly from your computer.
+                            This also helps us identify missing assets so
+                            the main archive can be updated for future
+                            releases.
+                        </p>
                     </div>
+                </div>
 
-                    <div class="faq-item">
-                        <button class="faq-question">
-                            Why does the archive require an internet connection
-                            to run?
-                        </button>
-                        <div class="faq-answer">
-                            <p>
-                                To provide the most seamless experience, the
-                                archive is launched using a special script that
-                                includes a proxy server. This server is
-                                essential because many Flash games were designed
-                                to fetch assets dynamically as you play—for
-                                example, loading a new level or character model
-                                from the server only when it's needed.
-                            </p>
-                            <p>
-                                It's nearly impossible to guarantee that 100% of
-                                every game's assets are included in the initial
-                                download without playing through every path of
-                                every game. The proxy server solves this by
-                                intelligently downloading any missing files from
-                                the original website on-the-fly and saving them
-                                locally. The next time the game needs that file,
-                                it will be loaded instantly from your computer.
-                                This also helps us identify missing assets so
-                                the main archive can be updated for future
-                                releases.
-                            </p>
-                        </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How do I play the games? What are the compatibility
+                        options?
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            There are three main ways to play the games in
+                            this archive, depending on their complexity:
+                        </p>
+                        <ol>
+                            <li>
+                                <strong>In-Browser (Ruffle Emulator):</strong>
+                                Most games will work perfectly fine right
+                                here in your modern browser using the
+                                built-in Ruffle emulator. This is the
+                                easiest and recommended method.
+                            </li>
+                            <li>
+                                <strong>Standalone Flash Player:</strong>
+                                Some games, which will be noted on their
+                                individual pages, may not run correctly in
+                                Ruffle. For these, you can use the official
+                                (but discontinued) Adobe Flash Player for
+                                Windows. You would need to open the player
+                                and then provide it with the URL to the
+                                game's `.swf` file.
+                            </li>
+                            <li>
+                                <strong>Pale Moon Browser:</strong> A small
+                                number of games require deep browser
+                                integration (like specific JavaScript APIs)
+                                that even the standalone player cannot
+                                provide. For maximum compatibility, these
+                                games require a browser with native Flash
+                                Player support.
+                                <a href="https://www.palemoon.org/download.shtml" target="_blank">Pale Moon</a>
+                                is one such browser that can be used with an
+                                older version of the Flash plugin.
+                            </li>
+                        </ol>
+                        <p>
+                            <strong><span style="color: #ffcc00">IMPORTANT SECURITY WARNING:</span></strong>
+                            Adobe Flash Player is no longer supported and
+                            has known, severe security vulnerabilities.
+                            Installing it or using a browser with Flash
+                            support is a security risk. Please only use
+                            these methods if you understand the risks
+                            involved. These tools are provided for
+                            preservation purposes only. The links are:
+                            <a href="https://archive.org/download/flashplayer32_0r0_371_win/flashplayer32_0r0_371_win.msi"
+                                target="_blank">Adobe Flash Player 32 (Archived)</a>
+                            and
+                            <a href="https://www.palemoon.org/download.shtml" target="_blank">Pale Moon Browser</a>.
+                        </p>
                     </div>
+                </div>
 
-                    <div class="faq-item">
-                        <button class="faq-question">
-                            How do I play the games? What are the compatibility
-                            options?
-                        </button>
-                        <div class="faq-answer">
-                            <p>
-                                There are three main ways to play the games in
-                                this archive, depending on their complexity:
-                            </p>
-                            <ol>
-                                <li>
-                                    <strong
-                                        >In-Browser (Ruffle Emulator):</strong
-                                    >
-                                    Most games will work perfectly fine right
-                                    here in your modern browser using the
-                                    built-in Ruffle emulator. This is the
-                                    easiest and recommended method.
-                                </li>
-                                <li>
-                                    <strong>Standalone Flash Player:</strong>
-                                    Some games, which will be noted on their
-                                    individual pages, may not run correctly in
-                                    Ruffle. For these, you can use the official
-                                    (but discontinued) Adobe Flash Player for
-                                    Windows. You would need to open the player
-                                    and then provide it with the URL to the
-                                    game's `.swf` file.
-                                </li>
-                                <li>
-                                    <strong>Pale Moon Browser:</strong> A small
-                                    number of games require deep browser
-                                    integration (like specific JavaScript APIs)
-                                    that even the standalone player cannot
-                                    provide. For maximum compatibility, these
-                                    games require a browser with native Flash
-                                    Player support.
-                                    <a
-                                        href="https://www.palemoon.org/download.shtml"
-                                        target="_blank"
-                                        >Pale Moon</a
-                                    >
-                                    is one such browser that can be used with an
-                                    older version of the Flash plugin.
-                                </li>
-                            </ol>
-                            <p>
-                                <strong
-                                    ><span style="color: #ffcc00"
-                                        >IMPORTANT SECURITY WARNING:</span
-                                    ></strong
-                                >
-                                Adobe Flash Player is no longer supported and
-                                has known, severe security vulnerabilities.
-                                Installing it or using a browser with Flash
-                                support is a security risk. Please only use
-                                these methods if you understand the risks
-                                involved. These tools are provided for
-                                preservation purposes only. The links are:
-                                <a
-                                    href="https://archive.org/download/flashplayer32_0r0_371_win/flashplayer32_0r0_371_win.msi"
-                                    target="_blank"
-                                    >Adobe Flash Player 32 (Archived)</a
-                                >
-                                and
-                                <a
-                                    href="https://www.palemoon.org/download.shtml"
-                                    target="_blank"
-                                    >Pale Moon Browser</a
-                                >.
-                            </p>
-                        </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How does this project compare to Flashpoint?
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Flashpoint is a monumental preservation project
+                            focused on <strong>quantity</strong>, having
+                            successfully archived over 160,000 games and
+                            animations. It is an incredible resource for the
+                            history of internet content.
+                        </p>
+                        <p>
+                            This SpongeBob archive, in contrast, focuses on
+                            <strong>quality</strong> over quantity. Rather
+                            than archiving every game possible, our goal is
+                            to take a specific, beloved collection of games
+                            and provide the best possible experience for
+                            them. This includes manual patching, providing
+                            detailed compatibility notes, and adding custom
+                            features to make the games more accessible and
+                            enjoyable today.
+                        </p>
                     </div>
+                </div>
 
-                    <div class="faq-item">
-                        <button class="faq-question">
-                            How does this project compare to Flashpoint?
-                        </button>
-                        <div class="faq-answer">
-                            <p>
-                                Flashpoint is a monumental preservation project
-                                focused on <strong>quantity</strong>, having
-                                successfully archived over 160,000 games and
-                                animations. It is an incredible resource for the
-                                history of internet content.
-                            </p>
-                            <p>
-                                This SpongeBob archive, in contrast, focuses on
-                                <strong>quality</strong> over quantity. Rather
-                                than archiving every game possible, our goal is
-                                to take a specific, beloved collection of games
-                                and provide the best possible experience for
-                                them. This includes manual patching, providing
-                                detailed compatibility notes, and adding custom
-                                features to make the games more accessible and
-                                enjoyable today.
-                            </p>
-                        </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is the purpose of the Python scripts?
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            The Python scripts included in the parent
+                            directory are the tools used to create and
+                            maintain this archive. The `archive.py` script
+                            downloads the games and their assets,
+                            `update_titles.py` fetches their proper names
+                            from the live website, and `generate_json.py`
+                            creates the list that populates this page. The
+                            `patch_game_pages.py` script applies consistent
+                            updates and features (like the control bar) to
+                            all games, and `proxy_server.py` provides the
+                            on-the-fly asset downloading mentioned above.
+                        </p>
                     </div>
+                </div>
+            </section>
+        </main>
 
-                    <div class="faq-item">
-                        <button class="faq-question">
-                            What is the purpose of the Python scripts?
-                        </button>
-                        <div class="faq-answer">
-                            <p>
-                                The Python scripts included in the parent
-                                directory are the tools used to create and
-                                maintain this archive. The `archive.py` script
-                                downloads the games and their assets,
-                                `update_titles.py` fetches their proper names
-                                from the live website, and `generate_json.py`
-                                creates the list that populates this page. The
-                                `patch_game_pages.py` script applies consistent
-                                updates and features (like the control bar) to
-                                all games, and `proxy_server.py` provides the
-                                on-the-fly asset downloading mentioned above.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-            </main>
+        <footer>
+            <p>
+                This is an unofficial, fan-made preservation project. All
+                game rights belong to their original creators. | Archive
+                created with help from our AI assistant.
+            </p>
+        </footer>
+    </div>
 
-            <footer>
-                <p>
-                    This is an unofficial, fan-made preservation project. All
-                    game rights belong to their original creators. | Archive
-                    created with help from our AI assistant.
-                </p>
-            </footer>
-        </div>
+    <script src="script.js"></script>
+</body>
 
-        <script src="script.js"></script>
-    </body>
 </html>

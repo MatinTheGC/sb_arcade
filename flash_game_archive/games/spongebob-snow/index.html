@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
-<meta charset="utf-8"/>
-<title>SpongeBob Snowshredder</title>
-<style id="custom-styles">
+    <meta charset="utf-8" />
+    <title>SpongeBob Snowshredder</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <style id="custom-styles">
         body {
             margin: 0;
             padding: 20px;
@@ -16,14 +18,17 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            min-height: calc(100vh - 100px); /* 40px top/bottom padding + 60px controls height */
+            min-height: calc(100vh - 100px);
+            /* 40px top/bottom padding + 60px controls height */
             font-family: sans-serif;
             text-align: center;
         }
+
         #game-container {
             margin-bottom: 20px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
         }
+
         #custom-game-controls {
             /* Pinned to the bottom */
             position: fixed;
@@ -36,51 +41,65 @@
             align-items: center;
             background-color: rgba(20, 20, 20, 0.9);
             padding: 15px 0;
-            box-shadow: 0 -5px 15px rgba(0,0,0,0.4);
+            box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.4);
             border-top: 1px solid #444;
             z-index: 1000;
         }
+
         #custom-game-controls button {
             background-color: #555;
             color: white;
             border: 2px solid #777;
-            border-radius: 50%; /* Make buttons circular */
+            border-radius: 50%;
+            /* Make buttons circular */
             padding: 0;
-            font-size: 1.5rem; /* Larger icon size */
+            font-size: 1.5rem;
+            /* Larger icon size */
             cursor: pointer;
             transition: background-color 0.2s;
-            width: 50px; /* Fixed width */
-            height: 50px; /* Fixed height */
+            width: 50px;
+            /* Fixed width */
+            height: 50px;
+            /* Fixed height */
             display: flex;
             justify-content: center;
             align-items: center;
             line-height: 1;
         }
+
         #custom-game-controls button#disable-ruffle-btn {
-            width: auto; /* Allow this button to be wider */
-            border-radius: 5px; /* Revert to rectangle */
+            width: auto;
+            /* Allow this button to be wider */
+            border-radius: 5px;
+            /* Revert to rectangle */
             padding: 10px 15px;
             font-size: 1rem;
         }
+
         #custom-game-controls button:hover {
             background-color: #666;
         }
+
         #custom-game-controls button:disabled {
             background-color: #333;
             color: #888;
             cursor: not-allowed;
         }
+
         p {
-             margin-top: 15px;
-             max-width: 800px;
+            margin-top: 15px;
+            max-width: 800px;
         }
+
         #donations-btn {
             background-color: #007bff;
             border-color: #0056b3;
         }
+
         #donations-btn:hover {
             background-color: #0056b3;
         }
+
         /* Modal Styles */
         .modal-overlay {
             position: fixed;
@@ -97,33 +116,57 @@
             visibility: hidden;
             transition: opacity 0.3s, visibility 0.3s;
         }
+
         .modal-overlay.visible {
             opacity: 1;
             visibility: visible;
         }
+
         .modal-content-wrapper {
-             max-width: 600px;
-             width: 90%;
+            max-width: 600px;
+            width: 90%;
         }
+
         .modal-content {
             background: #333;
             padding: 30px;
             border-radius: 10px;
             max-height: 70vh;
             overflow-y: auto;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
             transform: scale(0.9);
             transition: transform 0.3s;
             color: #eee;
             text-align: left;
         }
-        .modal-content h2 { color: #00aaff; }
-        .modal-content ul { list-style: none; padding-left: 0; }
-        .modal-content li { background: #444; margin: 5px 0; padding: 10px; border-radius: 5px; word-wrap: break-word; }
-        .modal-content code { background: #222; padding: 2px 5px; border-radius: 3px; }
+
+        .modal-content h2 {
+            color: #00aaff;
+        }
+
+        .modal-content ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .modal-content li {
+            background: #444;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            word-wrap: break-word;
+        }
+
+        .modal-content code {
+            background: #222;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
         .modal-overlay.visible .modal-content {
             transform: scale(1);
         }
+
         .modal-close-btn {
             background: #8b0000;
             color: white;
@@ -136,6 +179,7 @@
             display: block;
             margin: 20px auto 0;
         }
+
         .modal-close-btn:hover {
             background: #c00;
         }
@@ -154,43 +198,72 @@
 
         /* Specific elements for inter-game navigation to enable custom transitions */
         /* These will have their view-transition-name attribute applied dynamically by JS */
-        #game-container, #player {
+        #game-container,
+        #player {
             /* This is a placeholder; actual name will be set by JS if it's the player div */
             /* view-transition-name: game-content; */
         }
+
         #custom-game-controls {
-            view-transition-name: game-controls; /* This will always be present for persistence */
+            view-transition-name: game-controls;
+            /* This will always be present for persistence */
         }
 
         /* Animations for game content sliding */
         /* These animations will be dynamically applied based on direction */
         @keyframes slide-in-right {
-            from { transform: translateX(100%); }
-            to { transform: translateX(0%); }
+            from {
+                transform: translateX(100%);
+            }
+
+            to {
+                transform: translateX(0%);
+            }
         }
+
         @keyframes slide-out-left {
-            from { transform: translateX(0%); }
-            to { transform: translateX(-100%); }
+            from {
+                transform: translateX(0%);
+            }
+
+            to {
+                transform: translateX(-100%);
+            }
         }
+
         @keyframes slide-in-left {
-            from { transform: translateX(-100%); }
-            to { transform: translateX(0%); }
+            from {
+                transform: translateX(-100%);
+            }
+
+            to {
+                transform: translateX(0%);
+            }
         }
+
         @keyframes slide-out-right {
-            from { transform: translateX(0%); }
-            to { transform: translateX(100%); }
+            from {
+                transform: translateX(0%);
+            }
+
+            to {
+                transform: translateX(100%);
+            }
         }
 
         /* Apply slide animations based on data-transition-direction on HTML element */
         html[data-transition-direction="next"]::view-transition-old(game-content) {
             animation-name: slide-out-left;
         }
+
         html[data-transition-direction="next"]::view-transition-new(game-content) {
             animation-name: slide-in-right;
         }
+
         html[data-transition-direction="prev"]::view-transition-old(game-content) {
             animation-name: slide-out-right;
         }
+
         html[data-transition-direction="prev"]::view-transition-new(game-content) {
             animation-name: slide-in-left;
         }
@@ -200,59 +273,76 @@
         ::view-transition-old(game-controls) {
             animation: fade-out 0.3s ease-in-out forwards;
         }
+
         ::view-transition-new(game-controls) {
             animation: fade-in 0.3s ease-in-out forwards;
         }
 
         @keyframes fade-out {
-            from { opacity: 1; }
-            to { opacity: 0; }
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+            }
         }
+
         @keyframes fade-in {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
-</style></head>
+    </style>
+</head>
+
 <body><!-- Patched by patch_game_pages.py -->
-<div class="modal-overlay" id="donations-modal-overlay">
-<div class="modal-content-wrapper">
-<div class="modal-content" id="donations-modal-content">
-<!-- Content will be loaded from JSON -->
-</div>
-<button class="modal-close-btn" id="donations-modal-close">Close</button>
-</div>
-</div>
+    <div class="modal-overlay" id="donations-modal-overlay">
+        <div class="modal-content-wrapper">
+            <div class="modal-content" id="donations-modal-content">
+                <!-- Content will be loaded from JSON -->
+            </div>
+            <button class="modal-close-btn" id="donations-modal-close">Close</button>
+        </div>
+    </div>
 
 
 
 
-<div id="custom-game-controls">
-<button id="home-btn" title="Home">🏠</button>
-<button disabled="" id="prev-game-btn" title="Previous Game">«</button>
-<button disabled="" id="next-game-btn" title="Next Game">»</button>
-<button id="zoom-in-btn" title="Zoom In">+</button>
-<button id="zoom-out-btn" title="Zoom Out">-</button>
-<button id="donations-btn" title="Donations">❤️</button>
-<button id="disable-ruffle-btn">Disable Ruffle</button>
-</div>
-<div id="game-container"><object height="400px" width="600px">
-<param name="movie" value="Delegate.swf"/>
-<param name="allowScriptAccess" value="always"/>
-<param name="quality" value="high"/>
-<param name="autoplay" value="on"/>
-<param name="unmuteOverlay" value="hidden"/>
-<embed allowscriptaccess="always" autoplay="on" height="400px" quality="high" src="Delegate.swf" type="application/x-shockwave-flash" unmuteoverlay="hidden" width="600px"/></object></div>
-<script id="ruffle-loader-script">
-    // This script must run before the DOM is fully loaded to prevent Ruffle from auto-starting.
-    (function() {
-        if (localStorage.getItem('ruffleDisabled') === 'true') {
-            console.log("Ruffle is disabled via user setting. Skipping Ruffle script injection.");
-        } else {
-            // The path is relative to the game's index.html file.
-            document.write('<script src="../../shared/ruffle/ruffle.js"></scr' + 'ipt>');
-        }
-    })();
-</script><script id="custom-controls-script">
+    <div id="custom-game-controls">
+        <button id="home-btn" title="Home">🏠</button>
+        <button disabled="" id="prev-game-btn" title="Previous Game">«</button>
+        <button disabled="" id="next-game-btn" title="Next Game">»</button>
+        <button id="zoom-in-btn" title="Zoom In">+</button>
+        <button id="zoom-out-btn" title="Zoom Out">-</button>
+        <button id="donations-btn" title="Donations">❤️</button>
+        <button id="disable-ruffle-btn">Disable Ruffle</button>
+    </div>
+    <div id="game-container"><object height="400px" width="600px">
+            <param name="movie" value="Delegate.swf" />
+            <param name="allowScriptAccess" value="always" />
+            <param name="quality" value="high" />
+            <param name="autoplay" value="on" />
+            <param name="unmuteOverlay" value="hidden" />
+            <embed allowscriptaccess="always" autoplay="on" height="400px" quality="high" src="Delegate.swf"
+                type="application/x-shockwave-flash" unmuteoverlay="hidden" width="600px" />
+        </object></div>
+    <script id="ruffle-loader-script">
+        // This script must run before the DOM is fully loaded to prevent Ruffle from auto-starting.
+        (function () {
+            if (localStorage.getItem('ruffleDisabled') === 'true') {
+                console.log("Ruffle is disabled via user setting. Skipping Ruffle script injection.");
+            } else {
+                // The path is relative to the game's index.html file.
+                document.write('<script src="../../shared/ruffle/ruffle.js"></scr' + 'ipt>');
+            }
+        })();
+    </script>
+    <script id="custom-controls-script">
         document.addEventListener('DOMContentLoaded', () => {
             const prevBtn = document.getElementById('prev-game-btn');
             const nextBtn = document.getElementById('next-game-btn');
@@ -394,5 +484,7 @@
                     nextBtn.disabled = true;
                 });
         });
-    </script></body>
+    </script>
+</body>
+
 </html>
