@@ -13,11 +13,64 @@ REMOTE_BASE_URL = "https://www.thesbcommunity.com/"
 
 from urllib.parse import unquote
 import posixpath
+import shutil
+import threading
+
+# NTFY reporting endpoint. Defaults to the requested topic if not provided
+DEFAULT_NTFY = 'https://ntfy.sh/SpongeBob404'
+NTFY_ENDPOINT = os.environ.get('SB_NTFY_URL', DEFAULT_NTFY).strip()
+
+# Optional upstream proxy (try this before REMOTE_BASE_URL). Leave empty to skip.
+UPSTREAM_PROXY_URL = os.environ.get('SB_UPSTREAM_PROXY', '').strip()
+
+
+def report_ntfy_async(message: str, title: str = "Missing asset found"):
+    """Best-effort non-blocking POST to NTFY endpoint with a short message."""
+    if not NTFY_ENDPOINT:
+        return
+    def _send():
+        try:
+            # Send plain text body; do not raise on failure
+            requests.post(NTFY_ENDPOINT, data=message.encode('utf-8'), timeout=5, headers={'Title': title})
+        except Exception:
+            pass
+    threading.Thread(target=_send, daemon=True).start()
 
 class CachingProxyHandler(http.server.SimpleHTTPRequestHandler):
     server_root_path = None
     proxy_enabled = True
     ntfy_reporting_enabled = True
+
+    def fetch_and_cache_remote(self, base_url: str, rel_path: str, full_local_path: str) -> bool:
+        """Attempt to fetch the remote asset by joining base_url + rel_path and save it to full_local_path.
+        Returns True if fetched and saved, False otherwise.
+        """
+        if not base_url:
+            return False
+        # Build remote URL using posix join semantics
+        remote_url = urljoin(base_url, rel_path.lstrip('/'))
+        headers = {'User-Agent': USER_AGENT}
+        tmp_path = None
+        try:
+            r = requests.get(remote_url, headers=headers, stream=True, timeout=10)
+            if r.status_code != 200:
+                return False
+            # Ensure local directory exists
+            os.makedirs(os.path.dirname(full_local_path), exist_ok=True)
+            # Stream to a temp file then move
+            tmp_path = full_local_path + '.download'
+            with open(tmp_path, 'wb') as fh:
+                shutil.copyfileobj(r.raw, fh)
+            os.replace(tmp_path, full_local_path)
+            return True
+        except Exception:
+            # Quietly fail and cleanup
+            try:
+                if tmp_path and os.path.exists(tmp_path):
+                    os.remove(tmp_path)
+            except Exception:
+                pass
+            return False
 
     def translate_path(self, path):
         """
@@ -55,8 +108,49 @@ class CachingProxyHandler(http.server.SimpleHTTPRequestHandler):
             # Fallback: ensure absolute path is used
             final_path = server_root
 
-        print(f"[DEBUG] translate_path: url_path={self.path!r} -> local_path={final_path!r}")
         return final_path
+
+    def do_GET(self):
+        # Try to serve locally first (files or directories)
+        local_path = self.translate_path(self.path)
+        if os.path.exists(local_path):
+            # If the path exists locally (file or directory), let the base handler serve it
+            return super().do_GET()
+
+        # If proxying disabled, return 404
+        if not self.proxy_enabled:
+            self.send_error(404, "Not Found")
+            return
+
+        # Attempt to fetch from upstream proxy (if configured) then REMOTE_BASE_URL
+        rel_path = self.path.split('?', 1)[0].lstrip('/')
+        sources = []
+        if UPSTREAM_PROXY_URL:
+            sources.append(UPSTREAM_PROXY_URL)
+        sources.append(REMOTE_BASE_URL)
+
+        fetched = False
+        fetched_from = None
+        for src in sources:
+            if self.fetch_and_cache_remote(src, rel_path, local_path):
+                fetched = True
+                fetched_from = src
+                break
+
+        if fetched:
+            # Notify only when a remote source provided the file and local lacked it
+            if self.ntfy_reporting_enabled and fetched_from:
+                try:
+                    # Build the reported URL (which the upstream provided)
+                    reported_url = urljoin(fetched_from, rel_path)
+                    report_ntfy_async(reported_url, title="Archive: missing file fetched")
+                except Exception:
+                    pass
+            # Serve the newly cached file
+            return super().do_GET()
+        else:
+            # Nothing found upstream — do not notify (per requirements)
+            self.send_error(404, "Not Found")
 
 def run_server(server_root, proxy_enabled=True, ntfy_reporting_enabled=True, port=PORT):
     """Sets up and runs the HTTP server."""
@@ -64,32 +158,18 @@ def run_server(server_root, proxy_enabled=True, ntfy_reporting_enabled=True, por
     CachingProxyHandler.server_root_path = server_root
     CachingProxyHandler.proxy_enabled = proxy_enabled
     CachingProxyHandler.ntfy_reporting_enabled = ntfy_reporting_enabled
+    
+    print(f"URL: http://localhost:{port}")
 
     if not os.path.isdir(server_root):
         print(f"[ERROR] The server root directory was not found.")
-        print(f"        Attempted path: {server_root}")
-        print("        Please ensure the specified archive directory exists.")
         return
 
-    # Create and start the server.
-    with socketserver.TCPServer(("", port), CachingProxyHandler) as httpd:
-        print(f"\n--- Caching Proxy Server Running ---")
-        print(f"URL: http://localhost:{port}")
-        print(f"Serving files from: {server_root}")
-        if proxy_enabled:
-            print(f"Any missing files requested by the browser will be downloaded on-the-fly.")
-            if ntfy_reporting_enabled:
-                print(f"Missing file URLs will be reported for archive completion.")
-            else:
-                print(f"Missing file URLs will NOT be reported.")
-        else:
-            print(f"Proxying is DISABLED. Only locally present files will be served.")
-
-        print(f"Press Ctrl+C to stop the server.")
+    # Create and start the server. Use a threaded server to handle concurrent requests.
+    with socketserver.ThreadingTCPServer(("", port), CachingProxyHandler) as httpd:
         try:
             httpd.serve_forever()
         except KeyboardInterrupt:
-            print("\nServer shutting down.")
             httpd.shutdown()
 
 if __name__ == "__main__":
