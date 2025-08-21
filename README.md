@@ -1,127 +1,129 @@
-# SpongeBob Flash Game Arcade
+# SpongeBob Flash Game Archive
 
-This project is a preservation of classic SpongeBob SquarePants Flash games with a focus on maintaining the original archive setup and proxy server behavior. The project no longer includes automatic installation of required Python packages. Instead, please follow the manual installation instructions outlined below for your operating system.
+A comprehensive offline archive of classic SpongeBob SquarePants Flash games, preserved for future generations to enjoy. This project provides a high-quality, offline-capable collection of Flash games with improved compatibility and quality-of-life features.
 
-## Installation Instructions
+## Overview
 
-### Prerequisites
+This archive was created to preserve classic SpongeBob Flash games that were previously scattered across various websites. While inspired by existing collections, this project goes further by:
 
-- **Transmission Daemon**: The script requires a Transmission daemon to be running. Follow the steps below to install and run Transmission on your operating system.
-- **Python Packages**: You need to manually install the following Python packages:
-  - `transmission-rpc`
-  - `requests`
-  - `beautifulsoup4`
-  - `selenium`
-  - `selenium-wire`
-  - `tqdm`
+- Fixing broken assets and dependencies
+- Improving game compatibility
+- Adding quality-of-life features
+- Providing a fully offline-capable archive
+- Implementing automatic asset caching
+
+The archive includes a local proxy server that intelligently handles game requests, first attempting to serve content from the local cache, and if needed, fetching and caching missing assets from upstream sources.
+
+## Prerequisites
+
+- Python 3.7 or higher
+- pip (Python package installer)
+- A web browser
+- A BitTorrent client (for downloading the archive)
+
+## Installation
+
+### Download the Archive
+
+1. Go to the [Releases page](https://github.com/MatinTheGC/sb_arcade/releases)
+2. Find the latest release and copy the magnet link
+3. Open your preferred BitTorrent client and add the magnet link
+4. Download the archive and extract it to your desired location
 
 ### Windows
 
-1. **Transmission Daemon**:
-   - Download and install Transmission for Windows from its official website or a trusted source.
-   - Configure and start the Transmission daemon.
+1. Open PowerShell or Command Prompt
+2. Navigate to the project directory
+3. Create and activate a virtual environment (recommended):
 
-2. **Python Environment**:
-   - Open a PowerShell prompt.
-   - Navigate to the project directory:
+   ```powershell
+   python -m venv venv
+   .\venv\Scripts\Activate
+   ```
 
-     ```pwsh
-     cd c:\Users\Matin\Documents\flash\python
-     ```
+4. Install required dependencies:
 
-   - Create and activate a virtual environment (optional but recommended):
-
-     ```pwsh
-     python -m venv venv
-     .\venv\Scripts\Activate.ps1
-     ```
-
-   - Install the required packages:
-
-     ```pwsh
-     pip install transmission-rpc requests beautifulsoup4 selenium selenium-wire tqdm
-     ```
-
-### Linux
-
-1. **Transmission Daemon**:
-   - Install Transmission daemon using your package manager. For Debian/Ubuntu-based systems:
-
-     ```bash
-     sudo apt-get update && sudo apt-get install transmission-daemon
-     ```
-
-   - Start and enable the Transmission daemon:
-
-     ```bash
-     sudo systemctl start transmission-daemon
-     sudo systemctl enable transmission-daemon
-     ```
-
-2. **Python Environment**:
-   - Open a terminal and navigate to the project directory:
-
-     ```bash
-     cd ~/path/to/flash/python
-     ```
-
-   - (Optional) Create and activate a virtual environment:
-
-     ```bash
-     python3 -m venv venv
-     source venv/bin/activate
-     ```
-
-   - Install the required packages:
-
-     ```bash
-     pip install transmission-rpc requests beautifulsoup4 selenium selenium-wire tqdm
-     ```
+   ```powershell
+   python -m pip install -r requirements.txt
+   ```
 
 ### macOS
 
-1. **Transmission Daemon**:
-   - Install Transmission via Homebrew:
+1. Clone or download this repository
+2. Open Terminal
+3. Navigate to the project directory
+4. Create and activate a virtual environment (recommended):
 
-     ```bash
-     brew install transmission
-     ```
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-   - Start the Transmission daemon. You might need to configure it to run as a background service depending on your setup.
+5. Install required dependencies:
 
-2. **Python Environment**:
-   - Open Terminal and navigate to the project directory:
+   ```bash
+   python3 -m pip install -r requirements.txt
+   ```
 
-     ```bash
-     cd /path/to/flash/python
-     ```
+### Linux
 
-   - (Optional) Create and activate a virtual environment:
+1. Clone or download this repository
+2. Open Terminal
+3. Navigate to the project directory
+4. Create and activate a virtual environment (recommended):
 
-     ```bash
-     python3 -m venv venv
-     source venv/bin/activate
-     ```
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-   - Install the required packages:
+5. Install required dependencies:
 
-     ```bash
-     pip install transmission-rpc requests beautifulsoup4 selenium selenium-wire tqdm
-     ```
+   ```bash
+   python3 -m pip install -r requirements.txt
+   ```
 
-## Usage
+## Running the Archive
 
-Run the arcade script manually once all prerequisites are met:
+1. Start the server:
 
-```bash
-python arcade.py
-```
+   ```bash
+   python RUN_THIS.py
+   ```
 
-## Notes
+2. Open your web browser and navigate to:
 
-- This project no longer automatically installs Python packages. Ensure that all dependencies are manually installed prior to running the scripts.
-- Refer to each script's header comments for additional configuration options and usage details.
+   ```plaintext
+   http://localhost:8004
+   ```
 
----
+3. On first run, you'll be asked to complete the initial setup process.
+4. After setup is complete, you can browse and play the games from the main interface.
 
-*For further information or troubleshooting, please refer to the official documentation of each software component used in this project.*
+## Architecture
+
+The project consists of several key components:
+
+- `RUN_THIS.py`: Main launcher script
+- `proxy_server.py`: Local proxy server for serving and caching game content
+- `flash_game_archive/`: Directory containing the game files and web interface
+- Various Python scripts for maintenance and updates
+
+## Technical Details
+
+- The proxy server runs on port 8004 by default
+- Uses a caching system to store remote assets locally
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit pull requests or create issues for bugs and feature requests.
+
+## License
+
+**This is an unofficial, fan-made preservation project. All game rights belong to their original creators.**
+
+## Acknowledgments
+
+- Project development assisted by AI tools (Gemini, Claude, and ChatGPT)
+- Original game creators and developers
+- Flash game preservation community
