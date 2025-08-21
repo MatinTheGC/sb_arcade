@@ -1,5 +1,9 @@
 [
   {
+    "slug": "sbscreen_setup",
+    "name": "SpongeBob Screen Saver"
+  },
+  {
     "slug": "sb_3dracer",
     "name": "3D Powerkart Grand Prix"
   },
@@ -64,8 +68,16 @@
     "name": "Lost In Time: Dunces and Dragons"
   },
   {
+    "slug": "sb_dutchmansdash",
+    "name": "Sb Dutchmansdash"
+  },
+  {
     "slug": "sb_gone",
     "name": "Gone Fishing"
+  },
+  {
+    "slug": "sb_hooked-on-you",
+    "name": "Hooked on You"
   },
   {
     "slug": "sb_invasion",
@@ -436,6 +448,10 @@
     "name": "Bubble Bros"
   },
   {
+    "slug": "spongebob-squarepants-burger-bonanza",
+    "name": "Burger Bonanza"
+  },
+  {
     "slug": "spongebob-squarepants-candy-dis-order",
     "name": "Candy Dis-order"
   },
@@ -594,5 +610,13 @@
   {
     "slug": "spongebob-winter",
     "name": "Winter Run-derland"
+  },
+  {
+    "slug": "spongebobbowl",
+    "name": "SpongeBob Bowling"
+  },
+  {
+    "slug": "spongedress",
+    "name": "Dress Up Who?"
   }
 ]
