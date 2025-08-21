@@ -8,15 +8,27 @@
     "wallets": [
         {
             "currency": "Bitcoin (BTC)",
-            "address": "YOUR_BITCOIN_ADDRESS_HERE"
+            "address": "bc1qvfs8qrh67pa6marsq2mfylupfl3p6gc6ynvjpj"
         },
         {
             "currency": "Ethereum (ETH)",
-            "address": "YOUR_ETHEREUM_ADDRESS_HERE"
+            "address": "0x039D5e20a48d03DEdCECF4efD56cef402D9562E4"
         },
         {
-            "currency": "Monero (XMR)",
-            "address": "YOUR_MONERO_ADDRESS_HERE"
+            "currency": "Solana (SOL)",
+            "address": "J9fVGW4xmT9g2LXTDVq3JcD9TyRQq8BFjXurcMn2zqFq"
+        },
+        {
+            "currency": "Toncoin (TON)",
+            "address": "UQB53zRO-Kzqep8z7-NnEWRcNWsIxWGSi6PsHvjx2ug7dWaK"
+        },
+        {
+            "currency": "Dogecoin (DOGE)",
+            "address": "DE7GHfjfaanEz44ndwaQB4pKRDd1kfPeXj"
+        },
+        {
+            "currency": "Litecoin (LTC)",
+            "address": "ltc1qvfs8qrh67pa6marsq2mfylupfl3p6gc6q0kkez"
         }
     ]
 }

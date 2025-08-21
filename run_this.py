@@ -26,7 +26,7 @@ from functools import partial
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ARCHIVE_DIR_NAME = "flash_game_archive"
 LOCAL_ARCHIVE_ROOT_DIR = os.path.join(SCRIPT_DIR, ARCHIVE_DIR_NAME)
-SETUP_HTML_FILE_NAME = "setup.html"
+SETUP_HTML_FILE_NAME = os.path.join(ARCHIVE_DIR_NAME, "setup.html")
 SETUP_HTML_TEMP_PATH = os.path.join(SCRIPT_DIR, SETUP_HTML_FILE_NAME)
 SETUPDONE_PATH = os.path.join(SCRIPT_DIR, ".setupdone")
 PROXY_SERVER_SCRIPT = os.path.join(SCRIPT_DIR, "proxy_server.py")
@@ -112,23 +112,16 @@ class SetupHandler(http.server.SimpleHTTPRequestHandler):
 
         # While .setupdone doesn't exist, force serving the setup page only
         if not os.path.exists(SETUPDONE_PATH):
-            # Serve setup.html for / or /setup.html
-            if self.path == f"/{SETUP_HTML_FILE_NAME}" or self.path == "/":
-                try:
-                    with open(SETUP_HTML_TEMP_PATH, 'rb') as fh:
-                        content = fh.read()
-                    self.send_response(200)
-                    self.send_header('Content-type', 'text/html; charset=utf-8')
-                    self.send_header('Content-Length', str(len(content)))
-                    self.end_headers()
-                    self.wfile.write(content)
-                except Exception as e:
-                    self.send_error(500, f"Failed to read setup file: {e}")
-            else:
-                # Redirect all other requests to setup.html
-                self.send_response(302)
-                self.send_header('Location', f'/{SETUP_HTML_FILE_NAME}')
+            try:
+                with open(SETUP_HTML_TEMP_PATH, 'rb') as fh:
+                    content = fh.read()
+                self.send_response(200)
+                self.send_header('Content-type', 'text/html; charset=utf-8')
+                self.send_header('Content-Length', str(len(content)))
                 self.end_headers()
+                self.wfile.write(content)
+            except Exception as e:
+                self.send_error(500, f"Failed to read setup file: {e}")
             return
 
         # Once setup done, behave like a normal file server
@@ -155,8 +148,13 @@ def run_setup_server():
         print(f"Please open {setup_url} in your browser to complete initial setup.")
         webbrowser.open(setup_url)
         setup_complete_signal.wait()
-        print("Setup server shutting down.")
+        print("Setup server shutting down...")
+        setup_server_instance.shutdown()
+        setup_server_instance.server_close()
         server_thread.join(timeout=5)
+        # Add a small delay to ensure the socket is fully released
+        import time
+        time.sleep(1)
         return True
     except OSError as e:
         print(f"ERROR: Could not start setup server on port {MAIN_PROXY_SERVER_PORT}. Port might be in use. ({e})")
