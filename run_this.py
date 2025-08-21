@@ -41,6 +41,15 @@ TRACKER_SOURCES = [
 ]
 
 
+def check_internet_connection() -> bool:
+    """Returns True if internet connection is available."""
+    try:
+        import requests
+        requests.get("https://google.com", timeout=3)
+        return True
+    except Exception:
+        return False
+
 def _ensure_dependencies_from_requirements() -> bool:
     """Minimal runtime dependency check. Return True if required packages are importable."""
     try:
@@ -198,6 +207,18 @@ def main():
 
     if not _ensure_dependencies_from_requirements():
         sys.exit(1)
+        
+    # Check internet connectivity first
+    has_internet = check_internet_connection()
+    print("Internet connection:", "available" if has_internet else "not available")
+    
+    # Run version check
+    try:
+        import check_version
+        if not check_version.main(has_internet):
+            sys.exit(1)  # Exit if update is required
+    except ImportError:
+        print("Warning: check_version.py not found, skipping version check.")
 
     # Note: tracker fetching is disabled in this launcher (not used anymore)
     # Trackers list is preserved on disk if you need it, but we won't fetch it.
