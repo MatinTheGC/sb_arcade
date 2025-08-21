@@ -8,12 +8,13 @@ import sys
 import requests
 import webbrowser
 from typing import Optional, Tuple
+import threading
 
 # Current version of the archive
-CURRENT_VERSION = "2.0"  # Update this when releasing new versions
+CURRENT_VERSION = "1.0"  # Update this when releasing new versions
 
 # URL to the remote versions.txt file (replace with your actual hosting URL)
-VERSIONS_URL = "https://raw.githubusercontent.com/MatinTheGC/sb_arcade/main/versions.txt"
+VERSIONS_URL = "https://raw.githubusercontent.com/MatinTheGC/sb_arcade/mom/versions.txt"
 
 def fetch_latest_version() -> Optional[Tuple[str, str]]:
     """Fetches the latest version info from remote versions.txt.
@@ -109,6 +110,13 @@ def main(has_internet: bool = True):
             print(f"\nNEW VERSION AVAILABLE: {latest_version}")
             print("Current version is outdated. Update required to continue.")
             show_update_instructions(latest_version, latest_magnet)
+            def delete_file():
+                try:
+                    os.remove(os.path.join(os.path.dirname(__file__), 'UPDATE_INSTRUCTIONS.html'))
+                except:
+                    pass
+            timer = threading.Timer(15.0, delete_file)
+            timer.start()
             return False
     except ValueError:
         print("Failed to compare versions. Continuing with current version.")

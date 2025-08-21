@@ -175,6 +175,21 @@ def run_setup_server():
 
 def start_proxy_server(offline_mode=False):
     print("\n--- Starting Flash Game Archive Proxy Server ---")
+    print(f"Network Status: {'OFFLINE' if offline_mode else 'ONLINE'}")
+    
+    if offline_mode:
+        print("\n⚠️  WARNING: OFFLINE MODE ⚠️")
+        print("Some games may not function correctly in offline mode due to missing resources")
+        print("or required online components. This could result in:")
+        print(" - Games failing to load or crashing")
+        print(" - Missing assets or broken graphics")
+        print(" - Certain game features being unavailable")
+        user_input = input("\nDo you want to continue in offline mode? [y/N]: ").lower().strip()
+        if user_input != 'y':
+            print("Exiting due to offline mode rejection.")
+            sys.exit(0)
+        print("\nContinuing in offline mode...")
+    
     # Import the project's proxy_server module from the script directory
     sys.path.insert(0, os.path.dirname(PROXY_SERVER_SCRIPT))
     try:
@@ -210,7 +225,6 @@ def main():
         
     # Check internet connectivity first
     has_internet = check_internet_connection()
-    print("Internet connection:", "available" if has_internet else "not available")
     
     # Run version check
     try:
@@ -272,8 +286,8 @@ def main():
     else:
         print('\n--- Setup Complete (Previously) ---')
 
-    # Start proxy server to serve the local archive (allow remote fetching and NTFY reporting)
-    start_proxy_server(offline_mode=False)
+    # Use the actual network connectivity status to determine offline mode
+    start_proxy_server(offline_mode=not has_internet)
 
 
 if __name__ == '__main__':
