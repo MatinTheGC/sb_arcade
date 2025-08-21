@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SpongeBob Flash Game Archive</title>
+    <title>SpongeBob Flash Game Arcade</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -16,7 +16,7 @@
             <p>
                 Welcome, sea critters! This is a special offline archive of
                 the classic SpongeBob SquarePants Flash games. Dive in and relive the golden age
-                of browser gaming, preserved for future generations to
+                of browser gaming (and probably all kinds of gaming), preserved for future generations and you to
                 enjoy!
             </p>
         </header>
@@ -102,26 +102,17 @@
                     </button>
                     <div class="faq-answer">
                         <p>
-                            To provide the most seamless experience, the
-                            archive is launched using a special script that
-                            includes a proxy server. This server is
-                            essential because many Flash games were designed
-                            to fetch assets dynamically as you play—for
-                            example, loading a new level or character model
-                            from the server only when it's needed.
+                            While this is an offline archive, proper access to games requires an internet
+                            connection. This is because many Flash games were designed to load
+                            additional content (like levels, characters, or assets) while you play,
+                            rather than downloading everything at once.
                         </p>
                         <p>
-                            It's nearly impossible to guarantee that 100% of
-                            every game's assets are included in the initial
-                            download without playing through every path of
-                            every game. The proxy server solves this by
-                            intelligently downloading any missing files from
-                            the original website on-the-fly and saving them
-                            locally. The next time the game needs that file,
-                            it will be loaded instantly from your computer.
-                            This also helps us identify missing assets so
-                            the main archive can be updated for future
-                            releases.
+                            The archive intelligently handles this by downloading any required files
+                            from thesbcommunity.com source when they're first needed, saving them locally
+                            for future use. This ensures you get a complete game experience while
+                            helping us identify and preserve any missing content for future archive
+                            updates.
                         </p>
                     </div>
                 </div>
@@ -186,6 +177,21 @@
 
                 <div class="faq-item">
                     <button class="faq-question">
+                        So this is just an offline dump of thesbcommunity.com?
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Most of the games are indeed gathered from the SBC; huge shout-out to them for their
+                            incredible effort! However, I can confidently claim that this archive is better. It doesn't
+                            depend on an internet connection, has games that simply don't exist on SBC archive and
+                            doesn't have any ads. Funny enough, we were able to save some games from their website that
+                            weren't playable there, but we managed to make them work for you.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
                         How does this project compare to Flashpoint?
                     </button>
                     <div class="faq-answer">
@@ -197,7 +203,7 @@
                             history of internet content.
                         </p>
                         <p>
-                            This SpongeBob archive, in contrast, focuses on
+                            This SpongeBob arcade, in contrast, focuses on
                             <strong>quality</strong> over quantity. Rather
                             than archiving every game possible, our goal is
                             to take a specific, beloved collection of games
@@ -209,35 +215,13 @@
                         </p>
                     </div>
                 </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        What is the purpose of the Python scripts?
-                    </button>
-                    <div class="faq-answer">
-                        <p>
-                            The Python scripts included in the parent
-                            directory are the tools used to create and
-                            maintain this archive. The `archive.py` script
-                            downloads the games and their assets,
-                            `update_titles.py` fetches their proper names
-                            from the live website, and `generate_json.py`
-                            creates the list that populates this page. The
-                            `patch_game_pages.py` script applies consistent
-                            updates and features (like the control bar) to
-                            all games, and `proxy_server.py` provides the
-                            on-the-fly asset downloading mentioned above.
-                        </p>
-                    </div>
-                </div>
             </section>
         </main>
 
         <footer>
-            <p>
+            <p style="color: black;">
                 This is an unofficial, fan-made preservation project. All
-                game rights belong to their original creators. | Archive
-                created with help from our AI assistant.
+                game rights belong to their original creators. | Vibe-coded by Gemini, Claude and ChatGPT!
             </p>
         </footer>
     </div>
