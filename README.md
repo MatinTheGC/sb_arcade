@@ -88,7 +88,7 @@ The archive includes a local proxy server that intelligently handles game reques
 1. Start the server:
 
    ```bash
-   python RUN_THIS.py
+   python run_this.py
    ```
 
 2. Open your web browser and navigate to:
